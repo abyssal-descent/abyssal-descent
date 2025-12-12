@@ -34,6 +34,9 @@
 + fix a million pop ups upon world creation
 - ensure stone pickaxe is not viewable in rei or whatever
 
+## Sequence Breaks
+- make iron golem drop nuggets so its not worth killing
+
 ## ongoing WIP
 + further adjust biome size/frequency in custom dimensions
 
@@ -108,6 +111,7 @@
 ## Other
 - create a jeresources preset for new ore generation
 - remove the spelunkery dimensional tears from the bottom of the end
+- rewrite current in-house mods to kotlin or clojure (hopefully clojure :L)
 
 ## High Priority Slab stuff (in order)
 + add the following hammers
