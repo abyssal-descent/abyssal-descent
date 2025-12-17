@@ -32,7 +32,7 @@ public class HardenedRootBlock extends Block {
 		level.playSound(null, pos, SoundEvents.LAVA_EXTINGUISH, SoundSource.BLOCKS, 0.6f, 1.0f);
 		server.sendParticles(
 			ParticleTypes.SPIT,
-			pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,
+			pos.getX() + 0.5, pos.getY() + 0.7, pos.getZ() + 0.5,
 			12, 0.5, 0.5, 0.5, 0.06
 		);
 
