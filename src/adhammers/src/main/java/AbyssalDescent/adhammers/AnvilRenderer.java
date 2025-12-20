@@ -4,13 +4,14 @@ import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.math.Axis;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.client.renderer.LightTexture;
 import net.minecraft.client.renderer.MultiBufferSource;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.client.renderer.blockentity.BlockEntityRenderer;
 import net.minecraft.client.renderer.blockentity.BlockEntityRendererProvider;
 import net.minecraft.world.level.LightLayer;
-import net.minecraft.world.level.block.AnvilBlock;
+import net.minecraft.world.level.block.HorizontalDirectionalBlock;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ItemDisplayContext;
@@ -39,7 +40,7 @@ public class AnvilRenderer {
 			var renderer = ctx.getItemRenderer();
 			var level = entity.getLevel();
 			var pos   = entity.getBlockPos();
-			var dir   = entity.getBlockState().getValue(AnvilBlock.FACING);
+			var dir   = entity.getBlockState().getValue(HorizontalDirectionalBlock.FACING);
 
 			var light_level = LightTexture.pack(
 				level.getBrightness(LightLayer.BLOCK, pos),

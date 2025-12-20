@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"damage=0,facing=north": { "model": "adhammers:block/granite_anvil_0" },
+		"damage=0,facing=east":  { "model": "adhammers:block/granite_anvil_0", "y": 90 },
+		"damage=0,facing=south": { "model": "adhammers:block/granite_anvil_0", "y": 180 },
+		"damage=0,facing=west":  { "model": "adhammers:block/granite_anvil_0", "y": 270 },
+		"damage=1,facing=north": { "model": "adhammers:block/granite_anvil_1" },
+		"damage=1,facing=east":  { "model": "adhammers:block/granite_anvil_1", "y": 90 },
+		"damage=1,facing=south": { "model": "adhammers:block/granite_anvil_1", "y": 180 },
+		"damage=1,facing=west":  { "model": "adhammers:block/granite_anvil_1", "y": 270 },
+		"damage=2,facing=north": { "model": "adhammers:block/granite_anvil_2" },
+		"damage=2,facing=east":  { "model": "adhammers:block/granite_anvil_2", "y": 90 },
+		"damage=2,facing=south": { "model": "adhammers:block/granite_anvil_2", "y": 180 },
+		"damage=2,facing=west":  { "model": "adhammers:block/granite_anvil_2", "y": 270 }
+	}
+}

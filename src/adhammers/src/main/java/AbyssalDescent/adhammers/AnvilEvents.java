@@ -61,8 +61,7 @@ public class AnvilEvents {
 		if (stack.getItem() instanceof Hammer) {
 			double x = pos.getX() + 0.5, y = pos.getY() + 1.1, z = pos.getZ() + 0.5;
 
-			// TODO: figure out a good damage amount per craft
-			stack.hurtAndBreak(1, player, p -> {});
+			stack.hurtAndBreak(5, player, p -> {});
 			player.swing(InteractionHand.MAIN_HAND, true);
 			level.playSound(null, pos, SoundEvents.ANVIL_PLACE, SoundSource.BLOCKS, 0.5f, 1.0f);
 			server.sendParticles(
@@ -72,6 +71,9 @@ public class AnvilEvents {
 			entity.hits = entity.hits + 1;
 
 			if (entity.hits < AnvilBE.REQ_HITS) return;
+
+			if (state.getBlock() instanceof GraniteAnvilBlock anvil)
+				anvil.try_damage(state, level, pos);
 			
 			entity.hits = 0;
 			var out = entity.try_craft();
@@ -88,13 +90,12 @@ public class AnvilEvents {
 				return;
 			}
 
+			server.sendParticles(
+				ParticleTypes.WAX_OFF, x, y, z,
+				5, 0.15, 0.1, 0.15, 0.5);
+
 			drop_stack(level, x, y, z, out.get().copy());
 			
-			if (level.random.nextInt() % 15 == 0)
-				AnvilBlock.damage(state);
-
-			level.gameEvent(GameEvent.BLOCK_CHANGE, pos, GameEvent.Context.of(player));
-
 			return;
 		}
 

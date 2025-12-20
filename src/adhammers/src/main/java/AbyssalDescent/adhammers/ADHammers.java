@@ -2,6 +2,8 @@ package AbyssalDescent.adhammers;
 
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 
@@ -12,7 +14,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
-import java.util.*;
+import java.util.function.Supplier;
 
 @Mod(ADHammers.MODID)
 public class ADHammers {
@@ -20,14 +22,20 @@ public class ADHammers {
 
 	public static final DeferredRegister<Item> ITEMS = 
 		DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
+	public static final DeferredRegister<Block> BLOCKS =
+		DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
 	public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITY_TYPES =
 		DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, MODID);
+
+	public static final RegistryObject<GraniteAnvilBlock> GRANITE_ANVIL =
+		block("granite_anvil", () -> new GraniteAnvilBlock());
 
 	public static final RegistryObject<BlockEntityType<AnvilBE>> ANVILBE =
 		BLOCK_ENTITY_TYPES.register("anvilbe", () -> 
 			BlockEntityType.Builder.of(AnvilBE::new, 
-				Blocks.ANVIL, Blocks.CHIPPED_ANVIL, Blocks.DAMAGED_ANVIL).build(null));
-	
+				Blocks.ANVIL, Blocks.CHIPPED_ANVIL, Blocks.DAMAGED_ANVIL, 
+				GRANITE_ANVIL.get()).build(null));
+
 	// duarability = pickaxe*5; mining_speed = pickaxe*0.5; damage = axe
 	public static final RegistryObject<Hammer> COPPER_HAMMER = ITEMS.register("copper_hammer", () ->
 		new Hammer(new Hammer.Material(1, 955, 2.5f, Items.COPPER_INGOT), 9.0f));
@@ -61,6 +69,12 @@ public class ADHammers {
 	public static final RegistryObject<Item> CINCINNASITE_PLATE = item("cincinnasite_plate");
 
 
+	private static <T extends Block> RegistryObject<T> block(String name, Supplier<T> fn) {
+		var block = BLOCKS.register(name, fn);
+		ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+		return block;
+	}
+
 	private static RegistryObject<Item> item(String name) {
 		return ITEMS.register(name, () -> new Item(new Item.Properties()));
 	}
@@ -69,6 +83,7 @@ public class ADHammers {
 		var bus = FMLJavaModLoadingContext.get().getModEventBus();
 		MinecraftForge.EVENT_BUS.register(new AnvilEvents());
 		ITEMS.register(bus);
+		BLOCKS.register(bus);
 		BLOCK_ENTITY_TYPES.register(bus);
 	}
 }
