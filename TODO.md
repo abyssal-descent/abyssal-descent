@@ -42,14 +42,20 @@
 + disable mobs - mammutilation
 
 ## Delver's Beginning
-+ add crafting recipe for Elytra using phantom membrane (obtained from pink salt dungeon)
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
 + add more structures - 
 + Change default blocks for biomes if possible. Ideally less deepslate fills this layer.
 + make small bioshrooms only generate on the right block
++ make geodes drop corresponding spelunkery raw drops
+
 
 ## The Undergarden
 + fix new missing item textures
++ new items for spelunkery compat
+	- rough utherium crystal
+	- rough regalium crystal
++ update block drops
+	- rough diamond
 
 ## Infernal Crossing
 + add structures -  feur bone tree, feur bone arc+ other pieces, feur fossil fang
