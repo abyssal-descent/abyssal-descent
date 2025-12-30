@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "I": {
+      "item": "minecraft:polished_granite"
+    },
+    "i": {
+      "item": "minecraft:polished_granite_slab"
+    }
+  },
+  "pattern": [
+    "III",
+    " i ",
+    "iii"
+  ],
+  "result": {
+    "item": "adhammers:granite_anvil"
+  },
+  "show_notification": true
+}
