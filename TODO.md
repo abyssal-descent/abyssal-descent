@@ -35,7 +35,6 @@
 ---
 
 ## Overworld
-+ improve overworld cave gen with mod (yungs caves? WF's cave overhaul?)
 + replace bedrock with adresources:bedrock1 without using block swap mod (not required for MVP)
 + Potentially descrease spawn rate of slimes?
 + make villages and loot related structures not spawn near 0,0
@@ -50,12 +49,7 @@
 
 
 ## The Undergarden
-+ fix new missing item textures
-+ new items for spelunkery compat
-	- rough utherium crystal
-	- rough regalium crystal
-+ update block drops
-	- rough diamond
++ add textures for rough utherium and rough regalium
 
 ## Infernal Crossing
 + add structures -  feur bone tree, feur bone arc+ other pieces, feur fossil fang
