@@ -6,5 +6,7 @@
    "block.adresources.bedrock5": "bedrock5",
 	"block.adresources.reddeepstoneironore": "Red Deepstone Iron Ore",
    "item.adresources.acid_bottle": "Acid Bottle",
-   "item.adresources.empty_forgotten_bottle": "Empty Forgotten Bottle"
+   "item.adresources.empty_forgotten_bottle": "Empty Forgotten Bottle",
+   "item.adresources.rough_utherium_crystal": "Rough Utherium Crystal",
+   "item.adresources.rough_regalium_crystal": "Rough Regalium Crystal"
 }

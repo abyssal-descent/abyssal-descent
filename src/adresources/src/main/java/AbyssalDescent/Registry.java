@@ -41,6 +41,11 @@ public class Registry {
 		ITEMS.register("empty_forgotten_bottle", () -> new Item(new Item.Properties().fireResistant()));
 	public static final RegistryObject<Item> ACID_BOTTLE =
 		ITEMS.register("acid_bottle", () -> new Item(new Item.Properties().fireResistant().durability(32)));
+	/// rough items for spelunkery compat
+    public static final RegistryObject<Item> ROUGH_UTHERIUM_CRYSTAL =
+    	ITEMS.register("rough_utherium_crystal", () -> new Item(new Item.Properties()));
+	public static final RegistryObject<Item> ROUGH_REGALIUM_CRYSTAL =
+    	ITEMS.register("rough_regalium_crystal", () -> new Item(new Item.Properties()));
 
 
 	private static RegistryObject<Block> register_block_with(String name, Supplier<Block> fn) {
