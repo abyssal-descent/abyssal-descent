@@ -1,6 +1,6 @@
 [submodule "src/undergarden"]
 	path = src/undergarden
-	url = ssh://git@github.com/abyssal-descent/undergarden-fork
+	url = git@github.com:abyssal-descent/undergarden-fork
 [submodule "overrides/shaderpacks/mellow-shader"]
 	path = overrides/shaderpacks/mellow-shader
 	url = https://codeberg.org/TheCMK/mellow-shader
