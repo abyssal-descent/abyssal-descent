@@ -21,10 +21,12 @@ clothconfig,348521,5729105
 yetanotherconfiglib,667299,6336646
 placebo,283644,6274231
 bookshelf,228525,5423987
+polytone,958094,7261243
 
 # Dev
 # patchouli,306770,4966125
 paxi,515708,4749994
+# remove before release
 harvest_level_tweaker,833035,6461992
 you_shall_not_spawn,628744,5820960
 incontrol,257356,5932870
@@ -41,8 +43,7 @@ emi,580555,6420945
 jade,324717,5672013
 appleskin,248787,4770828
 mouse_tweaks,60089,5338457
-polytone,958094,7261243
-xaeros_minimap,263420,6778028
+xaeros_world_map,317780,7412248
 configurable_keepinventory,960027,5026355
 
 # Performance
