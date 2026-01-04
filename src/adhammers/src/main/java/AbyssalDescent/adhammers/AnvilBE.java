@@ -35,19 +35,29 @@ public class AnvilBE extends BlockEntity {
 	public AnvilBE(BlockPos pos, BlockState state) {
 		super(ADHammers.ANVILBE.get(), pos, state);
 
-		this.RECIPES = new HashMap<>() {{
-			put(Map.of(Items.COPPER_INGOT,                                 1), new ItemStack(ADHammers.COPPER_PLATE.get()));
-			put(Map.of(Items.IRON_INGOT,                                   1), new ItemStack(ADHammers.IRON_PLATE.get()));
-			put(Map.of(Items.GOLD_INGOT,                                   1), new ItemStack(ADHammers.GOLD_PLATE.get()));
-			put(Map.of(Items.DIAMOND,                                      1), new ItemStack(ADHammers.DIAMOND_PLATE.get()));
-			put(Map.of(Items.NETHERITE_INGOT,                              1), new ItemStack(ADHammers.NETHERITE_PLATE.get()));
-			put(Map.of(Resolve.item("caverns_and_chasms", "silver_ingot"), 1), new ItemStack(ADHammers.SILVER_PLATE.get()));
-			put(Map.of(Resolve.item("undergarden",  "cloggrum_ingot"    ), 1), new ItemStack(ADHammers.CLOGGRUM_PLATE.get()));
-			put(Map.of(Resolve.item("undergarden",  "froststeel_ingot"  ), 1), new ItemStack(ADHammers.FROSTSTEEL_PLATE.get()));
-			put(Map.of(Resolve.item("undergarden",  "utherium_crystal"  ), 1), new ItemStack(ADHammers.UTHERIUM_PLATE.get()));
-			put(Map.of(Resolve.item("betternether", "nether_ruby"       ), 1), new ItemStack(ADHammers.NETHER_RUBY_PLATE.get()));
-			put(Map.of(Resolve.item("betternether", "cincinnasite_ingot"), 1), new ItemStack(ADHammers.CINCINNASITE_PLATE.get()));
-		}};
+		this.RECIPES = new HashMap<>();
+
+		record Pair<A, B>(A a, B b){}
+
+		var plates = List.of(
+			new Pair<>(Items.COPPER_INGOT,                                 ADHammers.COPPER_PLATE.get()      ),
+			new Pair<>(Items.IRON_INGOT,                                   ADHammers.IRON_PLATE.get()        ),
+			new Pair<>(Items.GOLD_INGOT,                                   ADHammers.GOLD_PLATE.get()        ),
+			new Pair<>(Items.DIAMOND,                                      ADHammers.DIAMOND_PLATE.get()     ),
+			new Pair<>(Items.NETHERITE_INGOT,                              ADHammers.NETHERITE_PLATE.get()   ),
+			new Pair<>(Resolve.item("caverns_and_chasms", "silver_ingot"), ADHammers.SILVER_PLATE.get()      ),
+			new Pair<>(Resolve.item("undergarden",  "cloggrum_ingot"    ), ADHammers.CLOGGRUM_PLATE.get()    ),
+			new Pair<>(Resolve.item("undergarden",  "froststeel_ingot"  ), ADHammers.FROSTSTEEL_PLATE.get()  ),
+			new Pair<>(Resolve.item("undergarden",  "utherium_crystal"  ), ADHammers.UTHERIUM_PLATE.get()    ),
+			new Pair<>(Resolve.item("betternether", "nether_ruby"       ), ADHammers.NETHER_RUBY_PLATE.get() ),
+			new Pair<>(Resolve.item("betternether", "cincinnasite_ingot"), ADHammers.CINCINNASITE_PLATE.get())
+		);
+
+		for (var plate : plates) {
+			for (var i = 1; i <= 4; i++) {
+				this.RECIPES.put(Map.of(plate.a, i), new ItemStack(plate.b, i));
+			}
+		}
 	}
 
 	private Optional<Integer> find_free_slot() {
