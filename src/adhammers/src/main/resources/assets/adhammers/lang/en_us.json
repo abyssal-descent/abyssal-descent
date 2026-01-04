@@ -18,5 +18,7 @@
 	"item.adhammers.utherium_plate": "Utherium Plate",
 	"item.adhammers.netherite_plate": "Netherite Plate",
 	"item.adhammers.nether_ruby_plate": "Nether Ruby Plate",
-	"item.adhammers.cincinnasite_plate": "Cincinnasite Plate"
+	"item.adhammers.cincinnasite_plate": "Cincinnasite Plate",
+
+	"block.adhammers.granite_anvil": "Granite Anvil"
 }

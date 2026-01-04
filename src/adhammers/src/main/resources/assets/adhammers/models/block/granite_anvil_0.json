@@ -1,3 +1,7 @@
 {
-	"parent": "minecraft:block/anvil"
+	"parent": "minecraft:block/template_anvil",
+	"textures":{
+		"top": "adhammers:block/granite_anvil_top_0",
+		"body": "adhammers:block/granite_anvil_0"
+	}
 }
