@@ -1,16 +1,15 @@
 # Release todo
 
 ## Guide
-+ Pathouli
++ Patchouli
 	- grappling hook essential
 	- make a mention of bedrock1 being breakable only with iron
 	- name book item "We're sorry but you'll need this :)"
 
 ## High Priority Polish
-+ Textures for layer seperator blocks
 + keepinventory only keep: curios, armour, pickaxe, grappling hook
 + balance kobold trades, add modded ones perhaps
-+ configurable keep inventory only keep tools and armor
++ configurable keep inventory only keeps tools and armor
 
 ## Low priority Polish
 + fix a million pop ups upon world creation
@@ -24,8 +23,6 @@
 # Dimension Work
 
 ## Overworld
-+ make villages and loot related structures not spawn near 0,0
-+ add emerald ore to generate similar to diamond
 
 ## Delver's Beginning
 + make sure pink salt shrines loot pool doesnt have stuff it shouldn't
@@ -35,7 +32,8 @@
 ## The Undergarden
 
 ## Infernal Crossing
-+ add structures -  feur bone tree, feur bone arc+ other pieces, feur fossil fang
++ look at graveyard mod structures
++ add structures -  feur bone tree, feur bone arc+ other pieces, feur fossil fang, realm rpg fallen adventurers
 + balance mob spawn rates based on playtesting
 
 ---
@@ -64,6 +62,7 @@
 	- Skin Layers 3d
 	- sounds
 	- backpack mod
++ realm rpg fallen adventurers
 
 ## Post Launch
 - Drastically increase end island size and height variation
