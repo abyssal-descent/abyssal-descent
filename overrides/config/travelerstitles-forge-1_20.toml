@@ -93,7 +93,7 @@
 		"Text Size" = 3.0
 		# If enabled, will render a shadow below the text making it easier to read.
 		# Default: true
-		"Display Text Shadow" = true
+		"Display Text Shadow" = false
 		# The text's vertical position on the screen.
 		# If Horizontally Center Title is enabled, this number is relative to the center of the screen.
 		# If Horizontally Center Title is disabled, this number is relative to the top of the screen.
