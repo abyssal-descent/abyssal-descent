@@ -25,7 +25,6 @@
 ## Overworld
 
 ## Delver's Beginning
-+ make sure pink salt shrines loot pool doesnt have stuff it shouldn't
 + Change default blocks for biomes if possible. Ideally less deepslate fills this layer.
 + make small bioshrooms only generate on the right block
 
@@ -64,7 +63,7 @@
 	- backpack mod
 + realm rpg fallen adventurers
 
-## Post Launch
+## Post Launch Long Term
 - Drastically increase end island size and height variation
 - Recreate ceilands dimension to make it end themed
 - Add audio to play alongside traveler's titles
