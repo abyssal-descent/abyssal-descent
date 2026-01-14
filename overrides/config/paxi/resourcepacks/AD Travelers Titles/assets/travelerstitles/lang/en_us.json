@@ -1,24 +1,38 @@
 {
   "travelerstitles.minecraft.overworld": "\u2C00",
+
   "travelerstitles.minecraft.the_nether": "\u2C02",
   "travelerstitles.minecraft.the_nether.color": "ffffff",
+
   "travelerstitles.minecraft.the_end": "\u2C04",
   "travelerstitles.minecraft.the_end.color": "ffffff",
+
   "travelerstitles.atum.atum": "\u2C08",
   "travelerstitles.atum.atum.color": "ffffff",
+
   "travelerstitles.lostcities.lostcity": "\u2C10",
+
   "travelerstitles.mining_dimension.mining": "\u2C12",
+
   "travelerstitles.the_bumblezone.the_bumblezone": "\u2C06",
   "travelerstitles.the_bumblezone.the_bumblezone.color": "ffffff",
+
   "travelerstitles.twilightforest.twilight_forest": "\u2C16",
   "travelerstitles.twilightforest.twilight_forest.color": "ffffff",
+
   "travelerstitles.twilightforest.twilightforest": "\u2C16",
   "travelerstitles.twilightforest.twilightforest.color": "ffffff",
+
   "travelerstitles.undergarden.undergarden": "\u2C14",
   "travelerstitles.undergarden.undergarden.color": "ffffff",
-  "travelerstitles.theabyss.the_abyss": "The abyss",
+
+  "travelerstitles.theabyss.the_abyss": "The Abyss",
+
   "travelerstitles.deeperdarker.otherside": "\u2C1C",
+
   "travelerstitles.the_aether.the_aether": "\u2C22",
-  "travelerstitles.delverbegin.dimension": "\u2694",
-  "travelerstitles.infernalcross.dimension": "\u2c24"
+
+  "travelerstitles.delverbegin.delversbeginnings": "\u2694",
+
+  "travelerstitles.infernalcross.infernalcrossing": "\u2C24"
 }

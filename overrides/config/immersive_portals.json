@@ -57,7 +57,7 @@
         "connectsNext": true
       },
       {
-        "dimensionIdStr": "delverbegin:dimension",
+        "dimensionIdStr": "delverbegin:delversbeginnings",
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
@@ -77,7 +77,7 @@
         "connectsNext": true
       },
       {
-        "dimensionIdStr": "infernalcross:dimension",
+        "dimensionIdStr": "infernalcross:infernalcrossing",
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
