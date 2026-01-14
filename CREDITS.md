@@ -7,8 +7,8 @@
     - Slab (created all inhouse mods and forks)
 
 ## World generation / Data Packs
-    - Eclipse Ilx (Created delvers beginning)
-    - Uni (Helped us learn more complicated world gen. Absolute legendary datapack/world gen person!)
+    - Eclipse Ilx (Custom dimension world generation)
+    - Uni (Has randomly helped Eclipse learn more complicated world gen. Absolute legendary datapack/world gen person!)
 
 ## Texture Work
     - DovahFruit aka Hiro (Hammer and Plate Textures)
@@ -21,6 +21,8 @@
 
 ## Additional Mentions
     - coldreindeer and Thelnfamous1 for porting Immersive portals to forge 1.20.1
+    - colebot on YT for making great world gen tutorial videos
+    - Aimsell for leading the Abyssal Ascent Pack
 
 ## Mods
 Without the work of countless mod authors this pack would have never been possible. I will list some of the most impactful mods used below.
