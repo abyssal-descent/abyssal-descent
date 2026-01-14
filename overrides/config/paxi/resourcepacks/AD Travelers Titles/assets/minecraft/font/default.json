@@ -8,7 +8,6 @@
 	   "height":12,
 	   "chars":["\u2C00"]
 	 },
-
 	 {
 	   "type":"bitmap",
 	   "file":"minecraft:font/nether.png",
@@ -34,7 +33,7 @@
 	   "type":"bitmap",
 	   "file":"minecraft:font/otherside.png",
 	   "ascent":4,
-	   "height":12,
+	   "height":17,
 	   "chars":["\u2C1C"]
 	 },
 	 {
@@ -48,14 +47,14 @@
 	 "type": "bitmap",
 	 "file": "minecraft:font/delverbegin.png",
 	 "ascent": 4,
-	 "height": 12,
+	 "height": 16,
 	 "chars": ["\u2694"]
 	},
 	{
 	 "type": "bitmap",
 	 "file": "minecraft:font/infernalcross.png",
 	 "ascent": 4,
-	 "height": 12,
+	 "height": 16,
 	 "chars": ["\u2c24"]
 	}
 	]
