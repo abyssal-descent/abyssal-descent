@@ -45,6 +45,8 @@ appleskin,248787,4770828
 mouse_tweaks,60089,5338457
 xaeros_world_map,317780,7412248
 configurable_keepinventory,960027,5026355
+enchantmentdisabler,912326
+
 
 # Performance
 embeddium,908741,5681725
@@ -56,7 +58,7 @@ Embeddium_Dynamic_Lights,551736,6044481
 fastworkbench,288885,5101229
 
 # Visual
-# travelers_titles,504908,5065825
+travelers_titles,504908,5065825
 continuity,531351,5981334
 oculus,581495,6020952
 
