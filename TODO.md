@@ -25,7 +25,6 @@
 ## Overworld
 
 ## Delver's Beginning
-+ Change default blocks for biomes if possible. Ideally less deepslate fills this layer.
 + make small bioshrooms only generate on the right block
 
 ## The Undergarden
