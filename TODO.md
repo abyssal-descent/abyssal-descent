@@ -43,7 +43,6 @@
 	- we kinda have low already (mellow)
 	- drop high and just have med+ultra?
 + Update mods that need to be updated
-+ Block Bench traveler's titles for every dimension
 
 ## mods to look into
 - ascended quark

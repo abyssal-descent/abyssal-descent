@@ -26,13 +26,19 @@
   "travelerstitles.undergarden.undergarden": "\u2C14",
   "travelerstitles.undergarden.undergarden.color": "ffffff",
 
-  "travelerstitles.theabyss.the_abyss": "The Abyss",
+  "travelerstitles.theabyss.the_abyss": "\u2C25",
 
   "travelerstitles.deeperdarker.otherside": "\u2C1C",
+  "travelerstitles.callfromthedepth_.depth": "\u2c26",
+
 
   "travelerstitles.the_aether.the_aether": "\u2C22",
 
   "travelerstitles.delverbegin.delversbeginnings": "\u2694",
 
-  "travelerstitles.infernalcross.infernalcrossing": "\u2C24"
+  "travelerstitles.infernalcross.infernalcrossing": "\u2C24",
+
+  "travelerstitles.dinolayer.dimension": "\u2c27",
+
+  "travelerstitles.aether.the_aether": "\u2c28"
 }

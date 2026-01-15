@@ -56,6 +56,34 @@
 	 "ascent": 4,
 	 "height": 16,
 	 "chars": ["\u2c24"]
+	},
+	{
+	 "type": "bitmap",
+	 "file": "minecraft:font/stygiandepths.png",
+	 "ascent": 4,
+	 "height": 16,
+	 "chars": ["\u2c25"]
+	},
+	{
+	 "type": "bitmap",
+	 "file": "minecraft:font/ultimatedeepdark.png",
+	 "ascent": 4,
+	 "height": 16,
+	 "chars": ["\u2c26"]
+	},
+	{
+	 "type": "bitmap",
+	 "file": "minecraft:font/primordialcaverns.png",
+	 "ascent": 4,
+	 "height": 16,
+	 "chars": ["\u2c27"]
+	},
+	{
+	 "type": "bitmap",
+	 "file": "minecraft:font/aether.png",
+	 "ascent": 4,
+	 "height": 12,
+	 "chars": ["\u2c28"]
 	}
-	]
+]
 }
