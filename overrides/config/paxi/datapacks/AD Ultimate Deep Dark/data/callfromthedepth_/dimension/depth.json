@@ -1,0 +1,174 @@
+{
+  "type": "callfromthedepth_:depth",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "callfromthedepth_:dude_fuck_mcreator",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "callfromthedepth_:deepdepth",
+          "parameters": {
+            "temperature": [
+              -0.3,
+              0
+            ],
+            "humidity": [
+              0.1,
+              0.3
+            ],
+            "continentalness": [
+              0.35,
+              0.45
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              0.05,
+              0.1
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "callfromthedepth_:deepmagma",
+          "parameters": {
+            "temperature": [
+              0.65,
+              0.85
+            ],
+            "humidity": [
+              -0.1,
+              0.1
+            ],
+            "continentalness": [
+              0.1,
+              0.2
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -0.2225,
+              0
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "callfromthedepth_:strongsculkswamp",
+          "parameters": {
+            "temperature": [
+              0.1,
+              0.5
+            ],
+            "humidity": [
+              -0.25,
+              -0.1
+            ],
+            "continentalness": [
+              -0.05,
+              0.1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -0.78,
+              -0.29
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "callfromthedepth_:deeprot",
+          "parameters": {
+            "temperature": [
+              -0.5,
+              -0.3
+            ],
+            "humidity": [
+              -0.4,
+              -0.25
+            ],
+            "continentalness": [
+              -0.19,
+              -0.1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -0.29,
+              -0.2225
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "callfromthedepth_:lostsoulsbiome",
+          "parameters": {
+            "temperature": [
+              -0.8,
+              -0.5
+            ],
+            "humidity": [
+              -0.6,
+              -0.4
+            ],
+            "continentalness": [
+              -0.1,
+              0.1
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              -0.3,
+              -0.2
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "callfromthedepth_:deepforest",
+          "parameters": {
+            "temperature": [
+              0,
+              0.1
+            ],
+            "humidity": [
+              0.3,
+              0.5
+            ],
+            "continentalness": [
+              0.2,
+              0.25
+            ],
+            "weirdness": [
+              -1,
+              1
+            ],
+            "erosion": [
+              0.1,
+              0.35
+            ],
+            "depth": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+} 
