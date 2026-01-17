@@ -28,6 +28,7 @@
 + make small bioshrooms only generate on the right block
 
 ## The Undergarden
+Block all mod spawns on dim roof
 
 ## Infernal Crossing
 + look at graveyard mod structures
