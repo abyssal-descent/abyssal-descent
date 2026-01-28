@@ -1,8 +1,8 @@
 package AbyssalDescent.adresources;
 
-import net.minecraftforge.fml.common.Mod;
 import AbyssalDescent.adresources.Registry;
 
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod(ADResources.MODID)
