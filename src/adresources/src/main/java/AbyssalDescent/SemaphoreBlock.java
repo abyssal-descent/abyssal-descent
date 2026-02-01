@@ -1,7 +1,7 @@
 package AbyssalDescent.adresources;
 
 import net.minecraft.core.BlockPos;
-import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.DiggerItem;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
@@ -17,7 +17,7 @@ public class SemaphoreBlock extends Block {
 
 	@Override @SuppressWarnings("deprecation")
 	public float getDestroyProgress(BlockState state, Player player, BlockGetter level, BlockPos pos) {
-		return player.getInventory().getSelected().getItem() instanceof PickaxeItem item 
+		return player.getInventory().getSelected().getItem() instanceof DiggerItem item 
 			&& item.getTier().getLevel() >= this.tier ? 0.02F : 0F;
 	}
 }
