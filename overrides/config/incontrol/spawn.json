@@ -113,6 +113,11 @@
   "result": "deny"
   },
   {
+  "dimension": "undergraden:undergarden",
+  "minheight": 127,
+  "result": "deny"
+  },
+  {
     "mob":[
       "species:deepfish",
       "species:leaf_hanger"
