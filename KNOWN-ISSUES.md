@@ -1,4 +1,5 @@
 # Critical / Game-Breaking
+- incontrol spawns dont stop monsters from spawning at certain light levels. i.e mobs can spawn in lit areas
 
 ### Complementary Shaders
 - TAA causes artifacting when looking into a immersive portal portal  

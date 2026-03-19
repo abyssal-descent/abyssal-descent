@@ -7,6 +7,7 @@
 	- name book item "We're sorry but you'll need this :)"
 
 ## High Priority Polish
++ make incontrol mob spawns require low light levels
 + keepinventory only keep: curios, armour, pickaxe, grappling hook
 + balance kobold trades, add modded ones perhaps
 + configurable keep inventory only keeps tools and armor
@@ -28,11 +29,8 @@
 + make small bioshrooms only generate on the right block
 
 ## The Undergarden
-Block all mod spawns on dim roof
 
 ## Infernal Crossing
-+ look at graveyard mod structures
-+ add structures -  feur bone tree, feur bone arc+ other pieces, feur fossil fang, realm rpg fallen adventurers
 + balance mob spawn rates based on playtesting
 
 ---
