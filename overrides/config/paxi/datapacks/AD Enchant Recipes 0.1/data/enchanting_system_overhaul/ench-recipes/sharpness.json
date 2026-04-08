@@ -5,7 +5,43 @@
     "1": [
       {
         "id": "minecraft:redstone",
-        "amount": 36
+        "amount": 12
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 2
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 8
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 3
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 3
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 14
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 6
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
       },
       {
         "id": "minecraft:diamond",
@@ -17,13 +53,13 @@
       },
       {
         "id": "minecraft:amethyst_shard",
-        "amount": 9
+        "amount": 7
       }
     ],
-    "2": [
+    "4": [
       {
         "id": "minecraft:redstone",
-        "amount": 48
+        "amount": 32
       },
       {
         "id": "minecraft:diamond",
@@ -31,97 +67,29 @@
       },
       {
         "id": "minecraft:quartz",
-        "amount": 42
-      },
-      {
-        "id": "minecraft:amethyst_shard",
-        "amount": 18
-      }
-    ],
-    "3": [
-      {
-        "id": "minecraft:redstone_block",
-        "amount": 1
-      },
-      {
-        "id": "minecraft:redstone",
-        "amount": 8
-      },
-      {
-        "id": "minecraft:diamond_block",
-        "amount": 2
-      },
-      {
-        "id": "minecraft:quartz_block",
-        "amount": 1
-      },
-      {
-        "id": "minecraft:quartz",
-        "amount": 15
-      },
-      {
-        "id": "minecraft:amethyst_block",
-        "amount": 2
-      },
-      {
-        "id": "minecraft:amethyst_shard",
-        "amount": 3
-      }
-    ],
-    "4": [
-      {
-        "id": "minecraft:redstone_block",
-        "amount": 1
-      },
-      {
-        "id": "minecraft:redstone",
         "amount": 32
       },
       {
-        "id": "minecraft:diamond_block",
-        "amount": 3
-      },
-      {
-        "id": "minecraft:quartz_block",
-        "amount": 1
-      },
-      {
-        "id": "minecraft:quartz",
-        "amount": 32
-      },
-      {
-        "id": "minecraft:amethyst_block",
-        "amount": 2
-      },
-      {
         "id": "minecraft:amethyst_shard",
-        "amount": 3
+        "amount": 7
       }
     ],
     "5": [
-      {
-        "id": "minecraft:redstone_block",
-        "amount": 2
-      },
       {
         "id": "minecraft:redstone",
         "amount": 48
       },
       {
-        "id": "minecraft:diamond_block",
-        "amount": 4
-      },
-      {
-        "id": "minecraft:quartz_block",
-        "amount": 2
+        "id": "minecraft:diamond",
+        "amount": 12
       },
       {
         "id": "minecraft:quartz",
         "amount": 36
       },
       {
-        "id": "minecraft:amethyst_block",
-        "amount": 4
+        "id": "minecraft:amethyst_shard",
+        "amount": 12
       }
     ]
   }

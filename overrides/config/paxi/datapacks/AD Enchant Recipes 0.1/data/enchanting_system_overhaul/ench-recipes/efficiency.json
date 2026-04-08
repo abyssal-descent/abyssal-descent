@@ -5,43 +5,43 @@
     "1": [
       {
         "id": "minecraft:redstone",
-        "amount": 36
+        "amount": 12
       },
       {
         "id": "minecraft:gold_ingot",
-        "amount": 18
+        "amount": 6
       },
       {
         "id": "minecraft:sugar",
-        "amount": 18
+        "amount": 6
       }
     ],
     "2": [
       {
-        "id": "minecraft:redstone_block",
-        "amount": 8
+        "id": "minecraft:redstone",
+        "amount": 24
       },
       {
-        "id": "minecraft:gold_block",
-        "amount": 8
+        "id": "minecraft:gold_ingot",
+        "amount": 24
       },
       {
         "id": "minecraft:sugar",
-        "amount": 64
+        "amount": 24
       }
     ],
     "3": [
       {
-        "id": "minecraft:redstone_block",
-        "amount": 8
+        "id": "minecraft:redstone",
+        "amount": 24
       },
       {
-        "id": "minecraft:gold_block",
-        "amount": 11
+        "id": "minecraft:gold_ingot",
+        "amount": 32
       },
       {
         "id": "minecraft:sugar",
-        "amount": 64
+        "amount": 32
       },
       {
         "id": "minecraft:potion",
@@ -52,12 +52,12 @@
     ],
     "4": [
       {
-        "id": "minecraft:redstone_block",
-        "amount": 10
+        "id": "minecraft:redstone",
+        "amount": 32
       },
       {
-        "id": "minecraft:gold_block",
-        "amount": 11
+        "id": "minecraft:gold_ingot",
+        "amount": 32
       },
       {
         "id": "minecraft:potion",
@@ -74,12 +74,12 @@
     ],
     "5": [
       {
-        "id": "minecraft:redstone_block",
-        "amount": 10
+        "id": "minecraft:redstone",
+        "amount": 32
       },
       {
-        "id": "minecraft:gold_block",
-        "amount": 11
+        "id": "minecraft:gold_ingot",
+        "amount": 32
       },
       {
         "id": "minecraft:potion",
