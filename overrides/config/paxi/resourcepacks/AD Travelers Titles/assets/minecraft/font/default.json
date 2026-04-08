@@ -54,7 +54,7 @@
 	 "type": "bitmap",
 	 "file": "minecraft:font/infernalcross.png",
 	 "ascent": 4,
-	 "height": 16,
+	 "height": 8,
 	 "chars": ["\u2c24"]
 	},
 	{
