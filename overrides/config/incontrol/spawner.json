@@ -153,6 +153,7 @@
     }
   },
   {
+<<<<<<< Updated upstream
     "mob": "minecraft:slime",
     "persecond": 1,
     "attempts": 1,
@@ -170,6 +171,8 @@
     }
   },
   {
+=======
+>>>>>>> Stashed changes
     "mob": "species:cliff_hanger",
     "persecond": 1,
     "attempts": 1,
