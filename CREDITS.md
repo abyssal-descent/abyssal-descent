@@ -23,6 +23,7 @@
     - coldreindeer and Thelnfamous1 for porting Immersive portals to forge 1.20.1
     - colebot on YT for making great world gen tutorial videos
     - Aimsell for leading the Abyssal Ascent Pack
+    - lzxh on Planet Minecraft for creating noodle world noise settings used as a base for ??? Dimension https://www.planetminecraft.com/data-pack/noodle-world-generation-experiment/
 
 ## Mods
 Without the work of countless mod authors this pack would have never been possible. I will list some of the most impactful mods used below.
