@@ -18,7 +18,6 @@
 + fix a million pop ups upon world creation
 
 ## Textures
-+ Textures for layer seperator blocks
 ---
 # Dimension Work
 
