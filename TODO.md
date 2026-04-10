@@ -8,6 +8,7 @@
 
 ## High Priority Polish
 + make incontrol mob spawns require low light levels
++ remove all un neccessary incontrol mob spawns and use forge biome modifiers as much as possible
 + keepinventory only keep: curios, armour, pickaxe, grappling hook
 + balance kobold trades, add modded ones perhaps
 + configurable keep inventory only keeps tools and armor
