@@ -153,26 +153,6 @@
     }
   },
   {
-<<<<<<< Updated upstream
-    "mob": "minecraft:slime",
-    "persecond": 1,
-    "attempts": 1,
-    "amount": {
-      "minimum": 1,
-      "maximum": 3
-    },
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "mindist": 64,
-      "maxdist": 128,
-      "minheight": 63,
-      "maxheight": 128,
-      "maxthis": 10
-    }
-  },
-  {
-=======
->>>>>>> Stashed changes
     "mob": "species:cliff_hanger",
     "persecond": 1,
     "attempts": 1,
