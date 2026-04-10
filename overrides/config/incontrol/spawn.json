@@ -103,12 +103,12 @@
     "result":"deny"
   },
   {
-  "dimension": "infernalcross:dimension",
+  "dimension": "infernalcross:infernalcrossing",
   "minheight": 63,
   "result": "deny"
   },
   {
-  "dimension": "delverbegin:dimension",
+  "dimension": "delverbegin:delversbeginnings",
   "minheight": 127,
   "result": "deny"
   },
@@ -124,8 +124,8 @@
     ],
     "dimension":[
       "minecraft:overworld",
-      "delverbegin:dimension",
-      "infernalcross:dimension"
+      "delverbegin:delversbeginnings",
+      "infernalcross:infernalcrossing"
     ],
     "result":"deny"
   },
@@ -138,7 +138,7 @@
     ],
     "dimension":[
       "minecraft:overworld",
-      "delverbegin:dimension"
+      "delverbegin:delversbeginnings"
     ],
     "result":"deny"
   },
@@ -148,7 +148,7 @@
     ],
     "dimension":[
       "minecraft:overworld",
-      "infernalcross:dimension"
+      "infernalcross:infernalcrossing"
     ],
     "result":"deny"
   },
