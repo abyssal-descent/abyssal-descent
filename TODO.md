@@ -19,7 +19,6 @@
 
 ## Textures
 + Textures for layer seperator blocks
-+ Improve Hammer Textures
 ---
 # Dimension Work
 
