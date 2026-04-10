@@ -1,0 +1,5 @@
+{
+   "variants": {
+      "": { "model": "adresources:block/hardened_root_block"}
+   }
+}
