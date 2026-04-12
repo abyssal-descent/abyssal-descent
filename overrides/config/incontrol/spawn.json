@@ -160,5 +160,27 @@
       "minecraft:overworld"
     ],
     "result":"deny"
+  },
+  {
+  "mob": [
+    "alexsmobs:rocky_roller",
+    "minecraft:husk",
+    "organics:sand_catcher",
+    "alexsmobs:guster",
+    "organics:terracotta_coloss",
+    "minecraft:slime",
+    "galosphere:preserved",
+    "luminousworld:hollow",
+    "species:deepfish",
+    "species:leaf_hanger",
+    "species:ghoul",
+    "species:quake",
+    "species:cliff_hanger",
+    "species:limpet",
+    "species:wicked"
+  ],
+  "minlight": 2,
+  "maxlight": 15,
+  "result": "deny"
   }
 ]
