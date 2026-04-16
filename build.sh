@@ -7,6 +7,7 @@ VERSION=$(echo "dev-1.0-$(git rev-parse --short HEAD)")
 build_java() {
 	mkdir -p "$1/mods"
 	for mod in $(ls "$REPO/src"); do
+		[[ "$2" = "fuck-quek" ]] && [[ "$mod" = "undergarden" ]] && continue
 		echo "Building $mod"
 		cd "$REPO/src/$mod" && ./gradlew build --quiet || exit 1
 		mv build/libs/*.jar "$REPO/$1/mods"
@@ -52,6 +53,20 @@ case $1 in
 		cp -r overrides/* build
 		awk -v "mode=install" -v "out_dir=build/mods" -f parse-mods.awk mods.csv || exit 1
 		;;
+	"curse-no-quek")
+		clean
+		build_java build/overrides "fuck-quek"
+		cp -r overrides/* build/overrides
+		awk -v "mode=curse" -f parse-mods.awk mods.csv > build/manifest.json || exit 1
+		package
+		;;
+	"export-no-quek")
+		clean
+		build_java build "fuck-quek"
+		cp -r overrides/* build
+		awk -v "mode=install" -v "out_dir=build/mods" -f parse-mods.awk mods.csv || exit 1
+		package
+		;;
 	"package")
 		package
 		;;
@@ -61,6 +76,8 @@ case $1 in
 		echo "   export          Export the modpack for manual installation"
 		echo
 		printf "\x1b[1mDev Options:\x1b[0m (prob not needed for normal use)\n"
+		echo "   curse-no-quek"
+		echo "   export-no-queck"
 		echo "   export-no-pack  Export the modpack without zipping it"
 		echo "   package         Package from build directory"
 		;;
