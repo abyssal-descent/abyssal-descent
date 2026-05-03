@@ -6,6 +6,6 @@
     "type": "species:wicked",
     "weight": 25,
     "minCount": 1,
-    "maxCount": 2
+    "maxCount": 8
   }
 }

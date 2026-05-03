@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "yungscavebiomes:lost_cave",
+  "spawners":
+  {
+    "type": "luminousworld:hollow",
+    "weight": 100,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

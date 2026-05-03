@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "galosphere:crystal_canyons",
+  "spawners":
+  {
+    "type": "alexsmobs:rocky_roller",
+    "weight": 100,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

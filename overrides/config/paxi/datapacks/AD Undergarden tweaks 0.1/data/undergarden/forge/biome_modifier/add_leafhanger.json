@@ -6,6 +6,6 @@
     "type": "species:leaf_hanger",
     "weight": 100, 
     "minCount": 1,
-    "maxCount": 5
+    "maxCount": 10
   }
 }

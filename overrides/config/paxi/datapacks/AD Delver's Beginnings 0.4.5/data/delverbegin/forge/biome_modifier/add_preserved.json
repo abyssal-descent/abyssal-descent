@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "galosphere:pink_salt_caves",
+  "spawners":
+  {
+    "type": "luminousworld:hollow",
+    "weight": 100,
+    "minCount": 1,
+    "maxCount": 10
+  }
+}

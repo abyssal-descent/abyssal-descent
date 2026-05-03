@@ -6,6 +6,6 @@
     "type": "organics:terracotta_coloss",
     "weight": 100,
     "minCount": 1,
-    "maxCount": 4
+    "maxCount": 5
   }
 }
