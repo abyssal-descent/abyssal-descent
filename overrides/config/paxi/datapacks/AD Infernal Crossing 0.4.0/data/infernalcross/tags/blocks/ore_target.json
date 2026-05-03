@@ -1,7 +1,9 @@
 {
   "values": [
     "minecraft:deepslate",
+    "minecraft:packed_mud",
     "darkerdepths:darkslate",
+    "darkerdepths:aridrock",
     "alexscaves:guanostone",
     "alexscaves:coprolith",
     "infinite_abyss:red_deepstone",
