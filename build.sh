@@ -7,7 +7,7 @@ VERSION=$(echo "dev-1.0-$(git rev-parse --short HEAD)")
 build_java() {
 	mkdir -p "$1/mods"
 	for mod in $(ls "$REPO/src"); do
-		[[ "$2" = "fuck-quek" ]] && [[ "$mod" = "undergarden" ]] && continue
+		[ "$2" = "fuck-quek" ] && [ "$mod" = "undergarden" ] && continue
 		echo "Building $mod"
 		cd "$REPO/src/$mod" && ./gradlew build --quiet || exit 1
 		mv build/libs/*.jar "$REPO/$1/mods"
