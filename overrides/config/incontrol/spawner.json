@@ -69,11 +69,11 @@
   },
   {
     "mob": "organics:terracotta_coloss",
-    "persecond": 0.5,
+    "persecond": 1,
     "attempts": 1,
     "amount": {
       "minimum": 1,
-      "maximum": 2
+      "maximum": 1
     },
     "conditions": {
       "dimension": "delverbegin:delversbeginnings",
@@ -81,7 +81,7 @@
       "maxdist": 128,
       "minheight": 0,
       "maxheight": 128,
-      "maxthis": 5
+      "maxthis": 10
     }
   },
   {
@@ -115,7 +115,7 @@
       "maxdist": 128,
       "minheight": 0,
       "maxheight": 128,
-      "maxthis": 10
+      "maxthis": 20
     }
   },
   {

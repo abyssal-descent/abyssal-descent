@@ -50,8 +50,7 @@
   {
     "mob": "organics:terracotta_coloss",
     "biome": [
-      "regions_unexplored:ancient_delta",
-      "darkerdepths:glowshroom_forest"
+      "regions_unexplored:ancient_delta"
     ],
     "result": "allow"
   },
@@ -179,8 +178,12 @@
     "species:limpet",
     "species:wicked"
   ],
-  "minlight": 2,
-  "maxlight": 15,
+  "minlight": 1,
+  "result": "deny"
+  },
+  {
+  "mob": "organics:terracotta_coloss",
+  "maxcount": 15,
   "result": "deny"
   }
 ]
