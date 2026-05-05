@@ -14,9 +14,6 @@
 + configurable keep inventory only keeps tools and armor
 
 ## Low priority Polish
-+ fix a million pop ups upon world creation
-+ Stop the alex's mobs book being given upon world creation
-+ fix a million pop ups upon world creation
 
 ## Textures
 ---
