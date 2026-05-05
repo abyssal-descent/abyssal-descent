@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "adhammers:utherium_plate"
+    },
+    "X": {
+      "item": "minecraft:compass"
+    },
+    "A": {
+      "item": "undergarden:regalium_crystal"
+    }
+  },
+  "pattern": [
+    "A#A",
+    "#X#",
+    "A#A"
+  ],
+  "result": {
+    "item": "explorerscompass:explorerscompass"
+  }
+}
