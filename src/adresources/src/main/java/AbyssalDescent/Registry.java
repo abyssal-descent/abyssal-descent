@@ -34,6 +34,9 @@ public class Registry {
 	public static final RegistryObject<Block> RED_DEEPSTONE_IRON_ORE =
 		register_block_with("reddeepstoneironore", () ->
 			new Block(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE_IRON_ORE).strength(6.0f)));
+	public static final RegistryObject<Block> ROUGH_UTHERIUM_BLOCK =
+		register_block_with("rough_utherium_block", () ->
+			new Block(BlockBehaviour.Properties.copy(Blocks.RAW_IRON_BLOCK).strength(6.0f)));
 	public static final RegistryObject<Block> HARDENED_ROOT_BLOCK =
 		register_block_with("hardened_root_block", () -> new HardenedRootBlock());
 
