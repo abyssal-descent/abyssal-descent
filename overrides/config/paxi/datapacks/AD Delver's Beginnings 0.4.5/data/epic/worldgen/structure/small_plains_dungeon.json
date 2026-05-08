@@ -1,0 +1,14 @@
+{
+    "type": "minecraft:jigsaw",
+    "biomes": "#delverbegin:is_delversbegin",
+    "max_distance_from_center": 80,
+    "size": 7,
+    "spawn_overrides": {},
+    "start_height": {
+        "absolute": 80
+    },
+    "start_pool": "epic:small_plains_dungeon",
+    "step": "underground_structures",
+    "terrain_adaptation": "none",
+    "use_expansion_hack": true
+}

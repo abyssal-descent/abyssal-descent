@@ -27,7 +27,7 @@
 + reduce frequency of salt spikes
 + add amethyst geodes!
 + Smite on silver swords
-+ add all yungs dungeons
++ disable zombie dungeon
 
 ## The Undergarden
 
