@@ -97,6 +97,7 @@
     "organics:blue_obsidian_leggings",
     "organics:blue_obsidian_chestplate",
     "organics:blue_obsidian_helmet",
+    "organics:obsidian_hammer",
 
     // CNC mod not in pack might add in later
     "cnc:buckskin",
@@ -132,8 +133,16 @@
 
     // Luminous decorative tools
     "!luminousworld:.*hammer",
-    "!luminousworld:.*sword",
-    "!luminousworld:.*pickaxe"
+    "luminousworld:decorativeswordiron",
+    "luminousworld:decorativeswordgold_1",
+    "luminousworld:decorative_pickaxe_iron_1",
+    "luminousworld:decorativeswordgold_1",
+    "luminousworld:decorativesworddiamond_1",
+    "luminousworld:decorativeswordnetherite_1",
+    "luminousworld:decorative_pickaxe_iron_1",
+    "luminousworld:decorative_pickaxe_gold_1",
+    "luminousworld:decorative_pickaxe_diamond_1",
+    "luminousworld:decorative_pickaxe_netherite_1"
   ],
   // -----------------------------------------------------------
   "blacklisted_nbt": [],
