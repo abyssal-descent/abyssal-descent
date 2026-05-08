@@ -32,15 +32,9 @@
               }
             },
             {
-              "weight": 50,
+              "weight": 35,
               "data": {
                 "Name": "undergarden:depthrock_utherium_ore"
-              }
-            },
-            {
-              "weight": 10,
-              "data": {
-                "Name": "undergarden:utherium_block"
               }
             },
             {

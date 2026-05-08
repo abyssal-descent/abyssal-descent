@@ -3,17 +3,17 @@
   "placement": [
     {
       "type": "minecraft:rarity_filter",
-      "chance": 2
+      "chance": 10
     },
     {
       "type": "minecraft:height_range",
       "height": {
         "type": "minecraft:trapezoid",
         "max_inclusive": {
-          "absolute": 108
+          "absolute": 116
         },
         "min_inclusive": {
-          "above_bottom": 20
+          "above_bottom": 16
         }
       }
     },
@@ -24,32 +24,56 @@
         "predicates": [
           {
             "type": "minecraft:matching_blocks",
-            "offset": [0, 6, 0],
+            "offset": [
+              0,
+              6,
+              0
+            ],
             "blocks": "minecraft:air"
           },
           {
             "type": "minecraft:matching_blocks",
-            "offset": [0, -6, 0],
+            "offset": [
+              0,
+              -6,
+              0
+            ],
             "blocks": "minecraft:air"
           },
           {
             "type": "minecraft:matching_blocks",
-            "offset": [6, 0, 0],
+            "offset": [
+              6,
+              0,
+              0
+            ],
             "blocks": "minecraft:air"
           },
           {
             "type": "minecraft:matching_blocks",
-            "offset": [-6, 0, 0],
+            "offset": [
+              -6,
+              0,
+              0
+            ],
             "blocks": "minecraft:air"
           },
           {
             "type": "minecraft:matching_blocks",
-            "offset": [0, 0, 6],
+            "offset": [
+              0,
+              0,
+              6
+            ],
             "blocks": "minecraft:air"
           },
           {
             "type": "minecraft:matching_blocks",
-            "offset": [0, 0, -6],
+            "offset": [
+              0,
+              0,
+              -6
+            ],
             "blocks": "minecraft:air"
           }
         ]

@@ -2,12 +2,13 @@
   "feature": "infernalcross:diamond_ore_lava",
   "placement": [
     {
-      "type": "minecraft:in_square"
+      "type": "minecraft:rarity_filter",
+      "chance": 5
     },
     {
       "type": "minecraft:noise_based_count",
-      "noise_to_count_ratio": 5,
-      "noise_factor": 50,
+      "noise_to_count_ratio": 1,
+      "noise_factor": 1,
       "noise_offset": 0
     },
     {
@@ -22,7 +23,7 @@
         "type": "minecraft:uniform",
         "value": {
           "min_inclusive": 1,
-          "max_inclusive": 5
+          "max_inclusive": 1
         }
       }
     },
@@ -48,13 +49,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [0, -2, 0],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  0,
+                  -2,
+                  0
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [0, -2, 0],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  0,
+                  -2,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -63,13 +76,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [0, 0, -2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  0,
+                  0,
+                  -2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [0, 0, -2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  0,
+                  0,
+                  -2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -78,13 +103,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [-2, 0, 0],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  -2,
+                  0,
+                  0
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [-2, 0, 0],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  -2,
+                  0,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -93,13 +130,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [0, 0, 2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  0,
+                  0,
+                  2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [0, 0, 2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  0,
+                  0,
+                  2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -108,13 +157,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [2, 0, 0],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  2,
+                  0,
+                  0
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [2, 0, 0],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  2,
+                  0,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -123,13 +184,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [0, 2, 0],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  0,
+                  2,
+                  0
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [0, 2, 0],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  0,
+                  2,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -138,13 +211,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [-2, -2, 0],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  -2,
+                  -2,
+                  0
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [-2, -2, 0],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  -2,
+                  -2,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -153,13 +238,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [-2, 0, -2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  -2,
+                  0,
+                  -2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [-2, 0, -2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  -2,
+                  0,
+                  -2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -168,13 +265,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [0, -2, -2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  0,
+                  -2,
+                  -2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [0, -2, -2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  0,
+                  -2,
+                  -2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -183,13 +292,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [2, 2, 0],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  2,
+                  2,
+                  0
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [2, 2, 0],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  2,
+                  2,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -198,13 +319,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [2, 0, 2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  2,
+                  0,
+                  2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [2, 0, 2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  2,
+                  0,
+                  2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -213,13 +346,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [0, 2, 2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  0,
+                  2,
+                  2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [0, 2, 2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  0,
+                  2,
+                  2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -228,13 +373,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [-2, -2, -2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  -2,
+                  -2,
+                  -2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [-2, -2, -2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  -2,
+                  -2,
+                  -2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -243,13 +400,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [2, -2, 0],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  2,
+                  -2,
+                  0
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [2, -2, 0],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  2,
+                  -2,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -258,13 +427,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [2, 0, -2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  2,
+                  0,
+                  -2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [2, 0, -2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  2,
+                  0,
+                  -2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -273,13 +454,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [0, 2, -2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  0,
+                  2,
+                  -2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [0, 2, -2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  0,
+                  2,
+                  -2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -288,13 +481,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [-2, 2, 0],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  -2,
+                  2,
+                  0
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [-2, 2, 0],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  -2,
+                  2,
+                  0
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -303,13 +508,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [-2, 0, 2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  -2,
+                  0,
+                  2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [-2, 0, 2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  -2,
+                  0,
+                  2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -318,13 +535,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [0, -2, 2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  0,
+                  -2,
+                  2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [0, -2, 2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  0,
+                  -2,
+                  2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -333,13 +562,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [2, 2, 2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  2,
+                  2,
+                  2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [2, 2, 2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  2,
+                  2,
+                  2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -348,13 +589,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [-2, 2, 2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  -2,
+                  2,
+                  2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [-2, 2, 2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  -2,
+                  2,
+                  2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -363,13 +616,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [2, -2, 2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  2,
+                  -2,
+                  2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [2, -2, 2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  2,
+                  -2,
+                  2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -378,13 +643,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [2, 2, -2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  2,
+                  2,
+                  -2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [2, 2, -2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  2,
+                  2,
+                  -2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -393,13 +670,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [2, -2, -2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  2,
+                  -2,
+                  -2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [2, -2, -2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  2,
+                  -2,
+                  -2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -408,13 +697,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [-2, 2, -2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  -2,
+                  2,
+                  -2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [-2, 2, -2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  -2,
+                  2,
+                  -2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           },
@@ -423,13 +724,25 @@
             "predicates": [
               {
                 "type": "minecraft:matching_fluids",
-                "offset": [-2, -2, 2],
-                "fluids": ["minecraft:lava"]
+                "offset": [
+                  -2,
+                  -2,
+                  2
+                ],
+                "fluids": [
+                  "minecraft:lava"
+                ]
               },
               {
                 "type": "minecraft:matching_blocks",
-                "offset": [-2, -2, 2],
-                "blocks": ["minecraft:magma_block"]
+                "offset": [
+                  -2,
+                  -2,
+                  2
+                ],
+                "blocks": [
+                  "minecraft:magma_block"
+                ]
               }
             ]
           }
