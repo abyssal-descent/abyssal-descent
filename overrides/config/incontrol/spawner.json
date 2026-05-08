@@ -1,7 +1,8 @@
 [
+  ///////////// Delvers Beginnings
   {
     "mob": "alexsmobs:rocky_roller",
-    "persecond": 1,
+    "persecond": 0.5,
     "attempts": 1,
     "amount": {
       "minimum": 1,
@@ -18,7 +19,7 @@
   },
   {
     "mob": "minecraft:husk",
-    "persecond": 1,
+    "persecond": 0.5,
     "attempts": 1,
     "amount": {
       "minimum": 1,
@@ -35,7 +36,7 @@
   },
   {
     "mob": "organics:sand_catcher",
-    "persecond": 1,
+    "persecond": 0.5,
     "attempts": 1,
     "amount": {
       "minimum": 1,
@@ -52,7 +53,7 @@
   },
   {
     "mob": "alexsmobs:guster",
-    "persecond": 1,
+    "persecond": 0.5,
     "attempts": 1,
     "amount": {
       "minimum": 1,
@@ -69,7 +70,7 @@
   },
   {
     "mob": "organics:terracotta_coloss",
-    "persecond": 1,
+    "persecond": 0.5,
     "attempts": 1,
     "amount": {
       "minimum": 1,
@@ -86,7 +87,7 @@
   },
   {
     "mob": "minecraft:slime",
-    "persecond": 1,
+    "persecond": 0.5,
     "attempts": 1,
     "amount": {
       "minimum": 1,
@@ -103,7 +104,7 @@
   },
   {
     "mob": "minecraft:slime",
-    "persecond": 1,
+    "persecond": 0.5,
     "attempts": 1,
     "amount": {
       "minimum": 1,
@@ -120,7 +121,7 @@
   },
   {
     "mob": "galosphere:preserved",
-    "persecond": 1,
+    "persecond": 0.5,
     "attempts": 1,
     "amount": {
       "minimum": 1,
@@ -137,7 +138,7 @@
   },
   {
     "mob":"luminousworld:hollow",
-    "persecond":1,
+    "persecond":0.5,
     "attempts":1,
     "amount":{
       "minimum":1,
@@ -154,7 +155,7 @@
   },
   {
     "mob":"mowziesmobs:lantern",
-    "persecond": 1,
+    "persecond": 0.5,
     "attempts":1,
     "amount":{
       "minimum":1,
@@ -169,16 +170,34 @@
       "maxthis":10
     }
   },
+  ///////////// Infernal Crossing
   {
     "mob": "species:cliff_hanger",
-    "persecond": 1,
+    "persecond": 0.5,
     "attempts": 1,
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
     "conditions": {
-      "dimension": "infernalcrossing:infernalcrossing",
+      "dimension": "infernalcross:infernalcrossing",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": -54,
+      "maxheight": 54,
+      "maxthis": 11
+    }
+  },
+  {
+    "mob": "species:ghoul" ,
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "infernalcross:infernalcrossing",
       "mindist": 24,
       "maxdist": 128,
       "minheight": -54,
@@ -187,30 +206,99 @@
     }
   },
   {
-    "mob": "species:ghoul" ,
-    "persecond": 1,
+    "mob": "species:wicked",
+    "persecond": 0.5,
     "attempts": 1,
     "amount": {
       "minimum": 1,
-      "maximum": 4
+      "maximum": 1
     },
     "conditions": {
-      "dimension": "infernalcrossing:infernalcrossing",
+      "dimension": "infernalcross:infernalcrossing",
       "mindist": 24,
       "maxdist": 128,
       "minheight": -54,
       "maxheight": 54,
-      "maxthis": 10
+      "maxthis": 7
     }
   },
   {
+    "mob": "species:quake",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "infernalcross:infernalcrossing",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": -54,
+      "maxheight": 54,
+      "maxthis": 4
+    }
+  },
+  {
+    "mob": "alexsmobs:dropbear",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 3
+    },
+    "conditions": {
+      "dimension": "infernalcross:infernalcrossing",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": -54,
+      "maxheight": 54,
+      "maxthis": 4
+    }
+  },
+  {
+    "mob": "alexsmobs:murmur",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "infernalcross:infernalcrossing",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": 60,
+      "maxheight": 140,
+      "maxthis": 2
+    }
+  },
+  {
+    "mob": "minecraft:husk",
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 5
+    },
+    "conditions": {
+      "dimension": "infernalcross:infernalcrossing",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": -54,
+      "maxheight": 54,
+      "maxthis": 20
+    }
+  }
+  ///////////// Undergarden
+  {
     "mob":"species:leaf_hanger",
-    "persecond":1,
+    "persecond":0.5,
     "attempts":1,
     "amount":{
       "minimum":1,
       "maximum":4
-  },
+    },
     "conditions": {
       "dimension": "undergarden:undergarden",
       "mindist": 35,

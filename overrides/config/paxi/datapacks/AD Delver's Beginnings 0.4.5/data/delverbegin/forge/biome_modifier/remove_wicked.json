@@ -1,0 +1,5 @@
+{
+  "type": "forge:remove_spawns",
+  "biomes": "#delverbegin:is_delversbegin",
+  "entity_types": "species:wicked"
+}

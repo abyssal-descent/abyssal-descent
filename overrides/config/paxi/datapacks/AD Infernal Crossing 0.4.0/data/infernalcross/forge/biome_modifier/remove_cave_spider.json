@@ -1,0 +1,5 @@
+{
+  "type": "forge:remove_spawns",
+  "biomes": "#infernalcross:is_infernal_crossing",
+  "entity_types": "minecraft:cave_spider"
+}
