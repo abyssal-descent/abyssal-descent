@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "X": {
+      "item": "spelunkery:raw_magnetite_block"
+    },
+    "Z": {
+      "item": "undergarden:utherium_crystal"
+    }
+  },
+  "pattern": [
+    "Z#Z",
+    "#X#",
+    "Z#Z"
+  ],
+  "result": {
+    "item": "darkerdepths:void_soul_jar"
+  },
+  "show_notification": true
+}

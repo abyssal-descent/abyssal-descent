@@ -16,6 +16,7 @@
 ## Low priority Polish
 
 ## Textures
+- Explorers compass retexture
 ---
 # Dimension Work
 
@@ -23,12 +24,18 @@
 
 ## Delver's Beginning
 + make small bioshrooms only generate on the right block
++ reduce frequency of salt spikes
++ add amethyst geodes!
++ Smite on silver swords
 
 ## The Undergarden
++ void blossom drops forgotten nuggets and 8-16 crystal fruit
+- disable undergarden forgotten tools recipe
+- replace explorers compass regalium with forgotten nuggets
 
 ## Infernal Crossing
-+ balance mob spawn rates based on playtesting
-
++ increase hostile mob spawn rates
++ add back in removed mob spawns
 ---
 
 ## Final Touches
