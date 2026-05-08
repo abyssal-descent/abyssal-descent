@@ -5,7 +5,7 @@ architectury,419699,5137938
 geckolib,388172,7025129
 sinytra_connector,890127,5761411
 yungs_api,421850,5769971
-bclib,495191,4971470
+# bclib,495191,4971470
 forgified_fabric_api,889079,6289136
 zeta,968868,5597406
 curios_api,309927,5680164
@@ -68,7 +68,7 @@ continuity,531351,5981334
 oculus,581495,6020952
 
 # Biomes/Dimensions
-betternether,311377,4971478
+# betternether,311377,4971478
 # FUCKYOUECLIPSE we're removing this super soon
 infinite_abyss,677576,5951275
 galosphere,631098,4983871
