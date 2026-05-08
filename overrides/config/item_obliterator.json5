@@ -112,7 +112,7 @@
     "galosphere:sterling_leggings",
     "galosphere:sterling_horse_armor",
 
-    // Infinite Abyss Armors and Tools (regex)
+    // Infinite Abyss Armors and Tools
     "!infinite_abyss:.*chestplate",
     "!infinite_abyss:.*helmet",
     "!infinite_abyss:.*leggings",
@@ -128,7 +128,12 @@
     "minecraft:stone_pickaxe",
     "minecraft:stone_axe",
     "minecraft:stone_shovel",
-    "minecraft:stone_hoe"
+    "minecraft:stone_hoe",
+
+    // Luminous decorative tools
+    "!luminousworld:.*hammer",
+    "!luminousworld:.*sword",
+    "!luminousworld:.*pickaxe"
   ],
   // -----------------------------------------------------------
   "blacklisted_nbt": [],
