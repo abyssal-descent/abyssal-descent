@@ -27,15 +27,11 @@
 + reduce frequency of salt spikes
 + add amethyst geodes!
 + Smite on silver swords
++ add all yungs dungeons
 
 ## The Undergarden
-+ void blossom drops forgotten nuggets and 8-16 crystal fruit
-- disable undergarden forgotten tools recipe
-- replace explorers compass regalium with forgotten nuggets
 
 ## Infernal Crossing
-+ increase hostile mob spawn rates
-+ add back in removed mob spawns
 ---
 
 ## Final Touches
