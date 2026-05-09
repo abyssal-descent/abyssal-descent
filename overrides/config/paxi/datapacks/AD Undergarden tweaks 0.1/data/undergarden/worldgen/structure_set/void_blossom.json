@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 200813232,
+    "separation": 30,
+    "spacing": 42
+  },
+  "structures": [
+    {
+      "structure": "undergarden:void_blossom",
+      "weight": 1
+    }
+  ]
+}

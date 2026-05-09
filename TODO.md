@@ -30,8 +30,10 @@
 + disable zombie dungeon
 
 ## The Undergarden
+- fix void blossom structure, void blossom spawns 1 block too high!
 
 ## Infernal Crossing
+bedrock roof shoul be weakened root block!
 ---
 
 ## Final Touches

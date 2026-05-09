@@ -1,6 +1,5 @@
 {
   "replace":true,
   "values": [
-    "#undergarden:is_undergarden"
   ]
 }
