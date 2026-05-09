@@ -42,6 +42,7 @@ bedrock roof shoul be weakened root block!
 	- we kinda have low already (mellow)
 	- drop high and just have med+ultra?
 + Update mods that need to be updated
++ remove depth gauge
 
 ## mods to look into
 - ascended quark
