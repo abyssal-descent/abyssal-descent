@@ -2,7 +2,7 @@ function manifest_header() {
 	print "{" 
 	print "	\"minecraft\": {"
 	print "		\"version\": \"1.20.1\", "
-	print "		\"modLoaders\": [{\"id\": \"forge-47.4.0\", \"primary\": true }] "
+	print "		\"modLoaders\": [{\"id\": \"forge-47.4.10\", \"primary\": true }] "
 	print "	},"
 	print "	\"manifestType\": \"minecraftModpack\","
 	print "	\"manifestVersion\": 1,"
