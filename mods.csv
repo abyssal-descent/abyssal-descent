@@ -25,34 +25,22 @@ polytone,958094,7261243
 konkrete,410295,5028413
 melody,938643,5109692
 kotlin,351264,7291067
-searchables,858542,5284015
-octolib,916747,6274623
-puzzles_lib,495476,6918565
 
 
 # Dev
-# patchouli,306770,4966125
 paxi,515708,4749994
-# remove before release
-harvest_level_tweaker,833035,6461992
+# harvest_level_tweaker,833035,6461992
 you_shall_not_spawn,628744,5820960
 incontrol,257356,7436213
 structurify,1087551,6858579
 biomereplacer,910274,7200634
-# blockswap,468893,4598162
-itemobliterator,835861,5479898
 custom_item_attributes,965954,5610928
 property_modifier,474822,4661543
-fancy_menu,367706,7256735
-drippy_loading_screen,511770,7248426
 reliable_replacer,1450759,8023331
 reliable_recipes,1414959,8072207
 reliable_remover,1420447,8072221
 reliable_requiem,1521473,8009733
-# configurable_keepinventory,960027,5026355
 # enchantmentdisabler,912326,5382937
-betterf3,401648,4863626
-betteradvancements,272515,5454907
 
 # Utility
 jei,238222,7270446
@@ -64,9 +52,6 @@ xaeros_world_map,317780,7412248
 xaeros_minimap,263420,8046960
 emi++_forked,1411826,7937655
 no_recipe_book,738663,5760231
-woodgood,628539,7929077
-yeetus_experimentus,635427,4680832
-
 
 # Performance
 embeddium,908741,5681725
@@ -77,10 +62,11 @@ entity_culling,448233,7167800
 Embeddium_Dynamic_Lights,551736,6044481
 fastworkbench,288885,5101229
 connectivity,470193,7366161
-model_gap_fix,676136,5200949
 
 # Visual
 travelers_titles,504908,5065825
+fancy_menu,367706,7256735
+betteradvancements,272515,5454907
 continuity,531351,5981334
 oculus,581495,6020952
 overflowing_bars,852662,5763974
@@ -122,11 +108,8 @@ quark_oddities,301051,5070502
 geodeplus,620784,5407755
 organics,411399,4703550
 leafs_copper_backport,1313101,7085403
-# enchanting_overhaul,960121,5463023
 ht_tree_chop,421377,5565422
 explorers_compass,491794,4712194
-controlling,250398,4646682
-screenshot_viewer,693961,5343674
 
 # mobs
 bomd,941573,5067728
@@ -136,5 +119,19 @@ alexs_mobs,426558,5698791
 kobolds,484967,5605622
 species,857737,6886321
 
-# qol
+# temp
+betterf3,401648,4863626
+infinite_abyss,677576,5951275
+# enchanting_overhaul,960121,5463023
+controlling,250398,4646682
+searchables,858542,5284015
+
+# eclipse im gonna fucking kill you
+octolib,916747,6274623
+puzzles_lib,495476,6918565
 seperated_leaves,905482,6289735
+screenshot_viewer,693961,5343674
+woodgood,628539,7929077
+yeetus_experimentus,635427,4680832
+drippy_loading_screen,511770,7248426
+model_gap_fix,676136,5200949
