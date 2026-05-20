@@ -33,7 +33,7 @@
 - fix void blossom structure, void blossom spawns 1 block too high!
 
 ## Infernal Crossing
-bedrock roof shoul be weakened root block!
+bedrock roof should be weakened root block!
 ---
 
 ## Final Touches
