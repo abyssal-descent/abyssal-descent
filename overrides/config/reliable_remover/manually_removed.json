@@ -1,0 +1,117 @@
+[
+  {
+    "action": "remove",
+    "items": [
+      "organics:redstone_boots",
+      "organics:redstone_chestplate",
+      "organics:redstone_helmet",
+      "organics:redstone_leggings",
+      "organics:redstone_gun",
+      "organics:shulker_boots",
+      "organics:shulker_chestplate",
+      "organics:shulker_helmet",
+      "organics:shulker_leggings",
+      "organics:blazed_block",
+      "organics:blazed_boots",
+      "organics:blazed_bow",
+      "organics:blazed_chestplate",
+      "organics:blazed_helmet",
+      "organics:blazed_leggings",
+      "organics:blazed_diamond_sword",
+      "organics:blazed_iron_sword",
+      "organics:blazed_golden_sword",
+      "organics:blazed_ingot",
+      "organics:blazed_nether_boots",
+      "organics:blazed_nether_chestplate",
+      "organics:blazed_nether_helmet",
+      "organics:blazed_nether_leggings",
+      "organics:blazed_netherite_sword",
+      "organics:blazed_stone_sword",
+      "organics:blazed_wooden_sword",
+      "organics:blaze_blaster",
+      "organics:dragon_launcher",
+      "organics:ender_crossbow",
+      "organics:ender_pearl_ore",
+      "organics:enderite_block",
+      "organics:enderite_boots",
+      "organics:enderite_chestplate",
+      "organics:enderite_helmet",
+      "organics:enderite_ingot",
+      "organics:enderite_leggings",
+      "organics:endium_axe",
+      "organics:endium_block",
+      "organics:endium_boots",
+      "organics:endium_chestplate",
+      "organics:endium_gem",
+      "organics:endium_helmet",
+      "organics:endium_hoe",
+      "organics:endium_leggings",
+      "organics:endium_ore",
+      "organics:endium_pickaxe",
+      "organics:endium_shovel",
+      "organics:endium_sword",
+
+      "minecraft:stone_sword",
+      "minecraft:stone_pickaxe",
+      "minecraft:stone_axe",
+      "minecraft:stone_shovel",
+      "minecraft:stone_hoe",
+
+      "galosphere:sterling_boots",
+      "galosphere:sterling_chestplate",
+      "galosphere:sterling_helmet",
+      "galosphere:sterling_leggings",
+      "galosphere:sterling_horse_armor",
+
+      "luminousworld:decorativeswordiron",
+      "luminousworld:decorativeswordgold_1",
+      "luminousworld:decorative_pickaxe_iron_1",
+      "luminousworld:decorativesworddiamond_1",
+      "luminousworld:decorativeswordnetherite_1",
+      "luminousworld:decorative_pickaxe_gold_1",
+      "luminousworld:decorative_pickaxe_diamond_1",
+      "luminousworld:decorative_pickaxe_netherite_1"
+    ]
+  },
+  {
+    "action": "remove",
+    "pattern": "/infinite_abyss:.*chestplate/"
+  },
+  {
+    "action": "remove",
+    "pattern": "/infinite_abyss:.*helmet/"
+  },
+  {
+    "action": "remove",
+    "pattern": "/infinite_abyss:.*leggings/"
+  },
+  {
+    "action": "remove",
+    "pattern": "/infinite_abyss:.*boots/"
+  },
+  {
+    "action": "remove",
+    "pattern": "/infinite_abyss:.*sword/"
+  },
+  {
+    "action": "remove",
+    "pattern": "/infinite_abyss:.*pickaxe/"
+  },
+  {
+    "action": "remove",
+    "pattern": "/infinite_abyss:.*axe/"
+  },
+  {
+    "action": "remove",
+    "pattern": "/infinite_abyss:.*hoe/"
+  },
+  {
+    "action": "remove",
+    "pattern": "/infinite_abyss:.*shovel/"
+  },
+
+  {
+    "action": "remove",
+    "pattern": "/luminousworld:.*hammer/"
+  }
+]

@@ -1,0 +1,23 @@
+[
+  {
+    "action": "remove_recipe",
+    "mod": "examplemod",
+    "type": "minecraft:crafting_shaped"
+  },
+  {
+    "action": "replace_input",
+    "target": "minecraft:stick",
+    "replacement": [
+      "minecraft:stick",
+      "examplemod:reinforced_stick"
+    ],
+    "id": "examplemod:reinforced_sword"
+  },
+  {
+    "action": "remove_from_tag",
+    "tag": "c:foods",
+    "id": [
+      "examplemod:inedible_food"
+    ]
+  }
+]

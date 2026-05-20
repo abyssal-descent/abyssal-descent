@@ -1,0 +1,85 @@
+ [
+   {
+     "_comment_description": "BASIC SETTINGS: What to replace and what to replace it with.",
+     "inputs": [
+       "minecraft:cobblestone",
+       "minecraft:stone_bricks"
+     ],
+     "output": "minecraft:mossy_cobblestone",
+ 
+     "_comment_logic": "ADVANCED LOGIC: How the replacement behaves.",
+     "keep_states": true,
+     "retrogen": true,
+     "player_blocks": true,
+     "keep_nbt": true,
+     "probability": 0.5,
+ 
+    "_comment_input_nbt": "INPUT NBT: Only replace if the block entity has this NBT data (e.g., target blaze spawners)",
+    "input_nbt": "{SpawnData:{entity:{id:\"minecraft:blaze\"}}}",
+ 
+     "_comment_output_nbt": "NBT DATA: Add custom NBT to the output block",
+     "output_nbt": "{SpawnData:{entity:{id:\"minecraft:zombie\"}}}",
+ 
+     "_comment_filters": "FILTERS: The rule only runs if ALL these match.",
+     "biomes": [
+       "minecraft:jungle",
+       "minecraft:sparse_jungle"
+     ],
+     "dimensions": [
+       "minecraft:overworld"
+     ],
+     "structures": [
+       "minecraft:jungle_pyramid"
+     ],
+ 
+     "_comment_states": "STATE FILTERS: Only replace if input has these properties",
+     "state_properties": {
+         "half": "upper",
+         "axis": "y"
+     },
+     
+     "_comment_output_states": "OUTPUT STATES: Force the output to have these properties",
+     "output_state_properties": {
+         "axis": "y"
+     },
+     
+     "_comment_multiblock": "MULTI-BLOCK: Place secondary blocks (like the top half of a door or clearing the top half of tall grass)",
+     "additional_blocks": [
+       {
+         "output": "minecraft:mossy_cobblestone",
+         "x_offset": 0,
+         "y_offset": 1,
+         "z_offset": 0,
+         "output_state_properties": {
+             "half": "upper"
+         }
+       }
+     ],
+     
+     "_comment_random": "RANDOMIZATION: Randomly rotate the output block",
+     "randomize_properties": [
+         "facing",
+         "rotation"
+     ],
+ 
+     "_comment_conditions": "NEIGHBORS: Only replace if surroundings match",
+     "neighbors": {
+         "up": "minecraft:air",
+         "down": "minecraft:grass_block"
+     },
+ 
+     "_comment_coords": "COORDINATES: Supports absolute numbers or worldspawn relative values.",
+     "min_y": "60",
+     "max_y": "100",
+     "min_x": "spawn-500",
+     "max_x": "spawn+500",
+     "min_z": "spawn-500",
+     "max_z": "spawn+500",
+ 
+     "_comment_exclusion": "EXCLUSIONS: If the 'not' block matches, the rule is SKIPPED.",
+     "not": {
+       "biomes": ["minecraft:river"]
+     }
+   }
+ ]
+ 

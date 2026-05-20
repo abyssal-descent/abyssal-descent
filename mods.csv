@@ -24,6 +24,8 @@ bookshelf,228525,5423987
 polytone,958094,7261243
 konkrete,410295,5028413
 melody,938643,5109692
+kotlin,351264,7291067
+searchables,858542,5284015
 
 
 # Dev
@@ -35,22 +37,30 @@ you_shall_not_spawn,628744,5820960
 incontrol,257356,7436213
 structurify,1087551,6858579
 biomereplacer,910274,7200634
-blockswap,468893,4598162
+# blockswap,468893,4598162
 itemobliterator,835861,5479898
 custom_item_attributes,965954,5610928
 property_modifier,474822,4661543
 fancy_menu,367706,7256735
 drippy_loading_screen,511770,7248426
+reliable_replacer,1450759,8023331
+reliable_recipes,1414959,8072207
+reliable_remover,1420447,8072221
+reliable_requiem,1521473,8009733
+# configurable_keepinventory,960027,5026355
+# enchantmentdisabler,912326,5382937
+betterf3,401648,4863626
+betteradvancements,272515,5454907
 
 # Utility
 jei,238222,7270446
-emi,580555,6420945
+emi,580555,8081375
 jade,324717,5672013
 appleskin,248787,4770828
-mouse_tweaks,60089,5338457
+mouse_tweaks,60089,5338457F
 xaeros_world_map,317780,7412248
-configurable_keepinventory,960027,5026355
-# enchantmentdisabler,912326,5382937
+xaeros_minimap,263420,8046960
+emi++_forked,1411826,7937655
 
 
 # Performance
@@ -108,6 +118,7 @@ leafs_copper_backport,1313101,7085403
 # enchanting_overhaul,960121,5463023
 ht_tree_chop,421377,5565422
 explorers_compass,491794,4712194
+controlling,250398,4646682
 
 # mobs
 bomd,941573,5067728

@@ -1,0 +1,15 @@
+{
+  "inputs": [
+    "minecraft:bedrock"
+  ],
+  "output": "adresources:bedrock1",
+
+  "dimensions": [
+    "minecraft:overworld"
+  ],
+
+  "probability": 1.0,
+  "retrogen": true,
+  "player_blocks": false,
+  "keep_states": true
+}
