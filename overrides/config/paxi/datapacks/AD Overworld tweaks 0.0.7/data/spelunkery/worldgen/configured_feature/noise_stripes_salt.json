@@ -11,10 +11,27 @@
           }
         },
         "secondary_stone_type": {
-          "type": "minecraft:simple_state_provider",
-          "state": {
-            "Name": "spelunkery:rock_salt_block"
-          }
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 50,
+              "data": {
+                "Name": "galosphere:pink_salt"
+              }
+            },
+            {
+              "weight": 20,
+              "data": {
+                "Name": "galosphere:rose_pink_salt"
+              }
+            },
+            {
+              "weight": 10,
+              "data": {
+                "Name": "galosphere:pastel_pink_salt"
+              }
+            }
+          ]
         },
         "stone_pattern": {
           "noise_seed": 97,
