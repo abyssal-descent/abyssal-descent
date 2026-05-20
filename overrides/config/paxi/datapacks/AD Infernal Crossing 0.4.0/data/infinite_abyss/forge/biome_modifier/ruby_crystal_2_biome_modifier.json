@@ -1,9 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": [
-    "infinite_abyss:first_layer_cavern",
-    "infinite_abyss:second_layer_cavern"
-  ],
-  "features": "infinite_abyss:ruby_crystal_2",
-  "step": "vegetal_decoration"
-}

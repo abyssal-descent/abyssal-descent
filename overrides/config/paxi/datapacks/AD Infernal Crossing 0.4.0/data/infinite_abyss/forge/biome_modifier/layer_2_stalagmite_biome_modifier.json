@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "infinite_abyss:second_layer_cavern",
-  "features": "infinite_abyss:layer_2_stalagmite",
-  "step": "vegetal_decoration"
-}

@@ -7,18 +7,6 @@
       "type": "minecraft:multi_noise",
       "biomes": [
         {
-          "biome": "infinite_abyss:second_layer_cavern",
-          "parameters": {
-            "temperature": -0.1,
-            "humidity": -0.73,
-            "continentalness": -0.8,
-            "erosion": -0.1,
-            "depth": 0,
-            "weirdness": -0.8,
-            "offset": 0
-          }
-        },
-        {
           "biome": "alexscaves:forlorn_hollows",
           "parameters": {
             "temperature": 0.3,

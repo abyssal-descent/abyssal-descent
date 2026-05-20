@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "infinite_abyss:fourth_layer_cavern",
-  "features": "infinite_abyss:cursed_opal_ore",
-  "step": "underground_ores"
-}

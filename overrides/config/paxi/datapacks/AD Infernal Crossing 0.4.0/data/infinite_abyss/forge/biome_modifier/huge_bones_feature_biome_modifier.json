@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "infinite_abyss:second_layer_cavern",
-  "features": "infinite_abyss:huge_bones_feature",
-  "step": "underground_structures"
-}
