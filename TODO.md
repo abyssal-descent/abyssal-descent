@@ -1,10 +1,7 @@
 # Release todo
 
-## Guide
-+ Patchouli
-	- grappling hook essential
-	- make a mention of bedrock1 being breakable only with iron
-	- name book item "We're sorry but you'll need this :)"
+## Advancements
+do progression advancements
 
 ## High Priority Polish
 + make incontrol mob spawns require low light levels
