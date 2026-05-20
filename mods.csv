@@ -9,7 +9,7 @@ yungs_api,421850,5769971
 forgified_fabric_api,889079,6289136
 zeta,968868,5597406
 curios_api,309927,5680164
-moonlightlib,499980,5768751
+moonlightlib,499980,8076692
 citadel,331936,5633260
 obscure_api,638417,4616364
 terrablender,563928,6290448
@@ -26,6 +26,8 @@ konkrete,410295,5028413
 melody,938643,5109692
 kotlin,351264,7291067
 searchables,858542,5284015
+octolib,916747,6274623
+puzzles_lib,495476,6918565
 
 
 # Dev
@@ -61,6 +63,9 @@ mouse_tweaks,60089,5338457
 xaeros_world_map,317780,7412248
 xaeros_minimap,263420,8046960
 emi++_forked,1411826,7937655
+no_recipe_book,738663,5760231
+woodgood,628539,7929077
+yeetus_experimentus,635427,4680832
 
 
 # Performance
@@ -71,11 +76,15 @@ immediatelyfast,686911,6997261
 entity_culling,448233,7167800
 Embeddium_Dynamic_Lights,551736,6044481
 fastworkbench,288885,5101229
+connectivity,470193,7366161
+model_gap_fix,676136,5200949
 
 # Visual
 travelers_titles,504908,5065825
 continuity,531351,5981334
 oculus,581495,6020952
+overflowing_bars,852662,5763974
+pretty_rain,1163800,6411988
 
 # Biomes/Dimensions
 # betternether,311377,4971478
@@ -117,6 +126,7 @@ leafs_copper_backport,1313101,7085403
 ht_tree_chop,421377,5565422
 explorers_compass,491794,4712194
 controlling,250398,4646682
+screenshot_viewer,693961,5343674
 
 # mobs
 bomd,941573,5067728
@@ -125,3 +135,6 @@ alexs_mobs,426558,5698791
 # made_in_abyss:_shroombears,1029082,5390423
 kobolds,484967,5605622
 species,857737,6886321
+
+# qol
+seperated_leaves,905482,6289735
