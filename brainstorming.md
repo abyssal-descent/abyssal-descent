@@ -51,6 +51,9 @@ Slime Tree
 
 Main Tree
 
+0. Punch a Tree
+- 
+
 1. Wood! Yippee!
 - Obtain a wooden pickaxe
 
@@ -91,11 +94,6 @@ Delvers Beginning
 5.
 
 ## Misc achievements
-1. Diamond armor full set!
-equip full diamond armor
 
-2. ThE NeTHeRrRRr
-- get to the nether
-
-3. la la la lava ch ch ch chicken
-- chicken dies in lava
+1. Intentional Game Design (Hidden Achievement)
+- Try to light a Nether Portal
