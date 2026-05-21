@@ -45,6 +45,10 @@ bedrock roof should be weakened root block!
 	- drop high and just have med+ultra?
 + Update mods that need to be updated
 + remove depth gauge
++ Hammer tool tip "Used to mine 3x3 and to smash ingots into plates"
++ add custom loading screen tips,
+	- press "key here" to open Abyssal Descents Custom advancements guide
+	- Abyssal Descent Hammers can be used to mine a 3x3 area
 
 ## mods to look into
 - ascended quark
