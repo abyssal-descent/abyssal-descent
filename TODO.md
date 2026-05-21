@@ -17,10 +17,12 @@
 
 ## Textures
 - Explorers compass retexture
+- Compass Copper retexture
 ---
 # Dimension Work
 
 ## Overworld
++ Compass recipe takes Copper Ingots not Iron
 
 ## Delver's Beginning
 + make small bioshrooms only generate on the right block
