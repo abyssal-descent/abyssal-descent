@@ -15,7 +15,6 @@ import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
-import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
 import java.util.Optional;
 
@@ -26,7 +25,7 @@ public abstract class ItemMixin {
 
 	@Inject(method = "isCorrectToolForDrops", at = @At("HEAD"), cancellable = true)
 	private void onIsCorrectToolForDrops(BlockState state, CallbackInfoReturnable<Boolean> ci) {
-		var id    = BuiltInRegistries.BLOCK.getKey(state.getBlock()).toString();
+		var id = BuiltInRegistries.BLOCK.getKey(state.getBlock()).toString();
 
 		map_id_level(id).ifPresent(level -> {
 			if (this.getItem() instanceof PickaxeItem t && t.getTier().getLevel() >= level) {
@@ -36,11 +35,9 @@ public abstract class ItemMixin {
 		});
 	}
 
-	// theoretically should also work with modded blocks
-	// if there is no need for modded ones a faster approach would be to use Blocks.BLOCK_NAME
 	private static Optional<Integer> map_id_level(String id) {
 		return switch (id) {
-			case 
+			case
 				"minecraft:copper_ore",
 				"spelunkery:granite_copper_ore"
 				-> Optional.of(0);
