@@ -1,0 +1,12 @@
+
+[Tremors]
+	Tremors = true
+	"Tremor Base Intensity" = 1.0
+	"Tremor Base Length" = 200.0
+	"Rumble Interval" = 1200.0
+	"Tremor Volume" = 1.0
+
+["World Generation"]
+	Geysers = true
+	Rocks = true
+

@@ -2,7 +2,7 @@
 
 ## Advancements
 + Armor Tree
-+ Shield Tree (include shield types and benefits)
++ Shield Tree
 + Compass advancement
 + ladder advancement "Infrastructure/hellavator"
 
@@ -13,6 +13,7 @@
 + Anvils - Shift Right click to place items onto anvils
 + Granite Anvil - Used to make Copper Plates
 + Iron Anvil - Used to make plates
++ figure out wtf is adding TWO LAYERS of tooltips.
 
 ## Low priority Polish
 
@@ -28,8 +29,6 @@
 + disable cobblestone armor
 + Improve lead recipe allow also tangle roots? if so make sure tangle roots drop tangle root properly!
 + rename stone shield to copper shield and redo recipe and textures
-+ compass recipe to use iron
-+ disable tremors? maybe move them to infernal crossing?
 + add granite ore veins. make ore gen split 50/50 between granite copper ore veins and stone copper ore veins
 
 
