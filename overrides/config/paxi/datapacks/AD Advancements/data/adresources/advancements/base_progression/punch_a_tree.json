@@ -1,0 +1,40 @@
+{
+  "parent": "adresources:base_progression/root",
+
+  "display": {
+    "icon": {
+      "item": "minecraft:oak_log"
+    },
+    "title": {
+      "text": "Punch A Tree"
+    },
+    "description": {
+      "text": "It all started by punching a tree."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_log": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "tag": "minecraft:logs"
+          }
+        ]
+      }
+    }
+  },
+
+  "requirements": [
+    [
+      "has_log"
+    ]
+  ],
+
+  "sends_telemetry_event": false
+}

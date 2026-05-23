@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:base_progression/yippee_wood",
+
+  "display": {
+    "icon": {
+      "item": "leafscopperbackport:copper_pickaxe"
+    },
+    "title": {
+      "text": "Better Than Stone!"
+    },
+    "description": {
+      "text": "Craft a Copper Pickaxe"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_copper_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "leafscopperbackport:copper_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

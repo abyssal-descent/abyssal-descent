@@ -1,0 +1,90 @@
+{
+  "parent": "adresources:base_progression/iron_pick",
+
+  "display": {
+    "icon": {
+      "item": "minecraft:bedrock"
+    },
+    "title": {
+      "text": "Descent Prep Kit"
+    },
+    "description": {
+      "text": "It is Reccomended to obtain the following before descending into the first layer"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "copper_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["leafscopperbackport:copper_armor_helmet"] }
+        ]
+      }
+    },
+    "copper_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["leafscopperbackport:copper_armor_chestplate"] }
+        ]
+      }
+    },
+    "copper_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["leafscopperbackport:copper_armor_leggings"] }
+        ]
+      }
+    },
+    "copper_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["leafscopperbackport:copper_armor_boots"] }
+        ]
+      }
+    },
+    "iron_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:iron_pickaxe"] }
+        ]
+      }
+    },
+    "iron_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["minecraft:iron_sword"] }
+        ]
+      }
+    },
+    "grapple_hook": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["grapplemod:grapplinghook"] }
+        ]
+      }
+    }
+  },
+
+  "requirements": [
+    [
+      "copper_helmet",
+      "copper_chestplate",
+      "copper_leggings",
+      "copper_boots",
+      "iron_pickaxe",
+      "iron_sword",
+      "grapple_hook"
+    ]
+  ]
+}
