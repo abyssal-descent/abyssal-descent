@@ -1,14 +1,13 @@
 # Release todo
 
 ## Advancements
-do progression advancements
++ Armor Tree
++ Shield Tree (include shield types and benefits)
++ Compass advancement
++ ladder advancement "Infrastructure/hellavator"
 
 ## High Priority Polish
-+ make incontrol mob spawns require low light levels
-+ remove all un neccessary incontrol mob spawns and use forge biome modifiers as much as possible
-+ keepinventory only keep: curios, armour, pickaxe, grappling hook
-+ balance kobold trades, add modded ones perhaps
-+ configurable keep inventory only keeps tools and armor
++ add shields and grapple hooks to reliable requiem
 
 ## Tooltips
 + Anvils - Shift Right click to place items onto anvils
@@ -25,13 +24,22 @@ do progression advancements
 
 ## Overworld
 + Compass recipe takes Copper Ingots not Iron
++ luminous wood recipes: chest, ladders
++ disable cobblestone armor
++ Improve lead recipe allow also tangle roots? if so make sure tangle roots drop tangle root properly!
++ rename stone shield to copper shield and redo recipe and textures
++ compass recipe to use iron
++ disable tremors? maybe move them to infernal crossing?
++ add granite ore veins. make ore gen split 50/50 between granite copper ore veins and stone copper ore veins
+
 
 ## Delver's Beginning
 + make small bioshrooms only generate on the right block
 + reduce frequency of salt spikes
 + add amethyst geodes!
 + Smite on silver swords
-+ disable zombie dungeon
++ fix structure generation!
++ balance kobold trades, add modded ones perhaps
 
 ## The Undergarden
 - fix void blossom structure, void blossom spawns 1 block too high!
