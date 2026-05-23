@@ -26,6 +26,10 @@ konkrete,410295,5028413
 melody,938643,5109692
 kotlin,351264,7291067
 
+cupboard_lib,326652,7905744
+octolib,916747,6274623
+puzzles_lib,495476,6918565
+
 
 # Dev
 paxi,515708,4749994
@@ -66,6 +70,7 @@ connectivity,470193,7366161
 # Visual
 travelers_titles,504908,5065825
 fancy_menu,367706,7256735
+drippy_loading_screen,511770,7248426
 betteradvancements,272515,5454907
 continuity,531351,5981334
 oculus,581495,6020952
@@ -108,8 +113,10 @@ quark_oddities,301051,5070502
 geodeplus,620784,5407755
 organics,411399,4703550
 leafs_copper_backport,1313101,7085403
-ht_tree_chop,421377,5565422
 explorers_compass,491794,4712194
+shield_expansion,583318,7742039
+shield_expansion_expansion,886903,5614571
+woodgood,628539,7929077
 
 # mobs
 bomd,941573,5067728
@@ -125,13 +132,12 @@ betterf3,401648,4863626
 controlling,250398,4646682
 searchables,858542,5284015
 
-# qol
-cupboard_lib,326652,7905744
-octolib,916747,6274623
-puzzles_lib,495476,6918565
+# gameplay
+ht_tree_chop,421377,5565422
 seperated_leaves,905482,6289735
-screenshot_viewer,693961,5343674
-woodgood,628539,7929077
 yeetus_experimentus,635427,4680832
-drippy_loading_screen,511770,7248426
+carry_on,274259,4882500
+
+# extras
+screenshot_viewer,693961,5343674
 model_gap_fix,676136,5200949
