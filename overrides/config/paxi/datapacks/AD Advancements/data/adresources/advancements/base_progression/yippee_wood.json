@@ -16,13 +16,14 @@
     "hidden": false
   },
   "criteria": {
-    "impossible": {
+    "has_wooden_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
-            "item": "minecraft:wooden_pickaxe"
+            "items": [
+              "minecraft:wooden_pickaxe"
+            ]
           }
         ]
       }

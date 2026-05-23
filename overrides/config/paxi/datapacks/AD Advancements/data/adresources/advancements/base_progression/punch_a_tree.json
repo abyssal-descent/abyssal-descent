@@ -9,7 +9,7 @@
       "text": "Punch A Tree"
     },
     "description": {
-      "text": "It all started by punching a tree."
+      "text": "It all started by punching a tree. Crouch while punching to break only one block, and not the whole tree."
     },
     "frame": "task",
     "show_toast": true,

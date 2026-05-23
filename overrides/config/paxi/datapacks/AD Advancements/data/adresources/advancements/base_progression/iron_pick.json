@@ -16,13 +16,14 @@
     "hidden": false
   },
   "criteria": {
-    "impossible": {
+    "has_iron_pickaxe": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
-        "player": [],
         "items": [
           {
-            "item": "minecraft:iron_pickaxe"
+            "items": [
+              "minecraft:iron_pickaxe"
+            ]
           }
         ]
       }
