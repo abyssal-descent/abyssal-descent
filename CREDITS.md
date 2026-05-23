@@ -24,6 +24,7 @@
     - colebot on YT for making great world gen tutorial videos
     - Aimsell for leading the Abyssal Ascent Pack
     - lzxh on Planet Minecraft for creating noodle world noise settings used as a base for ??? Dimension https://www.planetminecraft.com/data-pack/noodle-world-generation-experiment/
+    - ZeykeHas on planet minecraft for their Overachievement resource pack that I ported and edited to work on 1.20.1 with the better advancements mods ui https://www.planetminecraft.com/texture-pack/overchievment/
 
 ## Mods
 Without the work of countless mod authors this pack would have never been possible. I will list some of the most impactful mods used below.
