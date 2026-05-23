@@ -13,6 +13,11 @@
 + balance kobold trades, add modded ones perhaps
 + configurable keep inventory only keeps tools and armor
 
+## Tooltips
++ Anvils - Shift Right click to place items onto anvils
++ Granite Anvil - Used to make Copper Plates
++ Iron Anvil - Used to make plates
+
 ## Low priority Polish
 
 ## Textures
