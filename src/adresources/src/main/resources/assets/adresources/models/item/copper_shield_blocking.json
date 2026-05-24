@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/shield_blocking",
+	"textures": {
+		"particle": "adresources:item/copper_shield"
+	}
+}

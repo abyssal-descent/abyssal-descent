@@ -2,6 +2,7 @@ package AbyssalDescent.adresources;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ShieldItem;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -40,6 +41,9 @@ public class Registry {
 	public static final RegistryObject<Block> HARDENED_ROOT_BLOCK =
 		register_block_with("hardened_root_block", () -> new HardenedRootBlock());
 
+	public static final RegistryObject<Item> COPPER_SHIELD =
+		ITEMS.register("copper_shield", () -> new ShieldItem(new Item.Properties().durability(110)));
+
 	public static final RegistryObject<Item> EMPTY_FORGOTTEN_BOTTLE =
 		ITEMS.register("empty_forgotten_bottle", () -> new Item(new Item.Properties().fireResistant()));
 	public static final RegistryObject<Item> ACID_BOTTLE =
@@ -50,7 +54,6 @@ public class Registry {
 		ITEMS.register("rough_utherium_crystal", () -> new Item(new Item.Properties()));
 	public static final RegistryObject<Item> ROUGH_REGALIUM_CRYSTAL =
 		ITEMS.register("rough_regalium_crystal", () -> new Item(new Item.Properties()));
-
 
 	public static final RegistryObject<CureItem> THE_CURE =
 		ITEMS.register("the_cure", () -> new CureItem(new Item.Properties()));
