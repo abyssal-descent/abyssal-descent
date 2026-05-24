@@ -57,6 +57,11 @@
       "minecraft:stone_shovel",
       "minecraft:stone_hoe",
 
+      "organics:cobblestone_boots",
+      "organics:cobblestone_chestplate",
+      "organics:cobblestone_helmet",
+      "organics:cobblestone_leggings",
+
       "galosphere:sterling_boots",
       "galosphere:sterling_chestplate",
       "galosphere:sterling_helmet",
