@@ -38,7 +38,6 @@
 + reduce frequency of salt spikes
 + add amethyst geodes!
 + Smite on silver swords
-+ fix structure generation!
 + balance kobold trades, add modded ones perhaps
 
 ## The Undergarden
