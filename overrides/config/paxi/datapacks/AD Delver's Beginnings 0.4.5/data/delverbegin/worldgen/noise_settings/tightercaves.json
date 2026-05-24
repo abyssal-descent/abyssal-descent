@@ -38,7 +38,7 @@
                   "from_value": 0,
                   "from_y": -8,
                   "to_value": 1,
-                  "to_y": 15
+                  "to_y": 32
                 },
                 "argument2": {
                   "type": "minecraft:add",
@@ -57,7 +57,7 @@
                       },
                       "argument2": {
                         "type": "minecraft:add",
-                        "argument1": -1,
+                        "argument1": -0.95,
                         "argument2": "minecraft:nether/base_3d_noise"
                       }
                     }
