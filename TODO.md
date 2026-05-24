@@ -8,6 +8,8 @@
 
 ## High Priority Polish
 + add shields and grapple hooks to reliable requiem
++ Baked enchants using quark config i.e silver sword has smite
++ discuss chisel item from spelunkery
 
 ## Tooltips
 + Anvils - Shift Right click to place items onto anvils
@@ -20,24 +22,19 @@
 
 ## Textures
 - Explorers compass retexture
-- Compass Copper retexture
 ---
 # Dimension Work
 
 ## Overworld
-+ Compass recipe takes Copper Ingots not Iron
 + luminous wood recipes: chest, ladders
-+ disable cobblestone armor
 + Improve lead recipe allow also tangle roots? if so make sure tangle roots drop tangle root properly!
-+ rename stone shield to copper shield and redo recipe and textures
-+ add granite ore veins. make ore gen split 50/50 between granite copper ore veins and stone copper ore veins
++ add copper shield item
 
 
 ## Delver's Beginning
 + make small bioshrooms only generate on the right block
 + reduce frequency of salt spikes
 + add amethyst geodes!
-+ Smite on silver swords
 + balance kobold trades, add modded ones perhaps
 
 ## The Undergarden
