@@ -4,14 +4,15 @@
   "step": "underground_structures",
   "start_pool": "betterdungeons:small_dungeon",
   "start_jigsaw_name": "betterdungeons:small_dungeon_anchor",
+  "terrain_adaptation": "bury",
   "size": 10,
   "start_height": {
     "type": "minecraft:uniform",
     "min_inclusive": {
-      "absolute": 30
+      "absolute": 10
     },
     "max_inclusive": {
-      "absolute": 108
+      "absolute": 110
     }
   },
   "use_expansion_hack": false,

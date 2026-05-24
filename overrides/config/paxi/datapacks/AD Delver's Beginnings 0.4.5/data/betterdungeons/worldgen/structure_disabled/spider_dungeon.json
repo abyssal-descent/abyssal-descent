@@ -2,13 +2,14 @@
   "type": "betterdungeons:spider_dungeon",
   "biomes": "#delverbegin:is_delversbegin",
   "step": "underground_structures",
+  "terrain_adaptation": "bury",
   "start_height": {
     "type": "minecraft:uniform",
     "min_inclusive": {
-      "absolute": 30
+      "absolute": 70
     },
     "max_inclusive": {
-      "absolute": 108
+      "absolute": 71
     }
   },
   "spawn_overrides": {

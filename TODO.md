@@ -16,6 +16,7 @@
 + figure out wtf is adding TWO LAYERS of tooltips.
 
 ## Low priority Polish
++ rotten flesh to leather recipe
 
 ## Textures
 - Explorers compass retexture
