@@ -9,6 +9,6 @@
     },
     "start_pool": "epic:small_ice_dungeon",
     "step": "underground_structures",
-    "terrain_adaptation": "none",
+    "terrain_adaptation": "bury",
     "use_expansion_hack": true
 }

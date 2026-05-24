@@ -5,10 +5,10 @@
     "size": 3,
     "spawn_overrides": {},
     "start_height": {
-        "absolute": -25
+        "absolute": 10
     },
     "start_pool": "epic:medium_ice_dungeon",
     "step": "underground_structures",
-    "terrain_adaptation": "none",
+    "terrain_adaptation": "bury",
     "use_expansion_hack": true
 }

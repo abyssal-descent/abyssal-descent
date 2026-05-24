@@ -5,10 +5,16 @@
     "size": 7,
     "spawn_overrides": {},
     "start_height": {
-        "absolute": 10
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 10
     },
+    "max_inclusive": {
+      "absolute": 110
+    }
+  },
     "start_pool": "epic:large_dungeon",
     "step": "underground_structures",
-    "terrain_adaptation": "none",
+    "terrain_adaptation": "bury",
     "use_expansion_hack": true
 }
