@@ -11,5 +11,10 @@
    "item.adresources.rough_regalium_crystal": "Rough Regalium Crystal",
    "item.adresources.hardened_root_block": "Hardened Root Block",
    "item.adresources.the_cure": "The Cure",
-	"item.adresources.copper_shield": "Copper Shield"
+	"item.adresources.copper_shield": "Copper Shield",
+
+	"tooltip.adresources.granite_anvil": "Shift Right click to place items onto anvils",
+	"tooltip.minecraft.anvil":           "Shift Right click to place items onto anvils",
+	"tooltip.minecraft.chipped_anvil":   "Shift Right click to place items onto anvils",
+	"tooltip.minecraft.damaged_anvil":   "Shift Right click to place items onto anvils"
 }

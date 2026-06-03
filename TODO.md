@@ -11,12 +11,6 @@
 + rename vanilla shield to copper
 + shields require plates
 
-## Tooltips
-+ Anvils - Shift Right click to place items onto anvils
-+ Granite Anvil - Used to make Copper Plates
-+ Iron Anvil - Used to make plates
-+ figure out wtf is adding TWO LAYERS of tooltips.
-
 ## Low priority Polish
 + rotten flesh to leather recipe
 
