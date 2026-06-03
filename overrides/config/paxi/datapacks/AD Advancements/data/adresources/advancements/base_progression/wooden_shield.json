@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:base_progression/punch_a_tree",
+
+  "display": {
+    "icon": {
+      "item": "shieldexp:wooden_shield"
+    },
+    "title": {
+      "text": "Shields?"
+    },
+    "description": {
+      "text": "Craft a wooden shield"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "shieldexp:wooden_shield"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

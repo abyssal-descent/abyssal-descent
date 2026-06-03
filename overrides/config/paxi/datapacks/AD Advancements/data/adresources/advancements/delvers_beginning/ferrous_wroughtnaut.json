@@ -1,0 +1,33 @@
+{
+  "parent": "adresources:delvers_beginning/root",
+  "display": {
+    "icon": {
+      "item": "mowziesmobs:wrought_helmet"
+    },
+    "title": {
+      "text": "Slay the Ferrous Wroughtnaut"
+    },
+    "description": {
+      "text": "Defeat the Ferrous Wroughtnaut in combat."
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "killed_ferrous_wroughtnaut": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "entity": {
+          "type": "mowziesmobs:ferrous_wroughtnaut"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "killed_ferrous_wroughtnaut"
+    ]
+  ]
+}

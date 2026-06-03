@@ -1,0 +1,37 @@
+{
+  "parent": "adresources:base_progression/copper_armor",
+
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_chestplate"
+    },
+    "title": {
+      "text": "Iron Armor"
+    },
+    "description": {
+      "text": "Craft any piece of Iron Armor"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_boots",
+              "minecraft:iron_chestplate",
+              "minecraft:iron_helmet",
+              "minecraft:iron_leggings"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

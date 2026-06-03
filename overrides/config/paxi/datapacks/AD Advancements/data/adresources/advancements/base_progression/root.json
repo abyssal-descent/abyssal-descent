@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:stone"
+      "item": "minecraft:grass_block"
     },
     "title": "Basics & Progression",
-    "description": "aaa",
+    "description": "serves, If you're ever lost come back here to see what to do next!",
     "background": "minecraft:textures/block/stripped_dark_oak_log.png",
     "frame": "task",
     "show_toast": false,
