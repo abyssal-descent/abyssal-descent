@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "undergarden:deepturf_block"
+    },
+    "title": "The Undergarden",
+    "description": "Guides you through the custom Abyssal Descent Undergarden progression.",
+    "background": "undergarden:textures/block/depthrock_bricks.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

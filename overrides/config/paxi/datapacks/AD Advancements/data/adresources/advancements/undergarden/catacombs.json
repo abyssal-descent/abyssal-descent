@@ -1,0 +1,42 @@
+{
+  "parent": "adresources:undergarden/explorers_compass",
+  "criteria": {
+    "enter_catacombs": {
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "undergarden:catacombs"
+              }
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:location"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Locate and enter the catacombs structure in the Undergarden."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "undergarden:depthrock_brick_stairs"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The Catacombs"
+    }
+  },
+  "requirements": [
+    [
+      "enter_catacombs"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

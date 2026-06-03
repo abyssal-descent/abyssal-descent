@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:undergarden/ask_not",
+
+  "display": {
+    "icon": {
+      "item": "undergarden:forgotten_pickaxe"
+    },
+    "title": {
+      "text": "Forgotten Pickaxe"
+    },
+    "description": {
+      "text": "Trade a Cloggrum Pickaxe and Forgotten Ingot with a stoneborn to obtain a Forgotten Pickaxe."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergarden:forgotten_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

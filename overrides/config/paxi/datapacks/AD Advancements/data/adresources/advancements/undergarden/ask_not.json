@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:undergarden/root",
+
+  "display": {
+    "icon": {
+      "item": "undergarden:cloggrum_pickaxe"
+    },
+    "title": {
+      "text": "Ask not what this pickaxe can do for you..."
+    },
+    "description": {
+      "text": "Ask what you can do for this pickaxe! Obtain the lame Cloggrum Pickaxe. It isn't very good, but it might be useful for something?"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "undergarden:cloggrum_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
