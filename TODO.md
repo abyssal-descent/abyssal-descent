@@ -13,6 +13,8 @@
 
 ## Low priority Polish
 + rotten flesh to leather recipe
++ rock salt advancement
++ remove extra structures from explorers compass
 
 ## Textures
 - Explorers compass retexture
