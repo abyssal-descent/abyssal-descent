@@ -1,15 +1,15 @@
 # Release todo
 
 ## Advancements
-+ Armor Tree
-+ Shield Tree
 + Compass advancement
 + ladder advancement "Infrastructure/hellavator"
 
 ## High Priority Polish
 + add shields and grapple hooks to reliable requiem
 + Baked enchants using quark config i.e silver sword has smite
-+ discuss chisel item from spelunkery
++ remove chisel item from spelunkery
++ rename vanilla shield to copper
++ shields require plates
 
 ## Tooltips
 + Anvils - Shift Right click to place items onto anvils
@@ -27,7 +27,6 @@
 
 ## Overworld
 + luminous wood recipes: chest, ladders
-+ Improve lead recipe allow also tangle roots? if so make sure tangle roots drop tangle root properly!
 + add copper shield item
 
 
