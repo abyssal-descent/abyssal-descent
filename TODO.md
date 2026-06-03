@@ -10,6 +10,7 @@
 + remove chisel item from spelunkery
 + rename vanilla shield to copper
 + shields require plates
++ Decrease slime spawn rate
 
 ## Low priority Polish
 + rotten flesh to leather recipe
