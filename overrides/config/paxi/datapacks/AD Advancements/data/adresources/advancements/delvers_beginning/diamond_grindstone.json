@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:delvers_beginning/diamonds",
+
+  "display": {
+    "icon": {
+      "item": "spelunkery:diamond_grindstone"
+    },
+    "title": {
+      "text": "Refined Gem Grinding"
+    },
+    "description": {
+      "text": "Craft a Diamond Grindstone, an upgraded grindstone that can polish diamond gems and above. Use Rough diamond shards to restore it"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:diamond_grindstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
