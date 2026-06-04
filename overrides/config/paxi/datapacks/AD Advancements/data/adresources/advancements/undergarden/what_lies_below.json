@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:undergarden/bottle_it_up",
+
+  "display": {
+    "icon": {
+      "item": "adresources:bedrock3"
+    },
+    "title": {
+      "text": "What lies below?"
+    },
+    "description": {
+      "text": "Using an Acid bottle; right click a hardened root block at the bottom of the undergarden to weaken it, then mine it with the forgotten pickaxe, repeat and mine downwards until you gain access to the Infernal Crossing!"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adresources:bedrock3"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "parent": "adresources:undergarden/root",
+
+  "display": {
+    "icon": {
+      "item": "undergarden:depthrock_regalium_ore"
+    },
+    "title": {
+      "text": "Stoneborns Favorite!"
+    },
+    "description": {
+      "text": "Mine regalium ore or trade with a Stoneborn to obtain regalium."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adresources:rough_regalium_crystal",
+              "undergarden:regalium_crystal"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

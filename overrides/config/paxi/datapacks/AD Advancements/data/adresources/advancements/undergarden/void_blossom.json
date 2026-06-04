@@ -19,7 +19,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Locate and enter the Void Blossoms lurking at the bottom of The Undergarden."
+      "text": "Locate the Void Blossom at the bottom of the undergarden with the explorers compass"
     },
     "frame": "task",
     "hidden": false,
