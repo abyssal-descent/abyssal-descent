@@ -6,10 +6,10 @@
       "item": "organics:planks_chestplate"
     },
     "title": {
-      "text": "Wooden Armor"
+      "text": "Wooden Plank Armor"
     },
     "description": {
-      "text": "Craft any piece of Wooden Armor, A little extra protection for the early game."
+      "text": "Craft any piece of Wooden Plank Armor, A little extra protection for the early game!"
     },
     "frame": "task",
     "show_toast": true,
