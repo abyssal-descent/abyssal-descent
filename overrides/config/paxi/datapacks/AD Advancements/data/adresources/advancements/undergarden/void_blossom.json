@@ -19,7 +19,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Locate the Void Blossom at the bottom of the undergarden with the explorers compass"
+      "text": "Locate the Void Blossom at the bottom of the undergarden with the explorers compass."
     },
     "frame": "task",
     "hidden": false,

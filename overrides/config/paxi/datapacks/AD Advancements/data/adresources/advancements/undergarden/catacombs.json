@@ -21,7 +21,7 @@
   "display": {
     "announce_to_chat": true,
     "description": {
-      "text": "Locate and enter the catacombs structure in the Undergarden."
+      "text": "Locate and enter the undergarden catacombs structure."
     },
     "frame": "task",
     "hidden": false,
