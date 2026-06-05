@@ -5,7 +5,6 @@
 + ladder advancement "Infrastructure/hellavator"
 
 ## High Priority Polish
-+ add shields and grapple hooks to reliable requiem
 + Baked enchants using quark config i.e silver sword has smite
 + remove chisel item from spelunkery
 + rename vanilla shield to copper

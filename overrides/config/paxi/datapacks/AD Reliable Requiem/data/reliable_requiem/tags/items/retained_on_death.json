@@ -5,6 +5,17 @@
     "#minecraft:axes",
     "#minecraft:shovels",
     "#minecraft:hoes",
-    "#minecraft:swords"
+    "#minecraft:swords",
+    "minecraft:shield",
+    "grapplemod:grapllinghook",
+    "shieldexp:wooden_shield",
+    "shieldexp:iron_shield",
+    "shieldexp:golden_shield",
+    "shieldexp:diamond_shield",
+    "shieldexp:netherite_shield",
+    "species:ricoshield",
+    "undergarden:cloggrum_shield",
+    "alexscaves:resistor_shield",
+    "alexscaves:shield_of_deep"
   ]
 }
