@@ -1,0 +1,29 @@
+{
+  "parent": "adresources:infernal_crossing/root",
+  "display": {
+    "icon": {
+      "item": "species:ghoul_head"
+    },
+    "title": {
+      "text": "Bloodlust"
+    },
+    "description": {
+      "text": "You're craving something else... Kill mobs to refill your hunger bar while afflicted with bloodlust."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "get_bloodlust": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "player": [],
+        "effects": {
+          "species:bloodlust": {}
+        }
+      }
+    }
+  }
+}

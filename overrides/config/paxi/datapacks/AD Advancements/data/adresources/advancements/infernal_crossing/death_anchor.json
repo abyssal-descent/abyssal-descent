@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:infernal_crossing/bronze_ingot",
+
+  "display": {
+    "icon": {
+      "item": "darkerdepths:death_anchor"
+    },
+    "title": {
+      "text": "Death Anchor"
+    },
+    "description": {
+      "text": "Craft a Death Anchor with amber and void soul jars."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "darkerdepths:death_anchor"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

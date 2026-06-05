@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:infernal_crossing/amber",
+
+  "display": {
+    "icon": {
+      "item": "darkerdepths:void_soul_jar"
+    },
+    "title": {
+      "text": "Void Soul Jar"
+    },
+    "description": {
+      "text": "Craft a Void Soul Jar an important end game recipe item. Can also be obtained by right clicking a Void Soul with a bottle."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "darkerdepths:void_soul_jar"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
