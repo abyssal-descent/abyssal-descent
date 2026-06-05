@@ -3,6 +3,7 @@ package AbyssalDescent.adresources;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ShieldItem;
+import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -20,10 +21,13 @@ public class Registry {
 		DeferredRegister.create(ForgeRegistries.BLOCKS, ADResources.MODID);
 	public static final DeferredRegister<Item> ITEMS = 
 		DeferredRegister.create(ForgeRegistries.ITEMS, ADResources.MODID);
+	public static final DeferredRegister<Enchantment> ENCHANTMENTS =
+		DeferredRegister.create(ForgeRegistries.ENCHANTMENTS, ADResources.MODID);
 
 	public Registry(IEventBus bus) {
 		BLOCKS.register(bus);
 		ITEMS.register(bus);
+		ENCHANTMENTS.register(bus);
 	}
 
 	public static final RegistryObject<SemaphoreBlock> BEDROCK1 = register_semaphore_block("bedrock1", 2);
@@ -57,6 +61,9 @@ public class Registry {
 
 	public static final RegistryObject<CureItem> THE_CURE =
 		ITEMS.register("the_cure", () -> new CureItem(new Item.Properties()));
+
+	public static final RegistryObject<Withering.WitheringEnchantment> WITHERING_ENCHANTMENT =
+		ENCHANTMENTS.register("withering", Withering.WitheringEnchantment::new);
 
 	private static RegistryObject<Block> register_block_with(String name, Supplier<Block> fn) {
 		var block = BLOCKS.register(name, fn);

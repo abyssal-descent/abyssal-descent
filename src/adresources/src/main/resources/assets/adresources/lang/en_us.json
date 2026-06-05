@@ -12,6 +12,7 @@
    "item.adresources.hardened_root_block": "Hardened Root Block",
    "item.adresources.the_cure": "The Cure",
 	"item.adresources.copper_shield": "Copper Shield",
+	"enchantment.adresources.withering": "Withering",
 
 	"tooltip.adresources.granite_anvil": "Shift Right click to place items onto anvils",
 	"tooltip.minecraft.anvil":           "Shift Right click to place items onto anvils",
