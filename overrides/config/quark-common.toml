@@ -627,7 +627,8 @@
 			"caverns_and_chasms:silver_axe+smite@2",
 			"caverns_and_chasms:silver_pickaxe+smite@2",
 			"caverns_and_chasms:silver_shovel+smite@2",
-			"caverns_and_chasms:silver_hoe+smite@2"
+			"caverns_and_chasms:silver_hoe+smite@2",
+			"darkerdepths:stiletto+adresources:withering@2"
 		]
 
 	[tweaks.grab_chickens]
