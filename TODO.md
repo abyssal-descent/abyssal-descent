@@ -78,3 +78,4 @@ bedrock roof should be weakened root block!
 - rewrite current in-house mods to kotlin or clojure (hopefully clojure :L)
 - Disable Aether tips
 - Remove clouds from the Aether.
+- Oil + Ruins in Ice Layer. Scarse and dangerous creatures that are not meant to be killed.
