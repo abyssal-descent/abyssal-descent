@@ -1,0 +1,12 @@
+{
+  "type": "emixx:group",
+  "contents": [
+    "shieldexp:wooden_shield",
+    "minecraft:shield",
+    "shieldexp:iron_shield",
+    "shieldexp:golden_shield",
+    "shieldexp:diamond_shield",
+    "shieldexp:netherite_shield",
+	  "species:ricoshield"
+  ]
+}
