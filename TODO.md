@@ -5,11 +5,9 @@
 + ladder advancement "Infrastructure/hellavator"
 
 ## High Priority Polish
-+ Baked enchants using quark config i.e silver sword has smite
-+ remove chisel item from spelunkery
 + rename vanilla shield to copper
-+ shields require plates
 + Decrease slime spawn rate
++ disable quark chest sigh
 
 ## Low priority Polish
 + rotten flesh to leather recipe
@@ -23,8 +21,6 @@
 
 ## Overworld
 + luminous wood recipes: chest, ladders
-+ add copper shield item
-
 
 ## Delver's Beginning
 + make small bioshrooms only generate on the right block
@@ -36,7 +32,7 @@
 - fix void blossom structure, void blossom spawns 1 block too high!
 
 ## Infernal Crossing
-bedrock roof should be weakened root block!
+
 ---
 
 ## Final Touches
@@ -60,7 +56,7 @@ bedrock roof should be weakened root block!
 - farsight
 - pack analytics
 - all BMC4 Performance mods
-- shield expansion (fork?)
+- shield expansion expansion
 - ui polish
 - xaerosplus
 + QOL Mods
