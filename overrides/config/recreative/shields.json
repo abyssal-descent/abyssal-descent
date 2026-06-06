@@ -1,0 +1,36 @@
+[
+  {
+    "action": "modify_tab",
+    "tabs": ["minecraft:combat"],
+    "add_items": [
+      {
+        "item": "shieldexp:wooden_shield",
+        "before": "minecraft:trident"
+      },
+      {
+        "item": "minecraft:shield",
+        "before": "minecraft:trident"
+      },
+      {
+        "item": "shieldexp:iron_shield",
+        "before": "minecraft:trident"
+      },
+      {
+        "item": "shieldexp:golden_shield",
+        "before": "minecraft:trident"
+      },
+      {
+        "item": "shieldexp:diamond_shield",
+        "before": "minecraft:trident"
+      },
+      {
+        "item": "shieldexp:netherite_shield",
+        "before": "minecraft:trident"
+      },
+      {
+        "item": "species:ricoshield",
+        "before": "minecraft:trident"
+      }
+    ]
+  }
+]

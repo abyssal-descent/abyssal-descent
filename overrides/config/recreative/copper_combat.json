@@ -1,0 +1,16 @@
+[
+  {
+    "action": "modify_tab",
+    "tabs": ["minecraft:combat"],
+    "add_items": [
+      {
+        "item": "leafscopperbackport:copper_sword",
+        "after": "minecraft:wooden_sword"
+      },
+      {
+        "item":"leafscopperbackport:copper_axe",
+        "after":"minecraft:wooden_axe"
+      }
+    ]
+  }
+]

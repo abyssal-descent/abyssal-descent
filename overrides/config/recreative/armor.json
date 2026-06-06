@@ -1,0 +1,24 @@
+[
+  {
+    "action": "modify_tab",
+    "tabs": ["minecraft:combat"],
+    "add_items": [
+      {
+        "item": "leafscopperbackport:copper_armor_boots",
+        "after": "minecraft:chainmail_boots"
+      },
+      {
+        "item": "leafscopperbackport:copper_armor_leggings",
+        "after": "minecraft:chainmail_boots"
+      },
+      {
+        "item": "leafscopperbackport:copper_armor_chestplate",
+        "after": "minecraft:chainmail_boots"
+      },
+      {
+        "item": "leafscopperbackport:copper_armor_helmet",
+        "after": "minecraft:chainmail_boots"
+      }
+    ]
+  }
+]

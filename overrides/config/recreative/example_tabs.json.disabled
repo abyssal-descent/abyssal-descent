@@ -1,0 +1,23 @@
+[
+    {
+        "action": "remove_tab",
+        "tabs": ["minecraft:example_tab"]
+    },
+    {
+        "action": "modify_tab",
+        "tabs": ["minecraft:combat"],
+        "name": "Custom Combat Name",
+        "icon": "minecraft:netherite_sword",
+        "remove_items": ["minecraft:wooden_sword"]
+    },
+    {
+        "action": "custom_tab",
+        "tabs": ["recreative:my_custom_tab"],
+        "name": "My Custom Tab",
+        "icon": "minecraft:emerald",
+        "items": [
+            "minecraft:diamond",
+            "minecraft:gold_ingot"
+        ]
+    }
+]
