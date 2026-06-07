@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:base_progression/yippee_wood",
+
+  "display": {
+    "icon": {
+      "item": "minecraft:compass"
+    },
+    "title": {
+      "text": "Compass"
+    },
+    "description": {
+      "text": "Craft a Compass out of Copper and Redstone. Keep it in your hotbar for a minimap to appear in the corner of your screen!"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:compass"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
