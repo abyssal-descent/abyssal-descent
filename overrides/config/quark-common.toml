@@ -134,10 +134,10 @@
 	Stools = true
 	"Sturdy Stone" = true
 	Thatch = true
-	"Variant Bookshelves" = true
-	"Variant Chests" = true
-	"Variant Furnaces" = true
-	"Variant Ladders" = true
+	"Variant Bookshelves" = false
+	"Variant Chests" = false
+	"Variant Furnaces" = false
+	"Variant Ladders" = false
 	"Vertical Planks" = true
 	"Vertical Slabs" = true
 	"Wooden Posts" = true
