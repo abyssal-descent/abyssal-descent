@@ -1,0 +1,36 @@
+{
+  "parent": "adresources:base_progression/anvil",
+
+  "display": {
+    "icon": {
+      "item": "spelunkery:salt"
+    },
+    "title": {
+      "text": "Pink Salt"
+    },
+    "description": {
+      "text": "Mine any Pink salt block, commonly found in mountain biomes or higher than sea level areas. Also found in Delvers Begginings"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "galosphere:pink_salt",
+              "galosphere:rose_pink_salt",
+              "galosphere:pastel_pink_salt"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
