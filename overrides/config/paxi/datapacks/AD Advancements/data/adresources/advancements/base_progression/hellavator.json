@@ -1,15 +1,15 @@
 {
-  "parent": "adresources:base_progression/slime",
+  "parent": "adresources:base_progression/yippee_wood",
 
   "display": {
     "icon": {
-      "item": "spelunkery:glowstick"
+      "item": "minecraft:ladder"
     },
     "title": {
-      "text": "Sticks that Glow"
+      "text": "Hellavator"
     },
     "description": {
-      "text": "Craft your first glowstick. Useful for lighting up hard to see places. Comes in all colors!"
+      "text": "Craft a Ladder, It is reccomended to mine a hole straight down with a ladder going allll the way up for easy access to each layer!"
     },
     "frame": "task",
     "show_toast": true,
@@ -18,13 +18,13 @@
   },
 
   "criteria": {
-    "has_glowstick": {
+    "has_item": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
             "items": [
-              "spelunkery:glowstick"
+              "minecraft:ladder"
             ]
           }
         ]
