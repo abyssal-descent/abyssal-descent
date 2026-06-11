@@ -1,0 +1,15 @@
+
+{
+  "type": "emixx:group",
+  "contents": [
+        "adhammers:copper_hammer",
+        "adhammers:iron_hammer",
+        "adhammers:silver_hammer",
+        "adhammers:gold_hammer",
+        "adhammers:diamond_hammer",
+        "adhammers:netherite_hammer",
+        "adhammers:cloggrum_hammer",
+        "adhammers:froststeel_hammer",
+        "adhammers:utherium_hammer"
+  ]
+}

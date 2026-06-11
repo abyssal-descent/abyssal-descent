@@ -1,0 +1,9 @@
+{
+  "type": "emixx:group",
+  "contents": [
+    {
+      "type": "item",
+      "id": "quark:ancient_tome"
+    }
+  ]
+}

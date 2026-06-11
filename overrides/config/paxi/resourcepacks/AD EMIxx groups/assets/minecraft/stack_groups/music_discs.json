@@ -1,0 +1,35 @@
+
+{
+  "type": "emixx:group",
+  "contents": [
+        "minecraft:music_disc_13",
+        "minecraft:music_disc_cat",
+        "minecraft:music_disc_blocks",
+        "minecraft:music_disc_chirp",
+        "minecraft:music_disc_far",
+        "minecraft:music_disc_mall",
+        "minecraft:music_disc_mellohi",
+        "minecraft:music_disc_stal",
+        "minecraft:music_disc_strad",
+        "minecraft:music_disc_ward",
+        "minecraft:music_disc_11",
+        "minecraft:music_disc_wait",
+        "minecraft:music_disc_pigstep",
+        "minecraft:music_disc_otherside",
+        "minecraft:music_disc_5",
+        "minecraft:music_disc_relic",
+        "caverns_and_chasms:music_disc_epilogue",
+        "quark:music_disc_endermosh",
+        "quark:music_disc_chatter",
+        "quark:music_disc_crickets",
+        "quark:music_disc_clock",
+        "quark:music_disc_fire",
+        "quark:music_disc_wind",
+        "quark:music_disc_rain",
+        "quark:music_disc_ocean",
+        "quark:music_disc_drips",
+        "species:music_disc_dial",
+        "species:music_disc_lapidarian",
+        "species:music_disk_spawner"
+  ]
+}
