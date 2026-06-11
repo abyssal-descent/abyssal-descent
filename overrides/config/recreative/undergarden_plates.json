@@ -1,0 +1,20 @@
+[
+  {
+    "action": "modify_tab",
+    "tabs": ["undergarden:undergarden_group"],
+    "add_items": [
+     {
+        "item": "adhammers:cloggrum_plate",
+        "after": "undergarden:cloggrum_ingot"
+      },
+      {
+        "item": "adhammers:froststeel_plate",
+        "after": "undergarden:froststeel_ingot"
+      },
+      {
+        "item": "adhammers:utherium_plate",
+        "after": "undergarden:utherium_crystal"
+      }
+    ]
+  }
+]
