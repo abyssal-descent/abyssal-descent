@@ -1,0 +1,28 @@
+[
+  {
+    "action": "modify_tab",
+    "tabs": ["minecraft:ingridients"],
+    "add_items": [
+      {
+        "item": "adhammers:copper_plate",
+        "before": "minecraft:stick"
+      },
+      {
+        "item": "adhammers:iron_plate",
+        "before": "minecraft:stick"
+      },
+      {
+        "item": "adhammers:gold_plate",
+        "before": "minecraft:stick"
+      },
+      {
+        "item": "adhammers:diamond_plate",
+        "before": "minecraft:stick"
+      },
+      {
+        "item": "adhammers:netherite_plate",
+        "before": "minecraft:stick"
+      }
+    ]
+  }
+]
