@@ -40,17 +40,21 @@ public class AnvilBE extends BlockEntity {
 		record Pair<A, B>(A a, B b){}
 
 		var plates = List.of(
-			new Pair<>(Items.COPPER_INGOT,                                 ADHammers.COPPER_PLATE.get()      ),
-			new Pair<>(Items.IRON_INGOT,                                   ADHammers.IRON_PLATE.get()        ),
-			new Pair<>(Items.GOLD_INGOT,                                   ADHammers.GOLD_PLATE.get()        ),
-			new Pair<>(Items.DIAMOND,                                      ADHammers.DIAMOND_PLATE.get()     ),
-			new Pair<>(Items.NETHERITE_INGOT,                              ADHammers.NETHERITE_PLATE.get()   ),
-			new Pair<>(Resolve.item("caverns_and_chasms", "silver_ingot"), ADHammers.SILVER_PLATE.get()      ),
-			new Pair<>(Resolve.item("undergarden",  "cloggrum_ingot"    ), ADHammers.CLOGGRUM_PLATE.get()    ),
-			new Pair<>(Resolve.item("undergarden",  "froststeel_ingot"  ), ADHammers.FROSTSTEEL_PLATE.get()  ),
-			new Pair<>(Resolve.item("undergarden",  "utherium_crystal"  ), ADHammers.UTHERIUM_PLATE.get()    ),
-			new Pair<>(Resolve.item("betternether", "nether_ruby"       ), ADHammers.NETHER_RUBY_PLATE.get() ),
-			new Pair<>(Resolve.item("betternether", "cincinnasite_ingot"), ADHammers.CINCINNASITE_PLATE.get())
+			new Pair<>(Items.COPPER_INGOT,                              ADHammers.COPPER_PLATE.get()      ),
+			new Pair<>(Items.IRON_INGOT,                                ADHammers.IRON_PLATE.get()        ),
+			new Pair<>(Items.GOLD_INGOT,                                ADHammers.GOLD_PLATE.get()        ),
+			new Pair<>(Items.DIAMOND,                                   ADHammers.DIAMOND_PLATE.get()     ),
+			new Pair<>(Items.NETHERITE_INGOT,                           ADHammers.NETHERITE_PLATE.get()   ),
+			new Pair<>(Resolve.item("caverns_and_chasms:silver_ingot"), ADHammers.SILVER_PLATE.get()      ),
+			new Pair<>(Resolve.item("undergarden:cloggrum_ingot"     ), ADHammers.CLOGGRUM_PLATE.get()    ),
+			new Pair<>(Resolve.item("undergarden:froststeel_ingot"   ), ADHammers.FROSTSTEEL_PLATE.get()  ),
+			new Pair<>(Resolve.item("undergarden:utherium_crystal"   ), ADHammers.UTHERIUM_PLATE.get()    ),
+			new Pair<>(Resolve.item("betternether:nether_ruby"       ), ADHammers.NETHER_RUBY_PLATE.get() ),
+			new Pair<>(Resolve.item("betternether:cincinnasite_ingot"), ADHammers.CINCINNASITE_PLATE.get()),
+
+			new Pair<>(Resolve.item("galosphere:pink_salt"           ), Resolve.item("spelunkery:salt")   ),
+			new Pair<>(Resolve.item("galosphere:rose_pink_salt"      ), Resolve.item("spelunkery:salt")   ),
+			new Pair<>(Resolve.item("galosphere:pastel_pink_salt"    ), Resolve.item("spelunkery:salt")   )
 		);
 
 		for (var plate : plates) {

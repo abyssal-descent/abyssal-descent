@@ -47,17 +47,17 @@ public class ADHammers {
 	public static final RegistryObject<Hammer> GOLD_HAMMER = ITEMS.register("gold_hammer", () ->
 		new Hammer(new Hammer.Material(2, 375, 7.0f, Items.GOLD_INGOT), 7.0f)); // pickaxe*0.5+1.0 for this
 	public static final RegistryObject<Hammer> SILVER_HAMMER = ITEMS.register("silver_hammer", () ->
-		new Hammer(new Hammer.Material(2, 785, 4.5f, Resolve.item("caverns_and_chasms", "silver_ingot")), 6.0f));
+		new Hammer(new Hammer.Material(2, 785, 4.5f, Resolve.item("caverns_and_chasms:silver_ingot")), 6.0f));
 	public static final RegistryObject<Hammer> DIAMOND_HAMMER = ITEMS.register("diamond_hammer", () ->
 		new Hammer(new Hammer.Material(3, 7805, 4.0f, Items.DIAMOND), 9.0f));
 	public static final RegistryObject<Hammer> UTHERIUM_HAMMER = ITEMS.register("utherium_hammer", () ->
-		new Hammer(new Hammer.Material(3, 6395, 4.25f, Resolve.item("undergarden", "utherium_crystal")), 9.5f));
+		new Hammer(new Hammer.Material(3, 6395, 4.25f, Resolve.item("undergarden:utherium_crystal")), 9.5f));
 	public static final RegistryObject<Hammer> NETHERITE_HAMMER = ITEMS.register("netherite_hammer", () ->
 		new Hammer(new Hammer.Material(4, 10155, 4.5f, Items.NETHERITE_INGOT), 10.0f));
 	public static final RegistryObject<Hammer> CLOGGRUM_HAMMER = ITEMS.register("cloggrum_hammer", () ->
-		new Hammer(new Hammer.Material(2, 1425, 3.0f, Resolve.item("undergarden", "cloggrum_ingot")), 9.0f));
+		new Hammer(new Hammer.Material(2, 1425, 3.0f, Resolve.item("undergarden:cloggrum_ingot")), 9.0f));
 	public static final RegistryObject<Hammer> FROSTSTEEL_HAMMER = ITEMS.register("froststeel_hammer", () ->
-		new Hammer(new Hammer.Material(2, 2875, 3.5f, Resolve.item("undergarden", "frosteel_ingot")), 9.0f));
+		new Hammer(new Hammer.Material(2, 2875, 3.5f, Resolve.item("undergarden:frosteel_ingot")), 9.0f));
 
 	public static final RegistryObject<Item> COPPER_PLATE       = item("copper_plate"      );
 	public static final RegistryObject<Item> IRON_PLATE         = item("iron_plate"        );
