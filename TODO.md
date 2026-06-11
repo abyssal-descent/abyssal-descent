@@ -4,10 +4,9 @@
 
 ## High Priority Polish
 + Decrease slime spawn rate
-+ re order plates to creative tab
-+ delete obsidian hammer
 
 ## Low priority Polish
++ disable obscure API?
 
 ## Textures
 - Explorers compass retexture
@@ -17,11 +16,6 @@
 ## Overworld
 
 ## Delver's Beginning
-+ make small bioshrooms only generate on the right block
-+ reduce frequency of salt spikes
-+ add amethyst geodes!
-+ balance kobold trades, add modded ones perhaps
-+ prevent terrain features from spawning inside structures
 
 ## The Undergarden
 - fix void blossom structure, void blossom spawns 1 block too high!
@@ -69,3 +63,4 @@
 - Oil + Ruins in Ice Layer. Scarse and dangerous creatures that are not meant to be killed.
 + luminous wood recipes: chest, ladders
 + grind pink salt into polished variant
++ balance kobold trades, add modded ones perhaps
