@@ -7,12 +7,15 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 
+import net.minecraft.world.item.CreativeModeTabs;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import java.util.function.Supplier;
 
@@ -85,5 +88,37 @@ public class ADHammers {
 		ITEMS.register(bus);
 		BLOCKS.register(bus);
 		BLOCK_ENTITY_TYPES.register(bus);
+
+		bus.addListener((BuildCreativeModeTabContentsEvent e) -> {
+			if (e.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+				e.accept(COPPER_HAMMER);
+				e.accept(IRON_HAMMER);
+				e.accept(GOLD_HAMMER);
+				e.accept(SILVER_HAMMER);
+				e.accept(DIAMOND_HAMMER);
+				e.accept(UTHERIUM_HAMMER);
+				e.accept(NETHERITE_HAMMER);
+				e.accept(CLOGGRUM_HAMMER);
+				e.accept(FROSTSTEEL_HAMMER);
+			}
+
+			if (e.getTabKey() == CreativeModeTabs.INGREDIENTS) {
+				e.accept(COPPER_PLATE);
+				e.accept(IRON_PLATE);
+				e.accept(GOLD_PLATE);
+				e.accept(SILVER_PLATE);
+				e.accept(DIAMOND_PLATE);
+				e.accept(CLOGGRUM_PLATE);
+				e.accept(FROSTSTEEL_PLATE);
+				e.accept(UTHERIUM_PLATE);
+				e.accept(NETHERITE_PLATE);
+				e.accept(NETHER_RUBY_PLATE);
+				e.accept(CINCINNASITE_PLATE);
+			}
+
+			if (e.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+				e.accept(GRANITE_ANVIL);
+			}
+		});
 	}
 }
