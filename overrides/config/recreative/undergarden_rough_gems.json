@@ -1,0 +1,16 @@
+[
+  {
+    "action": "modify_tab",
+    "tabs": ["undergarden:undergarden_group"],
+    "add_items": [
+     {
+        "item": "adresources:rough_regalium_crystal",
+        "before": "undergarden:regalium_crystal"
+      },
+      {
+        "item": "adresources:rough_utherium_crystal",
+        "before": "undergarden:utheric_shard"
+      }
+    ]
+  }
+]
