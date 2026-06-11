@@ -4,14 +4,10 @@
 
 ## High Priority Polish
 + Decrease slime spawn rate
-+ pink salt block tooltip can be hammered into salt
-+ re order hammers in creative tab tools
-+ re order sheets to creative tab
-+ Hammer tool tip "Used to mine 3x3 and to smash ingots into plates"
++ re order plates to creative tab
++ delete obsidian hammer
 
 ## Low priority Polish
-+ group quills, quark tomes and disc in EMI ++
-+ test if separated_leaves mod work with ht_tree_chop
 
 ## Textures
 - Explorers compass retexture
