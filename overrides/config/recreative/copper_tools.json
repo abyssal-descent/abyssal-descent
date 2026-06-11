@@ -4,15 +4,19 @@
     "tabs": ["minecraft:tools_and_utilities"],
     "add_items": [
       {
+        "item": "leafscopperbackport:copper_shovel",
+        "after": "minecraft:wooden_hoe"
+      },
+      {
         "item": "leafscopperbackport:copper_pickaxe",
         "before": "minecraft:iron_shovel"
       },
       {
-        "item": "leafscopperbackport:copper_axe",
+        "item": "adhammers:copper_hammer",
         "before": "minecraft:iron_shovel"
       },
       {
-        "item": "leafscopperbackport:copper_shovel",
+        "item": "leafscopperbackport:copper_axe",
         "before": "minecraft:iron_shovel"
       },
       {

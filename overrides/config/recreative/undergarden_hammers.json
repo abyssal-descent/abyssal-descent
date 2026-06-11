@@ -1,0 +1,20 @@
+[
+  {
+    "action": "modify_tab",
+    "tabs": ["undergarden:undergarden_group"],
+    "add_items": [
+      {
+        "item": "adhammers:cloggrum_hammer",
+        "after": "undergarden:cloggrum_pickaxe"
+      },
+      {
+        "item": "adhammers:froststeel_hammer",
+        "after": "undergarden:froststeel_pickaxe"
+      },
+      {
+        "item": "adhammers:utherium_hammer",
+        "after": "undergarden:utherium_pickaxe"
+      }
+    ]
+  }
+]

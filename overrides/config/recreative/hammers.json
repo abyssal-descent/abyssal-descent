@@ -1,0 +1,24 @@
+[
+  {
+    "action": "modify_tab",
+    "tabs": ["minecraft:tools_and_utilities"],
+    "add_items": [
+      {
+        "item": "adhammers:iron_hammer",
+        "after": "minecraft:iron_pickaxe"
+      },
+      {
+        "item": "adhammers:gold_hammer",
+        "after": "minecraft:golden_pickaxe"
+      },
+      {
+        "item": "adhammers:silver_hammer",
+        "after": "caverns_and_chasms:silver_pickaxe"
+      },
+      {
+        "item": "adhammers:diamond_hammer",
+        "after": "minecraft:diamond_pickaxe"
+      }
+    ]
+  }
+]
