@@ -11,6 +11,7 @@
 
 ## Low priority Polish
 + group quills, quark tomes and disc in EMI ++
++ test if separated_leaves mod work with ht_tree_chop
 
 ## Textures
 - Explorers compass retexture
