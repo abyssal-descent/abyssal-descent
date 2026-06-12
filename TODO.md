@@ -4,12 +4,12 @@
 
 ## High Priority Polish
 + Decrease slime spawn rate
++ Granite Anvil
 
 ## Low priority Polish
-+ disable obscure API?
 
 ## Textures
-- Explorers compass retexture
+
 ---
 # Dimension Work
 
@@ -32,7 +32,6 @@
 + Update mods that need to be updated
 + add custom loading screen tips,
 	- press "key here" to open Abyssal Descents Custom advancements guide
-	- Abyssal Descent Hammers can be used to mine a 3x3 area
 
 ## mods to look into
 - ascended quark
@@ -64,3 +63,4 @@
 + luminous wood recipes: chest, ladders
 + grind pink salt into polished variant
 + balance kobold trades, add modded ones perhaps
++ Explorers compass retexture
