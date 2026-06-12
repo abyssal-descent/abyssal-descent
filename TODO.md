@@ -4,7 +4,6 @@
 
 ## High Priority Polish
 + Decrease slime spawn rate
-+ Granite Anvil
 
 ## Low priority Polish
 
@@ -16,6 +15,7 @@
 ## Overworld
 
 ## Delver's Beginning
++ fix delvers beginning rocky rollers spawning a million times
 
 ## The Undergarden
 - fix void blossom structure, void blossom spawns 1 block too high!
@@ -25,10 +25,6 @@
 ---
 
 ## Final Touches
-+ Create low, medium, high and ultra shader presets while keeping the current shader settings and look intact
-	- update complementary+euphoriapatches
-	- we kinda have low already (mellow)
-	- drop high and just have med+ultra?
 + Update mods that need to be updated
 + add custom loading screen tips,
 	- press "key here" to open Abyssal Descents Custom advancements guide
@@ -50,6 +46,8 @@
 	- sounds
 	- backpack mod
 + realm rpg fallen adventurers
++ Gnetum
++ biomespy
 
 ## Post Launch Long Term
 - Drastically increase end island size and height variation
@@ -64,3 +62,5 @@
 + grind pink salt into polished variant
 + balance kobold trades, add modded ones perhaps
 + Explorers compass retexture
++ Granite Anvil
++ Deepslate waystones generate rarely in all layers and are un obtainable. Normal waystones are craftable and expensive but when placed anywhere besides the overworld EXPLODE!!!
