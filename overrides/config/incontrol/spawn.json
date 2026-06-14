@@ -79,7 +79,7 @@
   },
   {
     "mob": "luminousworld:hollow",
-    "biome":[
+    "biome": [
       "galosphere:crystal_canyons",
       "regions_unexplored:ancient_delta",
       "galosphere:lichen_caves",
@@ -87,11 +87,11 @@
       "darkerdepths:glowshroom_forest",
       "galosphere:pink_salt_caves"
     ],
-    "result":"deny"
+    "result": "deny"
   },
   {
-    "mob":"mowziesmobs:lantern",
-    "biome":[
+    "mob": "mowziesmobs:lantern",
+    "biome": [
       "galosphere:crystal_canyons",
       "regions_unexplored:ancient_delta",
       "galosphere:lichen_caves",
@@ -99,91 +99,122 @@
       "darkerdepths:glowshroom_forest",
       "yungscavebiomes:lost_caves"
     ],
-    "result":"deny"
+    "result": "deny"
   },
   {
-  "dimension": "infernalcross:infernalcrossing",
-  "minheight": 63,
-  "result": "deny"
+    "mob": "mowziesmobs:bluff",
+    "biome": [
+      "galosphere:crystal_canyons",
+      "galosphere:lichen_caves",
+      "galosphere:pink_salt_caves",
+      "regions_unexplored:bioshroom_caves",
+      "darkerdepths:glowshroom_forest",
+      "yungscavebiomes:lost_caves"
+    ],
+    "result": "deny"
   },
   {
-  "dimension": "delverbegin:delversbeginnings",
-  "minheight": 127,
-  "result": "deny"
+    "mob": "mowziesmobs:foliaath",
+    "biome": [
+      "galosphere:crystal_canyons",
+      "galosphere:lichen_caves",
+      "galosphere:pink_salt_caves",
+      "regions_unexplored:bioshroom_caves",
+      "darkerdepths:glowshroom_forest",
+      "yungscavebiomes:lost_caves"
+    ],
+    "result": "deny"
   },
   {
-  "dimension": "undergraden:undergarden",
-  "minheight": 127,
-  "result": "deny"
+    "mob": "mowziesmobs:foliaath",
+    "block": "regions_unexplored:argillite_grass_block",
+    "result": "allow"
   },
   {
-    "mob":[
+    "dimension": "infernalcross:infernalcrossing",
+    "minheight": 63,
+    "result": "deny"
+  },
+  {
+    "dimension": "delverbegin:delversbeginnings",
+    "minheight": 127,
+    "result": "deny"
+  },
+  {
+    "dimension": "undergraden:undergarden",
+    "minheight": 127,
+    "result": "deny"
+  },
+  {
+    "mob": [
       "species:deepfish",
       "species:leaf_hanger"
     ],
-    "dimension":[
+    "dimension": [
       "minecraft:overworld",
       "delverbegin:delversbeginnings",
       "infernalcross:infernalcrossing"
     ],
-    "result":"deny"
+    "result": "deny"
   },
   {
-    "mob":[
+    "mob": [
       "species:ghoul",
       "species:quake",
       "species:cliff_hanger"
-
     ],
-    "dimension":[
+    "dimension": [
       "minecraft:overworld",
       "delverbegin:delversbeginnings"
     ],
-    "result":"deny"
+    "result": "deny"
   },
   {
-    "mob":[
+    "mob": [
       "species:limpet"
     ],
-    "dimension":[
+    "dimension": [
       "minecraft:overworld",
       "infernalcross:infernalcrossing"
     ],
-    "result":"deny"
+    "result": "deny"
   },
   {
-    "mob":[
-    "species:wicked"
+    "mob": [
+      "species:wicked"
     ],
-    "dimension":[
+    "dimension": [
       "minecraft:overworld"
     ],
-    "result":"deny"
+    "result": "deny"
   },
   {
-  "mob": [
-    "alexsmobs:rocky_roller",
-    "minecraft:husk",
-    "organics:sand_catcher",
-    "alexsmobs:guster",
-    "organics:terracotta_coloss",
-    "minecraft:slime",
-    "galosphere:preserved",
-    "luminousworld:hollow",
-    "species:deepfish",
-    "species:leaf_hanger",
-    "species:ghoul",
-    "species:quake",
-    "species:cliff_hanger",
-    "species:limpet",
-    "species:wicked"
-  ],
-  "minlight": 1,
-  "result": "deny"
+    "mob": [
+      "alexsmobs:rocky_roller",
+      "minecraft:husk",
+      "organics:sand_catcher",
+      "alexsmobs:guster",
+      "organics:terracotta_coloss",
+      "minecraft:slime",
+      "galosphere:preserved",
+      "luminousworld:hollow",
+      "species:deepfish",
+      "species:leaf_hanger",
+      "species:ghoul",
+      "species:quake",
+      "species:cliff_hanger",
+      "species:limpet",
+      "species:wicked",
+      "mowziesmobs:bluff",
+      "mowziesmobs:foliaath",
+      "caverns_and_chasms:peeper"
+    ],
+    "minlight": 1,
+    "result": "deny"
   },
   {
-  "mob": "organics:terracotta_coloss",
-  "maxcount": 15,
-  "result": "deny"
+    "mob": "organics:terracotta_coloss",
+    "maxcount": 15,
+    "result": "deny"
   }
 ]

@@ -170,6 +170,57 @@
       "maxthis":10
     }
   },
+  {
+  "mob": "mowziesmobs:bluff",
+  "persecond": 0.2,
+  "attempts": 1,
+  "amount": {
+    "minimum": 1,
+    "maximum": 1
+  },
+  "conditions": {
+    "dimension": "delverbegin:delversbeginnings",
+    "mindist": 32,
+    "maxdist": 128,
+    "minheight": 0,
+    "maxheight": 100,
+    "maxthis": 2
+    }
+  },
+  {
+  "mob": "mowziesmobs:foliaath",
+  "persecond": 0.2,
+  "attempts": 1,
+  "amount": {
+    "minimum": 1,
+    "maximum": 1
+  },
+  "conditions": {
+    "dimension": "delverbegin:delversbeginnings",
+    "mindist": 32,
+    "maxdist": 128,
+    "minheight": 0,
+    "maxheight": 100,
+    "maxthis": 15
+    }
+  },
+  {
+  "mob": "galosphere:preserved",
+  "persecond": 0.2,
+  "attempts": 1,
+  "amount": {
+    "minimum": 1,
+    "maximum": 1
+  },
+  "conditions": {
+    "dimension": "delverbegin:delversbeginnings",
+    "mindist": 32,
+    "maxdist": 128,
+    "minheight": 0,
+    "maxheight": 100,
+    "maxthis": 25
+    }
+  },
   ///////////// Infernal Crossing
   {
     "mob": "species:cliff_hanger",
