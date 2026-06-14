@@ -1,11 +1,11 @@
 {
   "type": "forge:add_spawns",
   "biomes": "#infernalcross:is_infernal_crossing",
-  "spawners": 
+  "spawners":
   {
-    "type": "species:quake",
+    "type": "caverns_and_chasms:peeper",
+    "weight": 5,
     "minCount": 1,
-    "maxCount": 1,
-    "weight": 5
+    "maxCount": 1
   }
 }
