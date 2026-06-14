@@ -3,7 +3,7 @@
 	enableCreativeModeTabs = true
 	syncSelectedCreativeModeTab = false
 	enableBerryTheme = true
-	disabledCreativeModeTabs = ["minecraft:op_blocks"]
+	disabledCreativeModeTabs = ["minecraft:op_blocks", "kobolds:kobolds_pots", "alexscaves:abyssal_chasm", "yungscavebiomes:general", "alexscaves:toxic_caves", "darkerdepths:darker_depths", "everycomp:everycomp", "organics:organics_tab", "regions_unexplored:ru_main", "alexscaves:forlorn_hollows", "alexscaves:magnetic_caves", "leafscopperbackport:leafs_copper_backport", "organics:organics_tools_tab", "luminousworld:luminous_world", "grapplemod:main", "alexscaves:candy_cavity", "organics:organics_mobs_tab", "species:species", "minecraft:spawn_eggs", "galosphere:galosphere", "geode_plus:geode_plus", "bosses_of_mass_destruction:bosses_of_mass_destruction", "alexsmobs:alexsmobs", "immersive_portals:misc", "alexscaves:primordial_caves", "mowziesmobs:mowziesmobs_tab", "kobolds:kobolds"]
 
 [stackGroups]
 	enableStackGroups = true
