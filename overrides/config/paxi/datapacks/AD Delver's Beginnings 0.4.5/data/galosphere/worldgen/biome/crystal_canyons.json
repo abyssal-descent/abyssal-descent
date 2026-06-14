@@ -90,7 +90,7 @@
         "type": "galosphere:sparkle",
         "maxCount": 3,
         "minCount": 1,
-        "weight": 20
+        "weight": 10
       }
     ],
     "axolotls": [],
