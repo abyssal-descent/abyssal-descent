@@ -23,7 +23,7 @@
   "bypassKeepInventoryDimensions": [],
   "bypassKeepInventoryDamageSources": [],
   "applyMementoMori": true,
-  "mementoDuration": 120,
+  "mementoDuration": 2400,
   "mementoSpeedModifier": -0.2,
   "mementoDamageModifier": -2.0,
   "keepPositiveEffects": false,
