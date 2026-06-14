@@ -3,11 +3,11 @@
 # Libs
 architectury,419699,5137938
 geckolib,388172,7025129
-sinytra_connector,890127,5761411
+sinytra_connector,890127,7594389
 yungs_api,421850,5769971
 # bclib,495191,4971470
-forgified_fabric_api,889079,6289136
-zeta,968868,5597406
+forgified_fabric_api,889079,6885853
+zeta,968868,7335229
 curios_api,309927,5680164
 moonlightlib,499980,8076692
 citadel,331936,5633260
@@ -26,11 +26,11 @@ konkrete,410295,5028413
 melody,938643,5109692
 kotlin,351264,7291067
 balm,531761,7420617
+txnilib,1104882,6533724
 
 cupboard_lib,326652,7905744
 octolib,916747,6274623
 puzzles_lib,495476,6918565
-
 
 # Dev
 paxi,515708,4749994
@@ -41,10 +41,10 @@ structurify,1087551,6858579
 biomereplacer,910274,7200634
 custom_item_attributes,965954,5610928
 property_modifier,474822,4661543
-reliable_replacer,1450759,8023331
+reliable_replacer,1450759,8198144
 reliable_recipes,1414959,8072207
-reliable_remover,1420447,8072221
-reliable_requiem,1521473,8009733
+reliable_remover,1420447,8193995
+reliable_requiem,1521473,8148342
 # enchantmentdisabler,912326,5382937
 recreative,1513300,7970185
 
@@ -66,14 +66,22 @@ ferrite_core,429235,4810975
 immediatelyfast,686911,6997261
 entity_culling,448233,7167800
 Embeddium_Dynamic_Lights,551736,6044481
-fastworkbench,288885,5101229
+# fastworkbench,288885,5101229
 connectivity,470193,7366161
+canary,665658,5089991
+modernfix,790626,8234337
+all_the_leaks,1091339,7235989
+cerulean,1204890,6489710
+flerovium,1142875,7584065
+fix_gpumemory_leak,882495,4884976
+fast_item_frames,1210171,6963016
+cull_less_leaves,840788,4917082
 
 # Visual
 travelers_titles,504908,5065825
 fancy_menu,367706,7256735
 drippy_loading_screen,511770,7248426
-betteradvancements,272515,5454907
+betteradvancements,272515,8129038
 continuity,531351,5981334
 oculus,581495,6020952
 overflowing_bars,852662,5763974
@@ -110,7 +118,7 @@ epic_structures_dungeons,1501318,7999619
 # Other
 grappling_hook:_restitched,820533,5226155
 immersive_portals,355440,6368524
-quark,243121,5594847
+quark,243121,6427817
 quark_oddities,301051,5070502
 geodeplus,620784,5407755
 organics,411399,4703550
