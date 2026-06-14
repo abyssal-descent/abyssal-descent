@@ -4,8 +4,10 @@
 
 ## High Priority Polish
 + Decrease slime spawn rate
++ Update Reliable Requiem when issue is fixed - https://github.com/evanbones/Reliable-Requiem/issues/3
 
 ## Low priority Polish
++ plank armor in creative tab
 
 ## Textures
 
@@ -15,7 +17,6 @@
 ## Overworld
 
 ## Delver's Beginning
-+ fix delvers beginning rocky rollers spawning a million times
 
 ## The Undergarden
 - fix void blossom structure, void blossom spawns 1 block too high!
@@ -25,9 +26,10 @@
 ---
 
 ## Final Touches
-+ Update mods that need to be updated
 + add custom loading screen tips,
 	- press "key here" to open Abyssal Descents Custom advancements guide
++ Redo fancy menu
++ add Resource packs and ui resource packs
 
 ## mods to look into
 - ascended quark
