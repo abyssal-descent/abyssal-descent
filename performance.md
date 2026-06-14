@@ -43,6 +43,7 @@ Added
 + Cerulean
 + flerovium
 + fix GPU memory leak
++ canary
 
 
 Needs Further Testing
