@@ -21,7 +21,7 @@
         {
           "biome": "darkerdepths:molten_cavern",
           "parameters": {
-            "temperature": 0.5,
+            "temperature": 0.6,
             "humidity": 0.3,
             "continentalness": -0.5,
             "erosion": 0.3,
@@ -37,7 +37,7 @@
             "humidity": -0.6,
             "continentalness": 0.3,
             "erosion": -0.3,
-            "depth": 0.28,
+            "depth": 0.34,
             "weirdness": -0.2,
             "offset": 0
           }
