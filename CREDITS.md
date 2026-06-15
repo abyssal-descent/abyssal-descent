@@ -27,17 +27,17 @@
     - ZeykeHas on planet minecraft for their Overachievement resource pack that I ported and edited to work on 1.20.1 with the better advancements mods ui https://www.planetminecraft.com/texture-pack/overchievment/
 
 ## Mods
-Without the work of countless mod authors this pack would have never been possible. I will list some of the most impactful mods used below.
+Without the work of countless mod authors this pack would have never been possible. I will list some of the most impactful mods used below. I'm sure I' forgetting some
     - Immersive Portals (Dimension Stacking with seamless progression and compatible with Sodium)
-    - Sodium/Embeddium (FPS would be horrible without this)
-    - Iris/Oculus (Shaders compatible with sodium! again FPS would be horrible without this)
+    - Sodium/Embeddium (Performance would be horrible without this)
+    - Iris/Oculus (Shaders compatible with sodium! again FPS with shaders would be horrible without this)
     - Regions Unexplored
     - Galosphere
     - Darker Depths
     - Better Nether
-    - The Aether
+    - The Aether mod and addons
     - Geode+
-    - Spelunkery (I used this mods new hardcoded features in world gen and have used this mod in packs for years. If the creator of spelunkery ever reads this thank you for creating a fantastic mod)
+    - Spelunkery (I used this mods new hardcoded features in world gen and have used this mod in personal packs for years. If the creator of spelunkery ever reads this thank you for creating a fantastic mod)
     - Grappling Hook
     - Infinite Abyss (Inspired this project)
     - Eternal Descent Modpack (Inspired this project)
@@ -45,4 +45,5 @@ Without the work of countless mod authors this pack would have never been possib
     - You shall not spawn
     - In Control
     - Property Modifier
-    - 
+    - Quark (used to add baked enchantments onto items)
+    - Evanbones "Reliable" mod suite substatially sped up development of this pack. Evan the packdev savior with his mods fr
