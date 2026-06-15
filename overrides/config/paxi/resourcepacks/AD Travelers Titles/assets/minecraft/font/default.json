@@ -4,7 +4,7 @@
 	 {
 	   "type":"bitmap",
 	   "file":"minecraft:font/overworld.png",
-	   "ascent":4,
+	   "ascent":12,
 	   "height":12,
 	   "chars":["\u2C00"]
 	 },
@@ -25,7 +25,7 @@
 	 {
 	   "type":"bitmap",
 	   "file":"minecraft:font/undergarden.png",
-	   "ascent":4,
+	   "ascent":12,
 	   "height":14,
 	   "chars":["\u2C14"]
 	 },
@@ -46,15 +46,15 @@
 	 {
 	 "type": "bitmap",
 	 "file": "minecraft:font/delverbegin.png",
-	 "ascent": 4,
-	 "height": 16,
+	 "ascent": 12,
+	 "height": 20,
 	 "chars": ["\u2694"]
 	},
 	{
 	 "type": "bitmap",
 	 "file": "minecraft:font/infernalcross.png",
-	 "ascent": 4,
-	 "height": 8,
+	 "ascent": 12,
+	 "height": 20,
 	 "chars": ["\u2c24"]
 	},
 	{
