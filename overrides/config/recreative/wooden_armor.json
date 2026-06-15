@@ -1,0 +1,24 @@
+[
+  {
+    "action": "modify_tab",
+    "tabs": ["minecraft:combat"],
+    "add_items": [
+      {
+        "item": "organics:planks_boots",
+        "after": "minecraft:leather_boots"
+      },
+      {
+        "item": "organics:planks_leggings",
+        "after": "minecraft:leather_boots"
+      },
+      {
+        "item": "organics:planks_chestplate",
+        "after": "minecraft:leather_boots"
+      },
+      {
+        "item": "organics:planks_helmet",
+        "after": "minecraft:leather_boots"
+      }
+    ]
+  }
+]
