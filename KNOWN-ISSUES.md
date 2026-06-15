@@ -1,10 +1,9 @@
 # Critical / Game-Breaking
-- incontrol spawns dont stop monsters from spawning at certain light levels. i.e mobs can spawn in lit areas
+- Granite Anvils give xray (We don't know how to fix it lol plz help)
 
 ### Complementary Shaders
 - TAA causes artifacting when looking into a immersive portal portal  
 - Potential issues in the end on Linux, fuck nvidia
-- bug in top left of screen when irradiated
 
 ### Performance
 - Inexplicable lag spikes lasting 0.1-3 seconds.
