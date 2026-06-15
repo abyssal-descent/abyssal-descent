@@ -5,10 +5,11 @@
 
 ## High Priority Polish
 + Decrease slime spawn rate
-+ Update Reliable Requiem when issue is fixed - https://github.com/evanbones/Reliable-Requiem/issues/3
 
 ## Low priority Polish
-+ Block Bench Titles
++ Block Bench Title locations on screen
++ Update Reliable Requiem when issue is fixed - https://github.com/evanbones/Reliable-Requiem/issues/3
+
 
 ## Textures
 
