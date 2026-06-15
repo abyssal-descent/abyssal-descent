@@ -1,0 +1,2 @@
+The palette image must be 1 pixel high and up to 32x wide (can be smaller), replace the image - must have the same name!
+You can save up to 10 palettes

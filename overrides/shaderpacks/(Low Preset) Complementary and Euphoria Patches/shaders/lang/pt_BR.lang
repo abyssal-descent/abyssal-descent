@@ -1,0 +1,2994 @@
+#shaders/lang/pt_BR.lang
+
+#Profiles
+profile.POTATO=Desempenho: §aResolução de calculadora
+profile.VERYLOW=Desempenho: §aResolução bem Baixa
+profile.LOW=Desempenho: §aResolução Baixa
+profile.MEDIUM=Desempenho: §aResolução Média
+profile.HIGH=Desempenho: §eResolução Alta (Padrão)
+profile.VERYHIGH=Desempenho: §cResolução bem Alta
+profile.ULTRA=Desempenho: §4§l Resolução Ultra
+profile.COMPLEMENTARY=§4§l§n§oComplementary
+profile.comment=Os "Profile" de shader equilibram qualidade visual e desempenho da forma mais otimizada possível. §e[*]§r Recomenda-se usar um desses "Profiles" nas suas configurações, a menos que você saiba o que está fazendo. §e[*]§r Todas as configurações afetadas podem ser encontradas no menu 'Configurações de Desempenho'.
+
+#Information
+screen.INFORMATION=Informação
+screen.INFORMATION.comment=Esta seção contém apenas botões que existem para fornecer informações.
+
+screen.INFORMATION2=Informação do Complementary
+screen.INFORMATION2.comment=Esta seção contém apenas botões que existem para fornecer informações.
+
+option.info0=§bPasse o mouse sobre um botão.
+value.info0.0=
+option.info0.comment=Esta seção contém apenas botões que existem para fornecer informações.
+
+option.info1=Como deixar o jogo com mais desempenho.
+value.info1.0=
+option.info1.comment=Desempenho é um tópico complexo no Minecraft porque isso pode ser afetado por várias coisas, mas você pode tentar qualquer um desses:. Reduzir sua render distance(distância renderização),A melhor configuração para a maioria dos dispositivos é entre 6 á 16 chunks. Reduza a configuração do shaders "Profile", Estes foram cuidadosamente testados para oferecer a melhor relação entre qualidade visual e desempenho. Mais informações serão adicionadas posteriormente.
+
+option.info2=Quais são as melhores configurações?
+value.info2.0=
+option.info2.comment=As melhores configurações são subjetiva,mas ao usar a configuração padrão será o ideal para a maioria das pessoas. As configurações padrão foram ajustadas ao longo de anos com base nas avaliações e no feedback da comunidade, sempre com muita atenção ao equilíbrio entre visual e desempenho. Mas você ainda deve se sentir à vontade para fazer ajustes e se divertir com isso!
+
+option.info3= O que é "Profile" ou "Visual Style"
+value.info3.0=
+option.info3.comment=A configuração "Profile" altera as configurações encontradas no menu "Configurações de Desempenho", sem afetar nenhuma configuração baseada em preferências. "Visual Style" altera os valores "Set by Style" que existem em muitas configurações baseadas em preferências, mas isso não impacta o desempenho de forma significativa.
+
+option.info4=O que é §5RP Support§r
+value.info4.0=
+option.info4.comment= A opção §5RP Support§r determina como o shader irá tratar diferentes blocos do Minecraft. Por exemplo, §bIntegratedPBR+§r trata os blocos de ouro como um bloco que reflete as coisa, enquanto o §elabPBR§r ou §eseuspbr§r nessecitam que você instale um resource pack para informar isso ao shaders. Configurando o §5RP Support§r para §aBasic§r Fará com que nenhum bloco seja considerado "especial", com exceção de alguns casos, como a água.
+
+option.info5= Como consertar a incompatibilidade com mods
+value.info5.0=
+option.info5.comment=A incompatibilidade com mods são inevitáveis com shaderpack por causa da forma que eles funcionam, mas você pode dar uma olhada nessa  página de informação sobre problema entre os mods e o Complementary para ver várias correções conhecidas. Acesse: www.complementary.dev/mod-issues
+
+option.info6=
+value.info6.0=
+option.info6.comment=
+
+option.info7=
+value.info7.0=
+option.info7.comment=
+
+option.info8=Como se juntar a nossa comunidade
+value.info8.0=
+option.info8.comment= Você pode se juntar á nossa amigável comunidade do Discord §1Complementary §r, E assim você poderá entrar em contato com desenvolvedores ou membros experientes da comunidade. acesse: www.complementary.dev/discord
+
+option.info9=Como  apoiar o  §1Complementary §r
+value.info9.0=
+option.info9.comment=A melhor forma de apoiar o desenvolvimento da  §1Complementary Shaders §r é compartilhando com seus amigos ou nas redes sociais, mas você pode apoiar diretamente os desenvolvedores no Patreon. acesse: www.patreon.com/emingt
+
+option.info10=Créditos
+value.info10.0=
+option.info10.comment= §4EminGT§r: Desenvolvedor principal do Complementary Shaders  §5Capt Tatsu §r: Desenvolvedor do BSL Shaders,com a generosidade dele fez com que Complementary pudesse existir para inicio de conversa.  §6 Agradecimentos Especiais: §r  §1IMS212, sp614x, Chocapic13, Robobo1221, SixthSurge, null511, fayer3, catlikecoding, Builderb0y, Jessie, SpacEagle17, isuewo, flytrap, plazmal §r
+
+option.info11=§dO que é §5Euphoria Patches.§r
+value.info11.0=
+option.info11.comment= §5Euphoria Patches§r é  um add-on para o Complementary Shaders, desenvolvido por SpacEagle17. Ele tem como objetivo expandir o Complementary com mais recursos e configurações opcionais feitos manualmente.
+
+option.info12=Configurações do  §5Euphoria Patches§r
+value.info12.0=
+option.info12.comment=Todas opções do §5Euphoria§r estão desabilitado por padrão e o usuário que pode decidir quando ativar. embaixo das Categorias de Configurações Populares, é possível encontrar os recursos mais populares do Euphoria Patches. Incontáveis outras configurações existem e mais! são adicionadas a cada atualização. Divirta-se explorando!
+
+option.info13=Suporte do §5Euphoria§r Mod
+value.info13.0=
+option.info13.comment=O §5Euphoria Patches§r tem como objetivo em dar o melhor suporte para blocos modificados do que o complementary padrão, ao incluir o suporte nativo para blocos modificados (check block.properties). Detecção de Fontes de luz (Light Source detection) com emissão aplicada automáticamente. Detecção de modelos de folhagem com SSS aplicado automaticamente.
+
+option.info14=Junte-se a comunidade
+value.info14.0=
+option.info14.comment=Participe do servidor Discord do §5Euphoria Patches§r para tirar dúvidas, fazer parte de uma comunidade divertida e ficar por dentro das últimas novidades. §d§l§neuphoriapatches.com/discord
+
+option.info15=Créditos do §5Euphoria Patches§r
+value.info15.0=
+option.info15.comment=A maioria das colaboração pode ser acessado no site: §deuphoriapatches.com/credits§r. §6isuewo - Ex-co-desenvolvedor do §5Euphoria Patches.§r §6EminGT: Desenvolvedor principal do Complementary. §6Capt Tatsu, gri573, FoZy STYLE, SixthSurge, WoMspace (aka Sasha), Septonious, fayer3, Xonk, Memokii, dragoncat, TheNukeLore, dbrighthd, Surisen (Ruri), Acer (Alex), Folox_, Helgust.§r
+
+option.info16=§d§nComo apoiar o §5Euphoria Patches§r
+value.info16.0=
+option.info16.comment=Você pode apoiar o  §5Euphoria Patches§rSendo curioso sobre as novas atualizações e compartilhando com outras pessoas, você já está ajudando, mas também pode apoiar diretamente o SpacEagle17 no Patreon ou Ko-Fi e acessar versões beta exclusivas. §d§l§neuphoriapatches.com/support
+
+option.info17=Versões Beta: SpacEagle17 Patreon
+value.info17.0=
+option.info17.comment=Você pode apoiar o SpacEagle17 no Patreon ou Ko-Fi, e tenha o acesso exclusivo de versões em desenvolvimento. acesse: §d§l§neuphoriapatches.com/support
+
+option.info18=For Complementary r5.8.1
+value.info18.0=
+option.info18.comment=Obrigado por instalar o   §5Euphoria Patches§r :)
+
+option.info19=§aNova Atualização
+value.info19.0=§cX.Y.Z §r->§a X.Y.Z
+option.info19.comment=Uma nova versão do  §5EuphoriaPatcher§r Mod está disponível para download. Baixe lá na página do Modrinth: https://euphoriapatches.com/download.
+
+option.info20=§aNova Atualização
+value.info20.0=§aeuphoriapatches.com/download
+option.info20.comment=Uma nova versão do  §5EuphoriaPatcher§r Mod está disponível para download. Baixe lá na página do Modrinth: https://euphoriapatches.com/download.
+
+option.info21=Dúvidas Frequentemente perguntadas
+value.info21.0=
+option.info21.comment=Dê uma olhada na página do FAQ para achar respostas para suas perguntas. §d§l§neuphoriapatches.com/faq
+
+option.info22=§dMais Opções ao Rolar
+value.info22.0=
+option.info22.comment=Em GUIs grandes, algumas opções podem ficar ocultas. Role para baixo para revelá-las.
+
+#Style
+option.SHADER_STYLE=Visual Style
+option.SHADER_STYLE.comment=Determina o estilo visual padrão do shaders. §bReimagined§r: Aprimorando o Minecraft sem perder sua identidade visual. §dUnbound§r: Recriando os visuais do Minecraft com um toque de fantasia semi-realista. §e[*]§r Configurações que pode ser afetadas: Estilo da água, estilo das Nuvens, estilo do Sol e da Lua, ângulo do Sol e Lua, estilo da Aurora Boreal, Minérios luminosos.
+value.SHADER_STYLE.1=§bReimagined
+value.SHADER_STYLE.4=§dUnbound
+
+#Screens
+screen.PERFORMANCE_SETTINGS=§eConfigurações de Desempenho§r
+screen.PERFORMANCE_SETTINGS.comment= Configurações que influenciam diretamente o desempenho e mudam conforme o perfil de shader escolhido.
+
+screen.ATMOSPHERE_SETTINGS=Atmosfera
+screen.ATMOSPHERE_SETTINGS.comment=Configurações que influenciam o clima e a ambientação do jogo.
+
+screen.ATM_COLOR_SETTINGS=Ajustes de cor para a atmosfera
+screen.ATM_COLOR_SETTINGS.comment=Permite ajustar as cores da atmosfera, especialmente as que aparecem no céu e na neblina.
+
+screen.MORNING_ATM_MULTS=Nascer/Pôr do Sol
+screen.NOON_ATM_MULTS=Meio-Dia
+screen.NIGHT_ATM_MULTS=Noite
+screen.RAIN_ATM_MULTS=Clima Chuvoso
+screen.NETHER_ATM_MULTS=Dimensão do Nether
+screen.END_ATM_MULTS=Dimensão do The End
+
+screen.CLOUD_SETTINGS=Nuvens
+screen.CLOUD_SETTINGS.comment=Configurações que influenciam as nuvens.
+
+screen.CLOUD_COLOR_SETTINGS=Cores das Nuvens
+screen.CLOUD_COLOR_SETTINGS.comment=Permite Ajustar as cores das nuvens.
+
+screen.CLOUD_UNBOUND_SETTINGS=Configurações de nuvens Unbound
+screen.CLOUD_REIMAGINED_SETTINGS= Configurações de nuvens Reimagined
+
+screen.FOG_SETTINGS=Neblina
+screen.FOG_SETTINGS.comment=Configurações relacionadas aos diversos tipos de neblina.
+
+screen.SUN_MOON_SETTINGS=Sol / Lua
+screen.SUN_MOON_SETTINGS.comment=Configurações que estão relacionadas ao Sol e a Lua.
+
+screen.NETHER_SETTINGS=Dimensão do Nether
+screen.NETHER_SETTINGS.comment=Configurações que estão relacionadas á dimensão do Nether.
+
+screen.END_SETTINGS=A Dimensão do End
+screen.END_SETTINGS.comment=Configurção relacionados à dimensão do End.
+
+screen.WEATHER_SETTINGS=Chuva / Clima
+screen.WEATHER_SETTINGS.comment=Configurações que afetam as condições do clima.
+
+screen.CAMERA_SETTINGS=Câmera
+screen.CAMERA_SETTINGS.comment=Configurações relacionadas à visão/câmera.
+
+screen.TONEMAP_SETTINGS=Balance de Cores
+screen.TONEMAP_SETTINGS.comment=Configurações que determinam o equilíbrio de cores dos visuais.
+
+screen.COLORGRADING_SETTINGS=Correção de Cor
+screen.COLORGRADING_SETTINGS.comment=Configurações para misturar os canais de cor finais.
+
+screen.WORLD_BLUR_SETTINGS=Desfoque do Mundo
+screen.WORLD_BLUR_SETTINGS.comment=Configurações relacionadas a efeitos avançados de desfoque no mundo.
+
+screen.TAA_SETTINGS=Configurações do Filtro Temporal
+screen.TAA_SETTINGS.comment=Configurações para determinar o comportamento do anti-aliasing temporal (TAA).
+
+screen.MATERIAL_SETTINGS=Materiais
+screen.MATERIAL_SETTINGS.comment=Configurações relacionadas aos materiais do Minecraft.
+
+screen.IPBR_SETTINGS=Materiais IntegratedPBR+
+screen.IPBR_SETTINGS.comment=Configurações relacionadas aos recursos do IntegratedPBR+.
+
+screen.GLOWING_ORE_SETTINGS=Minérios Brilhantes
+screen.GLOWING_ORE_SETTINGS.comment=Permite ajustar a emissão de luz dos blocos de Minérios.
+
+screen.GLOWING_STUFF_SETTINGS=Configurações de Objetos Brilhantes
+screen.GLOWING_STUFF_SETTINGS.comment=Configurações para ajustar a emissão de blocos diversos.
+
+screen.OTHER_IPBR_SETTINGS=Outras Funcionalidades do IPBR+
+screen.OTHER_IPBR_SETTINGS.comment=Configurações diversas do IntegratedPBR+.
+
+screen.CUSTOM_PBR_SETTINGS=Materiais labPBR/seuspbr
+screen.CUSTOM_PBR_SETTINGS.comment=Configurações relacionadas às funcionalidades do labPBR/seuspbr.
+
+screen.LIGHTING_SETTINGS=Iluminação
+screen.LIGHTING_SETTINGS.comment=Configurações relacionadas à iluminação.
+
+screen.LIGHT_COLOR_SETTINGS=Multiplicadores de Cor da Iluminação
+screen.LIGHT_COLOR_SETTINGS.comment=Permite personalizar as cores da iluminação vistas em todas as superfícies.
+
+screen.MORNING_LIGHT_MULTS=Nascer/Pôr do Sol
+screen.NOON_LIGHT_MULTS=Meio dia
+screen.NIGHT_LIGHT_MULTS=Noite
+screen.RAIN_LIGHT_MULTS=Clima Chuvoso
+screen.NETHER_LIGHT_MULTS=Dimensão do Nether
+screen.END_LIGHT_MULTS=Dimensão do The End
+
+screen.BLOCKLIGHT_SETTINGS=Iluminação de Blocos §e[*]§r
+screen.BLOCKLIGHT_SETTINGS.comment=Configurações para ajustar a iluminação emitida por blocos que são fontes de luz. §e[*]§r As configurações de cor vermelho/verde/azul não afetarão a maioria das luzes se a opção Rastreamento Avançado de Cores estiver ativada.
+
+screen.MOON_PHASE_INF_SETTINGS=Influência das fases da Lua.
+screen.MOON_PHASE_INF_SETTINGS.comment=Configurações que determinam como as diferentes fases da lua afetam a iluminação noturna.
+
+screen.ACL_FEATURES_SETTINGS=ACL recursos exclusivos §e[*]§r
+screen.ACL_FEATURES_SETTINGS.comment=Configurações relacionadas a recursos exclusivos da Iluminação Colorida Avançada. §e[*]§r Esses recursos só funcionam se a Iluminação Colorida Avançada estiver ativada nas Configurações de Desempenho e se o seu sistema for compatível.
+
+screen.PIXELATED_LIGHTING_SETTINGS=Luz pixelada
+screen.PIXELATED_LIGHTING_SETTINGS.comment=Configurações que faz  com que certos efeitos de luz saem pixelados.
+
+screen.WATER_SETTINGS=Água
+screen.WATER_SETTI NGS.comment=Configurações relacionadas á água.
+
+screen.WATER_COLOR_SETTINGS=Cor da superfície da água.
+screen.UNDERWATER_COLOR_SETTINGS=Underwater Color
+
+screen.WATER_WAVE_SETTINGS=Ondulações da Água §e[*]§r
+screen.WATER_WAVE_SETTINGS.comment=Configurações para personalizar as ondulações na superfície da água (normais). §e[*]§r Essas configurações só funcionam quando o Estilo da Água está definido como "Reimaginado + Ondas" ou "Sem Limites".
+
+screen.WAVING_SETTINGS=Texturas Ondulantes
+screen.WAVING_SETTINGS.comment=Configurações relacionadas às texturas ondulantes.
+
+screen.OTHER_SETTINGS=Outros
+screen.OTHER_SETTINGS.comment=Configurações que não se encaixam em nenhuma outra categoria.
+
+screen.SELECT_OUTLINE_SETTINGS=Contorno de Seleção
+screen.SELECT_OUTLINE_SETTINGS.comment=Configurações que alteram o contorno de seleção de blocos.
+
+screen.WORLD_OUTLINE_SETTINGS=Contorno do Mundo
+screen.WORLD_OUTLINE_SETTINGS.comment=Configurações relacionadas aos efeitos opcionais de contorno.
+
+#Settings
+option.RP_MODE=RP Suporte
+option.RP_MODE.comment=Altera muitos cálculos internos para determinar como diferentes blocos e materiais serão renderizados. §bIntegrated PBR+§r:Renderização PBR calculada e efeitos adicionais, Muito recomendado na maiorias dos casos. §aBasic§r: Sem PBR ou efeitos extras. §elabPBR/seuspbr§r: Materiais que utilizam os pacotes de recursos PBR necessários.
+value.RP_MODE.0=§aBásico
+value.RP_MODE.1=§bIntegrated PBR+
+value.RP_MODE.2=§eseuspbr (Requer: RP)
+value.RP_MODE.3=§elabPBR (Requer: RP)
+
+option.WATER_REFLECT_QUALITY=Qualidade da Reflexão da água
+option.WATER_REFLECT_QUALITY.comment= Ajusta a qualidade visual dos reflexos que aparecem em blocos translúcidos. §cResolução Média§r: Screenspace ray-traced reflections on water and translucents. §eResolução de calculadora§r: Substitui os reflexos  da água e dos blocos Translúcidos por um método mais simples, talvez pode parecer estranho em algumas situações. Desativado§r: Sem reflexos.
+value.WATER_REFLECT_QUALITY.-1=Desativado
+value.WATER_REFLECT_QUALITY.0=§aApenas as Nuvens
+value.WATER_REFLECT_QUALITY.1=§eResolução de calculadora
+value.WATER_REFLECT_QUALITY.2=§cResolução Média
+
+option.BLOCK_REFLECT_QUALITY=Qualidade da Reflexão dos Blocos§e[*]§r
+option.BLOCK_REFLECT_QUALITY.comment=Ajusta a qualidade visual das reflexões que aparecem em materiais sólidos. §cResolução Alta§r: Realces do Sol/Lua + Reflexões especulares mais suaves usando um filtro temporal. §eResolução Média§r: Realces do Sol/Lua + Reflexão especulares. §aResolução Baixa§r: Sun/moon highlights only. §e[*]§r RP Support option must be set to anything but Basic for any specular reflections to appear.
+value.BLOCK_REFLECT_QUALITY.0=Desativado
+value.BLOCK_REFLECT_QUALITY.1=Resolução Baixa
+value.BLOCK_REFLECT_QUALITY.2=§cMedium
+
+option.SHADOW_QUALITY=Sombras em Tempo-Real
+option.SHADOW_QUALITY.comment=Ajusta a qualidade das sombras. Cada nível reduz ainda mais os artefatos de ruído nas sombras. §eBaixo§r e §eMuito Baixo§r usam um filtro de sombras mais simples, e §eMuito Baixo§r também desativa sombras coloridas. §aDESLIGADO§r desativa completamente as sombras e os feixes de luz. §e[*]§r Esta configuração fica limitada internamente a "Baixo" se você desativar o Filtro Temporal ou ativar a opção Sombras Pixeladas.
+value.SHADOW_QUALITY.-1=Desativado
+value.SHADOW_QUALITY.0=§eResolução Muito Baixa
+value.SHADOW_QUALITY.1=Resolução Baixa
+value.SHADOW_QUALITY.2=§eResolução Média
+value.SHADOW_QUALITY.3=§cResolução Alta
+value.SHADOW_QUALITY.4=§cResolução Muito  Alta
+value.SHADOW_QUALITY.5=§4§lResolução Ultra
+
+option.LIGHTSHAFT_QUALI_DEFINE=Qualidade dos Feixes de Luz §e[*]§r
+option.LIGHTSHAFT_QUALI_DEFINE.comment=Ajusta a qualidade dos feixes de luz. Cada nível reduz ainda mais os artefatos de ruído. §e[*]§r A opção "Sombras em Tempo Real" deve estar configurada para qualquer valor diferente de DESLIGADO para que os feixes de luz funcionem. §e[*]§r Esta configuração também controla a qualidade dos Feixes do End, com a exceção de que a opção "DESLIGADO" é tratada como "Baixo".
+value.LIGHTSHAFT_QUALI_DEFINE.0=Desativado
+value.LIGHTSHAFT_QUALI_DEFINE.1=Resolução Baixa
+value.LIGHTSHAFT_QUALI_DEFINE.2=§eResolução Média
+value.LIGHTSHAFT_QUALI_DEFINE.3=§cResolução Alta
+value.LIGHTSHAFT_QUALI_DEFINE.4=§4§lResolução Muito Alta
+
+option.shadowDistance=Distância da Sombra
+option.shadowDistance.comment=Ajusta a distância a partir do jogador na qual as sombras em tempo real são renderizadas. §e[*]§r O valor é limitado internamente pela Distância de Renderização. §e[*]§r Recomenda-se definir este valor em cerca de 80% da sua distância de renderização para obter o melhor desempenho e cobertura. §c[-]§r Valores mais baixos podem causar vazamento excessivo de feixes de luz.
+value.shadowDistance.64.0=§a4 Chunks §c[-]
+value.shadowDistance.80.0=§a5 Chunks §c[-]
+value.shadowDistance.96.0=§a6 Chunks §c[-]
+value.shadowDistance.112.0=§a7 Chunks §c[-]
+value.shadowDistance.128.0=§a8 Chunks
+value.shadowDistance.160.0=§e10 Chunks
+value.shadowDistance.192.0=§e12 Chunks
+value.shadowDistance.224.0=§e14 Chunks
+value.shadowDistance.256.0=§c16 Chunks
+value.shadowDistance.320.0=§c20 Chunks
+value.shadowDistance.384.0=§4§l24 Chunks
+value.shadowDistance.512.0=§4§l32 Chunks
+value.shadowDistance.768.0=§4§l§n§o48 Chunks
+value.shadowDistance.1024.0=§4§k-§r§4§l§n§o64 Chunks§r§4§k-
+
+option.ENTITY_SHADOWS_DEFINE=Sombras de Entidades
+option.ENTITY_SHADOW.comment=Ativa as sombras projetadas por entidades e blocos-entidade. As "Entidades Regulares" incluem coisas como animais e monstros, enquanto a opção "Completa" também inclui blocos-entidade, como baús. §c[-]§r As sombras de entidades afetam o desempenho muito mais do que o esperado, podendo reduzir mais de 50% dos seus FPS em alguns casos.
+value.ENTITY_SHADOWS_DEFINE.-1=Desativado
+value.ENTITY_SHADOW.1=§cEntidades Normal
+value.ENTITY_SHADOWS_DEFINE.1=§4§k-§r§4§l§n§oATIVADO§r§4§k- §r§c[-]
+
+option.DETAIL_QUALITY=Qualidade dos Detalhes
+option.LIGHTSHAFT_QUALI_DEFINE.comment=Ajusta a qualidade dos feixes de luz. Cada nível reduz ainda mais os artefatos de ruído. §e[*]§r A opção "Sombras em Tempo Real" deve estar configurada para qualquer valor diferente de DESLIGADO para que os feixes de luz funcionem. §e[*]§r Esta configuração também controla a qualidade dos Feixes do End, com a exceção de que a opção "DESLIGADO" é tratada como "Baixo".
+value.DETAIL_QUALITY.0=§aBatata
+value.DETAIL_QUALITY.2=§eResolução Média
+value.DETAIL_QUALITY.3=§cResolução Alta
+
+option.CLOUD_QUALITY=Qualidade das Nuvens
+option.CLOUD_QUALITY.comment=Ajusta a iluminação, os detalhes e a qualidade de amostragem dos estilos de nuvens "Reimaginadas" ou "Sem Limites". §e[*]§r Esta configuração só funciona com os estilos de nuvem "Reimaginadas" ou "Sem Limites".
+value.CLOUD_QUALITY.0=Desativado
+value.CLOUD_QUALITY.1=§aBaixa
+value.CLOUD_QUALITY.2=§eResolução Média
+value.CLOUD_QUALITY.3=§cResolução Alta
+
+option.FXAA_DEFINE=Anti-Aliasing (FXAA)
+option.FXAA_DEFINE.comment=Ativa o Anti-Aliasing Aproximado Rápido (FXAA), que suaviza a imagem para melhor qualidade visual.
+value.FXAA_DEFINE.-1=Desativado
+value.FXAA_DEFINE.1=§eATIVADO
+
+option.SSAO_QUALI_DEFINE=Qualidade das Sombras de Borda (SSAO)
+option.SSAO_QUALI_DEFINE.comment=Ajusta a qualidade da Oclusão de Ambiente em Espaço de Tela (SSAO), que adiciona sombras ambientais extras nas bordas da cena. Cada nível adicional reduz ainda mais os artefatos de ruído da SSAO.
+value.SSAO_QUALI_DEFINE.0=Desativado
+value.SSAO_QUALI_DEFINE.2=§eResolução Média
+value.SSAO_QUALI_DEFINE.3=§cResolução Alta
+
+option.ANISOTROPIC_FILTER=Filtragem de Texturas
+option.ANISOTROPIC_FILTER.comment=Melhora a qualidade de texturas mipmapadas utilizando Filtragem Anisotrópica. §e[*]§r Certifique-se de que a configuração "Níveis de Mipmap" esteja definida como Máximo (4), ou você não obterá bons resultados.
+value.ANISOTROPIC_FILTER.0=Desativado
+value.ANISOTROPIC_FILTER.4=§e4x
+value.ANISOTROPIC_FILTER.8=§e8x
+value.ANISOTROPIC_FILTER.16=§4§l16x
+
+option.COLORED_LIGHTING=Iluminação Colorida Avançada §e[*]§r
+option.COLORED_LIGHTING.comment=Recurso do Complementary Shaders. Usa voxelização e iluminação floodfill para adicionar cor à luz de blocos, além de introduzir novas luzes. §e[*]§r Este recurso só funciona no Iris e em plataformas compatíveis. §e[*]§r Esta configuração será desativada se "Sombras em Tempo Real" estiver DESATIVADO. §a[+]§r Este sistema também ativa outros recursos que você pode ativar/desativar individualmente no menu "Outros" -> "Recursos ACL". §c[-]§r Valores altos de chunks para este efeito impactam o desempenho muito mais do que o esperado, cada incremento pode custar mais que o dobro do desempenho do nível anterior.
+value.COLORED_LIGHTING.0=Desativado
+value.COLORED_LIGHTING.128=§c4 Chunks
+value.COLORED_LIGHTING.192=§c6 Chunks
+value.COLORED_LIGHTING.256=§4§l8 Chunks
+value.COLORED_LIGHTING.384=§4§l12 Chunks
+value.COLORED_LIGHTING.512=§4§l§n§o16 Chunks
+value.COLORED_LIGHTING.768=§4§l§n§o24 Chunks §r§c[-]
+value.COLORED_LIGHTING.1024=§4§k-§r§4§l§n§o32 Chunks§r§4§k- §r§c[-]
+
+option.WORLD_SPACE_REFLECTIONS=Reflexões em Espaço do Mundo §e[*]§r
+option.WORLD_SPACE_REFLECTIONS.comment=Calcula reflexos no espaço do mundo em vez do espaço da tela. §c[-]§r Provavelmente quebra com blocos de mods. §e[*]§r Este recurso só funciona se o Advanced Color Tracing estiver ativado nas Configurações de Desempenho e se o seu sistema for compatível. §e[*]§r A distância máxima deste efeito depende da distância do Advanced Color Tracing, mas é internamente limitada a 16 chunks por motivos técnicos. §c[-]§r Este efeito pode impactar severamente o desempenho, especialmente com distâncias altas de Advanced Color Tracing. §c[-]§r Reflexos em espaço do mundo podem apresentar vários tipos de problemas com mods ou pacotes de recursos.
+value.WORLD_SPACE_REFLECTIONS.-1=§aDESLIGADO
+value.WORLD_SPACE_REFLECTIONS.1=§4§l§n§oLIGADO
+
+option.WORLD_SPACE_REF_MODE=Modo WSR §e[*]§r
+option.WORLD_SPACE_REF_MODE.comment=Define o modo de operação das reflexões em espaço do mundo. §e[*]§r O modo "Apenas WSR" é bom para eliminar todos os artefatos de reflexo em espaço de tela, pois mostra apenas os reflexos em espaço do mundo, mas o modo "WSR + SSR" é melhor para obter mais detalhes totais nos reflexos, já que os reflexos em espaço de tela têm acesso a todos os detalhes que estão na tela sem serem limitados a blocos ou uma distância definida.
+value.WORLD_SPACE_REF_MODE.1=Apenas WSR
+value.WORLD_SPACE_REF_MODE.2=WSR
+
+option.WORLD_SPACE_PLAYER_REF = Reflexos do Jogador no Mundo
+option.WORLD_SPACE_PLAYER_REF.comment = Faz o modelo do próprio jogador aparecer refletido nas reflexões do espaço mundial.
+value.WORLD_SPACE_PLAYER_REF.-1=DESATIVADO
+value.WORLD_SPACE_PLAYER_REF.1=LIGADO
+
+option.SSAO_I=Intensidade da Sombra de Borda (SSAO)
+option.SSAO_I.comment=Define a intensidade da Oclusão de Ambiente em Espaço de Tela (SSAO), que adiciona sombras extras nas bordas da cena. §e[*]§r Esta configuração não funcionará se SSAO estiver desativado em "Configurações de Desempenho".
+value.SSAO_I.0=DESATIVADO
+
+option.VANILLAAO_I=Intensidade da Sombra de Borda (Vanilla)
+option.VANILLAAO_I.comment=Define a intensidade da oclusão de ambiente do Minecraft, que adiciona sombras extras nas bordas da cena.
+value.VANILLAAO_I.0=DESATIVADO
+
+option.BORDER_FOG=Neblina de Borda
+option.BORDER_FOG.comment=Neblina intensa nas bordas do mundo carregado para esconder as bordas dos chunks. §e[*]§r Recomenda-se desativar a Neblina de Borda ao jogar com menos de 8 chunks de distância de renderização.
+
+option.ATM_FOG_MULT=Neblina Atmosférica
+option.ATM_FOG_MULT.comment=Ajuda a ajustar a intensidade da neblina baseada na altitude.
+value.ATM_FOG_MULT.0.50=Muito Sutil
+value.ATM_FOG_MULT.0.65=Sutil
+value.ATM_FOG_MULT.0.80=Normal
+value.ATM_FOG_MULT.0.95=Intensa
+
+option.ATM_FOG_DISTANCE=Distância da Neblina Atmosférica
+option.ATM_FOG_DISTANCE.comment=Define a distância da câmera em que a neblina atmosférica começa a aparecer. §e[*]§r Note que a distância da neblina também é ajustada automaticamente pela configuração de Distância de Renderização nas Configurações de Vídeo.
+
+option.ATM_FOG_ALTITUDE=Altitude da Neblina Atmosférica
+option.ATM_FOG_ALTITUDE.comment=Define a altitude em que a neblina atmosférica aparece de forma mais proeminente.
+
+option.CAVE_FOG=Neblina de Caverna
+option.CAVE_FOG.comment=Ativa neblina extra em áreas subterrâneas profundas.
+
+option.LIGHTSHAFT_BEHAVIOUR=Modo dos Feixes de Luz
+option.LIGHTSHAFT_BEHAVIOUR.comment=Define o comportamento dos feixes de luz. §a[+]§r Feixes de Luz Sensíveis ao Ambiente alternam automaticamente entre modos normal e extremo para melhores resultados. §c[-]§r O modo Extremo não é recomendado para jogabilidade geral e pode impactar severamente o desempenho.
+value.LIGHTSHAFT_BEHAVIOUR.0=DESATIVADO
+value.LIGHTSHAFT_BEHAVIOUR.1=Sensível ao Ambiente §a[+]
+value.LIGHTSHAFT_BEHAVIOUR.2=Normal
+value.LIGHTSHAFT_BEHAVIOUR.3=Extremo §c[-]
+
+option.LIGHTSHAFT_SMOKE=Fumaça nos Feixes de Luz
+option.LIGHTSHAFT_SMOKE.comment=Adiciona fumaça volumétrica aos feixes de luz. §c[-]§r Este efeito pode impactar o desempenho.
+
+option.SPECIAL_PALE_GARDEN_LIGHTSHAFTS=Feixes Especiais no Pale Garden
+option.SPECIAL_PALE_GARDEN_LIGHTSHAFTS.comment=Deixa os feixes de luz mais chamativos no bioma "Pale Garden".
+
+option.LIGHTSHAFT_DAY_I=Multiplicador de Feixe de Luz de Dia
+option.LIGHTSHAFT_NIGHT_I=Multiplicador de Feixe de Luz Noturno
+option.LIGHTSHAFT_RAIN_I=Multiplicador de Feixe de Luz na Chuva
+
+option.LIGHTSHAFT_SUNSET_SATURATION=Cor do Light Shaft no Pôr do Sol
+option.LIGHTSHAFT_SUNSET_SATURATION.comment=Ajusta a saturação extra aplicada à cor dos light shafts durante o nascer e o pôr do sol. Valores mais altos produzem um tom laranja avermelhado, enquanto valores mais baixos tendem a puxar para o amarelo.
+
+option.CLOUD_STYLE_DEFINE=Estilo das Nuvens
+option.CLOUD_STYLE_DEFINE.comment=Define o estilo das nuvens. §e[*]§r "Definido pelo Estilo" significa que a configuração será determinada automaticamente pela opção "Estilo Visual" no menu principal das Opções do Shader. §e[*]§r O estilo "Vanilla" requer que as nuvens estejam ativadas nas Configurações de Vídeo.
+value.CLOUD_STYLE_DEFINE.-1=Definido pelo Estilo
+value.CLOUD_STYLE_DEFINE.0=DESATIVADO
+value.CLOUD_STYLE_DEFINE.1=§bReimagined
+value.CLOUD_STYLE_DEFINE.3=Unbound
+value.CLOUD_STYLE_DEFINE.50=Vanilla §e[*]
+
+option.CLOUD_SHADOWS=Sombras das Nuvens
+option.CLOUD_SHADOWS.comment=Ativa sombras projetadas pelas nuvens. §e[*]§r Esta configuração só funciona com os estilos de nuvem "Reimaginadas" ou "Sem Limites". §e[*]§r As sombras das nuvens serão geradas aleatoriamente se o estilo for "Sem Limites", devido à complexidade extra dessas nuvens.
+
+option.CLOUD_CLOSED_AREA_CHECK=Evitar Nuvens em Interiores
+option.CLOUD_CLOSED_AREA_CHECK.comment=Faz verificações adicionais para remover nuvens em áreas fechadas. §e[*]§r Esta configuração só funciona com os estilos de nuvem "Reimaginadas" ou "Sem Limites". §e[*]§r Esta configuração será desativada se "Sombras em Tempo Real" estiver DESATIVADO.
+
+option.CLOUD_ALT1=Altitude das Nuvens §e[*]§r
+ooption.CLOUD_ALT1.comment=Determina a altura do mundo em que as nuvens irão aparecer. §e[*]§r Esta configuração pode ser aumentada ou diminuída internamente dependendo das configurações da dimensão e dos mods utilizados. §e[*]§r Esta configuração funciona apenas com os estilos de nuvem "Reimagined" ou "Unbound".
+
+option.CLOUD_SPEED_MULT=Velocidade das Nuvens
+option.CLOUD_SPEED_MULT.comment=Define a velocidade com que as nuvens vão se mover. A opção "Sincronizado com o Tempo do Mundo" usa o tempo do mundo do Minecraft para avançar as posições das nuvens; isso permite que as nuvens apareçam iguais para todos os jogadores no mesmo servidor. §e[*]§r Esta configuração só funciona com os estilos de nuvem "Reimaginadas" ou "Sem Limites".
+value.CLOUD_SPEED_MULT.100=Sincronizado com o Tempo do Mundo
+
+option.CLOUD_R=Multiplicador de Vermelho das Nuvens
+option.CLOUD_G=Multiplicador de Verde das Nuvens
+option.CLOUD_B=Multiplicador de Azul das Nuvens
+
+option.CLOUD_UNBOUND_AMOUNT=Quantidade de Nuvens Sem Limites
+option.CLOUD_UNBOUND_AMOUNT.comment=Ajuda a ajustar a quantidade de nuvens do tipo "Sem Limites".
+
+option.CLOUD_UNBOUND_SIZE_MULT=Redução do Tamanho das Nuvens §c[-]§r
+option.CLOUD_UNBOUND_SIZE_MULT.comment=Ajusta o tamanho das nuvens livres. Valores maiores deixam as nuvens menores. §c[-]§r Alterar esta opção desativa o recurso "sincronizar nuvens entre jogadores no mesmo servidor" do Complementary.
+
+option.CLOUD_UNBOUND_RAIN_ADD=Aumento de Nuvens na Chuva
+option.CLOUD_UNBOUND_RAIN_ADD.comment=Define o aumento da quantidade de nuvens durante chuva/neve.
+prefix.CLOUD_UNBOUND_RAIN_ADD=+
+
+option.DOUBLE_REIM_CLOUDS=Dupla Camada de Nuvens Reimaginadas
+option.DOUBLE_REIM_CLOUDS.comment=Ativa uma segunda camada de nuvens reimaginadas. §e[*]§r Esta configuração só funciona com o estilo de nuvem "Reimaginadas".
+
+option.CLOUD_ALT2=Altitude da Segunda Camada de Nuvens
+option.CLOUD_ALT2.comment=Define a altura no mundo em que a segunda camada de nuvens aparecerá. §e[*]§r Esta configuração só funciona quando a opção "Dupla Camada de Nuvens Reimaginadas" está ativada com o estilo "Reimaginadas".
+
+option.NETHER_STORM=Tempestade do Nether
+option.NETHER_STORM.comment=Adiciona um efeito volumétrico semelhante a fumaça na dimensão Nether. §c[-]§r Este efeito pode impactar o desempenho.
+
+option.NETHER_STORM_I=Opacidade da Tempestade do Nether
+option.NETHER_STORM_I.comment=Define a opacidade da Tempestade do Nether.
+
+option.NETHER_STORM_LOWER_ALT=Altitude Inferior da Tempestade do Nether
+option.NETHER_STORM_LOWER_ALT.comment=Define o ponto inicial inferior da Tempestade do Nether. Ela não aparecerá abaixo desta altitude e ficará mais brilhante logo acima dela.
+
+option.NETHER_STORM_HEIGHT=Altura da Tempestade do Nether
+option.NETHER_STORM_HEIGHT.comment=Define a altura que a Tempestade do Nether irá se formar. Diminuir este valor fará com que a tempestade se concentre próxima à "Altitude Inferior da Tempestade do Nether".
+
+option.NETHER_VIEW_LIMIT=Limite de Visão do Nether
+option.NETHER_VIEW_LIMIT.comment=Define a distância máxima que a neblina permite ser visível no Nether. §c[-]§r Aumentar esta configuração pode impactar o desempenho quando a "Tempestade do Nether" está ativada.
+value.NETHER_VIEW_LIMIT.96.0=6 Chunks
+value.NETHER_VIEW_LIMIT.112.0=7 Chunks
+value.NETHER_VIEW_LIMIT.128.0=8 Chunks
+value.NETHER_VIEW_LIMIT.160.0=10 Chunks
+value.NETHER_VIEW_LIMIT.192.0=12 Chunks
+value.NETHER_VIEW_LIMIT.224.0=14 Chunks
+value.NETHER_VIEW_LIMIT.256.0=16 Chunks
+value.NETHER_VIEW_LIMIT.320.0=20 Chunks
+value.NETHER_VIEW_LIMIT.384.0=24 Chunks
+value.NETHER_VIEW_LIMIT.512.0=32 Chunks §c[-]
+value.NETHER_VIEW_LIMIT.768.0=48 Chunks §c[-]
+value.NETHER_VIEW_LIMIT.1024.0=64 Chunks §c[-]
+value.NETHER_VIEW_LIMIT.99999.0=Ilimitado §c[-]
+
+option.NETHER_COLOR_MODE=Modo de Cor
+option.NETHER_COLOR_MODE.comment=Define como as cores de ambiente serão tratadas no Nether. Constante: As cores não mudam entre biomas. Baseado em Bioma: As cores mudam dependendo do bioma. Baseado em Bioma (Modificado): Baseado em bioma, mas as cores foram reequilibradas para combinar melhor com o visual padrão do Complementary.
+value.NETHER_COLOR_MODE.3=Baseado em Bioma (Modificado)
+value.NETHER_COLOR_MODE.2=Baseado em Bioma
+value.NETHER_COLOR_MODE.0=Constante
+
+option.END_BEAM_INTENSITY=Intensidade dos Feixes do End
+option.END_BEAM_INTENSITY.comment=Ajusta o brilho dos feixes visíveis na dimensão do End.
+
+option.END_STAR_INTENSITY=Intensidade das Estrelas do End
+option.END_STAR_INTENSITY.comment=Ajusta o brilho das estrelas visíveis na dimensão do End.
+
+option.END_FLASHES=Flashes do End
+option.END_FLASHES.comment=Ativa o suporte para o efeito ambiental "flash do End", adicionado no Minecraft 1.21.9. A intensidade dos flashes no céu está diretamente ligada à intensidade dos Feixes do End.
+
+option.END_BEAM_CENTER_ALT=Altitude Central dos Feixes do End
+option.END_BEAM_CENTER_ALT.comment=Ajusta a altitude em que os Feixes do End ficam centralizados no nível Y do mundo.
+
+option.END_BEAM_HEIGHT=Altura dos Feixes do End
+option.END_BEAM_HEIGHT.comment=Ajusta a altura física dos Feixes do End.
+
+option.T_EXPOSURE=Brilho em Geral
+option.T_EXPOSURE.comment=option.TONEMAP_EXPOSURE=Também conhecido como "Exposição Tonemap". Ajusta o brilho geral de toda a imagem.
+
+option.TM_WHITE_CURVE=Brilho do Branco
+option.TM_WHITE_CURVE.comment=Também conhecido como "Curva de Branco do Tonemap". Ajusta quão facilmente as cores chegam ao branco total.
+
+option.T_UPPER_CURVE=Contraste das Cores Mais Claras
+option.T_UPPER_CURVE.comment=Também conhecido como "Curva Superior do Tonemap". Ajusta o contraste das cores mais claras.
+
+option.T_LOWER_CURVE=Contraste das Cores Mais Escuras
+option.T_LOWER_CURVE.comment=Também conhecido como "Curva Inferior do Tonemap". Ajusta o contraste das cores mais escuras.
+
+option.TM_CONTRAST=Contraste Geral
+option.TM_CONTRAST.comment=Ajusta a escuridão das cores escuras e o brilho das cores claras.
+
+option.T_SATURATION=Saturação
+option.T_SATURATION.comment=Ajusta a intensidade geral das cores da imagem.
+
+option.T_VIBRANCE=Saturação das Cores Pálidas
+option.T_VIBRANCE.comment=Também conhecido como "Vibrance". Ajusta a intensidade das cores da imagem, mas pixels que já são coloridos são menos afetados.
+
+option.TM_DARK_DESATURATION=Desaturação da Escuridão
+option.TM_DARK_DESATURATION.comment=Ajusta a intensidade do efeito de apagamento de cores que será aplicado às áreas mais escuras.
+
+option.TM_WHITE_PATH=Alcance do Branco
+option.TM_WHITE_PATH.comment=Ajusta a facilidade com que as cores mais claras chegam ao branco.
+
+option.COLORGRADING=§eCorreção de Cor
+option.COLORGRADING.comment=Ativa configurações para misturar livremente os canais de cor finais.
+option.GR_RR=Vermelho para Vermelho
+option.GR_RG=Vermelho para Verde
+option.GR_RB=Vermelho para Azul
+option.GR_RC=Curva do Vermelho
+option.GR_GR=Verde para Vermelho
+option.GR_GG=Verde para Verde
+option.GR_GB=Verde para Azul
+option.GR_GC=Curva do Verde
+option.GR_BR=Azul para Vermelho
+option.GR_BG=Azul para Verde
+option.GR_BB=Azul para Azul
+option.GR_BC=Curva do Azul
+
+option.WATER_STYLE_DEFINE=Estilo da Água
+option.WATER_STYLE_DEFINE.comment=Define o estilo da água. §e[*]§r "Definido pelo Estilo" significa que a configuração será determinada automaticamente pela opção "Estilo Visual" no menu principal das Opções do Shader.
+value.WATER_STYLE_DEFINE.-1=Definido pelo Estilo
+value.WATER_STYLE_DEFINE.1=Reimagined
+value.WATER_STYLE_DEFINE.2=Reimagined + Ondas
+value.WATER_STYLE_DEFINE.3=Unbound
+
+option.WATER_CAUSTIC_STYLE_DEFINE=Estilo das Caústicas da Água
+option.WATER_CAUSTIC_STYLE_DEFINE.comment=Define o estilo das sombras da água, também conhecidas como caústicas.
+value.WATER_CAUSTIC_STYLE_DEFINE.-1=Igual à Água
+value.WATER_CAUSTIC_STYLE_DEFINE.1=Reimagined
+value.WATER_CAUSTIC_STYLE_DEFINE.3=Unbound
+
+option.WATER_REFRACTION_INTENSITY=Intensidade da Refração da Água §e[*]§r
+option.WATER_REFRACTION_INTENSITY.comment=Ajuda a ajustar a intensidade da refração da água e distorção subaquática. §e[*]§r Esta configuração só funciona totalmente quando a Qualidade dos Detalhes está em "Alta", caso contrário, afeta apenas a distorção sutil subaquática.
+
+option.WATER_FOAM_I=Intensidade da Espuma da Água
+option.WATER_FOAM_I.comment=Define a opacidade da espuma vista nas bordas da água. §e[*]§r Esta configuração só funciona quando a Qualidade dos Detalhes está em Média ou superior.
+
+option.WATER_ALPHA_MULT=Fator de Opacidade da Água
+option.WATER_ALPHA_MULT.comment=Ajuda a ajustar o quão opaca a água parece. §c[-]§r Valores extremos podem quebrar o equilíbrio da iluminação da água. §e[*]§r Esta configuração só funciona quando a Qualidade dos Detalhes está em Média ou superior.
+
+option.WATER_FOG_MULT=Fator de Neblina da Água
+option.WATER_FOG_MULT.comment=Ajuda a ajustar o quão próxima a neblina da água parece. Valores maiores deixam a neblina mais próxima. §c[-]§r Valores extremos podem quebrar o equilíbrio da iluminação da água.
+
+option.WATERCOLOR_R=Multiplicador de Vermelho da Superfície da Água
+option.WATERCOLOR_G=Multiplicador de Verde da Superfície da Água
+option.WATERCOLOR_B=Multiplicador de Azul da Superfície da Água
+
+option.WATERCOLOR_MODE=Modo de Cor
+option.WATERCOLOR_MODE.comment=Define como a cor da água será tratada. Constante: As cores da água não mudam entre biomas. Baseado em Bioma: A cor muda dependendo do bioma. Baseado em Bioma (Limitado): Baseado em bioma, mas evita que a cor da superfície fique estranha em certos biomas. §e[*]§r Esta configuração não funciona corretamente em versões do Minecraft abaixo da 1.13.
+value.WATERCOLOR_MODE.3=Baseado em Bioma (Limitado)
+value.WATERCOLOR_MODE.2=Baseado em Bioma
+value.WATERCOLOR_MODE.0=Constante
+
+option.BRIGHT_CAVE_WATER=Água Rasa/Caverna Mais Brilhante
+option.BRIGHT_CAVE_WATER.comment=Deixa a água rasa ou água em áreas fechadas mais brilhante para melhorar a visibilidade em cavernas e adicionar detalhes de cor nas partes rasas dos oceanos. §e[*]§r Este efeito não funcionará se o Fator de Opacidade da Água estiver acima de 199 por motivos técnicos.
+
+option.UNDERWATERCOLOR_R=Multiplicador de Vermelho Subaquático
+option.UNDERWATERCOLOR_G=Multiplicador de Verde Subaquático
+option.UNDERWATERCOLOR_B=Multiplicador de Azul Subaquático
+
+option.WATER_BUMPINESS=Força das Ondas
+option.WATER_BUMPINESS.comment=Ajuda a ajustar a intensidade das ondas superficiais (normais) vistas na água.
+
+option.WATER_BUMP_SMALL=Força das Ondas - Ondas Pequenas
+option.WATER_BUMP_SMALL.comment=Ajuda a ajustar a intensidade das ondas menores.
+
+option.WATER_BUMP_MED=Força das Ondas - Ondas Médias
+option.WATER_BUMP_MED.comment=Ajuda a ajustar a intensidade das ondas médias.
+
+option.WATER_BUMP_BIG=Força das Ondas - Ondas Grandes
+option.WATER_BUMP_BIG.comment=Ajuda a ajustar a intensidade das ondas maiores.
+
+option.WATER_SPEED_MULT=Velocidade das Ondas
+option.WATER_SPEED_MULT.comment=Ajuda a ajustar a velocidade de movimento das ondas superficiais (normais) vistas na água.
+
+option.WATER_SIZE_MULT=Tamanho das Ondas
+option.WATER_SIZE_MULT.comment=Ajuda a ajustar o tamanho das ondas superficiais (normais) vistas na água.
+
+option.SUN_ANGLE=Ângulo do Sol/Lua
+option.SUN_ANGLE.comment=Ajuda a ajustar o ângulo do sol/lua em relação ao mundo durante o meio-dia. §a[+]§r O modelo de iluminação Reimagined foi especialmente projetado para fazer o ângulo "0" funcionar tão bem quanto os outros.
+value.SUN_ANGLE.-1=Definido pelo o estilo
+value.SUN_ANGLE.60=60
+value.SUN_ANGLE.55=55
+value.SUN_ANGLE.50=50
+value.SUN_ANGLE.45=45
+value.SUN_ANGLE.40=40
+value.SUN_ANGLE.35=35
+value.SUN_ANGLE.30=30
+value.SUN_ANGLE.25=25
+value.SUN_ANGLE.20=20
+value.SUN_ANGLE.15=15
+value.SUN_ANGLE.10=10
+value.SUN_ANGLE.5=5
+value.SUN_ANGLE.0=0 §r(§bReimagined§r)
+value.SUN_ANGLE.-5=-5
+value.SUN_ANGLE.-10=-10
+value.SUN_ANGLE.-15=-15
+value.SUN_ANGLE.-20=-20
+value.SUN_ANGLE.-25=-25
+value.SUN_ANGLE.-30=-30
+value.SUN_ANGLE.-35=-35
+value.SUN_ANGLE.-40=-40 §r(§dUnbound§r)
+value.SUN_ANGLE.-45=-45
+value.SUN_ANGLE.-50=-50
+value.SUN_ANGLE.-55=-55
+value.SUN_ANGLE.-60=-60
+
+option.SUN_MOON_STYLE_DEFINE=Estilo do Sol/Lua
+option.SUN_MOON_STYLE_DEFINE.comment=Define o estilo do sol/lua. §e[*]§r Esta configuração pode interagir incorretamente com alguns resource packs devido às limitações de diferenciação entre sol/lua/skybox.
+value.SUN_MOON_STYLE_DEFINE.-1=Definido pelo Estilo
+value.SUN_MOON_STYLE_DEFINE.1=Reimagined
+value.SUN_MOON_STYLE_DEFINE.2=Unbound
+value.SUN_MOON_STYLE_DEFINE.3=Unbound - Menor
+
+option.SUN_MOON_HORIZON=Horizonte do Sol/Lua
+option.SUN_MOON_HORIZON.comment=Impede que o sol/lua apareça abaixo da linha do horizonte.
+
+option.SUN_MOON_DURING_RAIN=Sol/Lua Durante a Chuva
+option.SUN_MOON_DURING_RAIN.comment=Define se o sol e a lua ficarão visíveis durante a chuva ou não.
+
+option.IMPROVED_RAIN_DEFINE=Texturas de Clima Aprimoradas
+option.IMPROVED_RAIN_DEFINE.comment=Ativa um sistema aprimorado de texturas climáticas, permitindo cores mais realistas e corrigindo o bug do Minecraft em que chuva/neve não aparecem atrás de vidros coloridos ou modificados.
+value.IMPROVED_RAIN_DEFINE.0=DESLIGADO
+value.IMPROVED_RAIN_DEFINE.1=LIGADO
+
+option.NIGHT_STAR_AMOUNT=Quantidade de Estrelas à Noite
+option.NIGHT_STAR_AMOUNT.comment=Define a quantidade de estrelas no céu noturno.
+value.NIGHT_STAR_AMOUNT.0=OFF
+value.NIGHT_STAR_AMOUNT.1=Baixa
+value.NIGHT_STAR_AMOUNT.2=Média
+value.NIGHT_STAR_AMOUNT.3=Alta
+value.NIGHT_STAR_AMOUNT.4=Muito Alto
+
+option.RAINBOWS=Arco-íris
+option.RAINBOWS.comment=Ativa arco-íris que aparecem no lado oposto ao sol durante a manhã/entardecer.
+value.RAINBOWS.0=DESATIVADO
+value.RAINBOWS.1=Após a Chuva
+value.RAINBOWS.3=Sempre
+
+option.RAINBOW_STYLE_DEFINE=Estilo do Arco-Íris
+option.RAINBOW_STYLE_DEFINE.comment=Define o estilo dos arco-íris. §e[*]§r "Definido pelo Estilo" significa que essa configuração será determinada automaticamente pela opção "Estilo Visual" no menu principal de Opções de Shader.
+value.RAINBOW_STYLE_DEFINE.-1=Definido pelo Estilo
+value.RAINBOW_STYLE_DEFINE.1=Reimaginado
+value.RAINBOW_STYLE_DEFINE.4=Sem Limites
+
+option.AURORA_STYLE_DEFINE=Estilo da Aurora Boreal
+option.AURORA_STYLE_DEFINE.comment=Determina o estilo das luzes do norte que aparecem no céu noturno.
+value.AURORA_STYLE_DEFINE.-1=Definido pelo Estilo
+value.AURORA_STYLE_DEFINE.0=§cDESLIGADO
+value.AURORA_STYLE_DEFINE.1=Reimagined
+value.AURORA_STYLE_DEFINE.2=Unbound
+
+option.AURORA_CONDITION=Condição da Aurora
+option.AURORA_CONDITION.comment=A configuração da Condição da Aurora determina a(s) condição(ões) para a Aurora Boreal aparecer. §e[*]§r A Aurora Boreal só aparecerá durante a noite, independentemente desta configuração.
+value.AURORA_CONDITION.-1=Sempre (exceto Lua Nova)
+value.AURORA_CONDITION.0=Todas as Noites
+value.AURORA_CONDITION.1=Lua Cheia
+value.AURORA_CONDITION.2=Bioma Nevado
+value.AURORA_CONDITION.3=Lua Cheia em Bioma Nevado
+value.AURORA_CONDITION.4=Lua Cheia ou Bioma Nevado
+
+option.NIGHT_NEBULAE=Nébulas Noturnas
+option.NIGHT_NEBULA.comment=Adiciona nébulas ao estilo de galáxia no céu noturno. As nébulas são geradas proceduralmente e parecerão diferentes a cada noite. §c[-]§r Este efeito pode impactar o desempenho. §e[*]§r "Nébulas" não é um erro de digitação, é o plural de Nebulosa =D
+value.NIGHT_NEBULAE.-1=OFF
+value.NIGHT_NEBULAE.1=§eON
+
+option.NIGHT_NEBULA_I=Brilho das Nébulas Noturnas
+option.NIGHT_NEBULA_I.comment=Ajuda a ajustar o brilho das Nébulas Noturnas.
+
+option.NIGHT_NEBULAE=§eNévoas Noturnas§r
+option.NIGHT_NEBULAE.comment=Adiciona névoas em estilo de galáxia ao céu noturno. As névoas são geradas de forma procedural e terão uma aparência diferente a cada noite. §c[-]§r Este efeito pode impactar o desempenho. §e[*]§r "Nebulae" não é um erro de digitação, é o plural de Nebula =D
+value.NIGHT_NEBULAE.-1=DESLIGADO
+value.NIGHT_NEBULAE.1=§eLIGADO
+
+option.SPECIAL_BIOME_WEATHER=Clima Especial Frio/Seco
+option.SPECIAL_BIOME_WEATHER.comment=Altera o equilíbrio da atmosfera em biomas frios e secos para dar a sensação de nevasca ou tempestade de areia.
+
+option.WEATHER_TEX_OPACITY=Opacidade da Textura do Clima
+option.WEATHER_TEX_OPACITY.comment=Ajuda a ajustar a opacidade das texturas de chuva/neve.
+
+option.SHADOW_SMOOTHING=Suavidade da sombra
+option.SHADOW_SMOOTHING.comment=Determina a nitidez das sombras. §c[-]§r Reduzir essa configuração aumentará a cintilação das sombras e afetará o desempenho. §e[*]§r Essa configuração apenas funciona se "Sombras em Tempo-Real" estiver definido como baixo ou alto.
+value.SHADOW_SMOOTHING.4=Bem Suave
+value.SHADOW_SMOOTHING.3=Suave
+value.SHADOW_SMOOTHING.2=Nitidez §c[-]
+value.SHADOW_SMOOTHING.1=Bem Nítido §c[-]
+
+option.PIXELATED_SHADOWS=Sombras Pixeladas
+option.PIXELATED_SHADOWS.comment=Faz com que as sombras projetadas do sol e da lua pareçam pixeladas.
+
+option.PIXELATED_BLOCKLIGHT=Luz de Bloco Pixelada
+option.PIXELATED_BLOCKLIGHT.comment=Faz com que a iluminação emitida por blocos de luz pareça pixelada.
+
+option.PIXELATED_AO=Sombras de Borda Pixeladas
+option.PIXELATED_AO.comment=Faz com que a oclusão de ambiente padrão do Minecraft pareça pixelada.
+
+option.PIXEL_SCALE=Escala de Pixelização
+option.PIXEL_SCALE.comment=Escala aplicada na resolução das texturas.
+value.PIXEL_SCALE.-2=0,25x
+value.PIXEL_SCALE.-1=0,5x
+value.PIXEL_SCALE.1=1x
+value.PIXEL_SCALE.2=2x
+value.PIXEL_SCALE.3=4x
+value.PIXEL_SCALE.4=8x
+value.PIXEL_SCALE.5=16x
+
+option.BLOOM_ENABLED=Brilho Suave
+option.BLOOM.comment=Ativa o brilho borrado de objetos luminosos e umidade.
+value.BLOOM_ENABLED.-1=OFF
+value.BLOOM_ENABLED.1=§eON
+
+option.BLOOM_STRENGTH=Intensidade do Brilho Suave
+option.BLOOM_STRENGTH.comment=Determina a intensidade do brilho em objetos luminosos e o efeito de brilho causado por chuva/umidade em cavernas. §c[-]§r Muito brilho pode deixar a imagem mais borrada e clara do que o desejado, especialmente em condições úmidas.
+value.BLOOM_STRENGTH.0.027=15%
+value.BLOOM_STRENGTH.0.036=20%
+value.BLOOM_STRENGTH.0.045=25%
+value.BLOOM_STRENGTH.0.054=30%
+value.BLOOM_STRENGTH.0.063=35%
+value.BLOOM_STRENGTH.0.072=40%
+value.BLOOM_STRENGTH.0.081=45%
+value.BLOOM_STRENGTH.0.09=50%
+value.BLOOM_STRENGTH.0.10=55%
+value.BLOOM_STRENGTH.0.11=60%
+value.BLOOM_STRENGTH.0.12=65%
+value.BLOOM_STRENGTH.0.13=70%
+value.BLOOM_STRENGTH.0.14=75%
+value.BLOOM_STRENGTH.0.15=80% §c[-]
+value.BLOOM_STRENGTH.0.16=85% §c[-]
+value.BLOOM_STRENGTH.0.17=90% §c[-]
+value.BLOOM_STRENGTH.0.18=95% §c[-]
+value.BLOOM_STRENGTH.0.19=100% §c[-]
+value.BLOOM_STRENGTH.0.21=110% §c[-]
+value.BLOOM_STRENGTH.0.23=120% §c[-]
+value.BLOOM_STRENGTH.0.25=130% §c[-]
+value.BLOOM_STRENGTH.0.28=150% §c[-]
+value.BLOOM_STRENGTH.0.32=180% §c[-]
+value.BLOOM_STRENGTH.10.00=§cInsano
+
+option.IMAGE_SHARPENING=Afiamento de Imagem
+option.IMAGE_SHARPENING.comment=Deixa a imagem mais nítida usando um filtro. §c[-]§r Muito afiamento pode causar artefatos visuais como serrilhado, cintilação, ruído e mudanças sutis de brilho.
+value.IMAGE_SHARPENING.0=DESLIGADO
+value.IMAGE_SHARPENING.1=1x
+value.IMAGE_SHARPENING.2=2x
+value.IMAGE_SHARPENING.3=3x
+value.IMAGE_SHARPENING.4=4x
+value.IMAGE_SHARPENING.5=5x
+value.IMAGE_SHARPENING.6=6x §c[-]
+value.IMAGE_SHARPENING.7=7x §c[-]
+value.IMAGE_SHARPENING.8=8x §c[-]
+value.IMAGE_SHARPENING.9=9x §c[-]
+value.IMAGE_SHARPENING.10=10x §c[-]
+
+option.LENSFLARE_MODE=Reflexo de Lente
+option.LENSFLARE_MODE.comment=Adiciona efeito de reflexo de lente da câmera ao olhar para o sol ou lua. §c[-]§r Este efeito pode impactar bastante o desempenho.
+value.LENSFLARE_MODE.0=DESLIGADO
+value.LENSFLARE_MODE.1=Apenas Sol
+value.LENSFLARE_MODE.2=Sol & Lua
+
+option.LENSFLARE_I=Intensidade do Reflexo de Lente
+option.LENSFLARE_I.comment=Ajuda a ajustar a força do efeito de Reflexo de Lente.
+
+option.TAA_MODE=§eFiltro Temporal§r
+option.TAA_MODE.comment=Ativa o anti-aliasing temporal, que ajuda a suavizar efeitos granulados, melhora o desempenho ao reduzir a quantidade de amostras de alguns efeitos mais pesados e pode reduzir o aliasing com as configurações corretas. §c[-]§r: Desativar esta opção resultará em pior desempenho e menor qualidade dos efeitos.
+value.TAA_MODE.0=DESLIGADO §c[-]
+value.TAA_MODE.1=LIGADO §a[+]
+
+option.TAA_SMOOTHING=Suavização Temporal
+option.TAA_SMOOTHING.comment=Ajusta a quantidade de suavização aplicada pelo Filtro Temporal. Valores mais altos produzem uma imagem mais borrada, mas reduzem cintilação e granulação. A diferença não será perceptível ao ficar parado.
+value.TAA_SMOOTHING.2=Baixo
+value.TAA_SMOOTHING.3=Médio
+value.TAA_SMOOTHING.4=Alto
+
+option.TAA_JITTER=Jitter Temporal §e[*]§r
+option.TAA_JITTER.comment=O jitter ajuda o Filtro Temporal a aplicar melhor o anti-aliasing na imagem, mas possui algumas desvantagens. §e[*]§r Valores mais altos melhoram o anti-aliasing, porém também causam bastante cintilação e desfoque. §e[*]§r Recomenda-se Alta Suavização Temporal com jitter Completo. §c[-]§r Desativar o jitter eliminará os benefícios do anti-aliasing.
+value.TAA_JITTER.0=DESLIGADO §c[-]
+value.TAA_JITTER.1=Baixo
+value.TAA_JITTER.2=Médio
+value.TAA_JITTER.3=Completo §e[*]
+
+option.TAA_MOVEMENT_IMPROVEMENT_FILTER=Amostragem Catmull-Rom
+option.TAA_MOVEMENT_IMPROVEMENT_FILTER.comment=Reduz o desfoque do Filtro Temporal utilizando um método de amostragem mais avançado.
+value.TAA_MOVEMENT_IMPROVEMENT_FILTER.0=DESLIGADO §c[-]
+value.TAA_MOVEMENT_IMPROVEMENT_FILTER.1=LIGADO
+
+option.FXAA_STRENGTH=Intensidade do FXAA
+option.FXAA_STRENGTH.comment=Ajusta a intensidade do efeito FXAA. Valores mais altos produzem melhor anti-aliasing ao custo de uma imagem mais borrada.
+value.FXAA_STRENGTH.-1=DESLIGADO
+
+option.FXAA_TAA_INTERACTION=Reduzir FXAA em Movimento
+option.FXAA_TAA_INTERACTION.comment=Reduz a intensidade do FXAA quando a câmera está em movimento. Valores mais altos produzem uma imagem mais nítida, mas também geram mais cintilação.
+value.FXAA_TAA_INTERACTION.0=DESLIGADO
+value.FXAA_TAA_INTERACTION.2=20
+value.FXAA_TAA_INTERACTION.4=40
+value.FXAA_TAA_INTERACTION.6=60
+value.FXAA_TAA_INTERACTION.8=80
+value.FXAA_TAA_INTERACTION.10=100
+
+option.DISTANT_LIGHT_BOKEH=Bokeh de Luz Distante
+option.DISTANT_LIGHT_BOKEH.comment=Faz fontes de luz distantes parecerem dispersas aplicando um leve desfoque à distância. §a[+]§r Este efeito é melhorado com IntegratedPBR+ (opcional), ajustando as luzes distantes para melhor aparência.
+
+option.MOTION_BLUR_EFFECT=Desfoque de Movimento
+option.MOTION_BLURRING.comment=Aplica desfoque à imagem ao mover a câmera.
+value.MOTION_BLUR_EFFECT.-1=OFF
+value.MOTION_BLUR_EFFECT.1=§eON
+
+option.MOTION_BLURRING_STRENGTH=Intensidade do Desfoque de Movimento
+option.MOTION_BLURRING_STRENGTH.comment=Ajuda a ajustar a intensidade do desfoque de movimento.
+
+option.WORLD_BLUR=§eDesfoque do Mundo
+option.WORLD_BLUR.comment=Ativa o desfoque do mundo. Desfoque de Distância: O desfoque é aplicado como neblina, dependendo da distância da câmera. Profundidade de Campo: O desfoque depende do ponto de foco da câmera. §c[-]§r Este efeito pode impactar bastante o desempenho.
+value.WORLD_BLUR.0=DESLIGADO
+value.WORLD_BLUR.1=§cDesfoque de Distância
+value.WORLD_BLUR.2=§cProfundidade de Campo
+
+option.WB_FOV_SCALED=Desfoque Escalado pelo FOV
+option.WB_FOV_SCALED.comment=Escala o Desfoque do Mundo conforme o Campo de Visão da câmera. O desfoque ficará mais intenso ao dar zoom com esta opção ativada.
+
+option.WB_CHROMATIC=Desfoque Cromático
+option.WB_CHROMATIC.comment=Aplica aberração cromática nas áreas desfocadas, separando as cores nas regiões borradas.
+
+option.WB_ANAMORPHIC=Desfoque Anamórfico
+option.WB_ANAMORPHIC.comment=Estica o desfoque em uma direção. §c[-]§r Esta opção pode reduzir a qualidade do Desfoque do Mundo
+
+option.WB_DOF_I=Intensidade da Profundidade de Campo
+option.WB_DOF_FOCUS=Foco da Profundidade de Campo
+option.WB_DOF_FOCUS.comment=Determina a distância de foco da câmera. Automático: O ponto de foco será ajustado conforme o centro da tela. Brilho: O ponto de foco será determinado pelo controle de "Brilho" nas Configurações de Vídeo.
+value.WB_DOF_FOCUS.-1=Brilho §e[*]
+value.WB_DOF_FOCUS.0=Automático
+
+option.WB_DB_DAY_I=Desf. Distância - Dia
+option.WB_DB_NIGHT_I=Desf. Distância - Noite & Interiores
+option.WB_DB_RAIN_I=Desf. Distância - Chuva & Neve
+option.WB_DB_WATER_I=Desf. Distância - Debaixo d'Água
+option.WB_DB_NETHER_I=Desf. Distância - Nether
+option.WB_DB_END_I=Desf. Distância - End
+
+option.VIGNETTE_R=Vinheta
+option.VIGNETTE_R.comment=Aplica escurecimento nas bordas da tela.
+
+option.CHROMA_ABERRATION=Aberração Cromática
+option.CHROMA_ABERRATION.comment=Separa as cores nas bordas da tela. §c[-]§r Pode deixar a imagem borrada; valores altos não são recomendados para jogar.
+value.CHROMA_ABERRATION.4=4 §c[-]
+value.CHROMA_ABERRATION.5=5 §c[-]
+value.CHROMA_ABERRATION.6=6 §c[-]
+value.CHROMA_ABERRATION.7=7 §c[-]
+value.CHROMA_ABERRATION.8=8 §c[-]
+
+option.IPBR_EMISSIVE_MODE=Modo Emissivo IPBR+
+option.IPBR_EMISSIVE_MODE.comment=Define como os emissivos são tratados no IntegratedPBR+. As opções labPBR ou seuspbr permitem que pacotes de recursos compatíveis substituam completamente os emissivos do IPBR+ em blocos com texturas especulares. §c[-]§r Não recomendado alterar esta opção sem saber o que está fazendo.
+value.IPBR_EMISSIVE_MODE.1=Apenas IPBR+
+value.IPBR_EMISSIVE_MODE.3=labPBR > IPBR+
+value.IPBR_EMISSIVE_MODE.2=seuspbr > IPBR+
+
+option.IPBR_COMPATIBILITY_MODE=Modo de Compatibilidade IPBR+
+option.IPBR_COMPATIBILITY_MODE.comment=Altera como alguns recursos do IPBR+ são calculados para serem menos agressivos e causar menos problemas com pacotes de recursos ou mods.
+
+option.IPBR_PARTICLE_FEATURES=Recursos de Partículas IPBR+
+option.IPBR_PARTICLE_FEATURES.comment=Ativa vários recursos para partículas, incluindo partículas de lava brilhantes e partículas de água com cores melhores.
+
+option.FANCY_GLASS=Vidro Aprimorado
+option.FANCY_GLASS.comment=Melhora o vidro comum adicionando uma camada translúcida. §c[-]§r Não funciona em versões antigas do Iris. §e[*]§r A opção de Suporte a RP deve estar em Integrated PBR+.
+
+option.GREEN_SCREEN_LIME=Blocos de Chroma Key Verde Limão
+option.GREEN_SCREEN_LIME.comment=Transforma "Concreto Verde Limão", "Lã Verde Limão" e "Carpete Verde Limão" em chroma key para edição de vídeo. Dica 1: Desative "Brilho Suave" para melhorar a separação. Dica 2: Coloque luzes sob os carpetes para iluminação. Dica 3: Você pode desativar o Anti-Aliasing (FXAA) e definir a Qualidade de Detalhe como Batata nas Configurações de Desempenho para desativar todos os filtros e obter separação perfeita de pixels.
+
+option.MIRROR_TINTED_GLASS = Vidro Escurecido com Efeito de Espelho
+option.MIRROR_TINTED_GLASS.comment = Aumenta a refletividade e a opacidade dos blocos de Vidro Escurecido. Ative as Reflexões em World-Space para obter o melhor resultado.
+
+option.MORE_REFLECTIVE_DISTANT_GLASS=Vidro Distante Mais Reflexivo
+option.MORE_REFLECTIVE_DISTANT_GLASS.comment=Aumenta a refletividade e a opacidade do vidro distante para deixar construções com janelas de vidro mais bonitas.
+
+option.HIDE_ARMOR=Ocultar Armadura §e[*]§r
+option.HIDE_ARMOR.comment=Oculta a armadura e a elytra usadas pelo jogador ou por todas as entidades. A elytra só é exibida enquanto o jogador está voando. §e[*]§r Esta configuração funciona apenas no Iris. §e[*]§r A opção "Apenas no Jogador Principal" pode ficar visualmente confusa se outras entidades usando armadura chegarem muito perto do jogador principal.
+value.HIDE_ARMOR.0=DESLIGADO
+value.HIDE_ARMOR.1=Apenas no Jogador Principal §e[*]§r
+value.HIDE_ARMOR.2=Em Todas as Entidades
+
+option.HAND_SWAYING=Movimento da Mão
+option.HAND_SWAYING.comment=Adiciona movimento lento à mão do jogador para simular respiração.
+value.HAND_SWAYING.0=DESLIGADO
+value.HAND_SWAYING.1=Sutil
+value.HAND_SWAYING.2=Normal
+value.HAND_SWAYING.3=Intenso
+
+option.LESS_LAVA_FOG=Menos Névoa em Lava ou Neve
+option.LESS_LAVA_FOG.comment=Reduz a névoa da lava e da neve em pó para melhorar a visibilidade dentro delas.
+
+option.REDUCE_CLOSE_PARTICLES=Reduzir Partículas Próximas
+option.REDUCE_CLOSE_PARTICLES.comment=Reduz a opacidade das partículas próximas à câmera para melhorar a visibilidade.
+
+option.SNOWY_WORLD=Mundo Nevado
+option.SNOWY_WORLD.comment=Deixa o mundo inteiro coberto de neve.
+
+option.SHOW_LIGHT_LEVEL=Mostrar Níveis de Luz
+option.SHOW_LIGHT_LEVEL.comment=No Overworld: Amarelo significa que mobs podem nascer à noite, vermelho significa que mobs podem nascer a qualquer hora. No Nether ou End: Amarelo significa que alguns mobs podem nascer, vermelho significa que todos podem nascer. §e[*]§r Desative Iluminação Suave para resultados precisos.
+value.SHOW_LIGHT_LEVEL.0=DESLIGADO
+value.SHOW_LIGHT_LEVEL.1=Segurar Olho de Aranha
+value.SHOW_LIGHT_LEVEL.2=Segurar Fonte de Luz
+value.SHOW_LIGHT_LEVEL.3=Sempre LIGADO
+
+option.COLOR_CODED_PROGRAMS=Programas Coloridos §c[-]§r
+option.COLOR_CODED_PROGRAMS.comment=Mostra quais programas de shader estão sendo usados para renderizar a geometria. §c[-]§r Esta opção é apenas para desenvolvimento e não deve ser usada para jogar. §e[*]§r Os valores das cores podem ser encontrados nos arquivos do shader pack: shaders/lib/misc/colorCodedPrograms.glsl
+
+option.GLOWING_COLORED_PARTICLES=Forçar Partículas Brilhantes §c[-]§r
+option.GLOWING_COLORED_PARTICLES.comment=Faz todas as partículas tecnicamente "coloridas" ficarem emissivas. §c[-]§r Não recomendado para jogar, pois faz muitas partículas brilharem mesmo quando não deveriam.
+
+option.CAVE_LIGHTING=Multiplicador de Iluminação em Cavernas
+option.CAVE_LIGHTING.comment=Adiciona iluminação extra em áreas sem luz do céu. §e[*]§r A iluminação de cavernas também é afetada pelo controle de "Brilho" nas Configurações de Vídeo. §c[-]§r Alterar drasticamente pode quebrar o equilíbrio da iluminação.
+
+option.AMBIENT_MULT=Multiplicador de Luz nas Sombras
+option.AMBIENT_MULT.comment=Define a quantidade de luz ambiente vista nas sombras. §c[-]§r Alterar drasticamente pode quebrar o equilíbrio da iluminação.
+
+option.PLAYER_SHADOW=Sombra do Jogador §e[*]§r
+option.PLAYER_SHADOW.comment=Define se o jogador terá sombra ou não. §e[*]§r Só funciona no Iris. §e[*]§r Será desativado se "Sombras em Tempo Real" estiver DESLIGADO.
+value.PLAYER_SHADOW.-1=DESLIGADO
+value.PLAYER_SHADOW.1=LIGADO
+
+option.GENERATED_NORMALS=Normais Geradas
+option.GENERATED_NORMALS.comment=Adiciona detalhes em relevo gerados automaticamente às superfícies. §e[*]§r A opção de suporte a RP deve estar definida como Integrated PBR+. §e[*]§r Pode apresentar resultados estranhos com alguns resource packs ou mods que utilizam texturas com resoluções não padronizadas.
+
+option.COATED_TEXTURES=Texturas Envelopadas
+option.COATED_TEXTURES.comment=Adiciona detalhes empoeirados gerados automaticamente às texturas. §e[*]§r A opção de suporte a RP deve estar definida como Integrated PBR+. §e[*]§r Pode apresentar resultados estranhos com alguns resource packs ou mods que utilizam texturas com resoluções não padronizadas.
+
+option.ENTITY_GN_AND_CT=Permitir GN & CT em Entidades
+option.ENTITY_GN_AND_CT.comment=Define se Normais Geradas e Texturas Envelopadas podem aparecer em entidades. §e[*]§r Não ativa NG ou TE se as opções principais estiverem desativadas.
+
+option.GENERATED_NORMAL_MULT=Força das Normais Geradas
+option.GENERATED_NORMAL_MULT.comment=Ajuda a ajustar a força do relevo automático nas superfícies.
+
+option.GENERATED_NORMAL_RES=Resolução dos Normais Gerados
+option.GENERATED_NORMAL_RES.comment=Ajusta a resolução/tamanho dos detalhes em relevo gerados automaticamente nas superfícies. §e[*]§r Note que a resolução dos GN também depende da resolução própria de cada textura, o que significa que resource packs ou mods podem acabar alterando a resolução dos GN em diferentes blocos.
+
+option.GENERATED_NORMAL_ENTITY_MULT=NG em Entidades
+option.GENERATED_NORMAL_ENTITY_MULT.comment=Ajuda a ajustar a força do relevo automático em entidades.
+value.GENERATED_NORMAL_ENTITY_MULT.0=Padrão
+
+option.COATED_TEXTURE_MULT=Força da Textura Envelopada
+option.COATED_TEXTURE_MULT.comment=Ajuda a ajustar a força dos detalhes de poeira automáticos nas texturas.
+
+option.GLOWING_ORE_MASTER=§eAtivar Minérios Brilhantes
+option.GLOWING_ORE_MASTER.comment=Ativa a funcionalidade de minérios brilhantes. §e[*]§r "Definido pelo Estilo" só ativa se o "Estilo Visual" for "Sem Limites". §e[*]§r As opções abaixo só funcionam se esta estiver ativada.
+value.GLOWING_ORE_MASTER.0=DESLIGADO
+value.GLOWING_ORE_MASTER.1=Definido pelo Estilo
+value.GLOWING_ORE_MASTER.2=§aLIGADO
+
+option.GLOWING_ORE_MULT=Força do Brilho dos Minérios
+option.GLOWING_ORE_MULT.comment=Define a intensidade da emissão dos minérios brilhantes.
+
+option.GLOWING_ORE_IRON=Minério de Ferro Brilhante
+option.GLOWING_ORE_GOLD=Minério de Ouro Brilhante
+option.GLOWING_ORE_COPPER=Minério de Cobre Brilhante
+option.GLOWING_ORE_REDSTONE=Minério de Redstone Brilhante §e[*]§r
+option.GLOWING_ORE_REDSTONE.comment=§e[*]§r Todos os minérios de redstone ainda brilham se estiverem "ativados", independente desta opção.
+option.GLOWING_ORE_LAPIS=Minério de Lápis-Lazúli Brilhante
+option.GLOWING_ORE_EMERALD=Minério de Esmeralda Brilhante
+option.GLOWING_ORE_DIAMOND=Minério de Diamante Brilhante
+option.GLOWING_ORE_NETHERQUARTZ=Minério de Quartzo do Nether Brilhante
+option.GLOWING_ORE_NETHERGOLD=Minério de Ouro do Nether Brilhante
+option.GLOWING_ORE_GILDEDBLACKSTONE=Pedra Negra Dourada Brilhante
+option.GLOWING_ORE_ANCIENTDEBRIS=Detritos Ancestrais Brilhantes
+option.GLOWING_ORE_MODDED=Minérios de Mods Brilhantes §e[*]§r
+option.GLOWING_ORE_MODDED.comment=§e[*]§r Adicione IDs de minérios de mods em "Complementary-->shaders-->block.properties" para fazê-los brilhar. Abra o arquivo com um editor de texto e adicione os IDs ao lado de "block.10024=".
+
+option.GLOWING_AMETHYST=Ametista Brilhante
+value.GLOWING_AMETHYST.0=DESLIGADO
+value.GLOWING_AMETHYST.1=Cristal
+value.GLOWING_AMETHYST.2=Cristal & Bloco
+
+option.GLOWING_LICHEN=Musgo Brilhante
+value.GLOWING_LICHEN.0=DESLIGADO
+value.GLOWING_LICHEN.1=Em Áreas Fechadas
+value.GLOWING_LICHEN.2=Sempre
+
+option.EMISSIVE_REDSTONE_BLOCK=Bloco de Redstone Brilhante
+
+option.EMISSIVE_LAPIS_BLOCK=Bloco de Lápis-Lazúli Brilhante
+
+option.GLOWING_ARMOR_TRIM=Detalhe de Armadura Brilhante §e[*]§r
+option.GLOWING_ARMOR_TRIM.comment=Faz os detalhes das armaduras ficarem emissivos. §e[*]§r Só funciona no Iris, pois Optifine não detecta detalhes de armadura.
+
+option.NORMAL_MAP_STRENGTH=Força do Normal Map
+option.NORMAL_MAP_STRENGTH.comment=Ajuda a ajustar a força do relevo nas superfícies. §e[*]§r O suporte a RP deve ser labPBR/seuspbr e usar um pacote compatível.
+
+option.CUSTOM_EMISSION_INTENSITY=Intensidade de Emissão Personalizada
+option.CUSTOM_EMISSION_INTENSITY.comment=Ajuda a ajustar a intensidade de superfícies brilhantes. §e[*]§r O suporte a RP deve ser labPBR/seuspbr e usar um pacote compatível.
+
+option.POM=Parallax Occlusion Mapping
+option.POM.comment=Ativa efeito 3D nas superfícies. §c[-]§r Este efeito pode impactar bastante o desempenho. §e[*]§r O suporte a RP deve ser labPBR/seuspbr e usar um pacote compatível.
+value.POM.false=DESLIGADO
+value.POM.true=LIGADO §c[-]
+
+option.POM_DEPTH=Profundidade do POM
+option.POM_DEPTH.comment=Ajuda a ajustar a profundidade do parallax occlusion mapping. §e[*]§r O suporte a RP deve ser labPBR/seuspbr e usar um pacote compatível.
+
+option.POM_QUALITY=Qualidade do POM
+option.POM_QUALITY.comment=Ajuda a ajustar a nitidez/precisão do parallax occlusion mapping. §c[-]§r Acima de 200 pode impactar bastante o desempenho. §e[*]§r Abaixo de 100 força o "Modo de Iluminação do POM" para "Suave". §e[*]§r O suporte a RP deve ser labPBR/seuspbr e usar um pacote compatível.
+value.POM_QUALITY.16=16 §e[*]
+value.POM_QUALITY.32=32 §e[*]
+value.POM_QUALITY.64=64 §e[*]
+value.POM_QUALITY.256=256 §c[-]
+value.POM_QUALITY.512=512 §c[-]
+
+option.POM_DISTANCE=Distância do POM
+option.POM_DISTANCE.comment=Ajuda a ajustar até onde o parallax occlusion mapping é calculado. §e[*]§r Recomenda-se manter abaixo de 50 para melhor desempenho. §e[*]§r O suporte a RP deve ser labPBR/seuspbr e usar um pacote compatível.
+value.POM_DISTANCE.64=64 §e[*]
+value.POM_DISTANCE.128=128 §e[*]
+value.POM_DISTANCE.256=256 §e[*]
+value.POM_DISTANCE.512=512 §e[*]
+value.POM_DISTANCE.1024=1024 §e[*]
+
+option.POM_LIGHTING_MODE=Modo de Iluminação do POM
+option.POM_LIGHTING_MODE.comment=Ajuda a ajustar o estilo de iluminação das superfícies afetadas pelo POM. Suave: paredes POM recebem luz como se não fossem paredes. Nítido: paredes POM só recebem luz se estiverem voltadas para a fonte. §e[*]§r Forçado para "Suave" se a Qualidade do POM for menor que 100.
+value.POM_LIGHTING_MODE.1=Suave
+value.POM_LIGHTING_MODE.2=Nítido
+
+option.POM_ALLOW_CUTOUT=POM em Superfícies Vazadas §c[-]§r
+option.POM_ALLOW_CUTOUT.comment=Permite POM em blocos com partes vazadas (como folhas). §c[-]§r Este efeito pode impactar bastante o desempenho.
+
+option.DIRECTIONAL_BLOCKLIGHT=Luz Direcional de Bloco
+option.DIRECTIONAL_BLOCKLIGHT.comment=Adiciona profundidade à luz de bloco conforme a normal da superfície. §c[-]§r Pode causar artefatos visuais em alguns casos. §c[-]§r Pode impactar o desempenho. §e[*]§r O suporte a RP deve ser labPBR/seuspbr e usar um pacote compatível.
+value.DIRECTIONAL_BLOCKLIGHT.0=DESLIGADO
+value.DIRECTIONAL_BLOCKLIGHT.3=Sutil §c[-]
+value.DIRECTIONAL_BLOCKLIGHT.7=Normal §c[-]
+value.DIRECTIONAL_BLOCKLIGHT.11=Intenso §c[-]
+
+option.HELD_LIGHTING_MODE=Iluminação Dinâmica na Mão
+option.HELD_LIGHTING_MODE.comment=Permite que fontes de luz na mão iluminem o cenário.
+value.HELD_LIGHTING_MODE.0=DESLIGADO
+value.HELD_LIGHTING_MODE.1=Sutil
+value.HELD_LIGHTING_MODE.2=Normal
+
+option.BLOCKLIGHT_FLICKERING=Cintilação da Luz de Bloco
+option.BLOCKLIGHT_FLICKERING.comment=Adiciona efeito de cintilação à luz emitida por blocos.
+value.BLOCKLIGHT_FLICKERING.0=DESLIGADO
+
+option.WAVING_SPEED=Velocidade da Onda
+option.WAVING_SPEED.comment=Ajuda a ajustar a velocidade dos efeitos de ondulação.
+
+option.WAVING_I=Intensidade da Onda
+option.WAVING_I.comment=Ajuda a ajustar o quanto os blocos se movem ao ondular. §c[-]§r Intensidade alta pode fazer blocos atravessarem outros.
+value.WAVING_I.1.25=1.25 §c[-]
+value.WAVING_I.1.50=1.50 §c[-]
+value.WAVING_I.1.75=1.75 §c[-]
+value.WAVING_I.2.00=2.00 §c[-]
+value.WAVING_I.50.0=§cInsano
+
+option.NO_WAVING_INDOORS=Sem Ondulação em Áreas Fechadas
+option.NO_WAVING_INDOORS.comment=Impede blocos de ondularem em áreas fechadas usando luz do céu. §c[-]§r Pode causar problemas com alguns pacotes de recursos ou mods.
+
+option.WAVING_I_RAIN_MULT=Multiplicador de Onda na Chuva
+option.WAVING_I_RAIN_MULT.comment=Multiplica a velocidade e intensidade da ondulação durante a chuva. §c[-]§r Intensidade alta pode fazer blocos atravessarem outros. §c[-]§r Pode impactar o desempenho acima de 100.
+value.WAVING_I.125=125 §c[-]
+value.WAVING_I.150=150 §c[-]
+value.WAVING_I.175=175 §c[-]
+value.WAVING_I.200=200 §c[-]
+
+option.WAVING_FOLIAGE=Grama Ondulante
+option.WAVING_FOLIAGE.comment=Adiciona movimento à grama e folhagens para simular vento.
+
+option.WAVING_LEAVES=Folhas Ondulantes
+option.WAVING_LEAVES.comment=Adiciona movimento às folhas para simular vento.
+
+option.WAVING_LAVA=Lava Ondulante
+option.WAVING_LAVA.comment=Adiciona movimento constante à lava. §e[*]§r Não é afetado pela opção "Sem Ondulação em Áreas Fechadas".
+
+option.WAVING_LILY_PAD=Vitórias-régias ondulando §c[-]§r
+option.WAVING_LILY_PAD.comment=Faz as vitórias-régias e os ovos de sapo se moverem levemente, simulando o efeito das ondas da água. §c[-]§r Pode fazer com que vitórias-régias em blocos alagados fiquem invisíveis
+
+option.WAVING_WATER_VERTEX=Altura da Água Ondulante
+option.WAVING_WATER_VERTEX.comment=Adiciona movimento à posição da água para simular vento. §e[*]§r Não está relacionado à "Força da Onda da Água".
+
+option.WAVING_RAIN=Textura de Chuva/Neve Ondulante
+option.WAVING_RAIN.comment=Adiciona movimento às texturas de chuva e neve para deixá-las mais dinâmicas.
+
+option.SPECIAL_PORTAL_EFFECTS=Efeitos Especiais de Portal
+option.SPECIAL_PORTAL_EFFECTS.comment=Adiciona animações e emissão especiais aos portais do Nether, End e Portais de Entrada.
+
+option.REFLECTION_RES_DIVIDE=Reflexos em Meia Resolução
+option.REFLECTION_RES_DIVIDE.comment=Faz com que os reflexos PBR em blocos (e os reflexos em espaço do mundo, se essa opção estiver ativada) sejam renderizados em meia resolução para ganhar desempenho.
+value.REFLECTION_RES_DIVIDE.1=§cDESLIGADO
+value.REFLECTION_RES_DIVIDE.2=LIGADO
+
+option.WORLD_OUTLINE=Contorno do Mundo
+option.WORLD_OUTLINE.comment=Adiciona contornos brilhantes aos blocos. §c[-]§r Pode impactar o desempenho.
+
+option.WORLD_OUTLINE_THICKNESS=Espessura do Contorno do Mundo
+option.WORLD_OUTLINE_THICKNESS.comment=Define a espessura do efeito de contorno do mundo. §c[-]§r Aumentar pode impactar o desempenho.
+option.REFLECTION_RES.comment=Altera a resolução das reflexões PBR nos blocos (e as reflexões em espaço de mundo, se você tiver essa configuração ativada) para ganhar desempenho. §c[-]§r Reflexões em resolução "Completa" podem impactar o desempenho muito mais do que o esperado em algumas situações. §e[*]§r Este recurso não funciona no Optifine.
+option.WORLD_OUTLINE_I=Brilho do Contorno do Mundo
+option.WORLD_OUTLINE_I.comment=Define a intensidade do efeito de contorno do mundo.
+
+option.WORLD_OUTLINE_ON_ENTITIES=Contorno do Mundo em Entidades
+option.WORLD_OUTLINE_ON_ENTITIES.comment=Define se o efeito de contorno será aplicado em entidades. §c[-]§r Pode não funcionar bem com alguns pacotes PBR personalizados.
+
+option.WORLD_OUTLINE_SCALED=Contorno do Mundo Escalado pela Distância
+option.WORLD_OUTLINE_SCALED.comment=Faz o tamanho do contorno do mundo variar de acordo com a distância.
+
+option.DARK_OUTLINE=Contorno Escuro
+option.DARK_OUTLINE.comment=Adiciona contornos escuros aos blocos. §c[-]§r Pode impactar o desempenho.
+
+option.DARK_OUTLINE_THICKNESS=Espessura do Contorno Escuro
+option.DARK_OUTLINE_THICKNESS.comment=Define a espessura do efeito de contorno escuro. §c[-]§r Aumentar pode impactar o desempenho.
+
+option.RAIN_PUDDLES=Poças de Chuva
+option.RAIN_PUDDLES.comment=Adiciona poças d'água ao terreno durante a chuva. §c[-]§r Pode impactar bastante o desempenho.
+value.RAIN_PUDDLES.0=DESLIGADO
+value.RAIN_PUDDLES.1=§aLIGADO - Poças
+value.RAIN_PUDDLES.2=§aLIGADO - Cobertura Total
+value.RAIN_PUDDLES.3=§aLIGADO - §cSempre§a Poças
+value.RAIN_PUDDLES.4=§aLIGADO - §cSempre§a Total
+
+option.UNDERWATER_DISTORTION=Distorção Subaquática
+option.UNDERWATER_DISTORTION.comment=Adiciona refração sutil à tela quando a câmera está dentro d'água.
+
+option.SELECT_OUTLINE=Contorno de Seleção
+option.SELECT_OUTLINE.comment=Define a cor do contorno de seleção de bloco.
+value.SELECT_OUTLINE.0=DESLIGADO
+value.SELECT_OUTLINE.1=Padrão
+value.SELECT_OUTLINE.2=Arco-Íris
+value.SELECT_OUTLINE.3=Selecionar Cor
+value.SELECT_OUTLINE.4=Versátil
+
+option.SELECT_OUTLINE_AUTO_HIDE=Ocultar Contorno de Seleção Automaticamente
+option.SELECT_OUTLINE_AUTO_HIDE.comment=Oculta o contorno de seleção se o jogador não estiver segurando nada ou apenas uma fonte de luz na mão secundária.
+
+option.SELECT_OUTLINE_I=Brilho do CS
+option.SELECT_OUTLINE_R=Vermelho do CS
+option.SELECT_OUTLINE_G=Verde do CS
+option.SELECT_OUTLINE_B=Azul do CS
+
+option.MOON_PHASE_INF_LIGHT=Iluminação Noturna por Fase da Lua
+option.MOON_PHASE_INF_LIGHT.comment=Ativa diferentes fases da lua para alterar o brilho da noite.
+
+option.MOON_PHASE_INF_ATMOSPHERE=Atmosfera Noturna por Fase da Lua
+option.MOON_PHASE_INF_ATMOSPHERE.comment=Ativa diferentes fases da lua para alterar o brilho da atmosfera noturna.
+
+option.MOON_PHASE_INF_REFLECTION=Reflexo da Lua por Fase
+option.MOON_PHASE_INF_REFLECTION.comment=Ativa diferentes fases da lua para alterar o brilho dos reflexos da lua.
+
+option.MOON_PHASE_FULL=Intensidade da Lua Cheia
+option.MOON_PHASE_FULL.comment=Ajuda a ajustar a influência da lua cheia (fase mais clara).
+
+option.MOON_PHASE_PARTIAL=Intensidade da Lua Parcial
+option.MOON_PHASE_PARTIAL.comment=Ajuda a ajustar a influência das fases entre Lua Cheia e Lua Nova. É a fase mais comum no Minecraft.
+
+option.MOON_PHASE_DARK=Intensidade da Lua Nova
+option.MOON_PHASE_DARK.comment=Ajuda a ajustar a influência da lua nova (fase mais escura).
+
+option.CONNECTED_GLASS_EFFECT=Vidro Conectado
+option.CONNECTED_GLASS_EFFECT.comment=Faz todos os tipos de vidro se conectarem. §e[*]§r Só funciona se a Iluminação Colorida Avançada estiver ativada e seu sistema suportar. §e[*]§r Será desativado automaticamente se o mod "Continuity" estiver instalado.
+
+option.PORTAL_EDGE_EFFECT=Bordas de Portal Brilhantes
+option.PORTAL_EDGE_EFFECT.comment=Adiciona borda emissiva aos portais do End e Nether. §e[*]§r Só funciona se a Iluminação Colorida Avançada estiver ativada e seu sistema suportar.
+
+option.PUDDLE_VOXELIZATION=Corrigir Poças sob Vidro
+option.PUDDLE_VOXELIZATION.comment=Evita poças de chuva em áreas fechadas com teto de vidro quando a opção Poças de Chuva está ativada. §e[*]§r Só funciona se a Iluminação Colorida Avançada estiver ativada e seu sistema suportar.
+
+option.COLORED_CANDLE_LIGHT=Luz de Vela Colorida
+option.COLORED_CANDLE_LIGHT.comment=Faz a luz das velas ter a mesma cor da base. §e[*]§r As variantes desaturadas continuam usando a cor normal do fogo.
+
+option.COLORED_LIGHT_SATURATION=Saturação da Luz Colorida
+option.COLORED_LIGHT_SATURATION.comment=Ajuda a ajustar a saturação das cores produzidas pela Iluminação Colorida Avançada. §e[*]§r Não recomendado alterar, pois o visual foi balanceado para a saturação padrão.
+
+option.COLORED_LIGHT_FOG=Névoa de Luz Colorida
+option.COLORED_LIGHT_FOG.comment=Adiciona névoa volumétrica de luz de bloco, mais visível à noite ou no subsolo. §e[*]§r Só funciona se a Iluminação Colorida Avançada estiver ativada e seu sistema suportar. §c[-]§r Pode impactar bastante o desempenho.
+
+option.COLORED_LIGHT_FOG_I=Intensidade da Névoa de Luz
+option.COLORED_LIGHT_FOG_I.comment=Define o brilho da Névoa de Luz Colorida.
+
+option.LIGHT_COLOR_MULTS=§eMultiplicadores de Cor da Luz
+option.LIGHT_COLOR_MULTS.comment=Ativa a personalização das cores de iluminação vistas em todas as superfícies.
+
+option.ATM_COLOR_MULTS=§eMultiplicadores de Cor da Atmosfera
+option.ATM_COLOR_MULTS.comment=Ativa a personalização das cores da atmosfera vistas principalmente no céu e na névoa.
+
+option.LIGHT_MORNING_R=Multiplicador Vermelho da Luz Matinal
+option.LIGHT_MORNING_G=Multiplicador Verde da Luz Matinal
+option.LIGHT_MORNING_B=Multiplicador Azul da Luz Matinal
+option.LIGHT_MORNING_I=Multiplicador de Intensidade da Luz Matinal
+option.ATM_MORNING_R=Multiplicador Vermelho da Atmosfera Matinal
+option.ATM_MORNING_G=Multiplicador Verde da Atmosfera Matinal
+option.ATM_MORNING_B=Multiplicador Azul da Atmosfera Matinal
+option.ATM_MORNING_I=Multiplicador de Intensidade da Atmosfera Matinal
+option.LIGHT_NOON_R=Multiplicador Vermelho da Luz do Meio-dia
+option.LIGHT_NOON_G=Multiplicador Verde da Luz do Meio-dia
+option.LIGHT_NOON_B=Multiplicador Azul da Luz do Meio-dia
+option.LIGHT_NOON_I=Multiplicador de Intensidade da Luz do Meio-dia
+option.ATM_NOON_R=Multiplicador Vermelho da Atmosfera do Meio-dia
+option.ATM_NOON_G=Multiplicador Verde da Atmosfera do Meio-dia
+option.ATM_NOON_B=Multiplicador Azul da Atmosfera do Meio-dia
+option.ATM_NOON_I=Multiplicador de Intensidade da Atmosfera do Meio-dia
+option.LIGHT_NIGHT_R=Multiplicador Vermelho da Luz Noturna
+option.LIGHT_NIGHT_G=Multiplicador Verde da Luz Noturna
+option.LIGHT_NIGHT_B=Multiplicador Azul da Luz Noturna
+option.LIGHT_NIGHT_I=Multiplicador de Intensidade da Luz Noturna
+option.ATM_NIGHT_R=Multiplicador Vermelho da Atmosfera Noturna
+option.ATM_NIGHT_G=Multiplicador Verde da Atmosfera Noturna
+option.ATM_NIGHT_B=Multiplicador Azul da Atmosfera Noturna
+option.ATM_NIGHT_I=Multiplicador de Intensidade da Atmosfera Noturna
+option.LIGHT_RAIN_R=Multiplicador Vermelho da Luz na Chuva
+option.LIGHT_RAIN_G=Multiplicador Verde da Luz na Chuva
+option.LIGHT_RAIN_B=Multiplicador Azul da Luz na Chuva
+option.LIGHT_RAIN_I=Multiplicador de Intensidade da Luz na Chuva
+option.ATM_RAIN_R=Multiplicador Vermelho da Atmosfera na Chuva
+option.ATM_RAIN_G=Multiplicador Verde da Atmosfera na Chuva
+option.ATM_RAIN_B=Multiplicador Azul da Atmosfera na Chuva
+option.ATM_RAIN_I=Multiplicador de Intensidade da Atmosfera na Chuva
+option.LIGHT_NETHER_R=Multiplicador Vermelho da Luz do Nether
+option.LIGHT_NETHER_G=Multiplicador Verde da Luz do Nether
+option.LIGHT_NETHER_B=Multiplicador Azul da Luz do Nether
+option.LIGHT_NETHER_I=Multiplicador de Intensidade da Luz do Nether
+option.ATM_NETHER_R=Multiplicador Vermelho da Atmosfera do Nether
+option.ATM_NETHER_G=Multiplicador Verde da Atmosfera do Nether
+option.ATM_NETHER_B=Multiplicador Azul da Atmosfera do Nether
+option.ATM_NETHER_I=Multiplicador de Intensidade da Atmosfera do Nether
+option.LIGHT_END_R=Multiplicador Vermelho da Luz do End
+option.LIGHT_END_G=Multiplicador Verde da Luz do End
+option.LIGHT_END_B=Multiplicador Azul da Luz do End
+option.LIGHT_END_I=Multiplicador de Intensidade da Luz do End
+option.ATM_END_R=Multiplicador Vermelho da Atmosfera do End
+option.ATM_END_G=Multiplicador Verde da Atmosfera do End
+option.ATM_END_B=Multiplicador Azul da Atmosfera do End
+option.ATM_END_I=Multiplicador de Intensidade da Atmosfera do End
+
+option.XLIGHT_R=Multiplicador Vermelho da Luz de Bloco
+option.XLIGHT_G=Multiplicador Verde da Luz de Bloco
+option.XLIGHT_B=Multiplicador Azul da Luz de Bloco
+option.XLIGHT_I=Multiplicador de Intensidade da Luz de Bloco
+
+option.XLIGHT_CURVE=Contraste da Iluminação de Blocos
+option.XLIGHT_CURVE.comment=Ajusta a rapidez com que a intensidade da iluminação dos blocos diminui à medida que se afasta da fonte de luz.
+
+####### Euphoria Patches #######
+profile2.DEFAULT=§bConfigurações Visuais:§r Padrão
+profile2.SPACEAGLE17= §f۞ §kO§fDEBUG (Não Use)§f§kO
+profile2.POPULAR=§bConfigurações Visuais: §dPopular
+profile2.comment=Estes são perfis predefinidos do Euphoria Patches. §c[-] AVISO:§r Usar isso pode alterar várias configurações diferentes e até quebrar as que você configurou manualmente.\n\n• Configurações Padrão são as configurações padrão do Complementary Shaders.\n\n• §bConfigurações §dPopulares§r é um preset que ativa algumas das configurações mais populares do Euphoria Patches e do Complementary.\n\n• O perfil Debug é usado para testes e não é feito para uso de usuários comuns.
+
+#WATERMARK
+option.WATERMARK=Complementary
+option.WATERMARK.comment=Euphoria Patches é  uma criação de amor, carinho e frustração, criada para complementar a experiência única do Minecraft da melhor maneira possível, além de ser um complemento ao incrível Shaderpack Complementar. Sinta-se à vontade para se juntar à adorável comunidade Complementar aqui: www.complementary.dev/discord. Marca d'água por Elysia.
+value.WATERMARK.0=& §dEuphoria §rPatches
+value.WATERMARK.1=& §cE§6u§ep§aho§br§9i§da §rPatches
+value.WATERMARK.2=& §cE§6u§ep§aho§br§9i§da §rPatches - Esconder GUI
+value.WATERMARK.3=& Esconder GUI & Manter o olho da aranha
+value.WATERMARK.4=Preto/Branco
+option.WATERMARK_SIZE=Tamanho da Marca d'agua
+
+screen.EUPHORIA_SETTINGS=§dConfiguração do Euphoria Patches
+screen.EUPHORIA_SETTINGS.comment=Configurações adicionadas pelo Euphoria Patches. §bVocê pode apoiar o SpacEagle17 no Patreon ou Ko-Fi e receber novas versões beta exclusivas. §r§d§l§neuphoriapatches.com/support
+
+screen.ATMOSPHERE=Atmosfera
+screen.ATMOSPHERE.comment=Configurações relacionadas à atmosfera.
+screen.CLOUDS=Nuvens
+screen.CLOUD_REIMAGINED_SETTINGS_EUPHORIA=Nuvens Reimaginadas
+screen.CLOUD_REIMAGINED_SECOND_LAYER_SETTINGS=Camada Secundária de Nuvens
+screen.CLOUD_UNBOUND_SETTINGS_EUPHORIA=Nuvens Sem Limites
+screen.DOUBLE_UNBOUND_CLOUDS_SETTINGS=Nuvens Duplas Sem Limites
+screen.CLOUD_SHADING_SETTINGS=Sombreamento das Nuvens
+screen.AURORA_SETTINGS=Aurora Boreal
+screen.AURORA_SETTINGS.comment=Configurações relacionadas à Aurora Boreal.
+screen.AURORA_INFLUENCE_SETTINGS=Influência da Aurora
+screen.AURORA_COLOR_SETTINGS=Configurações de Cor da Aurora
+screen.AURORA_COLOR_SETTINGS.comment=Configurações relacionadas à cor da Aurora Boreal.
+screen.END_SKY=Céu do End
+screen.END_SKY.comment=Configurações relacionadas ao Céu do End.
+screen.END_BEAMS_SETTINGS=Configurações dos Feixes do Ender
+screen.END_BEAMS_SETTINGS.comment=Configurações relacionadas aos Feixes do Ender.
+screen.END_BEAMS_COLOR_SETTINGS=Cores dos feixes do End
+screen.END_BEAMS_COLOR_SETTINGS.comment=Configurações relacionadas à cor dos feixes do End.
+screen.END_BEAMS_FLASH_SETTINGS=Configurações do brilho do End
+screen.END_BEAMS_FLASH_SETTINGS.comment=Configurações relacionadas aos feixes do End durante os flashes do End. Funciona apenas na versão 1.21.9 ou superior.
+screen.END_STAR=Configurações das Estrelas do End
+screen.END_STAR.comment=Configurações relacionadas às Estrelas do End.
+screen.STAR_COLORS_END=Cores das Estrelas do End
+screen.STARS_OVERWORLD=Estrelas
+screen.SHOOTING_STARS_SETTINGS=Estrelas Cadentes
+screen.STAR_COLORS_OW=Cores das Estrelas
+screen.RAIN_SETTINGS=Configurações da Chuva
+screen.NIGHT_DESATURATION_SETTINGS=Desaturação da Escuridão
+screen.MOON_PHASED_DESATURATION_SETTINGS=Desaturação Noturna por Fase da Lua
+screen.MOON_PHASED_DESATURATION_SETTINGS.comment=Ajuda a ajustar a quantidade de desaturação conforme a fase atual da lua.
+screen.NIGHT_NEBULA_SETTINGS=Nébulas Noturnas
+screen.NIGHT_NEBULA_COLOR_SETTINGS=Configurações de Cor
+screen.NEBULA_STAR_SETTINGS=Configurações da Nebulosa Estelar
+
+screen.WORLD=Mundo
+screen.WORLD.comment=Configurações relacionadas ao mundo.
+screen.BLOOD_MOON_SETTINGS=Configurações da Lua de Sangue
+screen.OVERWORLD_WORLD=Overworld
+screen.OVERWORLD_BEAM=Feixes do Overworld
+screen.OVERWORLD_BEAM.comment=Configurações relacionadas aos Feixes do Overworld.
+screen.FOG=Névoa
+screen.FOG.comment=Configurações relacionadas à névoa.
+screen.FOG_CAVE=Névoa de Caverna
+screen.FOG_CAVE.comment=Configurações relacionadas à névoa de caverna.
+screen.FOG_ATMOSPHERIC=Névoa Atmosférica
+screen.FOG_ATMOSPHERIC.comment=Configurações relacionadas à névoa atmosférica.
+screen.FOG_BORDER_OVERWORLD=Névoa de Borda
+screen.FOG_BORDER_OVERWORLD.comment=Configurações relacionadas à névoa de borda.
+screen.SEASON=Estações do Ano
+screen.WINTER=Configurações do inverno
+screen.AUTUMN=Configurações de Outono
+screen.SPRING=Configurações da Primavera
+screen.SUMMER=configurações do Verão
+screen.NETHER_WORLD=Nether
+screen.FOG_BORDER_NETHER=Névoa de Borda
+screen.FOG_BORDER_NETHER.comment=Configurações relacionadas à névoa de borda.
+screen.HEAT_DISTORTION_SETTINGS=Distorção de Calor
+screen.HEAT_DISTORTION_SETTINGS.comment=Configurações relacionadas à distorção de calor.
+screen.END_WORLD=End
+screen.END_AMBIENT=Ambientação do End
+screen.FOG_BORDER_END=Névoa de borda
+screen.FOG_BORDER_END.comment=Configurações relacionadas á Névoa de borda.
+screen.END_CENTER_LIGHTING_SETTINGS=End Luz de Centro
+screen.LIGHT_SETTINGS=Configurações da Luz
+screen.BLOCKLIGHT=Configurações de Luz de Bloco
+screen.BLOCKLIGHT.comment=Configurações relacionadas à cor da luz de bloco.
+screen.COLORED_LIGHT=Iluminação Colorida
+screen.SSBL_SETTINGS=Luz de Bloco Colorida na Tela
+screen.ACL_SETTINGS=Iluminação Colorida Avançada
+screen.LIGHTMAP_CURVES_SETTINGS=Curvas do Lightmap
+screen.OVERLAY_NOISE=Ruído de Sobreposição
+screen.MOSS_NOISE_SETTINGS=Configurações de Ruído do Musgo
+screen.SAND_NOISE_SETTINGS=Configurações de Ruído da Areia
+
+screen.MATERIALS=Materiais
+screen.MATERIALS.comment=Configurações relacionadas aos materiais.
+screen.EMISSIVE_MATERIALS=Materiais Emissivos
+screen.EMISSIVE_FLOWERS_SETTINGS=Flores Emissivas
+screen.WATER=Água
+screen.WATER.comment=Configurações relacionadas à água.
+screen.IPBR_REDSTONE=Redstone PBR Integrado
+screen.IPBR_REDSTONE.comment=Configurações relacionadas ao IntegratedPBR para redstone.
+screen.DIRECTIONAL_LIGHTMAP_NORMALS_SETTINGS=Normais do Lightmap Direcional
+screen.LAVA_SETTINGS=Lava
+screen.LAVA_SETTINGS.comment=Configurações relacionadas à lava quente.
+screen.END_ROD_SETTINGS=End Rod
+screen.END_ROD_SETTINGS.comment=Configurações relacionadas às barras do End.
+screen.FOLIAGE_SETTINGS=Folhagem
+screen.FOLIAGE_SETTINGS.comment=Configurações relacionadas à folhagem.
+screen.PORTAL_SETTINGS=Configurações de Portal
+screen.PORTAL_SETTINGS.comment=Configurações relacionadas aos portais.
+screen.MISC_SETTINGS=Miscelânea
+screen.MISC_SETTINGS.comment=Configurações que não se encaixam em nenhuma outra categoria.
+screen.MISC_EMISSIVE_SETTINGS=Emissivos
+
+screen.CAMERA=Câmera
+screen.CAMERA.comment=Configurações relacionadas à Câmera.
+screen.TONEMAP_SETTINGS_EUPHORIA=Configurações de Tonemap Euphoria
+screen.TONEMAP_SETTINGS_EUPHORIA_SPECIFIC=Configurações Específicas de Tonemap
+screen.ACES=Configurações ACES
+screen.ACES.comment=Configurações para o Tonemap ACES.
+screen.AGX_SETTINGS=Configurações AgX
+screen.AGX_SETTINGS.comment=Configurações para o Tonemap AgX.
+screen.BSL_SETTINGS=Configurações BSL
+screen.BSL_SETTINGS.comment=Configurações para o Tonemap BSL.
+screen.CAMERA_EFFECTS=Efeitos de Câmera
+screen.RETRO_SETTINGS=Configurações Retrô
+screen.STATIC_NOISE_SETTINGS=Configurações de Ruído Estático
+screen.HORIZONTAL_NOISE_SETTINGS=Configurações de Ruído Horizontal
+screen.VERTICAL_SCREEN_DISPLACEMENT_SETTINGS=Configurações de Deslocamento Vertical da Tela
+screen.PIXELATE_SCREEN_SETTINGS=Configurações de Pixelização
+screen.DITHERING_SETTINGS=Configurações de Dithering
+screen.PALETTE_SETTINGS=Configurações de Paleta
+screen.SCANLINE_SETTINGS=Configurações de Scanline
+screen.HALFTONE_SETTINGS=Configurações de Meio-Tom
+screen.SPEED_LINES_SETTINGS=Configurações de Linhas de Velocidade
+screen.CAMERA_NOISE_OVERLAY_SETTINGS=Configurações de Sobreposição de Ruído da Câmera
+screen.SCREEN_BORDER=Configurações de Borda
+screen.LETTERBOX_SETTINGS=Configurações de Letterbox
+screen.GRID_SETTINGS=Configurações de Grade
+screen.WATERMARK_SETTINGS=Configurações de Marca d'Água
+screen.DOF_SETTINGS=Configurações de Profundidade de Campo
+screen.DOF_SHAPE_SETTINGS=Configurações de Forma
+screen.LENS_FLARE_SETTINGS=Configurações de Lens Flare
+screen.LENS_FLARE_SETTINGS.comment=Configurações relacionadas aos lens flares.
+
+screen.FUN=Diversão
+screen.FUN.comment=Vamos se diverti um pouco.
+screen.WORLD_CURVATURE_SETTINGS=Curvatura do Mundo
+screen.WORLD_CURVATURE_SETTINGS.comment=Configurações relacionadas á curvatura do mundo.
+screen.RANDOM_BLOCKLIGHT_SETTINGS=Luz de Bloco Aleatória
+screen.RANDOM_BLOCKLIGHT_SETTINGS.comment=Configurações relacionadas à Luz de Bloco Aleatória.
+
+screen.POPULAR_SETTINGS=§dConfigurações Populares
+screen.POPULAR_SETTINGS.comment=Estas são algumas das configurações mais populares no Euphoria Patches. Exceto o Advanced Colored Tracing (que é necessário para muitos efeitos), todas as opções aqui são exclusivas do Euphoria Patches e não podem ser encontradas no Shaderpack Complementary Original.
+screen.POPULAR_SETTINGS_2=Página 2
+screen.POPULAR_SETTINGS_3=Página 3
+screen.EP_VERSION=Euphoria Patches §d1.9.3
+screen.EP_VERSION.comment=§bVocê pode apoiar o SpacEagle17 no Patreon ou Ko-Fi e receber novas versões beta exclusivas.
+
+screen.MODDED_SETTINGS=Configurações de Mods
+screen.MODDED_SETTINGS.comment=Configurações que só funcionam se você tiver certos mods instalados. Elas foram feitas para complementar a experiência ao jogar com esses mods, e não fazem nada se os mods necessários não estiverem instalados.
+screen.PHOTONICS_SETTINGS=Photonics
+screen.PHOTONICS_SETTINGS.comment=Configurações que só funcionam se você tiver o mod Photonics instalado.
+screen.PHOTONICS_SETTINGS_BASIC=Modo Nítido
+screen.PHOTONICS_SETTINGS_BASIC.comment=Configurações do modo de iluminação nítido.
+screen.PHOTONICS_SETTINGS_RESTIR=Modo ReSTIR
+screen.PHOTONICS_SETTINGS_RESTIR.comment=Configurações do modo de iluminação ReSTIR.
+
+screen.DISTANT_HORIZONS_SETTINGS=Distant Horizons
+screen.DISTANT_HORIZONS_SETTINGS.comment=Configurações que só funcionam se você tiver o mod Distant Horizons instalado.
+
+screen.MODDED_SKYBOX_SETTINGS=Configurações da Skybox
+screen.MODDED_SKYBOX_SETTINGS.comment=Configurações relacionadas a mods de céu.
+
+option.DAYLIGHT_CYCLE_COMPAT=Animação do Tempo Mundial
+option.DAYLIGHT_CYCLE_COMPAT.comment=USE apenas se você joga com o gamerule doDaylightCycle false. Quando ativado, nuvens e outros animam em mundos com o ciclo do dia desativado, mas não ficam mais sincronizados entre os jogadores.
+
+option.AURORA_COLOR_PRESET=Predefinição de Cor da Aurora
+option.AURORA_COLOR_PRESET.comment=Escolha entre o visual padrão ou auroras personalizadas, auroras com cores variadas que mudam a cada dia ou mês do Minecraft, presets de cores ou o modo suave diário, onde a cor muda gradualmente durante a noite.
+value.AURORA_COLOR_PRESET.-1=§o§lVariável - Suave Diário
+
+value.AURORA_COLOR_PRESET.0=Personalizado
+value.AURORA_COLOR_PRESET.1=§o§lVariável - Diário
+value.AURORA_COLOR_PRESET.2=§o§lVariável - Mensal
+value.AURORA_COLOR_PRESET.3=§9Legacy§b Complementary v4
+value.AURORA_COLOR_PRESET.4=§bPe§3r§bm§3af§cr§3o§cst
+value.AURORA_COLOR_PRESET.5=§dBlossoming §5Lights
+value.AURORA_COLOR_PRESET.6=§9Ne§5bu§dl§5a
+value.AURORA_COLOR_PRESET.8=§aFeixe de Luz Verde
+value.AURORA_COLOR_PRESET.9=§bEt§3h§be§dr§3e§dal
+value.AURORA_COLOR_PRESET.10=§bGlacial §9Blessing
+value.AURORA_COLOR_PRESET.11=§5Mysti§9ca§bl
+value.AURORA_COLOR_PRESET.12=§cWa§6t§ce§a§6r§am§2e§al§2on
+value.AURORA_COLOR_PRESET.13=§cBlood §bBath
+value.AURORA_COLOR_PRESET.14=§cG§4h§bo§3s§bt
+
+option.RGB_AURORA=Aurora RGB
+option.RGB_AURORA.comment=Seja um Gamer Épico com Auroras §4R§2G§9B §rAuroras.
+
+option.AURORA_UP_R=Seção Superior - Vermelho
+option.AURORA_UP_G=Seção Superior - Verde
+option.AURORA_UP_B=Seção Superior - Azul
+option.AURORA_UP_I=Seção Superior - Intensidade
+
+option.AURORA_DOWN_R=Seção Inferior - Vermelho
+option.AURORA_DOWN_G=Seção Inferior - Verde
+option.AURORA_DOWN_B=Seção Inferior - Azul
+option.AURORA_DOWN_I=Seção Inferior - Intensidade
+
+option.AURORA_SIZE=Densidade da Aurora
+option.AURORA_SIZE.comment=A densidade controla a altura aparente e o tamanho da Aurora.
+
+option.AURORA_DRAW_DISTANCE=Distância de Renderização da Aurora
+option.AURORA_DRAW_DISTANCE.comment=Controla até onde a Aurora é visível.
+
+option.AURORA_INFLUENCE=Influência da Aurora
+option.AURORA_INFLUENCE.comment=Faz a cor da Aurora afetar as nuvens e o terreno.
+
+option.AURORA_CLOUD_INFLUENCE_INTENSITY=Intensidade da Influência nas Nuvens
+option.AURORA_CLOUD_INFLUENCE_INTENSITY.comment=Altere a intensidade com que a aurora afeta as nuvens.
+value.AURORA_CLOUD_INFLUENCE_INTENSITY.0.00=DESLIGADO
+
+option.AURORA_TERRAIN_INFLUENCE_INTENSITY=Intensidade da Influência no Terreno
+option.AURORA_TERRAIN_INFLUENCE_INTENSITY.comment=Altere a intensidade com que a aurora afeta o terreno.
+value.AURORA_TERRAIN_INFLUENCE_INTENSITY.0.00=DESLIGADO
+
+option.RANDOM_AURORA=Visibilidade Aleatória da Aurora
+option.RANDOM_AURORA.comment=Altera a probabilidade de a aurora aparecer a cada noite. Ainda respeita as condições normais de aurora nas Configurações do Complementary.
+value.RANDOM_AURORA.0=Padrão
+value.RANDOM_AURORA.1=10% de Chance
+value.RANDOM_AURORA.2=20% de Chance
+value.RANDOM_AURORA.3=30% de Chance
+value.RANDOM_AURORA.4=40% de Chance
+value.RANDOM_AURORA.5=50% de Chance
+value.RANDOM_AURORA.6=60% de Chance
+value.RANDOM_AURORA.7=70% de Chance
+value.RANDOM_AURORA.8=80% de Chance
+value.RANDOM_AURORA.9=90% de Chance
+
+option.AURORA_NOISE_SCALE=Detalhe da Aurora
+option.AURORA_NOISE_SCALE.comment=Controla o nível de detalhe e granulação da aurora.
+
+option.AURORA_PATTERN_WARP=Efeito Espiral
+option.AURORA_PATTERN_WARP.comment=Define o quanto a aurora se retorce e cria movimentos em espiral.
+value.AURORA_PATTERN_WARP.0=DESATIVADO
+
+option.AURORA_SATURATION=Vibração das Cores
+option.AURORA_SATURATION.comment=Ajusta a intensidade e o impacto das cores da aurora.
+value.AURORA_SATURATION.10=PADRÃO
+
+option.AURORA_COLOR_MIX_POWER=Camada Dominante
+option.AURORA_COLOR_MIX_POWER.comment=Escolhe qual camada da aurora fica mais forte na tela.
+
+option.CLOUD_ROUNDNESS=Arredondamento das Nuvens §e[*]§r
+value.CLOUD_ROUNDNESS.0.025=Super Quadrada §e[*]§r
+value.CLOUD_ROUNDNESS.0.05=Quadrada §e[*]§r
+value.CLOUD_ROUNDNESS.0.125=Equilibrada
+value.CLOUD_ROUNDNESS.0.2=Arredondada
+option.CLOUD_ROUNDNESS.comment=Altere o quão arredondadas as nuvens aparecem. §e[*]§r Menos arredondamento resulta em mais artefatos de ruído.
+
+option.CLOUD_SHADOW_ROUNDNESS=Arredondamento da Sombra das Nuvens
+value.CLOUD_SHADOW_ROUNDNESS.0.15=Super Quadrada
+value.CLOUD_SHADOW_ROUNDNESS.0.25=Quadrada
+value.CLOUD_SHADOW_ROUNDNESS.0.35=Arredondada
+option.CLOUD_SHADOW_ROUNDNESS.comment=Altere o quão arredondadas as sombras das nuvens aparecem.
+
+option.CLOUD_SHADOW_STRENGTH=Intensidade da Sombra das Nuvens
+option.CLOUD_SHADOW_STRENGTH.comment=Ajusta apenas a escuridão das sombras das nuvens. Valores mais baixos deixam as sombras mais claras, valores mais altos deixam elas mais escuras.
+
+option.CLOUD_SHADOW_FADE_DISTANCE=Distância de sombra das nuvens
+option.CLOUD_SHADOW_FADE_DISTANCE.comment=Define a distância ao redor do jogador em que as sombras das nuvens não serão exibidas.
+value.CLOUD_SHADOW_FADE_DISTANCE.0=DESLIGADO
+
+option.CLOUD_NARROWNESS=Largura das Nuvens
+option.CLOUD_NARROWNESS.comment=Altera o quão largas as nuvens aparecem horizontalmente.
+
+option.CLOUD_SHADOW_UNBOUND_SIZE=Tamanho da Sombra das Nuvens
+option.CLOUD_SHADOW_UNBOUND_SIZE.comment=Determina o tamanho das sombras
+
+option.CLOUD_STRETCH=Altura das Nuvens
+option.CLOUD_TRANSPARENCY=Opacidade das Nuvens
+option.CLOUD_TRANSPARENCY.comment=Altera a opacidade das nuvens.
+option.CLOUD_DIRECTION=Direção das Nuvens
+option.CLOUD_DIRECTION.comment=Altera a direção em que as nuvens se movem.
+option.CLOUD_TEXTURE=Textura das Nuvens do Minecraft
+value.CLOUD_TEXTURE.0=Padrão
+value.CLOUD_TEXTURE.1=Minecraft Antigo
+value.CLOUD_TEXTURE.2=Complementary Antigo
+
+value.CLOUD_DIRECTION.1=Oeste-Leste
+value.CLOUD_DIRECTION.2=Norte-Sul
+option.RAINBOW_CLOUD=Nuvens Arco-Íris
+value.RAINBOW_CLOUD.0=DESLIGADO
+value.RAINBOW_CLOUD.1=10% de Cobertura
+value.RAINBOW_CLOUD.2=20% de Cobertura
+value.RAINBOW_CLOUD.3=30% de Cobertura
+value.RAINBOW_CLOUD.4=40% de Cobertura
+value.RAINBOW_CLOUD.5=50% de Cobertura
+value.RAINBOW_CLOUD.6=60% de Cobertura
+value.RAINBOW_CLOUD.7=70% de Cobertura
+value.RAINBOW_CLOUD.8=80% de Cobertura
+value.RAINBOW_CLOUD.9=90% de Cobertura
+value.RAINBOW_CLOUD.10=100% de Cobertura
+
+option.CLOUD_RENDER_DISTANCE=Distância de Renderização das nuvens
+option.CLOUD_RENDER_DISTANCE.comment=Opção que muda o quão longe as nuvens podem renderizar.
+
+option.CLOUD_SHADING_AMOUNT=Intensidade do Sombreamento das Nuvens
+option.CLOUD_SHADING_AMOUNT.comment=Define o quanto as nuvens recebem sombreamento.
+
+option.INVERTED_CLOUD_SHADING=Sombreamento de Nuvens Invertido
+option.INVERTED_CLOUD_SHADING.comment=Inverte o efeito de sombreamento das nuvens.
+
+option.CLOUD_LIGHT_MULTIPLIER=Multiplicador de Luz Diurna das Nuvens
+option.CLOUD_LIGHT_MULTIPLIER.comment=Multiplica o brilho que o lado iluminado das nuvens recebe durante o dia.
+
+option.CLOUD_NIGHT_LIGHT_MULTIPLIER=Multiplicador de Luz Noturna das Nuvens
+option.CLOUD_NIGHT_LIGHT_MULTIPLIER.comment=Multiplica o brilho que o lado iluminado das nuvens recebe durante a noite.
+
+option.CLOUD_AMBIENT_MULTIPLIER=Multiplicador de Luz Ambiente das Nuvens
+option.CLOUD_AMBIENT_MULTIPLIER.comment=Multiplica o brilho do lado de luz ambiente das nuvens.
+
+option.CLOUD_NIGHT_AMBIENT_MULTIPLIER=Multiplicador de Luz Ambiente Noturna das Nuvens
+option.CLOUD_NIGHT_AMBIENT_MULTIPLIER.comment=Multiplica o brilho do lado da luz ambiente das nuvens durante a noite.
+
+option.ROTATE_REIMAGINED_CLOUDS_90_NEW=Girar Nuvens em 90°
+option.ROTATE_REIMAGINED_CLOUDS_90_NEW.comment=Gira as nuvens reimaginadas em 90 graus.
+
+option.NIGHT_CLOUD_UNBOUND_REMOVE=Remover a Quantidades de nuvens á noiteRemove Night Clouds Amount
+option.NIGHT_CLOUD_UNBOUND_REMOVE.comment=Quantidade de nuvens que são removidas durante á noite
+
+option.HIGH_QUALITY_CLOUDS=Alta qualidade das  nuvens
+option.HIGH_QUALITY_CLOUDS.comment=Aumenta a qualidade das nuvens mais que o possível que a configuração normal do Complementary pode ir. §c[-]§r ativando essa configuração pode afetar no desempenho.
+
+option.CLOUD_LAYER2_SPEED_MULT=Cloud Layer 2 Speed Multiplier
+
+option.PIXELATED_UNBOUND_CLOUDS=Nuvens soltas pixeladas
+option.PIXELATED_UNBOUND_CLOUDS.comment=Dá às nuvens soltas um visual pixelado. Quanto maior o valor, maiores ficam os pixels.
+value.PIXELATED_UNBOUND_CLOUDS.0=DESLIGADO
+
+option.DOUBLE_UNBOUND_CLOUDS=Nuvens Unbound Duplas
+option.DOUBLE_UNBOUND_CLOUDS.comment=Ativa a renderização de uma segunda camada de nuvens livres. §c[-]§r Esta configuração pode impactar o desempenho.
+option.CLOUD_UNBOUND_LAYER2_ALTITUDE=Altitude da Camada de Nuvens 2
+option.CLOUD_UNBOUND_LAYER2_ALTITUDE.comment=Define a altura do mundo em que a segunda camada de nuvens aparecerá.
+option.CLOUD_UNBOUND_LAYER2_HEIGHT=Altura da Camada de Nuvens 2
+option.CLOUD_UNBOUND_LAYER2_SIZE=Tamanho da Camada de Nuvens 2
+option.CLOUD_UNBOUND_LAYER2_SIZE.comment=Define o tamanho da segunda camada de nuvens do Unbound.
+option.CLOUD_UNBOUND_LAYER2_AMOUNT=Quantidade da Camada de Nuvens 2
+option.CLOUD_UNBOUND_LAYER2_AMOUNT.comment=Define a quantidade da segunda camada de nuvens livres.
+option.CLOUD_UNBOUND_LAYER2_TRANSPARENCY=Opacidade da Camada de Nuvens 2
+option.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.comment=Define a opacidade da segunda camada de nuvens Unbound.
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.0=0.0
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.1=0.05
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.2=0.10
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.3=0.15
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.4=0.20
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.5=0.25
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.6=0.30
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.7=0.35
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.8=0.40
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.9=0.45
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.10=0.50
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.11=0.55
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.12=0.60
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.13=0.65
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.14=0.70
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.15=0.75
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.16=0.80
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.17=0.85
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.18=0.90
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.19=0.95
+value.CLOUD_UNBOUND_LAYER2_TRANSPARENCY.20=1.00
+
+
+option.CLOUD_REIMAGINED_LAYER2_HEIGHT=Altura da Camada de Nuvens 2
+option.CLOUD_REIMAGINED_LAYER2_HEIGHT.comment=Define a altura da segunda camada de nuvens reimaginadas.
+option.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY=Opacidade da Camada de Nuvens 2
+option.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.comment=Define a opacidade da segunda camada de nuvens reimaginadas.
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.0=0.0
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.1=0.05
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.2=0.10
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.3=0.15
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.4=0.20
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.5=0.25
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.6=0.30
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.7=0.35
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.8=0.40
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.9=0.45
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.10=0.50
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.11=0.55
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.12=0.60
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.13=0.65
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.14=0.70
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.15=0.75
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.16=0.80
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.17=0.85
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.18=0.90
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.19=0.95
+value.CLOUD_REIMAGINED_LAYER2_TRANSPARENCY.20=1.00
+
+option.CLOUD_SUN_MOON_SHADING=Sombreamento do Sol/Lua
+option.CLOUD_SUN_MOON_SHADING.comment=Ativa o sombreamento do sol e da lua nas nuvens.
+value.CLOUD_SUN_MOON_SHADING.0=OFF
+value.CLOUD_SUN_MOON_SHADING.1=Somente a Lua
+value.CLOUD_SUN_MOON_SHADING.2=Somente o Sol
+value.CLOUD_SUN_MOON_SHADING.3=Ambos
+
+option.END_SMOKE=Fumaça do End
+option.END_SMOKE.comment=Alguém deixou o fogo sem supervisão e agora o End tem fumaça no vazio superior e inferior.
+option.E_SKY_COLORR_NEW=Céu do End - Vermelho
+option.E_SKY_COLORG_NEW=Céu do End - Verde
+option.E_SKY_COLORB_NEW=Céu do End - Azul
+option.E_SKY_COLORI=Céu do End - Intensidade
+option.END_SKY_FOG_INFLUENCE=Influência da cor de biomas modificados no End
+option.END_SKY_FOG_INFLUENCE.comment=Ajusta o quanto a cor da névoa de biomas modificados afeta o céu do End e os feixes do End. Em 1.00, o céu e os feixes terão a mesma cor da névoa; em 0.00, não serão afetados pela cor da névoa.
+
+option.GLOWING_EMERALD_BLOCK=Bloco de Esmeralda Emissivo
+option.GLOWING_EMERALD_BLOCK.comment=Opção para fazer blocos de esmeralda brilharem. §e[*]§r A opção de Suporte a RP deve estar em Integrated PBR+
+
+option.EMISSIVE_ENCHANTING_TABLE=Mesa de Encantamentos Emissiva
+option.EMISSIVE_ENCHANTING_TABLE.comment=Opção para fazer a parte de diamante da Mesa de Encantamentos brilhar. §e[*]§r A opção de Suporte a RP deve estar em Integrated PBR+
+
+option.GLOWING_WART=Blocos de Verruga Brilhantes
+option.GLOWING_WART.comment=Configuração que ativa blocos de verruga animados e emissivos. §e[*]§r A opção de Suporte a RP deve estar em Integrated PBR+
+
+option.GLOWING_NETHER_TREES=Árvores do Nether Emissivas
+option.GLOWING_NETHER_TREES.comment=Configuração que ativa caules carmesim/distorcidos emissivos.
+
+option.OVERWORLD_BEAMS=Feixes do Overworld
+option.OVERWORLD_BEAMS.comment=Configuração que ativa feixes semelhantes a nébulas durante a noite no Overworld.
+option.OVERWORLD_BEAMS_CONDITION=Condição
+option.OVERWORLD_BEAMS_CONDITION.comment=Por padrão, eles só aparecem durante a lua cheia; alterando isso, eles aparecem todas as noites.
+value.OVERWORLD_BEAMS_CONDITION.0=Lua Cheia
+value.OVERWORLD_BEAMS_CONDITION.1=Todas as Noites
+option.OVERWORLD_BEAMS_INTENSITY=Intensidade dos Feixes do Overworld
+option.BEAMS_AMBIENT_INFLUENCE=Influência da Cor da Névoa
+option.BEAMS_AMBIENT_INFLUENCE.comment=Os feixes terão a cor da névoa em 1.00 e a cor definida pelo usuário em 0.00.
+option.OW_BEAM_R_NEW=Feixes do Overworld - Vermelho
+option.OW_BEAM_G_NEW=Feixes do Overworld - Verde
+option.OW_BEAM_B_NEW=Feixes do Overworld - Azul
+
+option.END_BEAMS=Feixes do End
+option.END_BEAMS.comment=Configuração que ativa feixes semelhantes a nébulas no End.
+option.END_CRYSTAL_VORTEX=Vórtice do Cristal do End
+option.END_CRYSTAL_VORTEX.comment=Configuração que ativa feixes de energia subindo a partir dos Cristais do End no End. §4[***]§r Ativa §cSombras de Entidades§r. §e[*]§r Funciona apenas no Iris. §e[*]§r Não funciona no MacOS. A Distância das Sombras nas Configurações do Complementary afeta a distância em que os vórtices ficam visíveis.
+value.END_CRYSTAL_VORTEX.0=DESLIGADO
+value.END_CRYSTAL_VORTEX.1=Vórtice
+value.END_CRYSTAL_VORTEX.2=Feixe de Cura
+value.END_CRYSTAL_VORTEX.3=Ambos
+option.DRAGON_DEATH_EFFECT=Efeito de Morte do Dragão
+option.DRAGON_DEATH_EFFECT.comment=Configuração que substitui os feixes da morte do dragão por um efeito volumétrico. §4[***]§r Ativa §cSombras de Entidades§r. §e[*]§r Funciona apenas no Iris. §e[*]§r Não funciona no MacOS.
+value.DRAGON_DEATH_EFFECT.0=DESLIGADO
+value.DRAGON_DEATH_EFFECT.1=Efeito Volumétrico
+value.DRAGON_DEATH_EFFECT.2=Volumétrico + Feixes Originais
+option.E_BEAMS_AMBIENT_INFLUENCE=Influência da Cor Ambiente
+option.E_BEAMS_AMBIENT_INFLUENCE.comment=Os feixes terão a cor ambiente em 1.00 e a cor definida pelo usuário em 0.00. Não se aplica aos Feixes do Dragão.
+option.E_BEAM_R_NEW=Feixes do Ender - Vermelho
+option.E_BEAM_G_NEW=Feixes do Ender - Verde
+option.E_BEAM_B_NEW=Feixes do Ender - Azul
+option.E_BEAM_I=Feixes do End - Intensidade
+option.E_DRAGON_BEAM_R_NEW=Feixes do Dragão do Ender - Vermelho
+option.E_DRAGON_BEAM_R_NEW.comment=A cor do Feixe do Ender durante a luta contra o dragão - Vermelho.
+option.E_DRAGON_BEAM_G_NEW=Feixes do Dragão do Ender - Verde
+option.E_DRAGON_BEAM_G_NEW.comment=A cor do Feixe do Ender durante a luta contra o dragão - Verde.
+option.E_DRAGON_BEAM_B_NEW=Feixes do Dragão do Ender - Azul
+option.E_DRAGON_BEAM_B_NEW.comment=A cor do Feixe do Ender durante a luta contra o dragão - Azul.
+option.E_DRAGON_BEAM_I=Feixes do Dragão do End - Intensidade
+option.E_DRAGON_BEAM_I.comment=Intensidade do Feixe do End durante a luta com o dragão.
+option.END_BEAM_SCALE=Escala
+option.END_BEAM_SCALE.comment=Altera a escala dos feixes do End. Valores mais altos os deixam mais finos, valores mais baixos os deixam mais largos.
+option.END_BEAM_DISTANCE_MULTIPLIER=Multiplicador de distância
+option.END_BEAM_DISTANCE_MULTIPLIER.comment=Define o quão perto ou longe os feixes do End ficam do jogador. Valores mais altos fazem com que comecem mais distantes, valores mais baixos mais próximos.
+option.END_BEAM_POW=Potência do feixe
+option.END_BEAM_POW.comment=Altera a potência dos feixes. Valores mais altos os tornam menos intensos, enquanto valores mais baixos os tornam mais intensos.
+option.END_BEAM_DIRECTION_BIAS=Viés de direção vertical
+option.END_BEAM_DIRECTION_BIAS.comment=Define para qual lado do centro do feixe o efeito se inclina. -100 puxa para baixo, 0 fica equilibrado, 100 puxa para cima.
+option.END_BEAM_FLASH_HEIGHT_MULTIPLIER=Multiplicador de altura do flash
+option.END_BEAM_FLASH_HEIGHT_MULTIPLIER.comment=Altera a altura dos feixes do End durante os flashes. Valores mais altos os deixam mais curtos, valores mais baixos os deixam mais altos.
+option.END_BEAM_FLASH_POW_MULTIPLIER=Multiplicador de intensidade do flash
+option.END_BEAM_FLASH_POW_MULTIPLIER.comment=Altera a intensidade dos feixes do End durante os flashes.
+option.END_BEAM_FLASH_NARROWNESS=Intensidade de Estreitamento do Flash
+option.END_BEAM_FLASH_NARROWNESS.comment=Define o quão estreita é a área afetada pelo flash final. Valores mais altos fazem o efeito atingir uma área menor, enquanto valores mais baixos fazem com que ele alcance uma área maior.
+option.END_BEAM_SPEED=Velocidade
+option.END_BEAM_SPEED.comment=Altera a velocidade dos feixes do End.
+option.END_BEAM_FOG_BLEND=Mesclagem com o Terreno
+option.END_BEAM_FOG_BLEND.comment=Define o quanto os feixes do End se misturam com o terreno a longas distâncias. §e[*]§r Valores mais baixos tornam as bordas dos chunks visíveis.
+
+option.END_STARS=Estrelas do End
+option.END_STARS.comment=Ativa ou desativa as estrelas no End.
+option.END_STAR_BRIGHTNESS=Brilho das Estrelas do End
+option.END_STAR_SIZE=Tamanho das Estrelas do End
+option.END_STAR_AMOUNT=Quantidade de Estrelas do End
+value.END_STAR_AMOUNT.0=Baixa
+value.END_STAR_AMOUNT.1=Normal
+value.END_STAR_AMOUNT.2=Alta
+value.END_STAR_AMOUNT.3=Muito Alta
+value.END_STAR_AMOUNT.4=MUITAS
+option.END_TWINKLING_STARS=Estrelas Piscando no End
+value.END_TWINKLING_STARS.0=DESATIVADO
+value.END_TWINKLING_STARS.1=0.1
+value.END_TWINKLING_STARS.2=0.2
+value.END_TWINKLING_STARS.3=0.3
+value.END_TWINKLING_STARS.4=0.4
+value.END_TWINKLING_STARS.5=0.5
+value.END_TWINKLING_STARS.6=0.6
+value.END_TWINKLING_STARS.7=0.7
+value.END_TWINKLING_STARS.8=0.8
+value.END_TWINKLING_STARS.9=0.9
+value.END_TWINKLING_STARS.10=1.0
+value.END_TWINKLING_STARS.11=1.1
+value.END_TWINKLING_STARS.12=1.2
+value.END_TWINKLING_STARS.13=1.3
+value.END_TWINKLING_STARS.14=1.4
+value.END_TWINKLING_STARS.15=1.5
+value.END_TWINKLING_STARS.16=1.6
+value.END_TWINKLING_STARS.17=1.7
+value.END_TWINKLING_STARS.18=1.8
+value.END_TWINKLING_STARS.19=1.9
+value.END_TWINKLING_STARS.20=2.0
+option.END_STAR_HEMISPHERE=Hemisfério das Estrelas do End
+option.END_STAR_HEMISPHERE.comment=Define se as estrelas serão renderizadas apenas no hemisfério superior ou inferior do céu no End.
+value.END_STAR_HEMISPHERE.0=Céu Completo
+value.END_STAR_HEMISPHERE.1=Apenas Hemisfério Superior
+value.END_STAR_HEMISPHERE.-1=Apenas Hemisfério Inferior
+
+option.STAR_BRIGHTNESS=Brilho das Estrelas
+option.STAR_BRIGHTNESS.comment=Configuração para ajustar o brilho das
+value.STAR_BRIGHTNESS.3=OFF
+value.STAR_BRIGHTNESS.4=0.1
+value.STAR_BRIGHTNESS.5=0.2
+value.STAR_BRIGHTNESS.6=0.3
+value.STAR_BRIGHTNESS.7=0.4
+value.STAR_BRIGHTNESS.8=0.5
+value.STAR_BRIGHTNESS.9=0.6
+value.STAR_BRIGHTNESS.10=0.7
+value.STAR_BRIGHTNESS.11=0.8
+value.STAR_BRIGHTNESS.12=0.9
+value.STAR_BRIGHTNESS.13=1.0
+value.STAR_BRIGHTNESS.14=1.1
+value.STAR_BRIGHTNESS.15=1.2
+value.STAR_BRIGHTNESS.16=1.3
+value.STAR_BRIGHTNESS.17=1.4
+value.STAR_BRIGHTNESS.18=1.5
+value.STAR_BRIGHTNESS.19=1.6
+value.STAR_BRIGHTNESS.20=1.7
+value.STAR_BRIGHTNESS.21=1.8
+value.STAR_BRIGHTNESS.22=1.9
+value.STAR_BRIGHTNESS.23=2.0
+value.STAR_BRIGHTNESS.24=2.1
+value.STAR_BRIGHTNESS.25=2.2
+value.STAR_BRIGHTNESS.26=2.3
+value.STAR_BRIGHTNESS.27=2.4
+value.STAR_BRIGHTNESS.28=2.5
+value.STAR_BRIGHTNESS.29=2.6
+value.STAR_BRIGHTNESS.30=2.7
+value.STAR_BRIGHTNESS.31=2.8
+value.STAR_BRIGHTNESS.32=2.9
+value.STAR_BRIGHTNESS.33=3.0
+
+option.TWINKLING_STARS=Estrelas Cintilantes
+option.TWINKLING_STARS.comment=Faz as estrelas piscarem para você.
+value.TWINKLING_STARS.0=DESLIGADO
+value.TWINKLING_STARS.1=0.1
+value.TWINKLING_STARS.2=0.2
+value.TWINKLING_STARS.3=0.3
+value.TWINKLING_STARS.4=0.4
+value.TWINKLING_STARS.5=0.5
+value.TWINKLING_STARS.6=0.6
+value.TWINKLING_STARS.7=0.7
+value.TWINKLING_STARS.8=0.8
+value.TWINKLING_STARS.9=0.9
+value.TWINKLING_STARS.10=1.0
+value.TWINKLING_STARS.11=1.1
+value.TWINKLING_STARS.12=1.2
+value.TWINKLING_STARS.13=1.3
+value.TWINKLING_STARS.14=1.4
+value.TWINKLING_STARS.15=1.5
+value.TWINKLING_STARS.16=1.6
+value.TWINKLING_STARS.17=1.7
+value.TWINKLING_STARS.18=1.8
+value.TWINKLING_STARS.19=1.9
+value.TWINKLING_STARS.20=2.0
+option.STAR_SIZE=Tamanho das Estrelas
+option.STAR_SIZE.comment=Altere o tamanho das Estrelas
+
+option.SITUATIONAL_ORES=Minérios Situacionais
+option.SITUATIONAL_ORES.comment=Minérios só irão brilhar em cavernas e à noite. §e[*]§r Os Minérios Brilhantes devem estar ativados para isso funcionar.
+
+option.GLOWING_RAW_BLOCKS=Blocos Brutos Emissivos
+
+option.EMISSION_MULTIPLIER=Multiplicador de Emissão
+option.EMISSION_MULTIPLIER.comment=Multiplica a emissão.
+
+option.UNDERWATER_DISTORTION_STRENGTH=Força da Distorção Subaquática
+option.UNDERWATER_DISTORTION_STRENGTH.comment=Configuração para alterar a força da distorção subaquática.
+option.FRESNEL_MULTIPLIER=Força do Reflexo da Superfície Subaquática
+option.FRESNEL_MULTIPLIER.comment=Configuração que altera a força do reflexo da superfície da água quando submerso.
+option.SHADER_WATER=Água do Shader
+option.SHADER_WATER.comment=Alterna para ativar ou desativar a água do shader.
+
+option.WATER_GENERATED_NORMALS=Normais Geradas da Água
+
+option.RANDOM_BLOCKLIGHT=Luz de Bloco Colorida Aleatória
+option.RANDOM_BLOCKLIGHT.comment=Randomiza a cor da luz de bloco dependendo das coordenadas do mundo, apenas por diversão.
+option.NORMAL_RES=Resolução das Normais
+option.NORMAL_RES.comment=Altere a resolução em que os mapas normais integrados são renderizados. §e[*]§r O suporte a RP deve estar em Integrated PBR+ e Normais Geradas automaticamente precisam estar ativadas.
+
+option.COATED_TEXTURE_RES=Resolução das Texturas Envelopadas
+option.COATED_TEXTURE_RES.comment=Altere a resolução em que as Texturas Envelopadas com Ruído são renderizadas. §e[*]§r O suporte a RP deve estar em Integrated PBR+ e Texturas Envelopadas precisam estar ativadas.
+
+option.DIRECTIONAL_LIGHTMAP_NORMALS=Normais do Lightmap
+option.DIRECTIONAL_LIGHTMAP_NORMALS.comment=Faz os mapas normais integrados funcionarem com luz de bloco. §e[*]§r O suporte a RP deve estar em Integrated PBR+ e Normais Geradas automaticamente precisam estar ativadas.
+option.DIRECTIONAL_LIGHTMAP_NORMALS_BLOCK_STRENGTH_NEW=Intensidade do Bloco
+option.DIRECTIONAL_LIGHTMAP_NORMALS_HANDHELD_STRENGTH=Intensidade na Mão
+
+option.CAVE_FOG=Névoa de Caverna
+option.CAVE_FOG.comment=Ativa ou desativa a névoa em cavernas.
+option.CAVE_FOG_R_NEW=Névoa de Caverna - Vermelho
+option.CAVE_FOG_G_NEW=Névoa de Caverna - Verde
+option.CAVE_FOG_B_NEW=Névoa de Caverna - Azul
+option.CAVE_FOG_I=Névoa de Caverna - Intensidade
+option.CAVE_FOG_DENSITY=Densidade da Névoa de Caverna
+
+option.ATMOSPHERIC_FOG=Névoa Atmosférica
+option.ATMOSPHERIC_FOG_R_NEW=Névoa Atmosférica - Vermelho
+option.ATMOSPHERIC_FOG_G_NEW=Névoa Atmosférica - Verde
+option.ATMOSPHERIC_FOG_B_NEW=Névoa Atmosférica - Azul
+option.ATMOSPHERIC_FOG_I=Névoa Atmosférica - Intensidade
+option.ATMOSPHERIC_FOG_DENSITY=Densidade da Névoa Atmosférica
+option.RADIOACTIVE_ATMOSPHERIC_FOG=Névoa Atmosférica Radioativa
+option.RADIOACTIVE_ATMOSPHERIC_FOG.comment=É só mais um hábito nada saudável. Muito perceptível à noite
+
+option.BORDER_FOG_DISTANCE_OVERWORLD=Distância da Névoa de Borda (Overworld)
+option.BORDER_FOG_DISTANCE_OVERWORLD.comment=Altere a distância da névoa de borda do Overworld.
+value.BORDER_FOG_DISTANCE_OVERWORLD.1=0.25
+value.BORDER_FOG_DISTANCE_OVERWORLD.2=0.40
+value.BORDER_FOG_DISTANCE_OVERWORLD.3=0.50
+value.BORDER_FOG_DISTANCE_OVERWORLD.6=1.00
+value.BORDER_FOG_DISTANCE_OVERWORLD.10=1.25
+value.BORDER_FOG_DISTANCE_OVERWORLD.50=1.50
+value.BORDER_FOG_DISTANCE_OVERWORLD.100=1.75
+value.BORDER_FOG_DISTANCE_OVERWORLD.500=2.00
+value.BORDER_FOG_DISTANCE_OVERWORLD.1000=2.50
+
+option.BORDER_FOG_DENSITY_OVERWORLD=Densidade da Névoa de Borda (Overworld)
+option.BORDER_FOG_DENSITY_OVERWORLD.comment=Altere a densidade da névoa de borda do Overworld.
+
+option.BORDER_FOG_DISTANCE_NETHER=Distância da Névoa de Borda (Nether)
+option.BORDER_FOG_DISTANCE_NETHER.comment=Altere a distância da névoa de borda do Nether.
+value.BORDER_FOG_DISTANCE_NETHER.1=0.25
+value.BORDER_FOG_DISTANCE_NETHER.2=0.40
+value.BORDER_FOG_DISTANCE_NETHER.3=0.50
+value.BORDER_FOG_DISTANCE_NETHER.6=1.00
+value.BORDER_FOG_DISTANCE_NETHER.10=1.25
+value.BORDER_FOG_DISTANCE_NETHER.50=1.50
+value.BORDER_FOG_DISTANCE_NETHER.100=1.75
+value.BORDER_FOG_DISTANCE_NETHER.500=2.00
+value.BORDER_FOG_DISTANCE_NETHER.1000=2.50
+
+option.BORDER_FOG_DENSITY_NETHER=Densidade da Névoa de Borda (Nether)
+option.BORDER_FOG_DENSITY_NETHER.comment=Altere a densidade da névoa de borda do Nether.
+
+option.BORDER_FOG_DISTANCE_END=Distância da Névoa de Borda (End)
+option.BORDER_FOG_DISTANCE_END.comment=Altere a distância da névoa de borda do End.
+value.BORDER_FOG_DISTANCE_END.1=0.25
+value.BORDER_FOG_DISTANCE_END.2=0.40
+value.BORDER_FOG_DISTANCE_END.3=0.50
+value.BORDER_FOG_DISTANCE_END.6=1.00
+value.BORDER_FOG_DISTANCE_END.10=1.25
+value.BORDER_FOG_DISTANCE_END.50=1.50
+value.BORDER_FOG_DISTANCE_END.100=1.75
+value.BORDER_FOG_DISTANCE_END.500=2.00
+value.BORDER_FOG_DISTANCE_END.1000=2.50
+
+option.BORDER_FOG_DENSITY_END=Densidade da Névoa de Borda (End)
+option.BORDER_FOG_DENSITY_END.comment=Altere a densidade da névoa de borda do End.
+
+option.BORDER_FOG_NETHER=Névoa da Borda do Nether
+option.BORDER_FOG_END=Névoa da Borda do End
+option.BORDER_FOG_OVERWORLD=Névoa da Borda do Overworld
+
+option.NETHER_PORTAL_VARIATION=Predefinição do Portal do Nether
+option.NETHER_PORTAL_VARIATION.comment=Opção para escolher entre diferentes predefinições de portal do Nether. §e[*]§r O suporte a RP deve estar em Integrated PBR+
+value.NETHER_PORTAL_VARIATION.0=Vanilla
+value.NETHER_PORTAL_VARIATION.1=Complementary
+value.NETHER_PORTAL_VARIATION.2=Purple Void
+
+option.BIOME_COLORED_NETHER_PORTALS=Portais do Nether Camaleão
+option.BIOME_COLORED_NETHER_PORTALS.comment=Portais do Nether no Nether terão cor diferente dependendo do bioma em que você está.
+
+option.NETHER_PORTAL_NOISE=Ruído do Portal do Nether
+option.NETHER_PORTAL_NOISE.comment=Adiciona ruído à textura do Portal do Nether, tornando-o mais dinâmico.
+value.NETHER_PORTAL_NOISE.0=OFF
+value.NETHER_PORTAL_NOISE.1=Normal
+value.NETHER_PORTAL_NOISE.2=Pixelado
+
+option.END_PORTAL_VARIATION=Predefinição do Portal do End
+option.END_PORTAL_VARIATION.comment=Opção para escolher entre diferentes predefinições de portal do End. §e[*]§r O suporte a RP deve estar em Integrated PBR+
+value.END_PORTAL_VARIATION.0=Complementary
+value.END_PORTAL_VARIATION.1=Smudged Strings
+value.END_PORTAL_VARIATION.3=Pixelated Salsa
+
+option.END_PORTAL_BEAM=Raios do Portal do End
+option.END_PORTAL_BEAM.comment=Adiciona raios de luz ao redor das bordas do portal do End. Similar ao Minecraft Dungeons. [§e*§r] Funciona apenas no Iris. [§e*§r] Não funciona no MacOS.
+
+option.SILHOUETTE=Silhueta
+option.SILHOUETTE.comment=Quando ativado, faz com que blocos voltados para longe do sol fiquem pretos, útil para screenshots.
+value.SILHOUETTE.0=DESLIGADO
+value.SILHOUETTE.1=Apenas à Noite
+value.SILHOUETTE.2=Sempre Ativo
+option.SILHOUETTE_BRIGHTNESS=Brilho da Silhueta
+
+option.RAIN_ATMOSPHERE=Tempestade Épica
+option.RAIN_ATMOSPHERE.comment=Melhora significativamente as tempestades quando um raio cai. §e[*]§r Funciona muito melhor com Iris
+
+option.BLUE_SCREEN=Tela Azul
+option.BLUE_SCREEN.comment=Transforma "Concreto Azul", "Lã Azul" e "Carpete Azul" em telas azuis para edição de vídeo. Dica 1: Desative a opção "Brilho Suave" para melhorar a separação. Dica 2: Coloque luzes sob os carpetes azuis para iluminação. Dica 3: Você pode desativar o Anti-Aliasing (FXAA) e definir a Qualidade de Detalhe como Batata nas Configurações de Desempenho para desativar todos os filtros e obter separação perfeita de pixels.
+
+option.MIRROR_DIMENSION=Dimensão do Espelho
+option.MIRROR_DIMENSION.comment=Você aprendeu a arte da magia e é corajoso o suficiente para entrar na dimensão do espelho.
+
+option.WORLD_CURVATURE=Curvatura do Mundo
+option.OVERWORLD_CURVATURE_SIZE=Tamanho da Curvatura do Overworld
+option.NETHER_CURVATURE_SIZE=Tamanho da Curvatura do Nether
+option.END_CURVATURE_SIZE=Tamanho da Curvatura do End
+
+option.LAVA_VARIATION=Predefinição da Lava
+option.LAVA_VARIATION.comment=Predefinições quentes na sua área. Escolha agora!
+value.LAVA_VARIATION.0=Complementary
+value.LAVA_VARIATION.1=Adaptive Noise (Recomendado)
+value.LAVA_VARIATION.2=Blushing Hotness
+value.LAVA_VARIATION.3=Molten Cheese
+value.LAVA_VARIATION.4=Dark Island
+value.LAVA_VARIATION.5=Chaotic Flow
+
+option.LAVA_TEMPERATURE=Temperatura da Lava
+option.LAVA_TEMPERATURE.comment=Altere a temperatura da lava, deixando-a mais vermelha ou mais branca.
+
+option.WAVIER_LAVA=Lava Mais Ondulada
+option.WAVIER_LAVA.comment=Deixa a opção de textura de lava ondulante mais extrema no Nether.
+
+option.LAVA_EMISSION=Emissão da Lava
+
+option.LAVA_NOISE_INTENSITY=Intensidade do Ruído da Lava
+option.LAVA_NOISE_INTENSITY.comment=Altere a opacidade do ruído da predefinição de lava.
+
+option.LAVA_NOISE_AMOUNT=Quantidade de Ruído da Lava
+option.LAVA_NOISE_AMOUNT.comment=Altere a quantidade de ruído.
+
+option.LAVA_EDGE_EFFECT=Efeito de Borda da Lava
+option.LAVA_EDGE_EFFECT.comment=Adiciona uma borda à lava quando ela toca outros blocos. §e[*]§r Este recurso só funciona se a Iluminação Colorida Avançada estiver ativada nas Configurações de Desempenho.
+value.LAVA_EDGE_EFFECT.0=DESLIGADO
+value.LAVA_EDGE_EFFECT.1=LIGADO - Brilhante
+value.LAVA_EDGE_EFFECT.2=LIGADO - Escuro
+
+option.NETHER_BRIGHTNESS=Brilho do Nether
+option.NETHER_BRIGHTNESS.comment=Altere o brilho ambiente do Nether.
+
+option.END_ROD_COLOR_PROFILE=Perfil de Cor da Barra do End
+option.END_ROD_COLOR_PROFILE.comment=Altere entre as cores padrão das barras do End do Complementary e suas próprias cores personalizadas. §e[*]§r O suporte a RP deve estar em Integrated PBR+
+value.END_ROD_COLOR_PROFILE.0=Complementary
+value.END_ROD_COLOR_PROFILE.1=Personalizado
+value.END_ROD_COLOR_PROFILE.2=Arco-íris
+value.END_ROD_COLOR_PROFILE.3=Arco-íris - Apenas Overworld
+option.END_ROD_R=Barra do End - Vermelho
+option.END_ROD_G=Barra do End - Verde
+option.END_ROD_B=Barra do End - Azul
+option.END_ROD_I=Barra do End - Intensidade
+option.RAINBOW_END_ROD_COORD_OFFSET=Deslocamento das Cores do Arco-íris
+value.RAINBOW_END_ROD_COORD_OFFSET.0=Sincronizado
+value.RAINBOW_END_ROD_COORD_OFFSET.3=Mínimo
+value.RAINBOW_END_ROD_COORD_OFFSET.5=Padrão
+value.RAINBOW_END_ROD_COORD_OFFSET.7=Médio
+value.RAINBOW_END_ROD_COORD_OFFSET.11=Forte
+value.RAINBOW_END_ROD_COORD_OFFSET.13=Muito Forte
+option.END_ROD_RAINBOW_ANIMATE=Velocidade do Arco-íris
+value.END_ROD_RAINBOW_ANIMATE.0.0=DESLIGADO
+
+option.REDSTONE_IPBR=Redstone IntegratedPBR
+option.REDSTONE_IPBR.comment=Esta opção faz com que pixels vermelhos em blocos relacionados à redstone fiquem emissivos. Funciona melhor com resource packs de redstone. §e[*]§r O suporte a RP deve estar em Integrated PBR+
+option.REDSTONE_IPBR_R=Detecção de Vermelho
+option.REDSTONE_IPBR_R.comment=Altere se a detecção não funcionar com seu resource pack. Aumente se os pixels forem mais vermelhos, diminua se forem menos.
+option.REDSTONE_IPBR_G=Detecção de Verde
+option.REDSTONE_IPBR_G.comment=Altere se a detecção não funcionar com seu resource pack. Aumente se os pixels forem mais verdes, diminua se forem menos.
+option.REDSTONE_IPBR_B=Detecção de Azul
+option.REDSTONE_IPBR_B.comment=Altere se a detecção não funcionar com seu resource pack. Aumente se os pixels forem mais azuis, diminua se forem menos.
+option.REDSTONE_IPBR_I=Força Emissiva
+option.REDSTONE_IPBR_I.comment=Altere a força emissiva do Redstone IntegratedPBR
+
+option.LETTERBOXING=Letterbox
+option.LETTERBOXING.comment=Adiciona barras pretas na parte superior e inferior da janela.
+value.LETTERBOXING.0=DESLIGADO
+value.LETTERBOXING.1=LIGADO
+value.LETTERBOXING.2=LIGADO - Ao Agachar
+
+option.ASPECT_RATIO=Proporção da Tela
+option.ASPECT_RATIO.comment=Altere a proporção entre largura e altura da imagem recortada.
+
+option.EXCLUDE_ENTITIES=Excluir Entidades
+option.EXCLUDE_ENTITIES.comment=Altere se entidades devem ser excluídas do Letterbox ou não.
+
+option.LETTERBOXING_TRANSPARENCY=Transparência do Letterbox
+
+option.BAD_APPLE=Bad Apple
+option.BAD_APPLE.comment=Deixa a tela preta com exceção das entidades, que ficarão brancas.
+
+option.tonemap=Tonemap
+option.tonemap.comment=Altera qual tonemap é usado.
+value.tonemap.DoCompTonemap=Complementary Padrão
+value.tonemap.DoBSLTonemap=BSL/Complementary
+value.tonemap.ACESTonemap=ACES
+value.tonemap.ACESRedModified=ACES Red Modificado
+value.tonemap.BurgessTonemap=Burgess
+value.tonemap.LottesTonemap=Lottes
+value.tonemap.uncharted2_tonemap_partial=Uncharted 2 - Parcial
+value.tonemap.uncharted2_filmic=Uncharted 2 - Fílmico
+value.tonemap.reinhard2=Reinhard2
+value.tonemap.filmic=Fílmico
+value.tonemap.GTTonemap=Gran Turismo
+value.tonemap.uchimura=Uchimura
+value.tonemap.agxTonemap=AgX
+
+option.TONEMAP_COMPARISON=Comparação de Tonemap
+option.TONEMAP_COMPARISON.comment=Opção para comparar tonemaps
+
+option.tonemap_left=Tonemap Esquerdo
+option.tonemap_left.comment=Altera qual tonemap é usado.
+value.tonemap_left.DoCompTonemap=Complementary Padrão
+value.tonemap_left.DoBSLTonemap=BSL/Complementary
+value.tonemap_left.ACESTonemap=ACES
+value.tonemap_left.ACESRedModified=ACES Red Modificado
+value.tonemap_left.BurgessTonemap=Burgess
+value.tonemap_left.LottesTonemap=Lottes
+value.tonemap_left.uncharted2_tonemap_partial=Uncharted 2
+value.tonemap_left.uncharted2_filmic=Uncharted 2 - Fílmico
+value.tonemap_left.reinhard2=Reinhard2
+value.tonemap_left.filmic=Fílmico
+value.tonemap_left.GTTonemap=Gran Turismo
+value.tonemap_left.uchimura=Uchimura
+value.tonemap_left.agxTonemap=AgX
+
+option.tonemap_right=Tonemap Direito
+option.tonemap_right.comment=Altera qual tonemap é usado.
+value.tonemap_right.DoCompTonemap=Complementary Padrão
+value.tonemap_right.DoBSLTonemap=BSL/Complementary
+value.tonemap_right.ACESTonemap=ACES
+value.tonemap_right.ACESRedModified=ACES Red Modificado
+value.tonemap_right.BurgessTonemap=Burgess
+value.tonemap_right.LottesTonemap=Lottes
+value.tonemap_right.uncharted2_tonemap_partial=Uncharted 2
+value.tonemap_right.uncharted2_filmic=Uncharted 2 - Fílmico
+value.tonemap_right.reinhard2=Reinhard2
+value.tonemap_right.filmic=Fílmico
+value.tonemap_right.GTTonemap=Gran Turismo
+value.tonemap_right.uchimura=Uchimura
+value.tonemap_right.agxTonemap-AgX
+
+option.ACES_EXPOSURE=Exposição
+option.ACES_EXPOSURE.comment=Ajuda a ajustar o brilho geral da imagem.
+option.ACES_WHITE=Curva de Branco
+option.ACES_WHITE.comment=Ajuda a ajustar o quão facilmente as cores atingem o branco total.
+option.ACES_BRIGHTNESS_ROLLOFF=Queda de Brilho
+option.ACES_BRIGHTNESS_ROLLOFF.comment=Ajusta a queda de brilho para o mapeamento de tons ACES.
+
+option.AGX_LOOK=Visual AgX
+value.AGX_LOOK.0=Padrão
+value.AGX_LOOK.1=Dourado
+value.AGX_LOOK.2=Vivo
+value.AGX_LOOK.3=Personalizado
+option.AGX_R=AgX - Vermelho
+option.AGX_G=AgX - Verde
+option.AGX_B=AgX - Azul
+option.AGX_POWER=Potência do AgX
+option.AGX_SATURATION=Saturação do AgX
+
+option.COLOR_MULTIPLIER_COMPARISON=Comparação de Multiplicador de Cor
+option.COLOR_MULTIPLIER_COMPARISON.comment=Esta opção permite comparar facilmente os valores de multiplicador de cor de iluminação e atmosfera com os valores padrão do shaderpack.
+
+option.REFLECTIVE_WORLD=Mundo Reflexivo
+option.REFLECTIVE_WORLD.comment=O mundo inteiro é um espelho, mas você não pode se ver. RIP.
+
+option.WAVE_EVERYTHING=Ondular Tudo
+option.WAVE_EVERYTHING.comment=Dale a tu cuerpo alegría Macarena.
+
+option.INTERACTIVE_FOLIAGE=Folhagem Interativa
+option.INTERACTIVE_FOLIAGE.comment=Faz a folhagem se afastar do jogador em primeira pessoa.
+
+option.EMIN_BOAT=Emin B O A T
+option.EMIN_BOAT.comment=Ande de barco como o Emin queria.
+
+option.MONOTONE_WORLD=Mundo Monocromático
+option.MONOTONE_WORLD.comment=Deixa o mundo sem cor! Wuuuuw!
+value.MONOTONE_WORLD.0=DESLIGADO
+value.MONOTONE_WORLD.1=Branco
+value.MONOTONE_WORLD.2=Preto
+value.MONOTONE_WORLD.3=Cinza
+
+option.SEASONS=Estações
+option.SEASONS.comment=Altera as cores do ambiente conforme o tempo do mundo. No inverno também há neve! §e[*]§r Recomenda-se definir o Suporte a RP como Integrated PBR+
+value.SEASONS.0=DESLIGADO
+value.SEASONS.1=Cíclico
+value.SEASONS.2=Verão
+value.SEASONS.3=Outono
+value.SEASONS.4=Inverno
+value.SEASONS.5=Primavera
+
+option.SEASON_START=Estação Inicial
+option.SEASON_START.comment=Estação em que o ciclo começa.
+value.SEASON_START.0=Verão
+value.SEASON_START.1=Outono
+value.SEASON_START.2=Inverno
+value.SEASON_START.3=Primavera
+
+option.SEASON_LENGTH=Duração da Estação
+option.SEASON_LENGTH.comment=Altere a duração de uma estação em Dias do Minecraft.
+value.SEASON_LENGTH.1=1 Dia do Minecraft
+suffix.SEASON_LENGTH=\ Dias do Minecraft
+
+option.SEASON_TRANSITION_START=Início da Transição
+option.SEASON_TRANSITION_START.comment=A transição para a próxima estação começará quando esta porcentagem da estação passar.
+value.SEASON_TRANSITION_START.0=Imediatamente
+value.SEASON_TRANSITION_START.1=Metade da Estação
+value.SEASON_TRANSITION_START.2=66% da Estação
+value.SEASON_TRANSITION_START.3=75% da Estação
+value.SEASON_TRANSITION_START.4=80% da Estação
+value.SEASON_TRANSITION_START.9=90% da Estação
+
+option.SEASON_COLOR_DESATURATION=Desaturação de Cor
+option.SEASON_COLOR_DESATURATION.comment=Desatura as cores do ambiente.
+
+option.SNOW_CONDITION=Condição da Neve
+option.SNOW_CONDITION.comment=Determina a(s) condição(ões) para a neve aparecer.
+value.SNOW_CONDITION.0=Bioma de Neve & Chovendo
+value.SNOW_CONDITION.1=Bioma de Neve
+value.SNOW_CONDITION.2=Em Todo Lugar
+
+option.SNOW_NOISE_INTENSITY=Intensidade do Ruído
+option.SNOW_NOISE_INTENSITY.comment=Altere o quão forte é o ruído da neve.
+
+option.SNOW_NOISE_REMOVE_INTENSITY=Intensidade de Remoção do Ruído da Neve
+
+option.SNOW_SIZE=Resolução da Neve
+option.SNOW_SIZE.comment=Altere a resolução ou tamanho do ruído.
+value.SNOW_SIZE.0=Automático
+
+option.MELTING_RADIUS=Raio de Derretimento
+option.MELTING_RADIUS.comment=Altere o raio em que a neve derrete ao redor de fontes de luz.
+
+option.SNOW_TRANSPARENCY=Transparência da Neve
+option.SNOW_TRANSPARENCY.comment=Altere a transparência da neve.
+
+option.SSS_SEASON_SNOW=SSS da Neve das Estações
+option.SSS_SEASON_SNOW.comment=Adiciona subsurface scattering à neve das estações.
+
+option.WINTER_GREEN_AMOUNT=Quantidade de Verde no Inverno
+
+option.LESS_LEAVES=Menos Folhas
+value.LESS_LEAVES.0=DESLIGADO
+
+option.AUTUMN_CONDITION=Somente em Floresta
+
+option.AUTUMN_NOISE_SIZE=Tamanho do Ruído de Cor
+option.AUTUMN_NOISE_SIZE.comment=Tamanho do ruído que produz o gradiente de cor das folhas
+
+option.LEAVES_ON_GROUND=Folhas no Chão
+option.LEAVES_ON_GROUND.comment=Folhas aparecerão no chão durante o outono.
+
+option.EXTRA_FLOOR_LEAVES_IN_FORESTS=Mais Folhas no Chão em Florestas
+option.EXTRA_FLOOR_LEAVES_IN_FORESTS.comment=Mais folhas aparecerão no chão em florestas.
+
+option.AUTUMN_STRENGTH=Intensidade do Outono
+option.AUTUMN_STRENGTH.comment=Altere a intensidade da cor no outono.
+
+option.FLOWER_DENSITY=Densidade de Flores
+option.FLOWER_SIZE=Resolução das Flores
+option.FLOWER_AMOUNT=Quantidade de Flores
+value.FLOWER_AMOUNT.0=DESLIGADO
+option.SPRING_GREEN_INTENSITY=Intensidade da Primavera
+option.EMISSIVE_SPRING_FLOWERS=Flores Emissivas da Primavera
+option.EMISSIVE_SPRING_FLOWERS.comment=Opção para ativar a emissão das flores da primavera das estações se estiver usando a opção Flores Emissivas na página de materiais do Euphoria
+option.DISABLE_SPRING_IN_DRY_BIOMES=Desativar em Biomas Secos
+
+option.SUMMER_STRENGTH=Intensidade do Verão
+
+option.INTENSE_DEEP_DARK=Deep Dark Intenso
+option.INTENSE_DEEP_DARK.comment=Deixa o deep dark mais intenso. §e[*]§r O jogador precisa estar com o efeito de escuridão aplicado.
+
+option.END_AMBIENT_INFLUENCE=Influência da Cor Ambiente
+option.END_AMBIENT_INFLUENCE.comment=A cor ambiente é 0.00 padrão e definida pelo usuário em 1.00.
+option.END_AMBIENT_R_NEW=Cor Ambiente - Vermelho
+option.END_AMBIENT_G_NEW=Cor Ambiente - Verde
+option.END_AMBIENT_B_NEW=Cor Ambiente - Azul
+option.END_AMBIENT_I=Cor Ambiente - Intensidade
+
+option.ATLAS_ROTATION=Rotação do Atlas
+option.ATLAS_ROTATION.comment=:).
+
+option.NETHER_NOISE=Ruído do Céu do Nether
+option.NETHER_NOISE.comment=Deixa o céu do Nether acima do teto mais interessante.
+value.NETHER_NOISE.0=DESLIGADO
+value.NETHER_NOISE.1=LIGADO
+
+option.MCBL_MAIN_DEFINE=Iluminação Colorida Euphoria
+option.MCBL_MAIN_DEFINE.comment=Ativa a iluminação multicolorida de blocos. Use "ACT + Screen-Space" para combinar o sistema em screen-space com o Advanced Colored Tracing. A combinação ACT + SSBL + Dynamic Lighting Support pode gerar resultados incorretos em ambientes com mods — recomendado usar apenas no vanilla com um mod de iluminação dinâmica. §e[*]§r Funciona apenas na versão 1.16.5 ou superior, ou no Angelica.
+value.MCBL_MAIN_DEFINE.0=DESLIGADO
+value.MCBL_MAIN_DEFINE.1=Screen-Space
+value.MCBL_MAIN_DEFINE.2=ACT + Screen-Space
+value.MCBL_MAIN_DEFINE.3=ACT + SSBL + Suporte a Iluminação Dinâmica
+
+option.MCBL_INFLUENCE=Influência da Luz de Bloco Multicolorida
+option.MCBL_INFLUENCE.comment=Controla o quanto a luz de bloco multicolorida afeta a cor padrão da luz de bloco.
+
+option.SSS_SNOW_ICE=SSS da Neve e Gelo
+option.SSS_SNOW_ICE.comment=Adiciona subsurface scattering à neve e blocos de gelo.
+
+option.BEDROCK_NOISE=Ruído da Bedrock
+option.BEDROCK_NOISE.comment=Adiciona um efeito de ruído abaixo da bedrock no Nether e Overworld.
+
+option.SOUL_SAND_VALLEY_OVERHAUL=Reforma do Vale da Areia das Almas
+option.SOUL_SAND_VALLEY_OVERHAUL.comment=Deixa blocos, entidades e partículas de fogo azuis no vale da areia das almas.
+
+option.PURPLE_END_FIRE=Fogo Roxo do End
+option.PURPLE_END_FIRE.comment=Torna roxos os blocos, entidades e partículas relacionadas ao fogo no End. §e[*]§r A opção de suporte a RP deve estar definida como PBR+ Integrado para melhores resultados.
+
+option.NO_RAIN_ABOVE_CLOUDS=Sem Chuva Acima das Nuvens
+option.NO_RAIN_ABOVE_CLOUDS.comment=Desativa a chuva acima das nuvens. Não funciona bem se a altura das nuvens vanilla foi alterada com as nuvens vanilla ativadas.
+
+option.RAIN_FADE_TIMER=Tempo de Desvanecimento da Chuva
+option.RAIN_FADE_TIMER.comment=Altera o tempo que os efeitos relacionados à chuva levam para aparecer e desaparecer suavemente. Afeta nuvens, poças de chuva, névoa, arco-íris e mais. §e[*]§r Funciona apenas no Iris e derivados.
+
+option.RAIN_TEX_OPACITY_MULTIPLIER=Multiplicador de opacidade da chuva
+option.RAIN_TEX_OPACITY_MULTIPLIER.comment=Altera a opacidade da textura das partículas de chuva, deixando a chuva mais intensa ou mais leve.
+option.SNOW_TEX_OPACITY_MULTIPLIER=Multiplicador de opacidade da neve
+option.SNOW_TEX_OPACITY_MULTIPLIER.comment=Altera a opacidade da textura das partículas de neve, deixando a neve mais intensa ou mais leve.
+
+option.DOF_SNEAKING=Desfoque ao Agachar & Luneta
+option.DOF_SNEAKING.comment=Ativa o desfoque do mundo apenas ao agachar e segurar uma luneta.
+
+option.CLEAR_SKY_WHEN_RAINING=Céu Mais Limpo Durante a Chuva
+option.CLEAR_SKY_WHEN_RAINING.comment=Deixa estrelas e outros efeitos do céu levemente visíveis durante a chuva.
+
+option.RETRO_ON=Alternar Retrô Global
+
+option.RETRO_LOOK=Visual Retrô
+option.RETRO_LOOK.comment=Altere entre diferentes predefinições retrô.
+value.RETRO_LOOK.0=DESLIGADO
+value.RETRO_LOOK.1=Contornos
+value.RETRO_LOOK.2=Contornos - Apenas Visão Noturna
+
+option.RETRO_LOOK_R=Visual Retrô - Vermelho
+option.RETRO_LOOK_G=Visual Retrô - Verde
+option.RETRO_LOOK_B=Visual Retrô - Azul
+option.RETRO_LOOK_I=Visual Retrô - Intensidade
+
+option.CURVE_DISPLAY=Display Curvado
+option.CURVE_DISPLAY.comment=Deixa a tela curvada.
+option.CURVATURE_AMOUNT=Quantidade de Curvatura
+option.BORDER_AMOUNT=Quantidade de Borda
+option.SCREEN_ROUNDNESS=Arredondamento da Tela
+
+option.STATIC_NOISE=Ruído Estático
+value.STATIC_NOISE.0=DESLIGADO
+option.MIN_STATIC_STRENGTH=Força Mínima
+option.MAX_STATIC_STRENGTH=Força Máxima
+option.STATIC_SPEED=Velocidade do Ruído Estático
+
+option.HORIZONTAL_NOISE=Ruído Horizontal
+value.HORIZONTAL_NOISE.0=DESLIGADO
+option.HORIZONTAL_NOISE_INTENSITY=Intensidade do Ruído Horizontal
+option.HORIZONTAL_NOISE_SPEED=Velocidade do Ruído Horizontal
+
+option.VERTICAL_SCREEN_DISPLACEMENT=Deslocamento Vertical da Tela
+option.VERTICAL_EDGE_GLITCH=Intensidade do Glitch nas Bordas
+value.VERTICAL_EDGE_GLITCH.1.00=DESLIGADO
+option.VERTICAL_SCROLL_SPEED=Velocidade de Rolagem
+value.VERTICAL_SCROLL_SPEED.0.00=DESLIGADO
+option.VERTICAL_STUTTER_SPEED=Velocidade do Stutter
+value.VERTICAL_STUTTER_SPEED.0.00=DESLIGADO
+option.VERTICAL_SCROLL_FREQUENCY=Frequência de Rolagem
+option.VERTICAL_STUTTER_FREQUENCY=Frequência do Stutter
+
+option.PIXELATED_SCREEN_SIZE=Tamanho do Pixel
+option.PIXELATED_SCREEN_SIZE.comment=Ativa um efeito de pixelização na tela e altera o tamanho dos pixels.
+value.PIXELATED_SCREEN_SIZE.0=DESLIGADO
+option.PIXELATED_SCREEN_SMOOTHNESS=Suavização dos Pixels
+option.PIXELATED_SCREEN_SMOOTHNESS.comment=Altera a suavidade do efeito de pixelização. Valores maiores fazem os pixels se misturarem mais.
+option.COLOR_LEVELS=Posterização
+option.COLOR_LEVELS.comment=Reduz a quantidade de cores da imagem para dar um visual mais retrô.
+option.POSTERIZE_STRENGTH=Intensidade da Posterização
+option.POSTERIZE_STRENGTH.comment=Define o quão forte é o efeito de posterização.
+value.POSTERIZE_STRENGTH.0.0=DESLIGADO
+
+option.PALETTE_SWAP=Paleta
+option.PALETTE1R=Color1 Red
+option.PALETTE1G=Color1 Green
+option.PALETTE1B=Color1 Blue
+option.PALETTE2R=Color2 Red
+option.PALETTE2G=Color2 Green
+option.PALETTE2B=Color2 Blue
+option.PALETTE3R=Color3 Red
+option.PALETTE3G=Color3 Green
+option.PALETTE3B=Color3 Blue
+option.PALETTE4R=Color4 Red
+option.PALETTE4G=Color4 Green
+option.PALETTE4B=Color4 Blue
+option.PALETTE5R=Color5 Red
+option.PALETTE5G=Color5 Green
+option.PALETTE5B=Color5 Blue
+option.PALETTE6R=Color6 Red
+option.PALETTE6G=Color6 Green
+option.PALETTE6B=Color6 Blue
+option.USE_TEXTURE_PALETTE=Paleta por Textura
+option.USE_TEXTURE_PALETTE.comment=Usa a imagem PNG da paleta na pasta palettes em vez da configurada na interface.
+value.USE_TEXTURE_PALETTE.0=Desligado
+
+option.SCREEN_DITHERING=Dithering
+option.SCREEN_DITHERING.comment=Adiciona dithering à tela para simular mais cores do que a paleta permite.
+option.SCREEN_DITHER_AMOUNT=Quantidade de Dithering
+option.SCREEN_DITHER_I=Intensidade do Dithering
+
+option.SCANLINE=Scanline
+value.SCANLINE.0=DESLIGADO
+option.SCANLINE_FREQUENCY=Frequência do Scanline
+option.SCANLINE_SPEED=Velocidade do Scanline
+option.SCANLINE_AMOUNT=Quantidade de Scanline
+option.SCANLINE_NEW_MONOCHROME=Cor Monocromática
+option.SCANLINE_NEW_DIRECTION=Direção do Scanline
+value.SCANLINE_NEW_DIRECTION.false=Horizontal
+value.SCANLINE_NEW_DIRECTION.true=Vertical
+option.SCANLINE_R=Multiplicador de Vermelho
+option.SCANLINE_G=Multiplicador de Verde
+option.SCANLINE_B=Multiplicador de Azul
+
+option.HALFTONE=Meio-Tom
+option.HALFTONE_MONOCHROME=Escala de Cinza
+option.HALFTONE_BRIGHTNESS=Brilho do Meio-Tom
+option.HALFTONE_SCALE=Escala dos Pontos
+option.HALFTONE_ANGLE=Ângulo dos Pontos
+
+option.SPEED_LINES=Linhas de Velocidade
+value.SPEED_LINES.0=DESLIGADO
+value.SPEED_LINES.1=LIGADO - Quando Rápido
+value.SPEED_LINES.2=LIGADO - Rápido & Correndo
+value.SPEED_LINES.3=LIGADO
+option.SPEED_LINES_TRANSPARENCY=Opacidade das Linhas de Velocidade
+option.SPEED_LINES_SPEED=Intensidade
+option.SPEED_LINE_THICKNESS=Espessura da Linha
+
+option.CAMERA_NOISE_OVERLAY=Sobreposição de Ruído da Câmera
+value.CAMERA_NOISE_OVERLAY.0=DESLIGADO
+value.CAMERA_NOISE_OVERLAY.1=Ruído 1
+option.CAMERA_NOISE_OVERLAY_INTENSITY=Intensidade do Ruído
+
+option.LONG_EXPOSURE=Exposição Longa
+option.LONG_EXPOSURE.comment=Desative a interface pressionando F1 e fique parado. O modo Celestial foi feito especificamente para melhorar o visual das estrelas e objetos brilhantes, enquanto objetos no modo Temporal desaparecem com o tempo.
+value.LONG_EXPOSURE.0=DESLIGADO
+value.LONG_EXPOSURE.1=Acúmulo Celestial
+value.LONG_EXPOSURE.2=Ponderação Temporal
+
+option.TILT_SHIFT=Inclinação X
+option.TILT_SHIFT.comment=Efeito Tilt-Shift - Horizontal
+value.TILT_SHIFT.0=DESLIGADO
+
+option.TILT_SHIFT2=Inclinação Y
+option.TILT_SHIFT2.comment=Efeito Tilt-Shift - Vertical
+value.TILT_SHIFT2.0=DESLIGADO
+
+option.DOF_VIEW_FOCUS_NEW2=§cPlano de Foco DOF & Luneta
+option.DOF_VIEW_FOCUS_NEW2.comment=Mostra o Plano de Foco do DOF quando a interface está visível e o jogador está segurando uma luneta.
+
+option.DOF_SHAPE=Forma
+option.DOF_SHAPE.comment=Forma da Profundidade de Campo
+value.DOF_SHAPE.0=Original
+value.DOF_SHAPE.3=Triângulo
+value.DOF_SHAPE.4=Quadrado
+value.DOF_SHAPE.5=Pentágono
+value.DOF_SHAPE.6=Hexágono
+value.DOF_SHAPE.7=Heptágono
+value.DOF_SHAPE.8=Octógono
+
+option.DOF_POLYGON_SAMPLES=Amostras do Polígono
+option.DOF_POLYGON_SAMPLES.comment=Número de amostras usadas para formas poligonais. Quanto maior o valor, mais suave será a forma. §c[-]§r O desempenho diminui com valores mais altos.
+
+option.DOF_POLYGON_RINGS=Quantidade de Anéis
+option.DOF_POLYGON_RINGS.comment=Número de anéis usados para formas poligonais. Quanto maior o valor, mais suave será a forma. §c[-]§r O desempenho diminui com valores mais altos.
+
+option.DOF_SHAPE_ROTATION_DEGREES=Rotação
+option.DOF_SHAPE_ROTATION_DEGREES.comment=Rotação da forma da profundidade de campo em graus.
+
+option.LET_THERE_BE_COLORS=QUE HAJA CORES
+
+option.MOSS_NOISE=Ruído do Musgo
+option.MOSS_SIZE=Tamanho do Pixel
+option.MOSS_NOISE_INTENSITY=Intensidade do Ruído
+option.MOSS_NOISE_REMOVE_INTENSITY=Intensidade de Remoção do Ruído
+option.MOSS_TRANSPARENCY=Transparência do Musgo
+option.MOSS_IN_CAVES=Musgo Ativo Em
+value.MOSS_IN_CAVES.0=Efeito Apenas em Lush Caves
+value.MOSS_IN_CAVES.1=Ativado em Todo Lugar
+value.MOSS_IN_CAVES.2=Desativado
+option.MOSS_SIDE_INTENSITY=Intensidade do Musgo nas Paredes
+option.MOSS_NOISE_DISTANCE=Distância do Ruído do Musgo
+
+option.SAND_NOISE=Ruído da Areia
+option.SAND_CONDITION=Condição da Areia
+value.SAND_CONDITION.0=Apenas em biomas arenosos
+value.SAND_CONDITION.1=Todos Biomas Quentes
+value.SAND_CONDITION.2=Em Todo Lugar
+option.SAND_SIZE=Tamanho do Pixel
+option.SAND_NOISE_INTENSITY=Intensidade do Ruído
+option.SAND_NOISE_REMOVE_INTENSITY=Intensidade de Remoção do Ruído
+option.SAND_TRANSPARENCY=Transparência da Areia
+option.SAND_IN_CAVES=Areia em Cavernas
+value.SAND_IN_CAVES.true=Ativado
+value.SAND_IN_CAVES.false=Desativado
+option.SAND_SIDE_INTENSITY=Intensidade da Areia nas Paredes
+option.SAND_NOISE_DISTANCE=Distância do Ruído da Areia
+
+option.MAIN_GRID_INTERVAL=Grade Principal
+value.MAIN_GRID_INTERVAL.1=DESLIGADO
+option.SUB_GRID_INTERVAL=Sub-Grade
+value.SUB_GRID_INTERVAL.1=DESLIGADO
+option.GRID_CONDITION=Condição da Grade
+value.GRID_CONDITION.0=Sem Condição
+value.GRID_CONDITION.1=Agachado
+value.GRID_CONDITION.2=Segurando Luneta
+
+option.EMISSIVE_FLOWERS=Flores Emissivas
+value.EMISSIVE_FLOWERS.0=DESLIGADO
+value.EMISSIVE_FLOWERS.1=LIGADO
+value.EMISSIVE_FLOWERS.2=LIGADO - Escuro ou Chovendo
+
+option.EMISSIVE_FLOWERS_TYPE=Tipo de Flor Emissiva
+value.EMISSIVE_FLOWERS_TYPE.0=Todas
+value.EMISSIVE_FLOWERS_TYPE.1=Cores Frias
+value.EMISSIVE_FLOWERS_TYPE.2=Cores Quentes
+
+option.EMISSIVE_FLOWERS_STRENGTH=Intensidade do Brilho
+
+option.DISTANCE_MIN_LIGHT=Escurecimento de Cavernas por Distância
+option.DISTANCE_MIN_LIGHT.comment=Deixa as cavernas mais escuras conforme aumenta a distância do jogador. Melhora o visual das cavernas com uma configuração de iluminação de caverna mais alta.
+value.DISTANCE_MIN_LIGHT.0=DESLIGADO
+
+option.EMISSIVE_DRAGON_EGG=Ovo de Dragão Emissivo
+
+option.VANILLA_ENTITY_SHADOWS=Sombras de Entidades Vanilla
+option.VANILLA_ENTITY_SHADOWS.comment=Ativa sombras de entidades vanilla quando as sombras em tempo real estão desativadas.
+
+option.FROGLIGHT_SATURATION=Saturação da Froglight
+value.FROGLIGHT_SATURATION.1=Padrão
+value.FROGLIGHT_SATURATION.2=2x
+value.FROGLIGHT_SATURATION.3=3x
+
+option.RENKO_CUT=Renko's Cut do EP
+option.RENKO_CUT.comment=Conquistado em uma luta justa no Complisseum
+
+option.GLITTER_RAIN=Chuva de Glitter
+option.GLITTER_RAIN.comment=Salpique as gotas de chuva com glitter e passe o dia brilhando
+value.GLITTER_RAIN.0=DESLIGADO
+value.GLITTER_RAIN.1=LIGADO - Tempo Aleatório
+value.GLITTER_RAIN.2=LIGADO - Sempre
+
+option.HAND_BLOCKLIGHT_FLICKERING=Cintilação de Luz de Bloco na Mão
+value.HAND_BLOCKLIGHT_FLICKERING.0=DESLIGADO
+
+option.SSS_STRENGTH=Subsurface Scattering
+value.SSS_STRENGTH.0=DESLIGADO
+value.SSS_STRENGTH.1=LIGADO
+
+option.PIXEL_WATER=Água Pixelada Procedural
+option.PIXEL_WATER.comment=Textura de água pixelada gerada proceduralmente.
+value.PIXEL_WATER.0=DESLIGADO
+value.PIXEL_WATER.1=LIGADO
+
+option.PIXELATED_WATER_REFLECTIONS=Reflexos de Água Pixelados
+option.PIXELATED_WATER_REFLECTIONS.comment=Pixeliza os reflexos da água.
+
+option.COMP_WATER_TWEAKS=Ajustes de Cor da Água Complementary
+option.COMP_WATER_TWEAKS.comment=Ajustes de cor na água feitos pelo Shaderpack
+
+option.CAVE_SMOKE=Fumaça em Cavernas
+option.CAVE_SMOKE.comment=Adiciona efeito de fumaça à névoa volumétrica de luz de bloco em cavernas. §c[-]§r Este efeito pode impactar o desempenho. §e[*]§r Este recurso só funciona se Advanced Colored Tracing estiver ativado nas Configurações de Desempenho.
+
+option.WAVING_SUGAR_CANE=Canas de Açúcar Ondulantes
+
+option.SUN_GLARE_AMOUNT=Intensidade do Brilho Solar
+value.SUN_GLARE_AMOUNT.0=DESLIGADO
+
+option.MOON_GLARE_AMOUNT=Intensidade do Brilho Lunar
+value.MOON_GLARE_AMOUNT.0=DESLIGADO
+
+option.SUN_MOON_IPBR=IPBR do Sol/Lua
+option.SUN_MOON_IPBR.comment=Ativa ou desativa o IntegratedPBR para o sol e a lua.
+value.SUN_MOON_IPBR.0=DESLIGADO
+value.SUN_MOON_IPBR.1=Apenas Sol
+value.SUN_MOON_IPBR.2=Apenas Lua
+value.SUN_MOON_IPBR.3=Sol e Lua
+
+option.DAYLIGHT_STARS=Estrelas Durante o Dia
+option.DAYLIGHT_STARS.comment=Ativa estrelas durante o dia
+
+option.FROZEN_TIME=Tempo Congelado
+option.FROZEN_TIME_COMMENT=Congela o tempo de animação do shader, efeitos de shader que dependem de animação por frame ficarão congelados, permitindo assim boas capturas de comparação.
+
+option.DARKER_DEPTH_OCEANS=Oceanos Profundos Mais Escuros
+option.DARKER_DEPTH_OCEANS.comment=A luz diminui com a profundidade do oceano
+value.DARKER_DEPTH_OCEANS.0=DESLIGADO
+
+option.WEATHER_TEX_R=Textura do Clima - Vermelho
+option.WEATHER_TEX_G=Textura do Clima - Verde
+option.WEATHER_TEX_B=Textura do Clima - Azul
+
+option.EMISSIVE_SOUL_SAND=Olhos Brilhantes da Soul Sand
+option.EMISSIVE_SOUL_SAND.comment=Faz os olhos do bloco de Soul Sand brilharem ao ficar sobre ele. §e[*]§r O suporte a RP deve estar em Integrated PBR+. Apenas Textura Vanilla Padrão.
+
+option.BEACON_BEAM_EMISSION=Emissão do Feixe do Beacon
+option.BEACON_BEAM_EMISSION.comment=Altere a intensidade de emissão do feixe do beacon
+
+option.PINKER_CHERRY_LEAVES=Folhas de Cerejeira Mais Rosadas
+
+option.LIGHTMAP_CURVES=Curvas do Lightmap
+option.LIGHTMAP_CURVES.comment=Altere as curvas do lightmap do mundo.
+option.UPPER_LIGHTMAP_CURVE=Curva Superior do Lightmap
+option.UPPER_LIGHTMAP_CURVE.comment=Altere a intensidade da Curva Superior do Lightmap
+option.LOWER_LIGHTMAP_CURVE=Curva Inferior do Lightmap
+option.LOWER_LIGHTMAP_CURVE.comment=Altere a intensidade da Curva Inferior do Lightmap
+
+option.ALTERNATIVE_AMETHYST_STYLE=Ametista Alternativa
+value.ALTERNATIVE_AMETHYST_STYLE.0=Padrão
+value.ALTERNATIVE_AMETHYST_STYLE.1=Rosa Brilhante
+
+option.SHOCKWAVE=Onda de Choque
+value.SHOCKWAVE.0=DESLIGADO
+value.SHOCKWAVE.1=Círculo
+value.SHOCKWAVE.2=Quadrado
+option.SHOCKWAVE.comment=Agache e descubra!
+
+option.STAR_LAYER_OW=Camada de Estrelas
+option.STAR_LAYER_OW.comment=Adiciona estrelas adicionais às atuais, maiores ou menores
+value.STAR_LAYER_OW.0=DESLIGADO
+value.STAR_LAYER_OW.1=Camada Menor
+value.STAR_LAYER_OW.2=Camada Maior
+value.STAR_LAYER_OW.3=Ambas as Camadas
+
+option.STAR_LAYER_END=Camada de Estrelas
+option.STAR_LAYER_END.comment=Adiciona estrelas adicionais às atuais, maiores ou menores
+value.STAR_LAYER_END.0=DESLIGADO
+value.STAR_LAYER_END.1=Camada Menor
+value.STAR_LAYER_END.2=Camada Maior
+value.STAR_LAYER_END.3=Ambas as Camadas
+
+option.STAR_ROUNDNESS_END=Estrelas Arredondadas
+value.STAR_ROUNDNESS_END.0=DESLIGADO
+
+option.STAR_ROUNDNESS_OW=Estrelas Arredondadas
+value.STAR_ROUNDNESS_OW.0=DESLIGADO
+
+option.STAR_SOFTNESS_OW=Suavidade das Estrelas
+
+option.STAR_SOFTNESS_END=Suavidade das Estrelas
+
+option.STAR_COLOR_1_OW_R=Estrela 1 - Vermelho
+option.STAR_COLOR_1_OW_G=Estrela 1 - Verde
+option.STAR_COLOR_1_OW_B=Estrela 1 - Azul
+
+option.STAR_COLOR_2_OW_R=Estrela 2 - Vermelho
+option.STAR_COLOR_2_OW_G=Estrela 2 - Verde
+option.STAR_COLOR_2_OW_B=Estrela 2 - Azul
+
+option.STAR_COLOR_3_OW_R=Estrela 3 - Vermelho
+option.STAR_COLOR_3_OW_G=Estrela 3 - Verde
+option.STAR_COLOR_3_OW_B=Estrela 3 - Azul
+
+option.STAR_COLOR_VARIATION_OW=Intensidade da Cor
+value.STAR_COLOR_VARIATION_OW.0.0=DESLIGADO
+
+option.STAR_COLOR_1_END_R=Estrela 1 - Vermelho
+option.STAR_COLOR_1_END_G=Estrela 1 - Verde
+option.STAR_COLOR_1_END_B=Estrela 1 - Azul
+
+option.STAR_COLOR_2_END_R=Estrela 2 - Vermelho
+option.STAR_COLOR_2_END_G=Estrela 2 - Verde
+option.STAR_COLOR_2_END_B=Estrela 2 - Azul
+
+option.STAR_COLOR_3_END_R=Estrela 3 - Vermelho
+option.STAR_COLOR_3_END_G=Estrela 3 - Verde
+option.STAR_COLOR_3_END_B=Estrela 3 - Azul
+
+option.STAR_COLOR_VARIATION_END=Intensidade da Cor
+value.STAR_COLOR_VARIATION_END.0.0=DESLIGADO
+
+option.CELESTIAL_BOTH_HEMISPHERES=Corpos Celestes em Todo o Céu
+option.CELESTIAL_BOTH_HEMISPHERES.comment=Renderiza objetos celestes (estrelas, sol, lua, nébula) em todo o céu, criando um efeito de skybox mais imersivo.
+
+option.SHOOTING_STARS=Estrelas Cadentes
+option.SHOOTING_STARS_SIZE=Tamanho
+option.SHOOTING_STARS_SIZE.comment=Altere o tamanho das estrelas cadentes. Quanto maior a configuração, maiores serão as estrelas cadentes.
+option.SHOOTING_STARS_SPEED=Velocidade
+option.SHOOTING_STARS_CHANCE=Chance
+option.SHOOTING_STARS_CHANCE.comment=Chance de uma estrela cadente aparecer - quanto maior a configuração, mais frequentes elas aparecerão.
+option.SHOOTING_STARS_COUNT=Quantidade
+option.SHOOTING_STARS_COUNT.comment=Quantas estrelas cadentes aparecerão ao mesmo tempo no céu
+option.SHOOTING_STARS_LINE_THICKNESS=Espessura da Linha
+option.SHOOTING_STARS_LINE_THICKNESS.comment=Altere a espessura da linha das estrelas cadentes.
+option.SHOOTING_STARS_TRAIL_LENGTH=Comprimento da Linha
+option.SHOOTING_STARS_TRAIL_LENGTH.comment=Altere o comprimento da linha das estrelas cadentes.
+
+option.HIDE_VANILLA_STARS=Ocultar Estrelas Padrão
+option.HIDE_VANILLA_STARS.comment=Oculta as estrelas padrão do céu.
+
+option.SITUATIONAL_GLOWING_TRIMS=Detalhes Brilhantes Situacionais
+option.SITUATIONAL_GLOWING_TRIMS.comment=Detalhes só irão brilhar em cavernas e à noite. §e[*]§r Detalhes Brilhantes devem estar ativados para isso funcionar.
+
+option.DO_IPBR_LIGHTS=ACT Luzes IPBR
+option.DO_IPBR_LIGHTS.comment=Esta opção faz com que fontes não luminosas do jogo emitam luz se forem emissivas via shader. (Recomendado: Ligado)
+
+option.NIGHT_DESATURATION=Desaturação da Escuridão
+option.NIGHT_DESATURATION.comment=Desatura as cores do ambiente em áreas escuras.
+
+option.NIGHT_DESATURATION_OW=Intensidade no Overworld
+value.NIGHT_DESATURATION_OW.0=DESLIGADO
+value.NIGHT_DESATURATION_OW.300=Preto/Branco
+
+option.NIGHT_DESATURATION_NETHER=Intensidade no Nether
+value.NIGHT_DESATURATION_NETHER.0=DESLIGADO
+value.NIGHT_DESATURATION_NETHER.300=Preto/Branco
+
+option.NIGHT_DESATURATION_END=Intensidade no End
+value.NIGHT_DESATURATION_END.0=DESLIGADO
+value.NIGHT_DESATURATION_END.300=Preto/Branco
+
+option.NIGHT_CAVE_DESATURATION=Desaturação em Cavernas
+option.NIGHT_CAVE_DESATURATION.comment=Desatura as cores do ambiente em cavernas.
+value.NIGHT_CAVE_DESATURATION.0=DESLIGADO
+
+option.NIGHT_DESATURATION_REMOVE_NEAR_LIGHTS=Remover Próximas Luzes
+option.NIGHT_DESATURATION_REMOVE_NEAR_LIGHTS.comment=Remove o efeito de desaturação próximo a fontes de luz.
+option.NIGHT_DESATURATION_REMOVE_LIGHTS_IN_HAND=Remover com Luz na Mão
+option.NIGHT_DESATURATION_REMOVE_LIGHTS_IN_HAND.comment=Remove o efeito de desaturação ao segurar uma fonte de luz.
+option.NIGHT_DESATURATION_REMOVE_NIGHT_VISION=Remover com Visão Noturna
+option.NIGHT_DESATURATION_REMOVE_NIGHT_VISION.comment=Remove o efeito de desaturação ao usar visão noturna.
+option.PURKINJE_RENDER_DISTANCE_FADE=Desvanecimento por Distância de Renderização
+option.PURKINJE_RENDER_DISTANCE_FADE_NETHER=Desvanecimento por Distância de Renderização no Nether
+option.PURKINJE_RENDER_DISTANCE_FADE_END=Desvanecimento por Distância de Renderização no End
+option.NO_PURKINJE_IN_SKYBOX=Sem dessaturação no céu
+
+option.MOON_PHASE_INF_PURKINJE=Desaturação Noturna por Fase da Lua
+option.MOON_PHASED_DESATURATION_SETTINGS.comment=Ajuda a ajustar a quantidade de desaturação conforme a fase atual da lua.
+
+option.MOON_PHASE_FULL_PURKINJE=Lua Cheia
+option.MOON_PHASE_FULL_PURKINJE.comment=Força da desaturação durante a fase de Lua Cheia (fase mais clara).
+value.MOON_PHASE_FULL_PURKINJE.0=DESLIGADO
+value.MOON_PHASE_FULL_PURKINJE.300=Preto/Branco
+
+option.MOON_PHASE_PARTIAL_PURKINJE=Lua Parcial
+option.MOON_PHASE_PARTIAL_PURKINJE.comment=Força da desaturação durante todas as fases entre Lua Cheia e Lua Nova. Esta é a fase mais comum no Minecraft.
+value.MOON_PHASE_PARTIAL_PURKINJE.0=DESLIGADO
+value.MOON_PHASE_PARTIAL_PURKINJE.300=Preto/Branco
+
+option.MOON_PHASE_DARK_PURKINJE=Lua Nova
+option.MOON_PHASE_DARK_PURKINJE.comment=Força da desaturação durante a Lua Nova (fase mais escura).
+value.MOON_PHASE_DARK_PURKINJE.0=DESLIGADO
+value.MOON_PHASE_DARK_PURKINJE.300=Preto/Branco
+
+option.DELTARUNE_BATTLE_BACKGROUND=Fundo de Batalha Deltarune
+value.DELTARUNE_BATTLE_BACKGROUND.0=DESLIGADO
+value.DELTARUNE_BATTLE_BACKGROUND.1=LIGADO - Apenas Céu
+value.DELTARUNE_BATTLE_BACKGROUND.2=LIGADO - Exceto Entidades
+
+option.END_CRYSTAL_EMISSION=Emissão do Cristal do End
+
+option.CLEAR_WATER_SPOTS=Manchas Claras na Água
+option.CLEAR_WATER_SPOTS.comment=Adiciona manchas claras na água para dar variedade. §e[*]§r Requer algum tipo de onda, seja Unbound ou Reimagined + Waves.
+
+option.ACT_ORE_INTENSITY=Intensidade de Minério ACT
+option.ACT_ORE_INTENSITY.comment=Altere a intensidade da luz ACT dos minérios.
+value.ACT_ORE_INTENSITY.0.0=DESLIGADO
+
+option.ENTITIES_ARE_LIGHT=Entidades São Luz
+
+option.WATER_CAUSTIC_STRENGTH=Força da Caústica da Água
+option.WATER_CAUSTIC_STRENGTH.comment=Altere a força do efeito caústico na água.
+
+option.ROUGHNESS_MULTIPLIER=Máscara de Rugosidade
+option.ROUGHNESS_MULTIPLIER.comment=Altere onde os materiais são rugosos.
+
+option.ROUGHNESS_INTENSITY=Intensidade da Rugosidade
+option.ROUGHNESS_INTENSITY.comment=Altere a rugosidade dos materiais e os deixe mais ou menos brilhantes.
+
+option.SHADOW_SATURATION=Saturação das Sombras
+option.SHADOW_SATURATION.comment=Altere a saturação das sombras e dos feixes de luz. §e[*]§r Esta configuração só funciona se "Sombras em Tempo-Real" estiver em Baixo ou superior.
+
+option.SMOKE_PARTICLE_OPACITY=Opacidade das Partículas de Fumaça
+
+option.END_SUN_ANGLE=Ângulo do Sol do End
+option.END_SUN_ANGLE.comment=Altera o ângulo do sol/lua em relação ao mundo durante o meio-dia.
+value.END_SUN_ANGLE.60=60
+value.END_SUN_ANGLE.50=50
+value.END_SUN_ANGLE.40=40
+value.END_SUN_ANGLE.30=30
+value.END_SUN_ANGLE.20=20
+value.END_SUN_ANGLE.10=10
+value.END_SUN_ANGLE.0=0 §r(§bPadrão§r)
+value.END_SUN_ANGLE.-10=-10
+value.END_SUN_ANGLE.-20=-20
+value.END_SUN_ANGLE.-30=-30
+value.END_SUN_ANGLE.-40=-40
+value.END_SUN_ANGLE.-50=-50
+value.END_SUN_ANGLE.-60=-60
+
+option.PIXELATED_NEBULA=Nébula Pixelada
+value.PIXELATED_NEBULA.0=DESLIGADO
+option.NEBULA_ZOOM_LEVEL=Nível de Zoom
+option.NEBULA_ZOOM_LEVEL.comment=Altere o quanto a nébula está ampliada no céu.
+option.NEBULA_AMOUNT=Quantidade
+option.NEBULA_AMOUNT.comment=Altere quanto as nébulas cobrem o céu.
+option.NEBULA_PATTERN_WARP=Redemoinho
+option.NEBULA_PATTERN_WARP.comment=Altere o quanto as nébulas são distorcidas.
+value.NEBULA_PATTERN_WARP.0=DESLIGADO
+option.NEBULA_HORIZON_STRENGTH=Visibilidade no Horizonte
+option.NEBULA_HORIZON_STRENGTH.comment=Altere o quanto as nébulas são visíveis no horizonte.
+value.NEBULA_HORIZON_STRENGTH.10=Padrão
+
+option.NEBULA_R_1=Nébula 1 - Vermelho
+option.NEBULA_G_1=Nébula 1 - Verde
+option.NEBULA_B_1=Nébula 1 - Azul
+option.NEBULA_R_2=Nébula 2 - Vermelho
+option.NEBULA_G_2=Nébula 2 - Verde
+option.NEBULA_B_2=Nébula 2 - Azul
+option.NEBULA_R_3=Nébula 3 - Vermelho
+option.NEBULA_G_3=Nébula 3 - Verde
+option.NEBULA_B_3=Nébula 3 - Azul
+
+option.NEBULA_SATURATION=Saturação
+
+option.NEBULA_ONLY_STARS=Apenas Estrelas
+option.NEBULA_ONLY_STARS.comment=Remove a parte colorida das nebulosas e mostra apenas as estrelas dentro delas.
+
+option.NEBULA_STAR_BRIGHTNESS=Brilho das Estrelas da Nebulosa
+option.NEBULA_STAR_BRIGHTNESS.comment=Altera o brilho das estrelas dentro das nebulosas.
+
+option.NEBULA_STAR_SIZE=Tamanho das Estrelas da Nebulosa
+option.NEBULA_STAR_SIZE.comment=Altera o tamanho das estrelas dentro das nebulosas.
+
+option.NEBULA_STAR_AMOUNT=Quantidade de Estrelas da Nebulosa
+option.NEBULA_STAR_AMOUNT.comment=Altera a quantidade de estrelas dentro das nebulosas.
+
+option.NEBULA_MOON_CONDITION=Condição da Lua para Nebulosa
+option.NEBULA_MOON_CONDITION.comment=Altera a condição da fase da lua para as nebulosas.
+value.NEBULA_MOON_CONDITION.0=Sempre
+value.NEBULA_MOON_CONDITION.1=Lua Nova
+value.NEBULA_MOON_CONDITION.2=Lua Cheia
+value.NEBULA_MOON_CONDITION.3=Luas Parciais
+value.NEBULA_MOON_CONDITION.4=Aleatório
+value.NEBULA_MOON_CONDITION.5= Sempre, exceto durante a Lua Nova
+
+option.END_CENTER_LIGHTING=Iluminação Central do End
+option.END_CENTER_LIGHTING.comment=Altera a iluminação do centro do End. §e[*]§r Este recurso funciona apenas no Minecraft 1.9+.
+value.END_CENTER_LIGHTING.0=DESLIGADO
+
+option.END_CENTER_LIGHTING_R=Iluminação - Vermelho
+option.END_CENTER_LIGHTING_G=Iluminação - Verde
+option.END_CENTER_LIGHTING_B=Iluminação - Azul
+
+option.END_CENTER_LIGHTING_AFFECT_BLOCKLIGHT=Afecta a luz de blocos
+option.END_CENTER_LIGHTING_AFFECT_BLOCKLIGHT.comment=Altera a cor da luz de blocos no End com base na cor da iluminação central.
+
+option.NETHER_HEAT_DISTORTION=Distorção de Calor
+option.NETHER_HEAT_DISTORTION.comment=Adiciona efeito de distorção de calor ao Nether.
+value.NETHER_HEAT_DISTORTION.0=DESLIGADO
+option.NETHER_HEAT_DISTORTION_SPEED=Velocidade
+option.NETHER_HEAT_DISTORTION_SPEED.comment=Altere a velocidade do efeito de distorção de calor.
+option.NETHER_HEAT_DISTORTION_SCALE=Escala
+option.NETHER_HEAT_DISTORTION_SCALE.comment=Altere a escala do efeito de distorção de calor.
+
+option.BLOCKLIGHT_CAUSTICS=Caústica da Luz de Bloco
+option.BLOCKLIGHT_CAUSTICS.comment=Adiciona efeito caustico à luz de bloco quando submerso.
+
+option.LENS_FLARE_SHAPE=Forma do Lens Flare
+option.LENS_FLARE_SHAPE.comment=Altera a forma dos lens flares.
+value.LENS_FLARE_SHAPE.0=Padrão
+value.LENS_FLARE_SHAPE.3=Triângulo
+value.LENS_FLARE_SHAPE.4=Quadrado
+value.LENS_FLARE_SHAPE.5=Pentágono
+value.LENS_FLARE_SHAPE.6=Hexágono
+value.LENS_FLARE_SHAPE.7=Heptágono
+value.LENS_FLARE_SHAPE.8=Octógono
+
+option.LENS_FLARE_SHAPE_ROTATION=Rotação da Forma do Lens Flare
+option.LENS_FLARE_SHAPE_ROTATION.comment=Altera a rotação das formas do lens flare.
+
+option.ANAMORPHIC_LENS_FLARE=Lens Flare Anamórfico
+option.ANAMORPHIC_LENS_FLARE.comment=Ativa ou desativa os lens flares anamórficos.
+value.ANAMORPHIC_LENS_FLARE.0=DESLIGADO
+
+option.WATER_CAULDRON_COLOR_OVERRIDE=Substituir a cor da água no caldeirão
+option.WATER_CAULDRON_COLOR_OVERRIDE.comment=Impede que as configurações de cores personalizadas da superfície da água afetem os caldeirões de água.
+
+option.END_FLASH_SHADOW=Sombra dos Flashes do End
+option.END_FLASH_SHADOW.comment=No End, as sombras serão projetadas a partir dos flashes em vez do ângulo do Sol do End. §e[*]§r Este recurso funciona apenas no Iris a partir da versão 1.21.9+
+value.END_FLASH_SHADOW.0=OFF
+
+option.EP_END_FLASH=Flash do End
+option.EP_END_FLASH.comment=Altera o tipo de End Flash, podendo ser o padrão, o personalizado Euphoria ou ambos. §e[*]§r Este recurso só funciona no Iris na versão 1.21.9 ou superior.
+value.EP_END_FLASH.0=Padrão apenas
+value.EP_END_FLASH.1=Euphoria apenas
+value.EP_END_FLASH.2=Ambos
+
+option.MIRROR_TINTED_GLASS_OPAQUE = Vidro Escurecido Opaco
+option.MIRROR_TINTED_GLASS_OPAQUE.comment = Deixa os blocos de vidro escurecido totalmente opacos (principalmente para uso como espelhos).
+
+option.COLORED_LIGHT_FOG_RAIN_I=Intensidade da Névoa de Luz Colorida (Chuva)
+option.COLORED_LIGHT_FOG_RAIN_I.comment=Ajusta o quão forte fica a névoa de luz colorida enquanto chove.
+value.COLORED_LIGHT_FOG_RAIN_I.0=Padrão
+
+option.BLOOD_MOON=Lua de Sangue
+option.BLOOD_MOON.comment=Ativa Luas de Sangue, que acontecem a cada X noites do Minecraft definido nesta opção. Luas de Sangue não ocorrem na primeira noite se estiver definido para algo acima de "Toda Noite". Luas de Sangue não ocorrem em luas novas se estiver definido para algo acima de "Toda Noite".
+value.BLOOD_MOON.0=DESLIGADO
+value.BLOOD_MOON.1=Todas as noite
+suffix.BLOOD_MOON=\ Noites do Minecraft
+option.BLOOD_MOON.comment=Ativa Luas de Sangue que ocorrem conforme a quantidade de dias do Minecraft definida pelo usuário nesta opção.
+option.EMISSIVE_BLOOD_MOON_FLOWERS=Flores da Lua de Sangue Emissivas
+option.EMISSIVE_BLOOD_MOON_FLOWERS.comment=Faz flores vermelhas brilharem durante Luas de Sangue. §e[*]§r A opção de suporte a RP deve estar definida como PBR+ Integrado.
+
+option.PHOTONICS_LIGHTING_MODE=Modo de Iluminação
+option.PHOTONICS_LIGHTING_MODE.comment=Altera o algoritmo de iluminação que o Photonics usa.\n\nNítido - Um algoritmo de iluminação nítida sem ruído, mas com número limitado de luzes (Máx. Amostras)\nReSTIR - Usa ReSTIR para iluminação, suporta número ilimitado de luzes (Máx. Luzes), mas pode gerar ruído em algumas áreas. §e[*]§r Esta opção só funciona se o Photonics estiver instalado.
+value.PHOTONICS_LIGHTING_MODE.0=Desligado
+value.PHOTONICS_LIGHTING_MODE.1=Simples
+value.PHOTONICS_LIGHTING_MODE.2=ReSTIR
+
+option.PHOTONICS_PIXELATED_SHADOWS=Sombras Pixeladas
+option.PHOTONICS_PIXELATED_SHADOWS.comment=Ativa ou desativa sombras pixeladas no mod Photonics. §c[*]§r Esta opção só funciona com o modo de iluminação Nítido.
+
+option.PHOTONICS_ALPHA_MODE=Modo de Transparência
+option.PHOTONICS_ALPHA_MODE.comment=Define como o Photonics lida com blocos transparentes.\n\nNone - Blocos transparentes são tratados como opacos\nBlock - Transparência aplicada por bloco (§aImpacto mínimo na performance)§r\nVoxel - Transparência aplicada por voxel (§cALTO IMPACTO NA PERFORMANCE)§r
+value.PHOTONICS_ALPHA_MODE.NONE=Nenhum
+value.PHOTONICS_ALPHA_MODE.BLOCK=Bloco
+value.PHOTONICS_ALPHA_MODE.VOXEL=Voxel
+
+option.PHOTONICS_RENDER_SCALE=Escala de Renderização
+option.PHOTONICS_RENDER_SCALE.comment=Altera a escala de renderização da iluminação do Photonics.\n\n§aValores mais baixos podem ajudar na performance, mas podem piorar a qualidade da iluminação.\n\n§cValores mais altos podem melhorar a qualidade da iluminação, mas podem causar problemas de performance.\n\n
+
+option.PHOTONICS_INDIRECT_INTENSITY=Iluminação Global
+option.PHOTONICS_INDIRECT_INTENSITY.comment=Altera a intensidade da iluminação indireta no mod Photonics. §e[*]§r Esta opção só funciona se o Photonics estiver instalado.
+value.PHOTONICS_INDIRECT_INTENSITY.0=Desligado
+
+option.PHOTONICS_MAX_LIGHTS=Máximo de Luzes
+option.PHOTONICS_MAX_LIGHTS.comment=Número máximo de luzes rastreadas que podem ser carregadas\n\n§6Impacto médio na performance.§r\n\nQuando definido como Desligado, nenhuma iluminação de blocos do Photonics será usada e a iluminação vanilla será usada no lugar.
+value.PHOTONICS_MAX_LIGHTS.0=Desligado
+
+option.PHOTONICS_MAX_SAMPLES=Máximo de Amostras
+option.PHOTONICS_MAX_SAMPLES.comment=Quantidade de luzes próximas que podem iluminar um objeto\n\n§cALTO IMPACTO NA PERFORMANCE
+
+option.PHOTONICS_RESTIR_INITIAL_SAMPLES=Amostras Iniciais do ReSTIR
+option.PHOTONICS_RESTIR_INITIAL_SAMPLES.comment=Quantas luzes o ReSTIR deve considerar inicialmente\n\n§6Impacto médio na performance
+
+option.PHOTONICS_RESTIR_SOFT_SHADOWS=Sombras Suaves (ReSTIR)
+option.PHOTONICS_RESTIR_SOFT_SHADOWS.comment=Define se o ReSTIR terá sombras suaves\n\n§aPequeno impacto na performance
+
+option.PHOTONICS_RESTIR_SPATIAL_REUSE_SAMPLES=Amostras de Reuso Espacial (ReSTIR)
+option.PHOTONICS_RESTIR_SPATIAL_REUSE_SAMPLES.comment=Quantas amostras o ReSTIR usa para reuso espacial\n\n§6Impacto médio na performance
+
+option.PHOTONICS_RESTIR_SPATIAL_REUSE_RADIUS=Raio de Reuso Espacial (ReSTIR)
+
+option.PHOTONICS_RESTIR_ACCUMULATION_FRAMES=Frames de Acumulação (ReSTIR)
+option.PHOTONICS_RESTIR_ACCUMULATION_FRAMES.comment=Número máximo de frames usados para acumulação. Valores menores deixam a iluminação mais responsiva, porém com mais ruído.\n\nSem impacto na performance
+
+option.PHOTONICS_RESTIR_DENOISER_PASSES=Passes do Denoiser
+option.PHOTONICS_RESTIR_DENOISER_PASSES.comment=Número de passes que o denoiser do ReSTIR usa\n\n§cALTO IMPACTO NA PERFORMANCE
+value.PHOTONICS_RESTIR_DENOISER_PASSES.0=Desligado
+
+option.PHOTONICS_RESTIR_FLICKER_FIRE=Fogo Tremulante (ReSTIR)
+option.PHOTONICS_RESTIR_FLICKER_FIRE.comment=Fontes de luz de fogo irão tremular. §c[*]§r Esta opção só funciona com o modo de iluminação ReSTIR.
+value.PHOTONICS_RESTIR_FLICKER_FIRE.0=Desligado
+
+option.PHOTONICS_VANILLA_LIGHT_FALLBACK=Luz Vanilla de Reserva
+option.PHOTONICS_VANILLA_LIGHT_FALLBACK.comment=Porcentagem da iluminação vanilla usada como fallback para evitar áreas escuras onde a iluminação do Photonics não carregou.
+suffix.PHOTONICS_VANILLA_LIGHT_FALLBACK=%
+
+option.PHOTONICS_ENCHANTING_GLINT_STRENGTH=Intensidade do Brilho de Encantamento
+option.PHOTONICS_ENCHANTING_GLINT_STRENGTH.comment=Altera a intensidade da luz emitida por itens encantados ao usar a iluminação do Photonics.
+
+option.PHOTONICS_SEPARATE_HANDHELD_RAYS=Raios Separados para Itens na Mão
+option.PHOTONICS_SEPARATE_HANDHELD_RAYS.comment=Define se ambas as luzes de itens na mão devem projetar sombras. Quando desativado, apenas uma sombra será projetada\n\n§aImpacto mínimo na performance
+
+option.PHOTONICS_AMBIENT_LIGHT_MULT=Multiplicador de luz ambiente
+option.PHOTONICS_AMBIENT_LIGHT_MULT.comment=Permite ajustar quanto da luz ambiente padrão será usada junto com a iluminação do Photonics. §e[*]§r Esta opção só funciona se o Photonics estiver instalado.
+
+option.PHOTONICS_COMBINED_GI=Incluir GI da Luz do Céu
+option.PHOTONICS_COMBINED_GI.comment=Define se a Iluminação Global (GI) deve passar pelo denoiser do ReSTIR em vez do método padrão.\nIsso resulta em uma GI muito mais intensa, porém com custo maior de desempenho e mais ruído.\n\n§cALTO IMPACTO NO DESEMPENHO. §b[*]§r Recomendado usar com contagem de passes do denoiser igual ou superior a 5.
+
+option.PHOTONICS_MAX_ALLOWED_DISTANCE=Distância máxima permitida
+option.PHOTONICS_MAX_ALLOWED_DISTANCE.comment=A distância máxima em que a iluminação do Photonics será aplicada aos objetos. Além dessa distância, a iluminação vanilla será usada no lugar. Isso existe para evitar problemas em que fontes de luz distantes não iluminam corretamente os objetos. §e[*]§r A quantidade máxima de luzes (“Max Lights”) talvez precise ser aumentada para que valores maiores desta opção funcionem corretamente.
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.6=6 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.7=7 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.8=8 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.9=9 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.10=10 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.11=11 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.12=12 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.13=13 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.14=14 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.15=15 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.16=16 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.17=17 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.18=18 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.19=19 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.20=20 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.21=21 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.22=22 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.23=23 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.24=24 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.25=25 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.26=26 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.27=27 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.28=28 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.29=29 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.30=30 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.31=31 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.32=32 Chunks
+value.PHOTONICS_MAX_ALLOWED_DISTANCE.100=Distância de renderização
+
+
+option.CUSTOM_SKY_SUPPORT=Suporte a Skybox Personalizada
+option.CUSTOM_SKY_SUPPORT.comment=Adiciona suporte a skyboxes personalizadas, incluindo as de mods como Stellar View.
+
+option.CUSTOM_SKY_MOD_SUPPORT=Suporte a Mods de Céu
+option.CUSTOM_SKY_MOD_SUPPORT.comment=Adiciona suporte a mods de céu personalizados, como Caelum ou Astrocraft. Pode causar alguns problemas, pois não foi testado com muitos mods.
+
+option.DISTANT_HORIZONS_SSAO=Sombra de Borda (SSAO)
+option.DISTANT_HORIZONS_SSAO.comment=Ativa SSAO (oclusão de ambiente em espaço de tela) nos chunks do Distant Horizons. §e[*]§r Esta opção só funciona se o Distant Horizons estiver instalado. §e[*]§r Requer que a qualidade de SSAO não esteja em OFF nas configurações de performance.
+
+option.DH_BLENDING=Mesclagem com Distant Horizons
+option.DH_BLENDING.comment=Suaviza a transição entre os chunks do Distant Horizons e os chunks normais. §e[*]§r Esta opção só funciona se o Distant Horizons estiver instalado.
+
+option.PIXELATED_SHADOWS_MODE=Modo de Sombras Pixeladas
+option.PIXELATED_SHADOWS_MODE.comment=Altera a forma como as sombras pixeladas são renderizadas. Automático é o padrão e funciona melhor na maioria dos casos; as resoluções manuais devem ser usadas apenas quando os resource packs utilizados têm resoluções de textura diferentes. §e[*]§r As sombras pixeladas precisam estar ativadas para esta opção funcionar.
+value.PIXELATED_SHADOWS_MODE.0=Automático
+value.PIXELATED_SHADOWS_MODE.8=Manual 8x
+value.PIXELATED_SHADOWS_MODE.16=Manual 16x
+value.PIXELATED_SHADOWS_MODE.32=Manual 32x
+value.PIXELATED_SHADOWS_MODE.64=Manual 64x
+value.PIXELATED_SHADOWS_MODE.128=Manual 128x

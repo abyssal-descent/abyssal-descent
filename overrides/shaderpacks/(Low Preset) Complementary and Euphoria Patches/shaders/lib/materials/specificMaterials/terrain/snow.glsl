@@ -1,0 +1,17 @@
+smoothnessG = (1.0 - pow(color.g, 64.0) * 0.3) * 0.4;
+highlightMult = 2.0;
+
+smoothnessD = smoothnessG;
+
+#ifdef GBUFFERS_TERRAIN
+    DoBrightBlockTweaks(color.rgb, 0.5, shadowMult, highlightMult);
+#endif
+
+#if RAIN_PUDDLES >= 1
+    noPuddles = 1.0;
+#endif
+
+#ifdef SSS_SNOW_ICE
+    subsurfaceMode = 3, noSmoothLighting = true, noDirectionalShading = true;
+    color.rgb *= mix(vec3(1), vec3(0.76, 0.8, 0.84), sunVisibility);
+#endif

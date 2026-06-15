@@ -1,0 +1,70 @@
+//////////////////////////////////////////
+// Complementary Shaders by EminGT      //
+// With Euphoria Patches by SpacEagle17 //
+//////////////////////////////////////////
+
+//Common//
+#include "/lib/common.glsl"
+#include "/lib/shaderSettings/longExposure.glsl"
+
+//////////Fragment Shader//////////Fragment Shader//////////Fragment Shader//////////
+#ifdef FRAGMENT_SHADER
+
+noperspective in vec2 texCoord;
+
+//Pipeline Constants//
+
+//Common Variables//
+
+//Common Functions//
+float GetLinearDepth(float depth) {
+    return (2.0 * near) / (far + near - depth * (far - near));
+}
+
+//Includes//
+#if FXAA_DEFINE == 1 && FXAA_STRENGTH > 1
+    #include "/lib/antialiasing/fxaa.glsl"
+#endif
+
+//Program//
+void main() {
+    vec3 color = texelFetch(colortex3, texelCoord, 0).rgb;
+
+    #if LONG_EXPOSURE > 0
+    if (hideGUI == 0 || isViewMoving()) {
+    #endif
+        #if FXAA_DEFINE == 1 && FXAA_STRENGTH > 1
+            // Apply FXAA only when GUI is hidden or view is moving
+            FXAA311(color);
+        #endif
+    #if LONG_EXPOSURE > 0
+    }
+    #endif
+
+    /* DRAWBUFFERS:3 */
+    gl_FragData[0] = vec4(color, 1.0);
+}
+
+#endif
+
+//////////Vertex Shader//////////Vertex Shader//////////Vertex Shader//////////
+#ifdef VERTEX_SHADER
+
+noperspective out vec2 texCoord;
+
+//Attributes//
+
+//Common Variables//
+
+//Common Functions//
+
+//Includes//
+
+//Program//
+void main() {
+    gl_Position = ftransform();
+
+    texCoord = (gl_TextureMatrix[0] * gl_MultiTexCoord0).xy;
+}
+
+#endif

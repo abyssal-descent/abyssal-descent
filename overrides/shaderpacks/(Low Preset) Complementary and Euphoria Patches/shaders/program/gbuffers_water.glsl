@@ -1,0 +1,559 @@
+//////////////////////////////////////////
+// Complementary Shaders by EminGT // Can't be filled with white spaces because of Physics Mod detection
+// With Euphoria Patches by SpacEagle17 //
+//////////////////////////////////////////
+#extension GL_ARB_derivative_control : enable
+#ifdef GL_ARB_derivative_control
+    #define USE_FINE_DERIVATIVES
+#endif
+
+//Common//
+#include "/lib/common.glsl"
+#include "/lib/shaderSettings/water.glsl"
+#include "/lib/shaderSettings/shockwave.glsl"
+#include "/lib/shaderSettings/emissionMult.glsl"
+#define WAVING_WATER_VERTEX
+
+#if defined MIRROR_DIMENSION || defined WORLD_CURVATURE
+    #include "/lib/misc/distortWorld.glsl"
+#endif
+
+//////////Fragment Shader//////////Fragment Shader//////////Fragment Shader//////////
+#ifdef FRAGMENT_SHADER
+
+flat in int mat;
+flat in int blockLightEmission;
+
+in vec2 texCoord;
+#ifdef GBUFFERS_COLORWHEEL_TRANSLUCENT
+    vec2 lmCoord;
+#else
+    in vec2 lmCoord;
+#endif
+in vec2 signMidCoordPos;
+flat in vec2 absMidCoordPos;
+
+flat in vec3 upVec, sunVec, northVec, eastVec;
+in vec3 playerPos;
+in vec3 normal;
+in vec3 viewVector;
+in vec3 atMidBlock;
+in vec3 blockUV;
+
+in vec4 glColor;
+
+#if WATER_STYLE >= 2 || RAIN_PUDDLES >= 1 && WATER_STYLE == 1 && WATER_MAT_QUALITY >= 2 || defined GENERATED_NORMALS || defined CUSTOM_PBR
+    flat in vec3 binormal, tangent;
+#endif
+
+#ifdef POM
+    in vec4 vTexCoordAM;
+#endif
+
+#ifdef IRIS_FEATURE_FADE_VARIABLE
+    flat in float chunkFade;
+#endif
+
+//Pipeline Constants//
+
+//Common Variables//
+float NdotU = dot(normal, upVec);
+float NdotUmax0 = max(NdotU, 0.0);
+float SdotU = dot(sunVec, upVec);
+float sunFactor = SdotU < 0.0 ? clamp(SdotU + 0.375, 0.0, 0.75) / 0.75 : clamp(SdotU + 0.03125, 0.0, 0.0625) / 0.0625;
+float sunVisibility = clamp(SdotU + 0.0625, 0.0, 0.125) / 0.125;
+float sunVisibility2 = sunVisibility * sunVisibility;
+float shadowTimeVar1 = abs(sunVisibility - 0.5) * 2.0;
+float shadowTimeVar2 = shadowTimeVar1 * shadowTimeVar1;
+float shadowTime = shadowTimeVar2 * shadowTimeVar2;
+
+#ifdef OVERWORLD
+    vec3 lightVec = sunVec * ((timeAngle < 0.5325 || timeAngle > 0.9675) ? 1.0 : -1.0);
+#else
+    vec3 lightVec = sunVec;
+#endif
+
+#if WATER_STYLE >= 2 || RAIN_PUDDLES >= 1 && WATER_STYLE == 1 && WATER_MAT_QUALITY >= 2 || defined GENERATED_NORMALS || defined CUSTOM_PBR
+    mat3 tbnMatrix = mat3(
+        tangent.x, binormal.x, normal.x,
+        tangent.y, binormal.y, normal.y,
+        tangent.z, binormal.z, normal.z
+    );
+#endif
+
+//Common Functions//
+float GetLinearDepth(float depth) {
+    return (2.0 * near) / (far + near - depth * (far - near));
+}
+
+//Includes//
+#include "/lib/util/dither.glsl"
+#include "/lib/util/spaceConversion.glsl"
+#include "/lib/lighting/mainLighting.glsl"
+#include "/lib/atmospherics/fog/mainFog.glsl"
+#include "/lib/materials/materialMethods/translucentTweaks.glsl"
+
+#if defined OVERWORLD_BEAMS && defined OVERWORLD
+    float vlFactor = 0.0;
+#endif
+
+#ifdef OVERWORLD
+    #include "/lib/atmospherics/sky.glsl"
+#endif
+
+#if !defined ATMOSPHERIC_FOG && !defined BORDER_FOG
+    #include "/lib/colors/skyColors.glsl"
+#endif
+
+#if WATER_REFLECT_QUALITY >= 0 && defined SKY_EFFECT_REFLECTION && defined OVERWORLD && AURORA_STYLE > 0
+    #include "/lib/atmospherics/auroraBorealis.glsl"
+#endif
+
+#if WATER_REFLECT_QUALITY >= 0
+    #if defined SKY_EFFECT_REFLECTION && defined OVERWORLD
+        #include "/lib/atmospherics/stars.glsl"
+        #if NIGHT_NEBULAE == 1
+            #include "/lib/atmospherics/nightNebula.glsl"
+        #endif
+
+        #ifdef VL_CLOUDS_ACTIVE
+            #include "/lib/atmospherics/clouds/mainClouds.glsl"
+        #endif
+    #endif
+
+    #include "/lib/materials/materialMethods/reflections.glsl"
+#endif
+
+#ifdef TAA
+    #include "/lib/antialiasing/jitter.glsl"
+#endif
+
+#if defined GENERATED_NORMALS || defined COATED_TEXTURES || WATER_STYLE >= 2
+    #include "/lib/util/miplevel.glsl"
+#endif
+
+#ifdef GENERATED_NORMALS
+    #include "/lib/materials/materialMethods/generatedNormals.glsl"
+#endif
+
+#if IPBR_EMISSIVE_MODE != 1
+    #include "/lib/materials/materialMethods/customEmission.glsl"
+#endif
+
+#ifdef CUSTOM_PBR
+    #include "/lib/materials/materialHandling/customMaterials.glsl"
+#endif
+
+#ifdef ATM_COLOR_MULTS
+    #include "/lib/colors/colorMultipliers.glsl"
+#endif
+#ifdef MOON_PHASE_INF_ATMOSPHERE
+    #include "/lib/colors/moonPhaseInfluence.glsl"
+#endif
+
+#ifdef COLOR_CODED_PROGRAMS
+    #include "/lib/misc/colorCodedPrograms.glsl"
+#endif
+
+#ifdef PORTAL_EDGE_EFFECT
+    #include "/lib/voxelization/lightVoxelization.glsl"
+#endif
+
+#ifdef CONNECTED_GLASS_EFFECT
+    #include "/lib/materials/materialMethods/connectedGlass.glsl"
+#endif
+
+#ifdef SS_BLOCKLIGHT
+    #include "/lib/lighting/coloredBlocklight.glsl"
+#endif
+
+#if SEASONS > 0 || defined MOSS_NOISE_INTERNAL || defined SAND_NOISE_INTERNAL
+    #include "/lib/materials/overlayNoise.glsl"
+#endif
+
+#if PIXEL_WATER > 0
+    #include "/lib/materials/materialMethods/waterProcedureTexture.glsl"
+#endif
+
+#if SHOCKWAVE > 0
+    #include "/lib/misc/shockwave.glsl"
+#endif
+
+#include "/lib/atmospherics/fog/endCenterFog.glsl"
+
+//Program//
+void main() {
+    #if SHOCKWAVE > 0
+        vec4 colorP = doShockwave(playerPos + relativeEyePosition, texCoord);
+    #else
+        vec4 colorP = texture2D(tex, texCoord);
+    #endif
+
+    #ifdef GBUFFERS_COLORWHEEL_TRANSLUCENT
+        float ao;
+        vec4 overlayColor;
+
+        clrwl_computeFragment(colorP, colorP, lmCoord, ao, overlayColor);
+        vec4 color = mix(colorP, overlayColor, overlayColor.a);
+        lmCoord = clamp((lmCoord - 1.0 / 32.0) * 32.0 / 30.0, 0.0, 1.0);
+    #else
+        vec4 color = colorP * vec4(glColor.rgb, 1.0);
+    #endif
+
+    vec3 screenPos = vec3(gl_FragCoord.xy / vec2(viewWidth, viewHeight), gl_FragCoord.z);
+    #ifdef TAA
+        vec3 viewPos = ScreenToView(vec3(TAAJitter(screenPos.xy, -0.5), screenPos.z));
+    #else
+        vec3 viewPos = ScreenToView(screenPos);
+    #endif
+    float lViewPos = length(viewPos);
+
+    float dither = Bayer64(gl_FragCoord.xy);
+    #ifdef TAA
+        dither = fract(dither + goldenRatio * mod(float(frameCounter), 3600.0));
+    #endif
+
+    #ifdef LIGHT_COLOR_MULTS
+        lightColorMult = GetLightColorMult();
+    #endif
+    #ifdef ATM_COLOR_MULTS
+        atmColorMult = GetAtmColorMult();
+        sqrtAtmColorMult = sqrt(atmColorMult);
+    #endif
+
+    #ifdef VL_CLOUDS_ACTIVE
+        float cloudLinearDepth = texelFetch(gaux2, texelCoord, 0).a;
+
+        if (pow2(cloudLinearDepth + OSIEBCA * dither) * renderDistance < min(lViewPos, renderDistance)) discard;
+    #endif
+
+    float materialMask = 0.0;
+
+    vec3 nViewPos = normalize(viewPos);
+    float VdotU = dot(nViewPos, upVec);
+    float VdotS = dot(nViewPos, sunVec);
+    float VdotN = dot(nViewPos, normal);
+    vec3 worldPos = playerPos + cameraPosition;
+
+    // Materials
+    vec4 translucentMult = vec4(1.0);
+    bool noSmoothLighting = false, noDirectionalShading = false, translucentMultCalculated = false, noGeneratedNormals = false;
+    int subsurfaceMode = 0;
+    vec2 lmCoordM = lmCoord;
+    float smoothnessG = 0.0, highlightMult = 1.0, reflectMult = 0.0, emission = 0.0;
+    vec3 normalM = VdotN > 0.0 ? -normal : normal; // Inverted Iris Water Normal Workaround
+    vec3 geoNormal = normalM;
+    vec3 worldGeoNormal = normalize(ViewToPlayer(geoNormal * 10000.0));
+    vec3 shadowMult = vec3(1.0);
+    float fresnel = clamp(1.0 + dot(normalM, nViewPos), 0.0, 1.0);
+    float fresnelM = pow3(fresnel);
+
+    float overlayNoiseIntensity = 1.0, snowNoiseIntensity = 1.0, sandNoiseIntensity = 1.0, mossNoiseIntensity = 1.0, overlayNoiseTransparentOverwrite = 0.0, overlayNoiseAlpha = 1.0, overlayNoiseFresnelMult = 1.0, IPBRMult = 1.0, purkinjeOverwrite = 0.0, enderDragonDead = 1.0, SSBLAlpha = 1.0;
+    bool isFoliage = false;
+    vec3 dhColor = vec3(1.0);
+
+    #include "/lib/materials/materialHandling/translucentMaterials.glsl"
+
+    #if WATER_MAT_QUALITY >= 3 && SELECT_OUTLINE == 4
+        int materialMaskInt = int(texelFetch(colortex6, texelCoord, 0).g * 255.1);
+        if (materialMaskInt == 252) {
+            materialMask = OSIEBCA * 252.0; // Versatile Selection Outline
+        }
+    #endif
+
+    #if defined MOSS_NOISE_INTERNAL || defined SAND_NOISE_INTERNAL
+        #include "/lib/materials/overlayNoiseApply.glsl"
+    #endif
+    #if SEASONS > 0
+        #include "/lib/materials/seasons.glsl"
+    #endif
+
+    #ifdef REFLECTIVE_WORLD
+        smoothnessG = 1.0;
+    #endif
+
+    #if MONOTONE_WORLD > 0
+        #if MONOTONE_WORLD == 1
+            color.rgb = vec3(1.0);
+        #elif MONOTONE_WORLD == 2
+            color.rgb = vec3(0.0);
+        #else
+            color.rgb = vec3(0.5);
+        #endif
+    #endif
+
+    // Blending
+    if (!translucentMultCalculated)
+        translucentMult = vec4(mix(vec3(0.666), color.rgb * (1.0 - pow2(pow2(color.a))), color.a), 1.0);
+
+    translucentMult.rgb = mix(translucentMult.rgb, vec3(1.0), min1(pow2(pow2(lViewPos / far))));
+
+    #ifdef SS_BLOCKLIGHT
+        float lmCoordXModified = lmCoord.x;
+        #ifdef IRIS_FEATURE_BLOCK_EMISSION_ATTRIBUTE
+            lmCoordXModified = lmCoord.x == 1.0 && blockLightEmission < 0.5 ? 0.0 : lmCoord.x;
+        #endif
+        blocklightCol = ApplyMultiColoredBlocklight(blocklightCol, screenPos, playerPos, lmCoordXModified);
+    #endif
+
+    bool isLightSource = false;
+    if (lmCoord.x > 0.99 || blockLightEmission > 0) { // Mod support for light level 15 (and all light levels with iris 1.7) light sources
+        if (mat == 0) {
+            emission = DoAutomaticEmission(noSmoothLighting, noDirectionalShading, color.rgb, lmCoord.x, blockLightEmission, 0.0);
+        }
+        isLightSource = true;
+        overlayNoiseIntensity = 0.0;
+    }
+
+    emission *= EMISSION_MULTIPLIER;
+
+    // Lighting
+    DoLighting(color, shadowMult, playerPos, viewPos, lViewPos, geoNormal, normalM, dither,
+               worldGeoNormal, lmCoordM, noSmoothLighting, noDirectionalShading, false,
+               false, subsurfaceMode, smoothnessG, highlightMult, emission, purkinjeOverwrite, isLightSource,
+               enderDragonDead);
+
+    #ifdef SS_BLOCKLIGHT
+        vec3 normalizedColor = normalize(color.rgb);
+        vec3 maskedLightAlbedo =
+            (mat == 30012 || mat == 30016 || (mat >= 31000 && mat < 32000) || mat == 32004) // Slime, Honey, Glass, Ice
+            ? normalizedColor : vec3(0.0);
+        vec3 lightAlbedo = mix(maskedLightAlbedo, normalizedColor * min1(emission), color.a);
+    #endif
+
+    // Reflections
+    float skyLightFactor = GetSkyLightFactor(lmCoordM, shadowMult);
+    #if WATER_REFLECT_QUALITY >= 0
+        #ifdef LIGHT_COLOR_MULTS
+            highlightColor *= lightColorMult;
+        #endif
+        #ifdef MOON_PHASE_INF_REFLECTION
+            highlightColor *= pow2(moonPhaseInfluence);
+        #endif
+
+        fresnelM = (fresnelM * 0.85 + 0.15) * reflectMult;
+        vec2 texelOffset = vec2(0.0);
+        #ifdef PIXELATED_WATER_REFLECTIONS
+            texelOffset = ComputeTexelOffset(tex, texCoord);
+        #endif
+        vec4 reflection = GetReflection(normalM, viewPos.xyz, nViewPos, playerPos, lViewPos, -1.0,
+                                        depthtex1, dither, skyLightFactor, fresnel,
+                                        smoothnessG, geoNormal, color.rgb, shadowMult, highlightMult, enderDragonDead, texelOffset);
+        color.rgb = mix(color.rgb, reflection.rgb, fresnelM);
+
+    #else
+        fresnelM = 0.0;
+        vec4 reflection = vec4(0.0);
+    #endif
+    ////
+
+    #ifdef COLOR_CODED_PROGRAMS
+        ColorCodeProgram(color, mat);
+    #endif
+
+    float skyFade = 0.0;
+    float prevAlpha = color.a;
+    color.a = 1.0;
+    DoFog(color, skyFade, lViewPos, playerPos, VdotU, VdotS, dither, false, 0.0);
+    #if defined END && END_CENTER_LIGHTING > 0 && MC_VERSION >= 10900
+        float attentuation = doEndCenterFog(cameraPositionBest, normalize(playerPos), min(renderDistance, lViewPos), 0.5);
+        vec3 pointLightFog = vec3(END_CENTER_LIGHTING_R, END_CENTER_LIGHTING_G, END_CENTER_LIGHTING_B) * 0.5 * END_CENTER_LIGHTING * 0.1 * attentuation * enderDragonDead;
+        color.rgb = sqrt(pow2(color.rgb) + vec3(pointLightFog));
+    #endif
+    float fogAlpha = color.a;
+    color.a = prevAlpha * (1.0 - skyFade);
+
+    #ifdef IRIS_FEATURE_FADE_VARIABLE
+        skyLightFactor *= 0.5;
+    #endif
+
+    #ifdef DH_BLENDING
+        float fog = max(length(playerPos.xz), abs(playerPos.y)) / far;
+        fog = pow2(pow2(pow2(pow2(fog))));
+        fog = exp(-3.0 * fog);
+        color.a *= fog;
+    #endif
+
+    #ifdef ENTITIES_ARE_LIGHT
+        SSBLAlpha = 0.0;
+    #endif
+
+    /* DRAWBUFFERS:03 */
+    gl_FragData[0] = color;
+    gl_FragData[1] = vec4(1.0 - translucentMult.rgb, translucentMult.a);
+
+    #if DETAIL_QUALITY >= 3 || (WATER_REFLECT_QUALITY > 0 && WORLD_SPACE_REFLECTIONS_INTERNAL > 0) || defined SS_BLOCKLIGHT
+        /* DRAWBUFFERS:036 */
+        gl_FragData[2] = vec4(1.0, materialMask, skyLightFactor, lmCoord.x + clamp01(purkinjeOverwrite) + clamp01(emission));
+
+        #if WORLD_SPACE_REFLECTIONS_INTERNAL > 0
+            #ifdef SS_BLOCKLIGHT
+                /* DRAWBUFFERS:036489 */
+                gl_FragData[3] = vec4(mat3(gbufferModelViewInverse) * normalM, sqrt(fresnelM * color.a * fogAlpha));
+                gl_FragData[4] = vec4(reflection.rgb * fresnelM * color.a * fogAlpha, reflection.a);
+                gl_FragData[5] = vec4(lightAlbedo, SSBLAlpha);
+            #else
+                /* DRAWBUFFERS:03648 */
+                gl_FragData[3] = vec4(mat3(gbufferModelViewInverse) * normalM, sqrt(fresnelM * color.a * fogAlpha));
+                gl_FragData[4] = vec4(reflection.rgb * fresnelM * color.a * fogAlpha, reflection.a);
+            #endif
+        #else
+            #ifdef SS_BLOCKLIGHT
+            /* DRAWBUFFERS:0369 */
+            gl_FragData[3] = vec4(lightAlbedo, SSBLAlpha);
+            #endif
+        #endif
+    #elif WORLD_SPACE_REFLECTIONS_INTERNAL > 0
+        /* DRAWBUFFERS:0348 */
+        gl_FragData[2] = vec4(mat3(gbufferModelViewInverse) * normalM, sqrt(fresnelM * color.a * fogAlpha));
+        gl_FragData[3] = vec4(reflection.rgb * fresnelM * color.a * fogAlpha, reflection.a);
+    #endif
+}
+
+#endif
+
+//////////Vertex Shader//////////Vertex Shader//////////Vertex Shader//////////
+#ifdef VERTEX_SHADER
+
+flat out int mat;
+flat out int blockLightEmission;
+
+out vec2 texCoord;
+#ifdef GBUFFERS_COLORWHEEL_TRANSLUCENT
+    vec2 lmCoord;
+#else
+    out vec2 lmCoord;
+#endif
+
+out vec2 signMidCoordPos;
+flat out vec2 absMidCoordPos;
+
+flat out vec3 upVec, sunVec, northVec, eastVec;
+out vec3 playerPos;
+out vec3 normal;
+out vec3 viewVector;
+out vec3 atMidBlock;
+out vec3 blockUV;
+
+out vec4 glColor;
+
+#if WATER_STYLE >= 2 || RAIN_PUDDLES >= 1 && WATER_STYLE == 1 && WATER_MAT_QUALITY >= 2 || defined GENERATED_NORMALS || defined CUSTOM_PBR
+    flat out vec3 binormal, tangent;
+#endif
+
+#ifdef POM
+    out vec4 vTexCoordAM;
+#endif
+
+#ifdef IRIS_FEATURE_FADE_VARIABLE
+    flat out float chunkFade;
+#endif
+
+//Attributes//
+attribute vec4 mc_Entity;
+attribute vec4 at_midBlock;
+attribute vec4 mc_midTexCoord;
+attribute vec4 at_tangent;
+
+//Common Variables//
+#if WATER_STYLE >= 2 || RAIN_PUDDLES >= 1 && WATER_STYLE == 1 && WATER_MAT_QUALITY >= 2 || defined GENERATED_NORMALS || defined CUSTOM_PBR
+#else
+    vec3 binormal;
+    vec3 tangent;
+#endif
+
+//Common Functions//
+
+//Includes//
+#ifdef TAA
+    #include "/lib/antialiasing/jitter.glsl"
+#endif
+
+#if defined WAVE_EVERYTHING || defined WAVING_WATER_VERTEX
+    #include "/lib/materials/materialMethods/wavingBlocks.glsl"
+#endif
+
+//Program//
+void main() {
+    texCoord = (gl_TextureMatrix[0] * gl_MultiTexCoord0).xy;
+    #ifdef ATLAS_ROTATION
+        texCoord += texCoord * float(hash33(mod(cameraPosition * 0.1, vec3(100.0))));
+    #endif
+    lmCoord  = GetLightMapCoordinates();
+
+    glColor = gl_Color;
+
+    mat = int(mc_Entity.x + 0.5);
+
+    blockLightEmission = 0;
+    #ifdef IRIS_FEATURE_BLOCK_EMISSION_ATTRIBUTE
+        blockLightEmission = clamp(int(at_midBlock.w + 0.5), 0, 15);
+    #endif
+
+    normal = normalize(gl_NormalMatrix * gl_Normal);
+    upVec = normalize(gbufferModelView[1].xyz);
+    eastVec = normalize(gbufferModelView[0].xyz);
+    northVec = normalize(gbufferModelView[2].xyz);
+    sunVec = GetSunVector();
+    atMidBlock = at_midBlock.xyz;
+    blockUV = 0.5 - at_midBlock.xyz / 64.0;
+
+    vec3 rawBinormal = gl_NormalMatrix * cross(at_tangent.xyz, gl_Normal.xyz) * at_tangent.w;
+    binormal = rawBinormal * inversesqrt(max(dot(rawBinormal, rawBinormal), 1e-8));
+    vec3 rawTangent = gl_NormalMatrix * at_tangent.xyz;
+    tangent = rawTangent * inversesqrt(max(dot(rawTangent, rawTangent), 1e-8));
+
+    mat3 tbnMatrix = mat3(
+        tangent.x, binormal.x, normal.x,
+        tangent.y, binormal.y, normal.y,
+        tangent.z, binormal.z, normal.z
+    );
+
+    viewVector = tbnMatrix * (gl_ModelViewMatrix * gl_Vertex).xyz;
+
+    vec2 midCoord = (gl_TextureMatrix[0] * mc_midTexCoord).st;
+    vec2 texMinMidCoord = texCoord - midCoord;
+    signMidCoordPos = sign(texMinMidCoord);
+    absMidCoordPos  = abs(texMinMidCoord);
+
+    #ifdef POM
+        vTexCoordAM.zw  = abs(texMinMidCoord) * 2;
+        vTexCoordAM.xy  = min(texCoord, midCoord - texMinMidCoord);
+    #endif
+
+    vec4 position = gbufferModelViewInverse * gl_ModelViewMatrix * gl_Vertex;
+    playerPos = position.xyz;
+
+    #ifdef WAVING_WATER_VERTEX
+        DoWave(position.xyz, mat);
+    #endif
+
+    #ifdef MIRROR_DIMENSION
+        doMirrorDimension(position);
+    #endif
+
+    #ifdef WORLD_CURVATURE
+        position.y += doWorldCurvature(position.xz);
+    #endif
+
+    #ifdef WAVE_EVERYTHING
+        DoWaveEverything(position.xyz);
+    #endif
+
+
+    gl_Position = gl_ProjectionMatrix * gbufferModelView * position;
+
+    #ifdef TAA
+        gl_Position.xy = TAAJitter(gl_Position.xy, gl_Position.w);
+    #endif
+
+    #ifdef IRIS_FEATURE_FADE_VARIABLE
+        chunkFade = mc_chunkFade;
+    #endif
+
+    #if MC_VERSION >= 260100
+        if (mat == 10049) mat = 32001; // Cauldron Water
+    #endif
+}
+
+#endif

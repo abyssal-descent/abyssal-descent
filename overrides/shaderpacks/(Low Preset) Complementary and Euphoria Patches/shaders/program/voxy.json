@@ -1,0 +1,154 @@
+{
+    "unusedString": "
+        //Common//
+        #include "/lib/common.glsl"
+    ",
+    "version": 1,
+    "excludeLodsFromVanillaDepth": true,
+    "opaqueDrawBuffers": [
+        0,
+        6
+        #ifdef SS_BLOCKLIGHT
+            , 9
+        #endif
+    ],
+    "translucentDrawBuffers": [
+        0, 6
+        #ifdef SS_BLOCKLIGHT
+            , 9
+        #endif
+    ],
+    "blending": {
+        -1: "off",
+        0: "SRC_ALPHA ONE_MINUS_SRC_ALPHA ONE ONE_MINUS_SRC_ALPHA"
+    },
+    "taaOffset": "{
+        #if defined TAA && TAA_JITTER > 0
+            // Jitter offset from Chocapic13
+            vec2 jitterOffsets[8] = vec2[8](
+                vec2( 0.125,-0.375),
+                vec2(-0.125, 0.375),
+                vec2( 0.625, 0.125),
+                vec2( 0.375,-0.625),
+                vec2(-0.625, 0.625),
+                vec2(-0.875,-0.125),
+                vec2( 0.375,-0.875),
+                vec2( 0.875, 0.875)
+            );
+            vec2 offset = jitterOffsets[int(framemod8)] * (1.0 / vec2(viewWidth, viewHeight));
+            #if TAA_JITTER == 1
+                offset *= 0.125;
+            #elif TAA_JITTER == 2
+                offset *= 0.33;
+            #endif
+            return offset;
+        #else
+            return vec2(0.0);
+        #endif
+    }",
+
+    "uniforms": [
+        "viewWidth",
+        "viewHeight",
+        "framemod8",
+        "sunAngle",
+        "far",
+        "screenBrightness",
+        "nightVision",
+        "worldDay",
+        "worldTime",
+        "cameraPosition",
+        "previousCameraPosition",
+        "cameraPositionInt",
+        "cameraPositionFract",
+        "previousCameraPositionFract",
+        "fogColor",
+
+        #if MC_VERSION >= 11600
+        "inNetherWastes",
+        "inCrimsonForest",
+        "inWarpedForest",
+        "inBasaltDeltas",
+        "inSoulValley",
+        #endif
+
+        "inSnowy",
+        "inDry",
+        "inRainy",
+        "cloudHeight",
+        "isEyeInWater",
+        "skyColor",
+        "heldBlockLightValue",
+        "heldBlockLightValue2",
+        "heldItemId",
+        "heldItemId2",
+        "relativeEyePosition",
+        "moonPhase",
+        "darknessLightFactor",
+        "frameCounter",
+        "rainStrength",
+        "eyeBrightness",
+        "eyeBrightnessM",
+        "maxBlindnessDarkness",
+        "near",
+        "frameTimeCounter",
+        "blindness",
+        "darknessFactor",
+
+        #if MC_VERSION >= 12109
+        "endFlashPosition",
+        "endFlashIntensityM",
+        #endif
+
+        "eyeAltitude",
+        "rainFactor",
+        "wetness",
+        "inVanillaEnd",
+        "lightningBoltPosition",
+        "viewSize",
+        "thunderFactor",
+        "firstPersonCamera",
+        "entityId",
+        "is_invisible",
+        "currentPlayerArmor",
+        "isOnGround",
+        "inJungle",
+        "inForest",
+        "isShockwave",
+
+        #if MC_VERSION >= 12104
+        "inPaleGarden",
+        #endif
+
+        "inSand",
+        "inRedSand",
+        "inLushCave",
+
+        "shadowModelView",
+        "shadowProjection",
+        "shadowModelViewInverse",
+        "shadowProjectionInverse",
+
+        "vxRenderDistance",
+        "vxModelView", "vxModelViewInv","vxModelViewPrev",
+        "vxProj", "vxProjInv", "vxProjPrev"
+    ],
+    "samplers": {
+        "tex": "sampler2D",
+        "gaux2": "sampler2D",
+        "gaux4": "sampler2D",
+        "colortex10": "sampler2D",
+        "colortex18": "sampler2D",
+        "colortex19": "sampler2D",
+        "depthtex1": "sampler2D",
+        "vxDepthTexOpaque": "sampler2D",
+        "vxDepthTexTrans": "sampler2D",
+        "noisetex": "sampler2D",
+        "shadowtex0": "sampler2DShadow",
+        "shadowtex1": "sampler2DShadow",
+        "shadowcolor0": "sampler2D",
+        "colortex6" : "sampler2D",
+        "colortex13" : "sampler2D",
+        "colortex14" : "sampler2D"
+    }
+}

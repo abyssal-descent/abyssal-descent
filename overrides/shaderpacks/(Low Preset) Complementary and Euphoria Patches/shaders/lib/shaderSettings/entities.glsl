@@ -1,0 +1,7 @@
+#ifndef ENTITIES_SETTINGS_FILE
+#define ENTITIES_SETTINGS_FILE
+
+//#define VANILLA_ENTITY_SHADOWS
+//#define EMIN_BOAT
+
+#endif
