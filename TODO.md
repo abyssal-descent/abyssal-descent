@@ -8,7 +8,6 @@
 + Update Reliable Requiem when issue is fixed - https://github.com/evanbones/Reliable-Requiem/issues/3
 
 ## Low priority Polish
-+ music per biome check
 + Block Bench Titles
 
 ## Textures
