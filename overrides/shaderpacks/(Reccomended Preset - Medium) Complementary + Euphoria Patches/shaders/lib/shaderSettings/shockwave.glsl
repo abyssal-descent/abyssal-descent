@@ -1,0 +1,6 @@
+#ifndef SHOCKWAVE_SETTINGS_FILE
+#define SHOCKWAVE_SETTINGS_FILE
+
+#define SHOCKWAVE 0 //[0 1 2]
+
+#endif

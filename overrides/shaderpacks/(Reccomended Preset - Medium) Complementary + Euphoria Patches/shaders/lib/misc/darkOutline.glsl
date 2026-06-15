@@ -1,0 +1,69 @@
+vec2 darkOutlineOffsets[12] = vec2[12](
+                               vec2( 1.0,0.0),
+                               vec2(-1.0,1.0),
+                               vec2( 0.0,1.0),
+                               vec2( 1.0,1.0),
+                               vec2(-2.0,2.0),
+                               vec2(-1.0,2.0),
+                               vec2( 0.0,2.0),
+                               vec2( 1.0,2.0),
+                               vec2( 2.0,2.0),
+                               vec2(-2.0,1.0),
+                               vec2( 2.0,1.0),
+                               vec2( 2.0,0.0)
+);
+
+void DoDarkOutline(inout vec3 color, float z0, float pixelFade, vec3 playerPos, float minecraft_far) {
+    float outlineFade = 1.0;
+    #ifdef DISTANT_HORIZONS
+        float horizontalDistance = length(playerPos.xz);
+        float verticalDistance = abs(playerPos.y);
+
+        float distanceToCamera = max(horizontalDistance, verticalDistance);
+
+        float fadeStart = minecraft_far * 0.7;
+        float fadeEnd = minecraft_far * 0.9;
+        if (fadeStart >= fadeEnd) {
+            fadeEnd = fadeStart + max(1.0, minecraft_far * 0.01);
+        }
+        outlineFade = (1.0 - smoothstep(fadeStart, fadeEnd, distanceToCamera)) * pixelFade;
+        if (outlineFade < 0.001) return;
+    #endif
+
+    vec2 scale = vec2(1.0 / view);
+
+    float outline = 1.0;
+    float z = GetLinearDepth(z0) * far * 2.0;
+    float minZ = 1.0, sampleZA = 0.0, sampleZB = 0.0;
+
+    #if DARK_OUTLINE_THICKNESS == 1
+        int sampleCount = 4;
+    #elif DARK_OUTLINE_THICKNESS == 2
+        int sampleCount = 12;
+    #endif
+
+    for (int i = 0; i < sampleCount; i++) {
+        vec2 offset = scale * darkOutlineOffsets[i];
+        sampleZA = texture2D(depthtex0, texCoord + offset).r;
+        sampleZB = texture2D(depthtex0, texCoord - offset).r;
+        float sampleZsum = GetLinearDepth(sampleZA) + GetLinearDepth(sampleZB);
+        outline *= clamp(1.0 - (z - sampleZsum * far), 0.0, 1.0);
+        minZ = min(minZ, min(sampleZA, sampleZB));
+    }
+
+    outline = mix(1.0, outline, outlineFade);
+
+    if (outline < 0.909091) {
+        vec4 viewPos = gbufferProjectionInverse * (vec4(texCoord, minZ, 1.0) * 2.0 - 1.0);
+        viewPos /= viewPos.w;
+        float lViewPos = length(viewPos.xyz);
+        vec3 playerPos = ViewToPlayer(viewPos.xyz);
+        vec3 nViewPos = normalize(viewPos.xyz);
+        float VdotU = dot(nViewPos, upVec);
+        float VdotS = dot(nViewPos, sunVec);
+
+        vec3 newColor = vec3(0.0);
+
+        color = mix(color, newColor, 1.0 - outline * 1.1);
+    }
+}

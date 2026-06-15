@@ -1,0 +1,6 @@
+#ifndef BLUE_SCREEN_SETTINGS_FILE
+#define BLUE_SCREEN_SETTINGS_FILE
+
+//#define BLUE_SCREEN
+
+#endif
