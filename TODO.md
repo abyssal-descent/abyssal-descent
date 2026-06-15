@@ -1,13 +1,15 @@
 # Release todo
 
 ## Advancements
++ Hidden Advancement Kobolds! - Trade with a Kobold
 
 ## High Priority Polish
 + Decrease slime spawn rate
 + Update Reliable Requiem when issue is fixed - https://github.com/evanbones/Reliable-Requiem/issues/3
 
 ## Low priority Polish
-+ plank armor in creative tab
++ music per biome check
++ Block Bench Titles
 
 ## Textures
 
