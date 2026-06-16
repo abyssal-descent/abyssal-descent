@@ -3,7 +3,7 @@ package AbyssalDescent.adresources.mixin;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.DiggerItem;
 import net.minecraft.world.item.Tiers;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
@@ -28,7 +28,7 @@ public abstract class ItemMixin {
 		var id = BuiltInRegistries.BLOCK.getKey(state.getBlock()).toString();
 
 		map_id_level(id).ifPresent(level -> {
-			if (this.getItem() instanceof PickaxeItem t && t.getTier().getLevel() >= level) {
+			if (this.getItem() instanceof DiggerItem t && t.getTier().getLevel() >= level) {
 				ci.setReturnValue(true);
 				ci.cancel();
 			}
@@ -53,7 +53,8 @@ public abstract class ItemMixin {
 				"minecraft:deepslate_coal_ore",
 				"minecraft:deepslate_iron_ore",
 				"minecraft:deepslate_copper_ore",
-				"minecraft:deepslate_redstone_ore"
+				"minecraft:deepslate_redstone_ore",
+				"minecraft:redstone_ore"
 				-> Optional.of(1);
 			case
 				"minecraft:deepslate_gold_ore",
