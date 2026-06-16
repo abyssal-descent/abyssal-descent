@@ -5,9 +5,9 @@
 
 ## High Priority Polish
 + Decrease slime spawn rate
++ fix void blossom advancement
 
 ## Low priority Polish
-+ Block Bench Title locations on screen
 + Update Reliable Requiem when issue is fixed - https://github.com/evanbones/Reliable-Requiem/issues/3
 
 
@@ -30,7 +30,6 @@
 ## Final Touches
 + add custom loading screen tips,
 	- press "key here" to open Abyssal Descents Custom advancements guide
-+ Redo fancy menu
 + add Resource packs and ui resource packs
 
 ## mods to look into
