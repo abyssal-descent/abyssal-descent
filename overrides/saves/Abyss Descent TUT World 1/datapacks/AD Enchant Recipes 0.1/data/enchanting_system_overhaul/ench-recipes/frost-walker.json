@@ -1,0 +1,34 @@
+{
+  "enchantment_id": "minecraft:frost_walker",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:powder_snow_bucket",
+        "amount": 1
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:powder_snow_bucket",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:powder_snow_bucket",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:powder_snow_bucket",
+        "amount": 1
+      }
+    ]
+  }
+}

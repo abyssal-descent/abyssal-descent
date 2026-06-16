@@ -1,0 +1,48 @@
+{
+  "enchantment_id": "minecraft:soul_speed",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:glowstone_dust",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:redstone",
+        "amount": 12
+      },
+      {
+        "id": "tags#minecraft:soul_fire_base_blocks",
+        "amount": 12
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:glowstone_dust",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:redstone",
+        "amount": 16
+      },
+      {
+        "id": "tags#minecraft:soul_fire_base_blocks",
+        "amount": 12
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:glowstone_dust",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:redstone",
+        "amount": 16
+      },
+      {
+        "id": "tags#minecraft:soul_fire_base_blocks",
+        "amount": 24
+      }
+    ]
+  }
+}

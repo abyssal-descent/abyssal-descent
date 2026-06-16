@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "feur_extension_fossil:small_coal_rex_camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 47,
+    "separation": 17,
+    "salt": 1194731318
+  }
+}

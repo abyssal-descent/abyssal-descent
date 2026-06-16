@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ddd",
+      "dsd",
+      "ddd"
+    ],
+    "key": {
+      "d": {
+        "item": "adhammers:diamond_plate"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "shieldexp:diamond_shield"
+    }
+  }

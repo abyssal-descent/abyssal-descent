@@ -1,0 +1,48 @@
+{
+  "enchantment_id": "minecraft:looting",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:emerald",
+        "amount": 3
+      },
+      {
+        "id": "minecraft:raw_gold",
+        "amount": 12
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:emerald",
+        "amount": 10
+      },
+      {
+        "id": "minecraft:raw_gold",
+        "amount": 24
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 48
+      },
+      {
+        "id": "minecraft:emerald",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:raw_gold",
+        "amount": 32
+      }
+    ]
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "adresources:undergarden/void_blossom": {
+    "criteria": {
+      "enter_void_blossom": "2026-06-16 04:37:38 -0700"
+    },
+    "done": true
+  },
+  "adresources:infernal_crossing/root": {
+    "criteria": {
+      "tick": "2026-06-16 04:37:40 -0700"
+    },
+    "done": true
+  },
+  "adresources:delvers_beginning/root": {
+    "criteria": {
+      "tick": "2026-06-16 04:37:40 -0700"
+    },
+    "done": true
+  },
+  "adresources:base_progression/root": {
+    "criteria": {
+      "tick": "2026-06-16 04:37:40 -0700"
+    },
+    "done": true
+  },
+  "adresources:undergarden/root": {
+    "criteria": {
+      "tick": "2026-06-16 04:37:40 -0700"
+    },
+    "done": true
+  },
+  "adresources:base_progression/copper_hammer": {
+    "criteria": {
+      "has_hammer": "2026-06-16 05:41:57 -0700"
+    },
+    "done": true
+  },
+  "adresources:base_progression/copper_plates": {
+    "criteria": {
+      "has_plate": "2026-06-16 06:03:10 -0700"
+    },
+    "done": true
+  },
+  "adresources:base_progression/wtf_is_cinnabar": {
+    "criteria": {
+      "has_item": "2026-06-16 06:03:28 -0700"
+    },
+    "done": true
+  },
+  "adresources:delvers_beginning/diamonds": {
+    "criteria": {
+      "has_item": "2026-06-16 06:03:45 -0700"
+    },
+    "done": true
+  },
+  "adresources:undergarden/regalium": {
+    "criteria": {
+      "has_item": "2026-06-16 06:03:46 -0700"
+    },
+    "done": true
+  },
+  "adresources:base_progression/mine_iron": {
+    "criteria": {
+      "has_item": "2026-06-16 06:04:20 -0700"
+    },
+    "done": true
+  },
+  "adresources:delvers_beginning/silver_ore": {
+    "criteria": {
+      "has_item": "2026-06-16 06:04:29 -0700"
+    },
+    "done": true
+  },
+  "adresources:delvers_beginning/gold_ore": {
+    "criteria": {
+      "has_item": "2026-06-16 06:04:32 -0700"
+    },
+    "done": true
+  },
+  "adresources:delvers_beginning/diamond_grindstone": {
+    "criteria": {
+      "has_item": "2026-06-16 06:29:30 -0700"
+    },
+    "done": true
+  },
+  "adresources:base_progression/grind_gem": {
+    "criteria": {
+      "item": "2026-06-16 06:29:49 -0700"
+    },
+    "done": true
+  },
+  "adresources:undergarden/undergarden_master": {
+    "criteria": {
+      "utherium_sword": "2026-06-16 06:36:15 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

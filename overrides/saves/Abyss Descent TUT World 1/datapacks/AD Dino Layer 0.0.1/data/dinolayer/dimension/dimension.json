@@ -1,0 +1,11 @@
+{
+  "type": "dinolayer:dimension",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "minecraft:caves",
+    "biome_source": {
+      "type": "minecraft:fixed",
+      "biome": "alexscaves:primordial_caves"
+    }
+  }
+}

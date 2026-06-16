@@ -1,0 +1,69 @@
+{
+  "enchantment_id": "frostiful:ice_breaker",
+  "dependsOn": ["frostiful"],
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:snowball",
+        "amount": 7
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:snowball",
+        "amount": 10
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:snowball",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:powder_snow_bucket",
+        "amount": 1
+      }
+    ],
+    "4": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:snowball",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:powder_snow_bucket",
+        "amount": 1
+      }
+    ],
+    "5": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:snowball",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:powder_snow_bucket",
+        "amount": 1
+      }
+    ]
+  }
+}

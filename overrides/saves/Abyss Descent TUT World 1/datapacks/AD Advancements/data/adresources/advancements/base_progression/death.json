@@ -1,0 +1,25 @@
+{
+  "parent": "adresources:base_progression/punch_a_tree",
+
+  "display": {
+    "icon": {
+      "item": "minecraft:skeleton_skull"
+    },
+    "title": {
+      "text": "Reliable Requiem"
+    },
+    "description": {
+      "text": "When you die you keep all tools and armor but they all lose 10% durability, all remaining items are dropped into a grave. upon respawning you are weakened for 120 seconds."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "died": {
+      "trigger": "minecraft:entity_killed_player"
+    }
+  }
+}

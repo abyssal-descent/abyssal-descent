@@ -1,0 +1,48 @@
+{
+  "enchantment_id": "minecraft:luck_of_the_sea",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:emerald",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:kelp",
+        "amount": 6
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:emerald",
+        "amount": 2
+      },
+      {
+        "id": "minecraft:kelp",
+        "amount": 12
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:emerald",
+        "amount": 3
+      },
+      {
+        "id": "minecraft:kelp",
+        "amount": 12
+      }
+    ]
+  }
+}

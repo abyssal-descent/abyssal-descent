@@ -1,0 +1,9 @@
+{
+  "type": "forge:remove_features", 
+  "biomes": "#delverbegin:is_delversbegin",
+  "features": [
+    "adoverworldtweaks:copper_granite_stripe",
+    "adoverworldtweaks:ore_emerald"
+  ],
+  "step": "underground_ores"
+}

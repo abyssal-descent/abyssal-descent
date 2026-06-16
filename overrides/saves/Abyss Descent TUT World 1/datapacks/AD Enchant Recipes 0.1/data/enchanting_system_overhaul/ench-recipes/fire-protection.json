@@ -1,0 +1,78 @@
+{
+  "enchantment_id": "minecraft:fire_protection",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:blaze_powder",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:magma_cream",
+        "amount": 3
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:blaze_powder",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:magma_cream",
+        "amount": 12
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:blaze_powder",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:magma_cream",
+        "amount": 16
+      }
+    ],
+    "4": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:blaze_powder",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:magma_cream",
+        "amount": 16
+      },
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:fire_resistance\"}",
+            "remainderId": "minecraft:glass_bottle"
+          },
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:long_fire_resistance\"}",
+            "remainderId": "minecraft:glass_bottle"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "enchantment_id": "create:potato_recovery",
+  "dependsOn": ["create"],
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:potato",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 3
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:potato",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 6
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:potato",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 12
+      }
+    ]
+  }
+}

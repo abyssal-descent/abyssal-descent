@@ -1,0 +1,29 @@
+{
+  "feature": "regions_unexplored:patch_blue_bioshroom",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 5
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "minecraft:matching_blocks",
+        "blocks": "minecraft:air"
+      }
+    },
+    {
+      "type": "minecraft:biome"
+    },
+    {
+      "type": "minecraft:block_predicate_filter",
+      "predicate": {
+        "type": "matching_blocks",
+        "offset": [0,-1,0],
+        "blocks": [
+          "regions_unexplored:deepslate_viridescent_nylium"
+        ]
+      }
+    }
+  ]
+}

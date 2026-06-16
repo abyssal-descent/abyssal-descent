@@ -1,0 +1,37 @@
+{
+  "parent": "adresources:base_progression/wooden_armor",
+
+  "display": {
+    "icon": {
+      "item": "leafscopperbackport:copper_armor_chestplate"
+    },
+    "title": {
+      "text": "Copper Armor"
+    },
+    "description": {
+      "text": "Craft any piece of Copper Armor"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "leafscopperbackport:copper_armor_boots",
+              "leafscopperbackport:copper_armor_chestplate",
+              "leafscopperbackport:copper_armor_helmet",
+              "leafscopperbackport:copper_armor_leggings"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

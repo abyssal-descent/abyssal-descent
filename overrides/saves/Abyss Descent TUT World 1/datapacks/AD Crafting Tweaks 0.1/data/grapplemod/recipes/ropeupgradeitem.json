@@ -1,0 +1,14 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "grapplemod:baseupgradeitem"
+		}, 
+		{
+			"item": "minecraft:lead"
+		}
+	],
+	"result": {
+		"item": "grapplemod:ropeupgradeitem"
+	}
+}

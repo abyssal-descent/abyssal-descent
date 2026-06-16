@@ -1,0 +1,60 @@
+{
+  "enchantment_id": "minecraft:loyalty",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 10
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:string",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:redstone",
+        "amount": 6
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 2
+      },
+      {
+        "id": "minecraft:string",
+        "amount": 2
+      },
+      {
+        "id": "minecraft:redstone",
+        "amount": 12
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 3
+      },
+      {
+        "id": "minecraft:string",
+        "amount": 3
+      },
+      {
+        "id": "minecraft:redstone",
+        "amount": 12
+      }
+    ]
+  }
+}

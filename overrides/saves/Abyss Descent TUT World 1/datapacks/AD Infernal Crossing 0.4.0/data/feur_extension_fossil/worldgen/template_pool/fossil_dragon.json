@@ -1,0 +1,38 @@
+{
+  "name": "feur_extension_fossil:fossil_dragon",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "feur_extension_fossil:skull_dragon2",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_ignore",
+              "blocks": [
+                {
+                  "Name": "minecraft:structure_block"
+                },
+                {
+                  "Name": "minecraft:red_sand"
+                },
+                {
+                  "Name": "minecraft:smooth_red_sandstone_slab"
+                },
+                {
+                  "Name": "minecraft:cut_red_sandstone_slab"
+                },
+                {
+                  "Name": "minecraft:air"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

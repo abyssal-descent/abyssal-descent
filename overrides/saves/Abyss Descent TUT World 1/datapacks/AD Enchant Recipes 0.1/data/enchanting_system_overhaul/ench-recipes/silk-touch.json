@@ -1,0 +1,20 @@
+{
+  "enchantment_id": "minecraft:silk_touch",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 12
+      },
+      {
+        "id": "tags#minecraft:wool",
+        "amount": 16
+      }
+    ]
+  }
+}

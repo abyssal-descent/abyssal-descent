@@ -1,0 +1,44 @@
+{
+    "default_block": {
+        "Name": "minecraft:deepslate"
+    },
+    "default_fluid": {
+        "Name": "minecraft:lava",
+        "Properties": {}
+    },
+    "sea_level": -64,
+    "disable_mob_generation": false,
+    "aquifers_enabled": false,
+    "ore_veins_enabled": true,
+    "legacy_random_source": false,
+    "noise": {
+        "min_y": -64,
+        "height": 256,
+        "size_horizontal": 1,
+        "size_vertical": 2
+    },
+    "noise_router": {
+        "barrier": 0,
+        "fluid_level_floodedness": 0,
+        "fluid_level_spread": 0,
+        "lava": 0,
+        "vein_toggle": "minecraft:overworld/caves/spaghetti_2d",
+        "vein_ridged": "minecraft:overworld/caves/spaghetti_2d",
+        "vein_gap": "minecraft:overworld/caves/spaghetti_2d",
+        "temperature": "minecraft:overworld/caves/spaghetti_2d",
+        "vegetation": "minecraft:overworld/caves/spaghetti_2d",
+        "continents": "minecraft:overworld/caves/spaghetti_2d",
+        "erosion": "minecraft:overworld/caves/spaghetti_2d",
+        "depth": "minecraft:overworld/caves/spaghetti_2d",
+        "ridges": "minecraft:overworld/caves/spaghetti_2d",
+        "initial_density_without_jaggedness": "minecraft:overworld/caves/spaghetti_2d",
+        "final_density": "minecraft:overworld/caves/spaghetti_2d"
+    },
+    "spawn_target": [],
+    "surface_rule": {
+        "type": "minecraft:block",
+        "result_state": {
+            "Name": "minecraft:deepslate"
+        }
+    }
+}

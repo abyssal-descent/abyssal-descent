@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ppp",
+      "psp",
+      "ppp"
+    ],
+    "key": {
+      "p": {
+        "tag": "minecraft:planks"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "shieldexp:wooden_shield"
+    }
+  }

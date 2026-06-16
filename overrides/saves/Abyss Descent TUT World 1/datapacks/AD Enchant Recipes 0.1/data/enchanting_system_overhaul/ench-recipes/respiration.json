@@ -1,0 +1,84 @@
+{
+  "enchantment_id": "minecraft:respiration",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 6
+      },
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:water_breathing\"}",
+            "remainderId": "minecraft:glass_bottle"
+          },
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:long_water_breathing\"}",
+            "remainderId": "minecraft:glass_bottle"
+          }
+        ]
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 2
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:water_breathing\"}",
+            "remainderId": "minecraft:glass_bottle"
+          },
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:long_water_breathing\"}",
+            "remainderId": "minecraft:glass_bottle"
+          }
+        ]
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 3
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:water_breathing\"}",
+            "remainderId": "minecraft:glass_bottle"
+          },
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:long_water_breathing\"}",
+            "remainderId": "minecraft:glass_bottle"
+          }
+        ]
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 7
+      }
+    ]
+  }
+}

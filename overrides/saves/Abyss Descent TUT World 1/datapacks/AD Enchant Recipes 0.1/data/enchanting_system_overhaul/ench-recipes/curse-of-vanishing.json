@@ -1,0 +1,20 @@
+{
+  "enchantment_id": "minecraft:vanishing_curse",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:lava_bucket",
+        "amount": 1
+      }
+    ]
+  }
+}

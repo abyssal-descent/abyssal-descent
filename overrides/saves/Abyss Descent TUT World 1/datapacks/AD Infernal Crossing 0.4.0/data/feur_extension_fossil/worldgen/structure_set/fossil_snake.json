@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "feur_extension_fossil:fossil_snake",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 38,
+    "separation": 18,
+    "salt": 1708659172
+  }
+}

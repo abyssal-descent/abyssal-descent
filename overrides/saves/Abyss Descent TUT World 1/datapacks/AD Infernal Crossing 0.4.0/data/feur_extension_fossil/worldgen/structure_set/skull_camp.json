@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "feur_extension_fossil:skull_camp",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 88,
+    "separation": 20,
+    "salt": 1503103618
+  }
+}

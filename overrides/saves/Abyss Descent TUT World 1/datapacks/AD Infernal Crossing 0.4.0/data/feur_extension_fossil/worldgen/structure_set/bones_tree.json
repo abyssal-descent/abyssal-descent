@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "feur_extension_fossil:bones_tree",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 63,
+    "separation": 15,
+    "salt": 1724194174
+  }
+}

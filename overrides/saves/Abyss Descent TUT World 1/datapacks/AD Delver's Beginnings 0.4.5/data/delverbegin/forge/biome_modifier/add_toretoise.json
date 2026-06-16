@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#delverbegin:is_delversbegin",
+  "spawners":
+  {
+    "type": "quark:toretoise",
+    "weight": 50,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

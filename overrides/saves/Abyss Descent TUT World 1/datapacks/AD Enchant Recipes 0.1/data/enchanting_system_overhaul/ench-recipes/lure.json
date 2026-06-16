@@ -1,0 +1,48 @@
+{
+  "enchantment_id": "minecraft:lure",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:glow_berries",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:wheat_seeds",
+        "amount": 3
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:glow_berries",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:wheat_seeds",
+        "amount": 6
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:glow_berries",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:wheat_seeds",
+        "amount": 12
+      }
+    ]
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "type": "delverbegin:dimension",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "delverbegin:tightercaves",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "galosphere:lichen_caves",
+          "parameters": {
+            "temperature": 0.29,
+            "humidity": 0.1,
+            "continentalness": 0.1,
+            "erosion": 0.1,
+            "depth": 0.34,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "galosphere:crystal_canyons",
+          "parameters": {
+            "temperature": 0.13,
+            "humidity": -0.1,
+            "continentalness": -0.1,
+            "erosion": -0.1,
+            "depth": 0.4,
+            "weirdness": -0.1,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "yungscavebiomes:lost_caves",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": 0.2,
+            "continentalness": 0.2,
+            "erosion": 0.2,
+            "depth": 0.31,
+            "weirdness": 0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "regions_unexplored:ancient_delta",
+          "parameters": {
+            "temperature": -0.1,
+            "humidity": -0.2,
+            "continentalness": -0.2,
+            "erosion": -0.2,
+            "depth": 0.27,
+            "weirdness": -0.2,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "galosphere:pink_salt_caves",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": 0,
+            "continentalness": 0.3,
+            "erosion": 0.25,
+            "depth": 0.22,
+            "weirdness": 0,
+            "offset": 0.1
+          }
+        },
+        {
+          "biome": "regions_unexplored:bioshroom_caves",
+          "parameters": {
+            "temperature": 0.19,
+            "humidity": 0.1,
+            "continentalness": 0.1,
+            "erosion": 0.1,
+            "depth": 0.37,
+            "weirdness": 0,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "darkerdepths:glowshroom_forest",
+          "parameters": {
+            "temperature": 0.17,
+            "humidity": 0.13,
+            "continentalness": 0.17,
+            "erosion": 0.16,
+            "depth": 0.37,
+            "weirdness": 0,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

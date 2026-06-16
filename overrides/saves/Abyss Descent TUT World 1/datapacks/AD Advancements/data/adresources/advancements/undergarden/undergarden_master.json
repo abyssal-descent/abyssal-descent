@@ -1,0 +1,86 @@
+{
+  "parent": "adresources:undergarden/catacombs",
+
+  "display": {
+    "icon": {
+      "item": "undergarden:utherium_chestplate"
+    },
+    "title": {
+      "text": "Cover me in Gems"
+    },
+    "description": {
+      "text": "It is recommended to obtain Full Utherium armor and a Diamond Shield before fighting on the Void Blossom."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "utherium_helmet": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["undergarden:utherium_helmet"] }
+        ]
+      }
+    },
+
+    "utherium_chestplate": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["undergarden:utherium_chestplate"] }
+        ]
+      }
+    },
+
+    "utherium_leggings": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["undergarden:utherium_leggings"] }
+        ]
+      }
+    },
+
+    "utherium_boots": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["undergarden:utherium_boots"] }
+        ]
+      }
+    },
+
+    "utherium_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["undergarden:utherium_sword"] }
+        ]
+      }
+    },
+
+    "diamond_shield": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["shieldexp:diamond_shield"] }
+        ]
+      }
+    }
+  },
+
+  "requirements": [
+    [
+      "utherium_helmet",
+      "utherium_chestplate",
+      "utherium_leggings",
+      "utherium_boots",
+      "utherium_sword",
+      "diamond_shield"
+    ]
+  ]
+}

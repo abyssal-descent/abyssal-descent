@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "feur_extension_fossil:fossil_arc",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 30,
+    "separation": 11,
+    "salt": 831193581
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "enchantment_id": "farmersdelight:backstabbing",
+  "dependsOn": ["farmersdelight"],
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:flint",
+        "amount": 3
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:flint",
+        "amount": 7
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:flint",
+        "amount": 10
+      }
+    ]
+  }
+}

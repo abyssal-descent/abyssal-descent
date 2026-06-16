@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "M": {
+      "item": "adhammers:cloggrum_plate"
+    }
+  },
+  "pattern": [
+    "M M",
+    "M M"
+  ],
+  "result": {
+    "item": "undergarden:cloggrum_boots"
+  },
+  "show_notification": true
+}

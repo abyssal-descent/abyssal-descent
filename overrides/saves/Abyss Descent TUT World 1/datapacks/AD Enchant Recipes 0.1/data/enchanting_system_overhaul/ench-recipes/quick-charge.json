@@ -1,0 +1,62 @@
+{
+  "enchantment_id": "minecraft:quick_charge",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:string",
+        "amount": 3
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 2
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:lead",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 6
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      },
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:swiftness\"}",
+            "remainderId": "minecraft:glass_bottle"
+          },
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:long_swiftness\"}",
+            "remainderId": "minecraft:glass_bottle"
+          },
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:strong_swiftness\"}",
+            "remainderId": "minecraft:glass_bottle"
+          }
+        ]
+      }
+    ]
+  }
+}

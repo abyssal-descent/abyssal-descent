@@ -1,0 +1,17 @@
+{
+	"type": "minecraft:crafting_shapeless",
+	"ingredients": [
+		{
+			"item": "grapplemod:baseupgradeitem"
+		}, 
+		{
+			"item": "minecraft:leather_boots"
+		},
+		{
+			"item": "minecraft:feather"
+		}
+	],
+	"result": {
+		"item": "grapplemod:swingupgradeitem"
+	}
+}

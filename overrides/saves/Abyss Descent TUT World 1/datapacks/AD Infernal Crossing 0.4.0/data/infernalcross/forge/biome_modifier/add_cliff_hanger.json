@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns", 
+  "biomes": "#infernalcross:is_infernal_crossing",
+  "spawners":
+  {
+    "type": "species:cliff_hanger",
+    "weight": 100, 
+    "minCount": 1,
+    "maxCount": 7
+  }
+}

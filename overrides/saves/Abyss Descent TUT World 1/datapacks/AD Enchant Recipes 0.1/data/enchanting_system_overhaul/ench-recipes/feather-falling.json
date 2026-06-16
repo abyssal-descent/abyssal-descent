@@ -1,0 +1,62 @@
+{
+  "enchantment_id": "minecraft:feather_falling",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:feather",
+        "amount": 3
+      },
+      {
+        "id": "tags#minecraft:wool",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:hay_block",
+        "amount": 2
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:feather",
+        "amount": 9
+      },
+      {
+        "id": "tags#minecraft:wool",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:hay_block",
+        "amount": 4
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:feather",
+        "amount": 12
+      },
+      {
+        "id": "tags#minecraft:wool",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:hay_block",
+        "amount": 6
+      }
+    ],
+    "4": [
+      {
+        "id": "minecraft:feather",
+        "amount": 12
+      },
+      {
+        "id": "tags#minecraft:wool",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:hay_block",
+        "amount": 9
+      }
+    ]
+  }
+}

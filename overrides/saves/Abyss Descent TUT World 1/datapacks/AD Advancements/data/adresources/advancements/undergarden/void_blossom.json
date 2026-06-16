@@ -1,0 +1,40 @@
+{
+  "parent": "adresources:undergarden/catacombs",
+  "criteria": {
+    "enter_void_blossom": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "location": {
+              "structure": "undergarden:void_blossom"
+            }
+          }
+        }
+      }
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "description": {
+      "text": "Locate the Void Blossom at the bottom of the undergarden with the explorers compass."
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "The Void Blossom"
+    }
+  },
+  "requirements": [
+    [
+    "enter_void_blossom"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

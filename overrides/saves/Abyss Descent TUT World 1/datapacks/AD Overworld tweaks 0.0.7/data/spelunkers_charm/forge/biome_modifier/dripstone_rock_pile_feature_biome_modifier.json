@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "dripstone_caves",
+  "features": "spelunkers_charm:dripstone_rock_pile_feature",
+  "step": "underground_decoration"
+}

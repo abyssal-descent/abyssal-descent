@@ -1,0 +1,26 @@
+{
+  "enchantment_id": "minecraft:knockback",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:piston",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:piston",
+        "amount": 12
+      }
+    ]
+  }
+}

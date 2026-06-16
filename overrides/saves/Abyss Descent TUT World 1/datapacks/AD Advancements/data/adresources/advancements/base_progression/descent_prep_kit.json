@@ -1,0 +1,40 @@
+{
+  "parent": "adresources:base_progression/iron_pick",
+
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword"
+    },
+    "title": {
+      "text": "Descent Prep Kit"
+    },
+    "description": {
+      "text": "It is Reccomended to obtain the following before descending into the first layer - Full Copper armor, Iron Sword And Pickaxe, and a Grappling Hook."
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_full_kit": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          { "items": ["leafscopperbackport:copper_armor_helmet"] },
+          { "items": ["leafscopperbackport:copper_armor_chestplate"] },
+          { "items": ["leafscopperbackport:copper_armor_leggings"] },
+          { "items": ["leafscopperbackport:copper_armor_boots"] },
+          { "items": ["minecraft:iron_pickaxe"] },
+          { "items": ["minecraft:iron_sword"] },
+          { "items": ["grapplemod:grapplinghook"] }
+        ]
+      }
+    }
+  },
+
+  "requirements": [
+    ["has_full_kit"]
+  ]
+}

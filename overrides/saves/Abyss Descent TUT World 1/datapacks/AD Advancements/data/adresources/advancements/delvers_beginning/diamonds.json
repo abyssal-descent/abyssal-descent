@@ -1,0 +1,35 @@
+{
+  "parent": "adresources:delvers_beginning/root",
+
+  "display": {
+    "icon": {
+      "item": "geode_plus:diamond_crystal"
+    },
+    "title": {
+      "text": "Diamonds!"
+    },
+    "description": {
+      "text": "Find a Diamond Geode and harvest its fully grown Diamond Crystal Buds"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "spelunkery:rough_diamond",
+              "minecraft:diamond"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

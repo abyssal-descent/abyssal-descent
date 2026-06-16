@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" 2 ", 
+		"242",
+		" 4 "
+	],
+	"key": {
+		"2": {
+			"item": "minecraft:gold_ingot"
+		}, 
+		"4": {
+			"item": "minecraft:string"
+		}
+	},
+	"result": {
+		"item": "grapplemod:baseupgradeitem"
+	}
+}

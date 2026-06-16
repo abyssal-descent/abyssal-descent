@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_nether",
+  "features": "spelunkers_charm:basalt_rock_pile_feature",
+  "step": "underground_decoration"
+}

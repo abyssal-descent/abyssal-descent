@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:grass_block"
+    },
+    "title": "Overworld Basics & Progression",
+    "description": "The guide to all the Abyssal Descent Basics! If you're ever lost, come back here to see what to do next!",
+    "background": "minecraft:textures/block/stripped_dark_oak_log.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:delvers_beginning/root",
+
+  "display": {
+    "icon": {
+      "item": "regions_unexplored:corpse_flower"
+    },
+    "title": {
+      "text": "Stinky Life Saving Flower"
+    },
+    "description": {
+      "text": "Obtain the important corpse flower from the Ancient Delta biome. It smells awful but might be useful for something?"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "regions_unexplored:corpse_flower"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

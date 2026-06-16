@@ -1,0 +1,10 @@
+
+#General settings
+[general]
+	#How many ticks that the count cache is kept alive. This is used to avoid recalculating the cache every tick. Use 0 to recalculate every tick.
+	#Range: 0 ~ 10000
+	cacheRetentionTicks = 10
+	#The radius that is used for player specific conditions (to find the nearest player)
+	#Range: 1 ~ 10000
+	perPlayerRadius = 100
+

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "adhammers:netherite_plate"
+  },
+  "base": {
+    "item": "minecraft:diamond_leggings"
+  },
+  "result": {
+    "item": "minecraft:netherite_leggings"
+  },
+  "template": {
+    "item": "minecraft:netherite_upgrade_smithing_template"
+  }
+}

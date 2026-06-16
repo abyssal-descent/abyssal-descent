@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns", 
+  "biomes": "#undergarden:is_undergarden",
+  "spawners":
+  {
+    "type": "species:leaf_hanger",
+    "weight": 100, 
+    "minCount": 1,
+    "maxCount": 10
+  }
+}

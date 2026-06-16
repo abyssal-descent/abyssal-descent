@@ -1,0 +1,76 @@
+{
+  "enchantment_id": "minecraft:bane_of_arthropods",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 3
+      },
+      {
+        "id": "minecraft:glistering_melon_slice",
+        "amount": 3
+      },
+      {
+        "id": "minecraft:spider_eye",
+        "amount": 3
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:glistering_melon_slice",
+        "amount": 4
+      },
+      {
+        "id": "minecraft:spider_eye",
+        "amount": 6
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 9
+      },
+      {
+        "id": "minecraft:glistering_melon_slice",
+        "amount": 4
+      },
+      {
+        "id": "minecraft:spider_eye",
+        "amount": 4
+      }
+    ],
+    "4": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:glistering_melon_slice",
+        "amount": 4
+      },
+      {
+        "id": "minecraft:spider_eye",
+        "amount": 12
+      }
+    ],
+    "5": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:glistering_melon_slice",
+        "amount": 4
+      },
+      {
+        "id": "minecraft:spider_eye",
+        "amount": 16
+      }
+    ]
+  }
+}

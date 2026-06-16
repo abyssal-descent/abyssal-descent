@@ -1,0 +1,8 @@
+{
+  "type": "forge:add_features",
+  "biomes": {
+    "type": "forge:any"
+  },
+  "features": "spelunkers_charm:geode_stone_feature",
+  "step": "underground_decoration"
+}

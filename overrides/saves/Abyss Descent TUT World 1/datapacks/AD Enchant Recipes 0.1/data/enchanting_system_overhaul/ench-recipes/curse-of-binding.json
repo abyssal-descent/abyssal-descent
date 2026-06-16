@@ -1,0 +1,24 @@
+{
+  "enchantment_id": "minecraft:binding_curse",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:cobweb",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 6
+      }
+    ]
+  }
+}

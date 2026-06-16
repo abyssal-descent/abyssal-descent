@@ -1,0 +1,37 @@
+{
+  "parent": "adresources:base_progression/punch_a_tree",
+
+  "display": {
+    "icon": {
+      "item": "organics:planks_chestplate"
+    },
+    "title": {
+      "text": "Wooden Plank Armor"
+    },
+    "description": {
+      "text": "Craft any piece of Wooden Plank Armor, A little extra protection for the early game!"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_anvil": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "organics:planks_boots",
+              "organics:planks_chestplate",
+              "organics:planks_helmet",
+              "organics:planks_leggings"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

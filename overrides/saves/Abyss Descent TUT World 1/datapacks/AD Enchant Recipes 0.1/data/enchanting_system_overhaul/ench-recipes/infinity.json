@@ -1,0 +1,24 @@
+{
+  "enchantment_id": "minecraft:infinity",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:ender_pearl",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:arrow",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      }
+    ]
+  }
+}

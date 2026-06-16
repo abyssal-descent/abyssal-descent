@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:base_progression/yippee_wood",
+
+  "display": {
+    "icon": {
+      "item": "minecraft:grindstone"
+    },
+    "title": {
+      "text": "Grindstones"
+    },
+    "description": {
+      "text": "Craft your first grindstone to polish gems with"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_grindstone": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:grindstone"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

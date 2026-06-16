@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "ggg",
+      "gsg",
+      "ggg"
+    ],
+    "key": {
+      "g": {
+        "item": "adhammers:gold_plate"
+      },
+      "s": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "item": "shieldexp:golden_shield"
+    }
+  }

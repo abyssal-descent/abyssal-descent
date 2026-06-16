@@ -1,0 +1,76 @@
+{
+  "enchantment_id": "minecraft:impaling",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:glowstone_dust",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 3
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:glowstone_dust",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 3
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:glowstone_dust",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 6
+      }
+    ],
+    "4": [
+      {
+        "id": "minecraft:glowstone_dust",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 6
+      }
+    ],
+    "5": [
+      {
+        "id": "minecraft:glowstone_dust",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 7
+      }
+    ]
+  }
+}

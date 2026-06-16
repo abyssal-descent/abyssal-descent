@@ -1,0 +1,43 @@
+{
+  "enchantment_id": "frycparry:counterattack_enchantment",
+  "dependsOn": ["frycparry"],
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:glowstone_dust",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:pufferfish",
+        "amount": 4
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 24
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:glowstone_dust",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:pufferfish",
+        "amount": 10
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 64
+      }
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "item": "spelunkery:rough_lazurite"
+    },
+    "title": {
+      "text": "Grind A Gem"
+    },
+    "description": {
+      "text": "Grind a Rough gem on a Grindstone. All Rough gems can be ground into their normal gem form"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "adresources:base_progression/grindstones",
+  "criteria": {
+    "item": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": [
+          {
+            "condition": "minecraft:match_tool",
+            "predicate": {
+              "items": [
+                "spelunkery:rough_lazurite",
+                "spelunkery:rough_cinnabar",
+                "spelunkery:rough_emerald",
+                "spelunkery:rough_diamond"
+              ]
+            }
+          },
+          {
+            "condition": "minecraft:location_check",
+            "predicate": {
+              "block": {
+                "blocks": [
+                  "minecraft:grindstone",
+                  "spelunkery:diamond_grindstone"
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "item"
+    ]
+  ]
+}

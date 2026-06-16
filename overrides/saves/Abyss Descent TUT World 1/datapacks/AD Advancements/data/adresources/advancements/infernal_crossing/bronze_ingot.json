@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:infernal_crossing/tomb_raider",
+
+  "display": {
+    "icon": {
+      "item": "darkerdepths:forsaken_bronze_ingot"
+    },
+    "title": {
+      "text": "Bronze Ingot"
+    },
+    "description": {
+      "text": "Craft a Forsaken Bronze Ingot with forsaken bronze scrap and copper ingots"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "darkerdepths:forsaken_bronze_ingot"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

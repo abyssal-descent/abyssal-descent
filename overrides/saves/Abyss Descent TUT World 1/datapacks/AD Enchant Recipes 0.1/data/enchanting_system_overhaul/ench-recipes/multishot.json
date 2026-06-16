@@ -1,0 +1,20 @@
+{
+  "enchantment_id": "minecraft:multishot",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:ender_pearl",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:arrow",
+        "amount": 3
+      }
+    ]
+  }
+}

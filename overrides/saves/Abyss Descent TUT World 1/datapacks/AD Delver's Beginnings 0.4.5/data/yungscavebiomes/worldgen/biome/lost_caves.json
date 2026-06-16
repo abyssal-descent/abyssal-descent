@@ -1,0 +1,131 @@
+{
+  "spawn_costs": {},
+  "temperature": 2.0,
+  "downfall": 0.4,
+  "has_precipitation": true,
+  "effects": {
+    "water_color": 3353610,
+    "water_fog_color": 1840646,
+    "fog_color": 13140007,
+    "sky_color": 7254527,
+    "mood_sound": {
+      "sound": "minecraft:ambient.cave",
+      "tick_delay": 6000,
+      "block_search_extent": 8,
+      "offset": 2
+    },
+    "music": {
+      "sound": "yungscavebiomes:music.overworld.lost_caves",
+      "min_delay": 12000,
+      "max_delay": 24000,
+      "replace_current_music": false
+    },
+    "particle": {
+      "options": {
+        "type": "yungscavebiomes:lost_caves_ambient"
+      },
+      "probability": 0.0015
+    }
+  },
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "features": [
+    [
+    ],
+    [
+    ],
+    [
+      "minecraft:amethyst_geode",
+      "delverbegin:deepslate_diamond_geode",
+      "delverbegin:deepslate_lapis_geode",
+      "delverbegin:deepslate_redstone_geode",
+      "delverbegin:deepslate_emerald_geode",
+      "yungscavebiomes:lost_caves/brittle_sandstone_ceiling_patch",
+      "yungscavebiomes:lost_caves/lost_caves_surface_replace",
+      "yungscavebiomes:lost_caves/lost_caves_surface_replace_2",
+      "yungscavebiomes:lost_caves/sandstone_glow_lichen",
+      "yungscavebiomes:lost_caves/cactus_patch",
+      "yungscavebiomes:lost_caves/prickly_peach_cactus_patch",
+      "yungscavebiomes:lost_caves/dead_bush_spread",
+      "yungscavebiomes:lost_caves/prickly_vines",
+      "yungscavebiomes:lost_caves/layered_sandstone_pillar"
+    ],
+    [
+      "minecraft:monster_room",
+      "minecraft:monster_room_deep"
+    ],
+    [],
+    [],
+    [
+      "minecraft:ore_dirt",
+      "minecraft:ore_gravel",
+      "minecraft:ore_granite_upper",
+      "minecraft:ore_granite_lower",
+      "minecraft:ore_diorite_upper",
+      "minecraft:ore_diorite_lower",
+      "minecraft:ore_andesite_upper",
+      "minecraft:ore_andesite_lower",
+      "minecraft:ore_tuff",
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay",
+      "minecraft:disk_gravel",
+      "delverbegin:coal_ore_buried",
+      "delverbegin:ore_coal",
+      "delverbegin:ore_copper",
+      "delverbegin:ore_iron",
+      "delverbegin:ore_gold_and_silver_lower",
+      "delverbegin:ore_gold_buried_with_silver",
+      "delverbegin:ore_silver_buried_with_gold",
+      "delverbegin:ore_silver_extra"
+    ],
+    [
+    ],
+    [
+      "minecraft:spring_water",
+      "minecraft:spring_lava"
+    ],
+    [
+      "minecraft:glow_lichen",
+      "minecraft:brown_mushroom_normal",
+      "minecraft:red_mushroom_normal"
+    ],
+    [
+    ]
+  ],
+  "spawners": {
+    "monster": [
+      {
+        "type": "minecraft:husk",
+        "weight": 100,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ],
+    "creature": [],
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "weight": 10,
+        "minCount": 8,
+        "maxCount": 8
+      },
+      {
+        "type": "yungscavebiomes:sand_snapper",
+        "weight": 50,
+        "minCount": 1,
+        "maxCount": 2
+      }
+    ],
+    "axolotls": [],
+    "underground_water_creature": [],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": []
+  }
+}

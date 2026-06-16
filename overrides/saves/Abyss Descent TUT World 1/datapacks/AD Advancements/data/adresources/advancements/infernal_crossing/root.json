@@ -1,0 +1,20 @@
+{
+  "display": {
+    "icon": {
+      "item": "darkerdepths:geyser"
+    },
+    "title": "Infernal Crossing",
+    "description": "Progression guide for the Third Layer of Abyssal Descent - Infernal Crossing.",
+    "background": "darkerdepths:textures/block/darkslate.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

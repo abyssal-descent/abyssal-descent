@@ -1,0 +1,32 @@
+{
+  "name": "feur_extension_fossil:fossil_fish",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "feur_extension_fossil:fossil_fish",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_ignore",
+              "blocks": [
+                {
+                  "Name": "minecraft:structure_block"
+                },
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Name": "minecraft:water"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

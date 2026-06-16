@@ -1,0 +1,36 @@
+{
+  "enchantment_id": "minecraft:aqua_affinity",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:glow_ink_sac",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:nautilus_shell",
+        "amount": 6
+      },
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:water_breathing\"}",
+            "remainderId": "minecraft:glass_bottle"
+          },
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:long_water_breathing\"}",
+            "remainderId": "minecraft:glass_bottle"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "type": "minecraft:jigsaw",
+  "biomes": "#darkerdepths:has_structure/catacombs",
+  "max_distance_from_center": 116,
+  "size": 7,
+  "spawn_overrides": {
+    "ambient": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "axolotls": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "creature": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "misc": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "monster": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "underground_water_creature": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "water_ambient": {
+      "bounding_box": "full",
+      "spawns": []
+    },
+    "water_creature": {
+      "bounding_box": "full",
+      "spawns": []
+    }
+  },
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": -45
+    },
+    "max_inclusive": {
+      "absolute": 45
+    }
+  },
+  "start_pool": "darkerdepths:catacombs/starts",
+  "step": "vegetal_decoration",
+  "terrain_adaptation": "bury",
+  "use_expansion_hack": false
+}

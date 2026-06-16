@@ -1,0 +1,32 @@
+{
+  "parent": "adresources:base_progression/punch_a_tree",
+  "display": {
+    "icon": {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    "title": {
+      "text": "Yippee Wood!"
+    },
+    "description": {
+      "text": "Obtain a wooden pickaxe."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_wooden_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:wooden_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

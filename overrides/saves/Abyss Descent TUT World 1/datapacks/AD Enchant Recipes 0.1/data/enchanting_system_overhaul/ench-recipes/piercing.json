@@ -1,0 +1,62 @@
+{
+  "enchantment_id": "minecraft:piercing",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:firework_rocket",
+        "amount": 3
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:firework_rocket",
+        "amount": 12
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:firework_rocket",
+        "amount": 24
+      }
+    ],
+    "4": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 64
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:firework_rocket",
+        "amount": 32
+      }
+    ]
+  }
+}

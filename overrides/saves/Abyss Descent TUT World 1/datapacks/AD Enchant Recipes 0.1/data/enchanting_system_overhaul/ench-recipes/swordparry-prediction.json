@@ -1,0 +1,49 @@
+{
+  "enchantment_id": "frycparry:prediction_enchantment",
+  "dependsOn": ["frycparry"],
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:ender_eye",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:sugar",
+        "amount": 12
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:ender_eye",
+        "amount": 3
+      },
+      {
+        "id": "minecraft:sugar",
+        "amount": 12
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:ender_eye",
+        "amount": 7
+      },
+      {
+        "id": "minecraft:sugar",
+        "amount": 24
+      }
+    ]
+  }
+}

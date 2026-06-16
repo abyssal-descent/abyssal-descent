@@ -1,0 +1,78 @@
+{
+  "enchantment_id": "minecraft:riptide",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:water_bucket",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:magma_block",
+        "amount": 2
+      },
+      {
+        "id": "minecraft:redstone",
+        "amount": 12
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:water_bucket",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:magma_block",
+        "amount": 8
+      },
+      {
+        "id": "minecraft:redstone",
+        "amount": 16
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:water_bucket",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:magma_block",
+        "amount": 12
+      },
+      {
+        "itemArray": [
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:swiftness\"}",
+            "remainderId": "minecraft:glass_bottle"
+          },
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:long_swiftness\"}",
+            "remainderId": "minecraft:glass_bottle"
+          },
+          {
+            "id": "minecraft:potion",
+            "amount": 1,
+            "tag": "{Potion: \"minecraft:strong_swiftness\"}",
+            "remainderId": "minecraft:glass_bottle"
+          }
+        ]
+      }
+    ]
+  }
+}

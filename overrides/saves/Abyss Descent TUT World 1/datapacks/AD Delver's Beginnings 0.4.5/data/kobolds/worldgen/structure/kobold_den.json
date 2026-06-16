@@ -1,0 +1,17 @@
+{
+  "type": "kobolds:kobold_den",
+  "start_pool": "kobolds:kobold_den",
+  "biomes": "#kobolds:kobold_den_biomes",
+  "step": "underground_structures",
+  "terrain_adaptation": "bury",
+  "start_height": {
+    "type": "minecraft:uniform",
+    "min_inclusive": {
+      "absolute": 10
+    },
+    "max_inclusive": {
+      "absolute": 110
+    }
+  },
+  "spawn_overrides": {}
+}

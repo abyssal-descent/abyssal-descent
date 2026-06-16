@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "bosses_of_mass_destruction:void_blossom",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "salt": 574839,
+    "spacing": 64,
+    "separation": 24,
+    "type": "minecraft:random_spread"
+  }
+}

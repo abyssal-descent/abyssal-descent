@@ -1,0 +1,48 @@
+{
+  "enchantment_id": "minecraft:swift_sneak",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:rabbit_foot",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:sugar",
+        "amount": 6
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:rabbit_foot",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:sugar",
+        "amount": 16
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:rabbit_foot",
+        "amount": 2
+      },
+      {
+        "id": "minecraft:sugar",
+        "amount": 32
+      }
+    ]
+  }
+}

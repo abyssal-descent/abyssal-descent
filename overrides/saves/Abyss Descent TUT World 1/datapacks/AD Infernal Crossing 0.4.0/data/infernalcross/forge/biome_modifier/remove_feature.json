@@ -1,0 +1,8 @@
+{
+  "type": "forge:remove_features", 
+  "biomes": "#infernalcross:is_infernal_crossing",
+  "features": [
+    "adoverworldtweaks:copper_granite_stripe"
+  ],
+  "step": "underground_ores"
+}

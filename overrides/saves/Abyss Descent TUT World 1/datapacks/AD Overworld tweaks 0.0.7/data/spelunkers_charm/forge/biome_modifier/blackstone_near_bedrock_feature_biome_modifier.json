@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#infernalcross:is_infernal_crossing",
+  "features": "spelunkers_charm:blackstone_near_bedrock_feature",
+  "step": "vegetal_decoration"
+}

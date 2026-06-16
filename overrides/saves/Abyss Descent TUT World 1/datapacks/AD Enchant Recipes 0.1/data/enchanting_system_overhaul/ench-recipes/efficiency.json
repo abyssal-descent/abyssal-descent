@@ -1,0 +1,98 @@
+{
+  "enchantment_id": "minecraft:efficiency",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:gold_ingot",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:sugar",
+        "amount": 6
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:gold_ingot",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:sugar",
+        "amount": 24
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:gold_ingot",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:sugar",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:potion",
+        "amount": 1,
+        "tag": "{Potion: \"minecraft:swiftness\"}",
+        "remainderId": "minecraft:glass_bottle"
+      }
+    ],
+    "4": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:gold_ingot",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:potion",
+        "amount": 1,
+        "tag": "{Potion: \"minecraft:strength\"}",
+        "remainderId": "minecraft:glass_bottle"
+      },
+      {
+        "id": "minecraft:potion",
+        "amount": 1,
+        "tag": "{Potion: \"minecraft:swiftness\"}",
+        "remainderId": "minecraft:glass_bottle"
+      }
+    ],
+    "5": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:gold_ingot",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:potion",
+        "amount": 1,
+        "tag": "{Potion: \"minecraft:strong_strength\"}",
+        "remainderId": "minecraft:glass_bottle"
+      },
+      {
+        "id": "minecraft:potion",
+        "amount": 1,
+        "tag": "{Potion: \"minecraft:strong_swiftness\"}",
+        "remainderId": "minecraft:glass_bottle"
+      }
+    ]
+  }
+}

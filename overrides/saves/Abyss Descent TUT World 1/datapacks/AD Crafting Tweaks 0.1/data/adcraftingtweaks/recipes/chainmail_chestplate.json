@@ -1,0 +1,16 @@
+﻿{
+    "type": "crafting_shaped",
+    "group": "chainmail_chestplate",
+      "pattern": [
+        "# #",
+        "###",
+        "###"
+      ],
+      "key": {
+        "#": {
+          "item": "minecraft:chain"
+          }
+      },
+      "result": 
+        {"item": "minecraft:chainmail_chestplate"}
+  }

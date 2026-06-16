@@ -1,0 +1,34 @@
+{
+  "enchantment_id": "minecraft:punch",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:firework_rocket",
+        "amount": 3
+      },
+      {
+        "id": "minecraft:piston",
+        "amount": 4
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:firework_rocket",
+        "amount": 8
+      },
+      {
+        "id": "minecraft:piston",
+        "amount": 6
+      }
+    ]
+  }
+}

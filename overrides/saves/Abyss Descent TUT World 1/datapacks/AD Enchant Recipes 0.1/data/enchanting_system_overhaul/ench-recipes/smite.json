@@ -1,0 +1,76 @@
+{
+  "enchantment_id": "minecraft:smite",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:glistering_melon_slice",
+        "amount": 2
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 2
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:glistering_melon_slice",
+        "amount": 4
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 2
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:glistering_melon_slice",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 2
+      }
+    ],
+    "4": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:glistering_melon_slice",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 2
+      }
+    ],
+    "5": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:glistering_melon_slice",
+        "amount": 7
+      },
+      {
+        "id": "minecraft:amethyst_shard",
+        "amount": 2
+      }
+    ]
+  }
+}

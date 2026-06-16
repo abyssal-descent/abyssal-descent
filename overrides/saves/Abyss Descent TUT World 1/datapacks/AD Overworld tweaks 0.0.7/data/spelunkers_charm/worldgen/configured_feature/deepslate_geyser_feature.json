@@ -1,0 +1,12 @@
+{
+  "type": "spelunkers_charm:deepslate_geyser_feature",
+  "config": {
+    "structure": "spelunkers_charm:deepslate_geyser_small",
+    "ignored_blocks": "minecraft:air",
+    "offset": [
+      -1,
+      -2,
+      -1
+    ]
+  }
+}

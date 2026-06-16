@@ -1,0 +1,19 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" 2 ", 
+		"242",
+		" 2 "
+	],
+	"key": {
+		"2": {
+			"item": "minecraft:iron_ingot"
+		}, 
+		"4": {
+			"item": "minecraft:compass"
+		}
+	},
+	"result": {
+		"item": "grapplemod:repeller"
+	}
+}

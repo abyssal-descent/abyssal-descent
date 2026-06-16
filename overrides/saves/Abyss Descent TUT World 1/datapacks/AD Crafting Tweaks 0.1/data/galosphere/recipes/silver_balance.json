@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "caverns_and_chasms:silver_ingot"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    }
+  },
+  "pattern": [
+    "#R#",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "galosphere:silver_balance"
+  },
+  "show_notification": true
+}

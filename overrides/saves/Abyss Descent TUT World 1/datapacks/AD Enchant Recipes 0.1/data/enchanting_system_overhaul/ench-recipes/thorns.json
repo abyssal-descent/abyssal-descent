@@ -1,0 +1,48 @@
+{
+  "enchantment_id": "minecraft:thorns",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:pufferfish",
+        "amount": 3
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 12
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:pufferfish",
+        "amount": 4
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 24
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:pufferfish",
+        "amount": 7
+      },
+      {
+        "id": "minecraft:quartz",
+        "amount": 24
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:base_progression/anvil",
+
+  "display": {
+    "icon": {
+      "item": "adhammers:copper_hammer"
+    },
+    "title": {
+      "text": "Hammers?"
+    },
+    "description": {
+      "text": "Craft a Copper Hammer. Hammers can be used to mine 3x3 holes and to smash ingots into plates."
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_hammer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "adhammers:copper_hammer"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

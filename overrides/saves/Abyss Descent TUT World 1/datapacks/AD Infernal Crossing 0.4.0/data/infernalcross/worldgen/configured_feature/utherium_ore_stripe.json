@@ -1,0 +1,68 @@
+{
+  "type": "spelunkery:block_stripe",
+  "config": {
+    "first_target": "#infernalcross:ore_target",
+    "first_target_placer": [
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "darkerdepths:darkslate",
+            "Properties": {
+              "axis": "y"
+            }
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 500,
+              "data": {
+                "Name": "minecraft:tuff"
+              }
+            },
+            {
+              "weight": 200,
+              "data": {
+                "Name": "darkerdepths:darkslate",
+                "Properties": {
+                  "axis": "y"
+                }
+              }
+            },
+            {
+              "weight": 35,
+              "data": {
+                "Name": "undergarden:depthrock_utherium_ore"
+              }
+            },
+            {
+              "weight": 10,
+              "data": {
+                "Name": "spelunkery:raw_magnetite_block"
+              }
+            }
+          ]
+        },
+        "stone_pattern": {
+          "noise_seed": 73,
+          "primary_min": -0.3,
+          "primary_max": 0.2,
+          "secondary_min": 0,
+          "secondary_max": 0.4,
+          "vertical_scale": 1
+        }
+      }
+    ],
+    "use_second_target": false,
+    "second_target": "#spelunkery:deepslate_target",
+    "second_target_placer": [],
+    "use_biome_filter": true,
+    "biomes": "#infernalcross:is_infernal_crossing",
+    "blank_patch_chance": 0.3,
+    "use_height_filter": false,
+    "surface_offset": 60,
+    "bottom_offset": 0
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#infernalcross:is_infernal_crossing",
+  "spawners": 
+  {
+    "type": "species:quake",
+    "minCount": 1,
+    "maxCount": 1,
+    "weight": 5
+  }
+}

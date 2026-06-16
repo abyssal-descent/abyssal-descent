@@ -1,0 +1,163 @@
+{
+  "type": "spelunkers_charm:dripstone_rock_pile_feature",
+  "config": {
+    "features": [
+      {
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "tries": 12,
+            "feature": {
+              "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                  "to_place": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "spelunkers_charm:dripstone_rock_pile_1",
+                      "Properties": {
+                        "waterlogged": "false",
+                        "facing": "north"
+                      }
+                    }
+                  }
+                }
+              },
+              "placement": [
+                {
+                  "type": "minecraft:block_predicate_filter",
+                  "predicate": {
+                    "type": "minecraft:all_of",
+                    "predicates": [
+                      {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:air",
+                          "minecraft:water"
+                        ]
+                      },
+                      {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "#minecraft:base_stone_overworld",
+                        "offset": [
+                          0,
+                          -1,
+                          0
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "tries": 12,
+            "feature": {
+              "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                  "to_place": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "spelunkers_charm:dripstone_rock_pile_2",
+                      "Properties": {
+                        "waterlogged": "false",
+                        "facing": "north"
+                      }
+                    }
+                  }
+                }
+              },
+              "placement": [
+                {
+                  "type": "minecraft:block_predicate_filter",
+                  "predicate": {
+                    "type": "minecraft:all_of",
+                    "predicates": [
+                      {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:air",
+                          "minecraft:water"
+                        ]
+                      },
+                      {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "#minecraft:base_stone_overworld",
+                        "offset": [
+                          0,
+                          -1,
+                          0
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "placement": []
+      },
+      {
+        "feature": {
+          "type": "minecraft:random_patch",
+          "config": {
+            "tries": 12,
+            "feature": {
+              "feature": {
+                "type": "minecraft:simple_block",
+                "config": {
+                  "to_place": {
+                    "type": "minecraft:simple_state_provider",
+                    "state": {
+                      "Name": "spelunkers_charm:dripstone_rock_pile_3",
+                      "Properties": {
+                        "waterlogged": "false",
+                        "facing": "north"
+                      }
+                    }
+                  }
+                }
+              },
+              "placement": [
+                {
+                  "type": "minecraft:block_predicate_filter",
+                  "predicate": {
+                    "type": "minecraft:all_of",
+                    "predicates": [
+                      {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": [
+                          "minecraft:air",
+                          "minecraft:water"
+                        ]
+                      },
+                      {
+                        "type": "minecraft:matching_blocks",
+                        "blocks": "#minecraft:base_stone_overworld",
+                        "offset": [
+                          0,
+                          -1,
+                          0
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        },
+        "placement": []
+      }
+    ]
+  }
+}

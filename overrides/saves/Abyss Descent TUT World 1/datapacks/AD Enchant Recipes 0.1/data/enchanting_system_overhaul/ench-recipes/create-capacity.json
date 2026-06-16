@@ -1,0 +1,37 @@
+{
+  "enchantment_id": "create:capacity",
+  "dependsOn": ["create"],
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:glass_bottle",
+        "amount": 12
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:glass_bottle",
+        "amount": 24
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:lapis_lazuli",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:glass_bottle",
+        "amount": 32
+      }
+    ]
+  }
+}

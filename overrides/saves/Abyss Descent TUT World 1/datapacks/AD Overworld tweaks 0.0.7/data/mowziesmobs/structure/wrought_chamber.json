@@ -1,0 +1,7 @@
+{
+  "type": "mowziesmobs:wrought_chamber",
+  "biomes": "#delverbegin:is_delversbegin",
+  "spawn_overrides": {},
+  "step": "surface_structures",
+  "terrain_adaptation": "none"
+}

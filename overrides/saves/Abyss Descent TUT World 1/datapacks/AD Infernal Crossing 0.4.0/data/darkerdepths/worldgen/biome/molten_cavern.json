@@ -1,0 +1,80 @@
+{
+  "carvers": {
+    "air": [
+      "minecraft:cave",
+      "minecraft:cave_extra_underground",
+      "minecraft:canyon"
+    ]
+  },
+  "downfall": 0.5,
+  "effects": {
+    "ambient_sound": "ambient.basalt_deltas.loop",
+    "fog_color": -9618131,
+    "grass_color": 6703872,
+    "mood_sound": {
+      "sound": "ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "additions_sound": {
+      "sound": "ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
+    "music": {
+      "max_delay": 24000,
+      "min_delay": 12000,
+      "replace_current_music": false,
+      "sound": "minecraft:music.overworld.dripstone_caves"
+    },
+  "sky_color": -9618131,
+    "water_color": 16744244,
+    "water_fog_color": 5770496
+  },
+  "features": [
+    [],
+    [
+      "minecraft:lake_lava_underground",
+      "minecraft:lake_lava_surface"
+    ],
+    [
+    ],
+    [
+    ],
+    [],
+    [],
+    [
+      "minecraft:underwater_magma"
+    ],
+    [],
+    [],
+    [
+      "minecraft:patch_tall_grass_2"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "has_precipitation": true,
+  "spawn_costs": {},
+  "spawners": {
+    "ambient": [
+      {
+        "type": "minecraft:bat",
+        "maxCount": 8,
+        "minCount": 8,
+        "weight": 10
+      }
+    ],
+    "axolotls": [],
+    "creature": [],
+    "misc": [],
+    "monster": [
+    ],
+    "underground_water_creature": [
+    ],
+    "water_ambient": [],
+    "water_creature": []
+  },
+  "temperature": 0.5
+}

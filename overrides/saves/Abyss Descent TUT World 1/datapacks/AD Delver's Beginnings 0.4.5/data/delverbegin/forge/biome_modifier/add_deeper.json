@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#delverbegin:is_delversbegin",
+  "spawners":
+  {
+    "type": "caverns_and_chasms:deeper",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

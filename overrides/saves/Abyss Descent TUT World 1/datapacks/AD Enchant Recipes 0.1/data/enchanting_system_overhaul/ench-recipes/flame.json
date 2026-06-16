@@ -1,0 +1,20 @@
+{
+  "enchantment_id": "minecraft:flame",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:glowstone_dust",
+        "amount": 48
+      },
+      {
+        "id": "minecraft:blaze_powder",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:magma_cream",
+        "amount": 12
+      }
+    ]
+  }
+}

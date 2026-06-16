@@ -1,0 +1,34 @@
+{
+  "parent": "adresources:undergarden/void_blossom",
+
+  "display": {
+    "icon": {
+      "item": "bosses_of_mass_destruction:crystal_fruit"
+    },
+    "title": {
+      "text": "Free the Undergarden"
+    },
+    "description": {
+      "text": "Slay the Void Blossom and obtain its Crystal Fruit, I wonder whats inside?"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+
+  "criteria": {
+    "has_item": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "bosses_of_mass_destruction:crystal_fruit"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

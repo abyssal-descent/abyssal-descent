@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#infernalcross:is_infernal_crossing",
+  "features": "spelunkers_charm:deepslate_geyser_feature",
+  "step": "vegetal_decoration"
+}

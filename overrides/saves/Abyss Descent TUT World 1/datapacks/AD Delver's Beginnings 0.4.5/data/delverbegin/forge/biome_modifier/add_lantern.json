@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "regions_unexplored:bioshroom_caves",
+  "spawners":
+  {
+    "type": "mowziesmobs:lantern",
+    "weight": 100,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}

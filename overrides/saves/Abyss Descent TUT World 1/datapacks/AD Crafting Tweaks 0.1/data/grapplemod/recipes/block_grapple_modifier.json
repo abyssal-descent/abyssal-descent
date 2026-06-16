@@ -1,0 +1,20 @@
+{
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		" 2 ", 
+		"242",
+		" 2 "
+	],
+	"key": {
+		"2": {
+			"item": "grapplemod:baseupgradeitem"
+		}, 
+		"4": {
+			"item": "minecraft:anvil",
+			"data": 0
+		}
+	},
+	"result": {
+		"item": "grapplemod:block_grapple_modifier"
+	}
+}

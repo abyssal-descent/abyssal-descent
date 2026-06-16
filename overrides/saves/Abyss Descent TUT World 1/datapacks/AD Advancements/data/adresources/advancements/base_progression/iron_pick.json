@@ -1,0 +1,32 @@
+{
+  "parent": "adresources:base_progression/mine_iron",
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_pickaxe"
+    },
+    "title": {
+      "text": "The Irony"
+    },
+    "description": {
+      "text": "Obtain an iron pickaxe. You can use this to mine into Delvers Beginning"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "has_iron_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

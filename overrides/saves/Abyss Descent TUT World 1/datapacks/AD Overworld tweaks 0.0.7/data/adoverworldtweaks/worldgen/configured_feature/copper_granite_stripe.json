@@ -1,0 +1,62 @@
+{
+  "type": "spelunkery:block_stripe",
+  "config": {
+    "first_target": "#spelunkery:stone_target",
+    "first_target_placer": [
+      {
+        "primary_stone_type": {
+          "type": "minecraft:simple_state_provider",
+          "state": {
+            "Name": "minecraft:stone"
+          }
+        },
+        "secondary_stone_type": {
+          "type": "minecraft:weighted_state_provider",
+          "entries": [
+            {
+              "weight": 600,
+              "data": {
+                "Name": "minecraft:granite"
+              }
+            },
+            {
+              "weight": 120,
+              "data": {
+                "Name": "minecraft:stone"
+              }
+            },
+            {
+              "weight": 30,
+              "data": {
+                "Name": "spelunkery:granite_copper_ore"
+              }
+            },
+            {
+              "weight": 2,
+              "data": {
+                "Name": "minecraft:raw_copper_block"
+              }
+            }
+          ]
+        },
+        "stone_pattern": {
+          "noise_seed": 73,
+          "primary_min": -0.25,
+          "primary_max": 0.1,
+          "secondary_min": 0,
+          "secondary_max": 0.35,
+          "vertical_scale": 0.8
+        }
+      }
+    ],
+    "use_second_target": false,
+    "second_target": "#spelunkery:stone_target",
+    "second_target_placer": [],
+    "use_biome_filter": false,
+    "biomes": "#spelunkery:has_stone_noise",
+    "blank_patch_chance": 0.35,
+    "use_height_filter": false,
+    "surface_offset": 60,
+    "bottom_offset": 0
+  }
+}

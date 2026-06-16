@@ -1,0 +1,17 @@
+{
+  "enchantment_id": "azurelib:incendiaryenchantment",
+  "dependsOn": ["azurelib"],
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:glowstone_dust",
+        "amount": 48
+      },
+      {
+        "id": "minecraft:blaze_powder",
+        "amount": 64
+      }
+    ]
+  }
+}

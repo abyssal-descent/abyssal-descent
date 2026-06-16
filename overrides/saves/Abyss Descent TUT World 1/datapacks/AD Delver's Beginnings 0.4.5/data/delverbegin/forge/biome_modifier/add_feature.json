@@ -1,0 +1,8 @@
+{
+    "type":"forge:add_features",
+    "biomes":"#delverbegin:is_delversbegin",
+    "features":[
+        "delverbegin:amethyst_geode"
+    ],
+    "step":"local_modifications"
+}

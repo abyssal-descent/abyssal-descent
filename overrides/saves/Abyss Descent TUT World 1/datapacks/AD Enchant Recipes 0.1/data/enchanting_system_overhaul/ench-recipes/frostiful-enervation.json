@@ -1,0 +1,37 @@
+{
+  "enchantment_id": "frostiful:enervation",
+  "dependsOn": ["frostiful"],
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 6
+      },
+      {
+        "id": "minecraft:copper_ingot",
+        "amount": 3
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:copper_ingot",
+        "amount": 12
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:copper_ingot",
+        "amount": 24
+      }
+    ]
+  }
+}

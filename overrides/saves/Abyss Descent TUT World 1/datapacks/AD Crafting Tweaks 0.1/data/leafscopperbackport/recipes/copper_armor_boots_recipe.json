@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "adhammers:copper_plate"
+    }
+  },
+  "result": {
+    "item": "leafscopperbackport:copper_armor_boots",
+    "count": 1
+  }
+}

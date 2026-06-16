@@ -1,0 +1,92 @@
+{
+  "enchantment_id": "minecraft:power",
+  "maxLevel": 0,
+  "levels": {
+    "1": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 3
+      },
+      {
+        "id": "minecraft:string",
+        "amount": 6
+      }
+    ],
+    "2": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 16
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 7
+      },
+      {
+        "id": "minecraft:string",
+        "amount": 12
+      }
+    ],
+    "3": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 24
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:string",
+        "amount": 12
+      }
+    ],
+    "4": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:slime_ball",
+        "amount": 12
+      },
+      {
+        "id": "minecraft:string",
+        "amount": 24
+      }
+    ],
+    "5": [
+      {
+        "id": "minecraft:redstone",
+        "amount": 32
+      },
+      {
+        "id": "minecraft:diamond",
+        "amount": 1
+      },
+      {
+        "id": "minecraft:firework_rocket",
+        "amount": 12
+      }
+    ]
+  }
+}

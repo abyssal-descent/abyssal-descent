@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#is_overworld",
+  "features": "spelunkers_charm:dead_grass_feature",
+  "step": "vegetal_decoration"
+}

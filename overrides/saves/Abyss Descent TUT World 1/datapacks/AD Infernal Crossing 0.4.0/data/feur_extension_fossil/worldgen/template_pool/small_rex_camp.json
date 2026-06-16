@@ -1,0 +1,44 @@
+{
+  "name": "feur_extension_fossil:small_rex_camp",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "feur_extension_fossil:small_rex_camp_2",
+        "projection": "rigid",
+        "processors": {
+          "processors": [
+            {
+              "processor_type": "minecraft:block_ignore",
+              "blocks": [
+                {
+                  "Name": "minecraft:structure_block"
+                },
+                {
+                  "Name": "minecraft:air"
+                },
+                {
+                  "Name": "minecraft:oak_planks"
+                },
+                {
+                  "Name": "minecraft:oak_fence"
+                },
+                {
+                  "Name": "minecraft:oak_fence_gate"
+                },
+                {
+                  "Name": "minecraft:spruce_fence"
+                },
+                {
+                  "Name": "minecraft:cobblestone_wall"
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
