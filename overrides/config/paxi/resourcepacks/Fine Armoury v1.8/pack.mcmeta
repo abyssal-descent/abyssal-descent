@@ -1,0 +1,13 @@
+{
+	"pack": {
+		"author": "bebebea_loste",
+		"description": "Retextures of tools, weapons, and armour sets",
+		"pack_format": 15,
+		"supported_formats": [
+			15,
+			1024
+		],
+		"min_format": 15,
+		"max_format": 1024
+	}
+}
