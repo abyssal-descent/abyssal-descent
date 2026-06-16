@@ -1,0 +1,94 @@
+
+["World Generation"]
+	#Determines if ground pebbles will spawn in biomes
+	"Pebble Spawns" = true
+	#5 is greatest/normal, 0 is disabled
+	"Auburn tree spawnrate" = 5.0
+	#5 is greatest/normal, 0 is disabled
+	"White Oak tree spawnrate" = 5.0
+	#5 is greatest/normal, 0 is disabled
+	"Wild Palm tree spawnrate" = 5.0
+	#5 is greatest/normal, 0 is disabled
+	"Soft Birch tree spawnrate" = 5.0
+	#5 is greatest/normal, 0 is disabled
+	"Tall Taiga tree spawnrate" = 5.0
+	#5 is greatest/normal, 0 is disabled
+	"Baobab tree spawnrate" = 5.0
+	#true means enabled, false means disabled
+	"Savannah Additions" = true
+	#true means enabled, false means disabled
+	"Snowy plant spawns" = true
+	#true means enabled, false means disabled
+	"Boulder spawns" = true
+	#true means enabled, false means disabled
+	"Decorative Mushroom Spawns" = true
+
+["Legendary Beasts"]
+	#0 means disabled 1 means enabled
+	"Tree Ent Spawnrate" = 1.0
+	"King Hermit Spawnrate" = 1.0
+	"Mummy Spawnrate" = 1.0
+	#1 is normal 2 is doubled 3 is tripled
+	"Viper Egg Rarity" = 1.0
+	"Yeti Spawnrate" = 1.0
+	#1 is normal 2 is doubled 3 is tripled
+	"Phoenix Egg Rarity" = 1.0
+	"Vile Gator Spawnrate" = 1.0
+	"Bone Stalker spawnrate" = 1.0
+	"Witchdoctor spawnrate" = 1.0
+
+["Mob Spawns"]
+	#true means enabled, false means disabled
+	"Butterfly spawns" = true
+	"Firefly spawns" = true
+	"Variant spawns" = true
+	"Creature spawns" = true
+
+["Legendary Beast Items"]
+	#Determines the level of slowness granted by the Enchanted Root
+	"Root Slowness" = 1.0
+	#Determines the amount of time an enemy will be slowed by the root's attacks (in seconds)
+	"Root Timer" = 4.0
+	#Determines the level of speed granted when wearing the shellmet
+	"Shellmet Speed" = 1.0
+	#Determines the amount of seconds between each heal while holding the Frigid Horn
+	"Frigid Horn Timer" = 10.0
+	#Determines the amount of time before the viper fang ticks damage onto itself in seconds
+	"Viper Fang Damage Timer" = 8.0
+	#Determines the level of poison given to mobs with the gator tooth
+	"Gator Tooth Poison Level" = 1.0
+	#Determines the amount of time a mob is effected with the gator tooth's poison
+	"Gator Tooth Timer" = 5.0
+	#Determines how long a spawned phantom stalker will stay alive for (in seconds)
+	"Tamed Stalker Timer" = 300.0
+	#Determines the range of the Totem of Beasts (150 is default)
+	"Beast Totem Range" = 150.0
+	#Determines the level of resistance granted by the Jungle Pendant
+	"Jungle Pendant Resistance" = 1.0
+	#Determines the duration of resistance granted to the player
+	"Jungle Pendant Timer" = 6.0
+
+[Other]
+	#true means enabled, false means disabled
+	Startup_message = false
+
+["Rare Legendary Beasts"]
+	#0 means disabled 1 means enabled
+	"Rare Tree Ent Spawnrate" = 1.0
+	"Rare Rare King Hermit Spawnrate" = 1.0
+	"Rare Mummy Spawnrate" = 1.0
+	#1 is normal 2 is doubled 3 is tripled
+	"Rare Sea Viper Egg Rarity" = 1.0
+	"Rare Yeti Spawnrate" = 1.0
+	#1 is normal 2 is doubled 3 is tripled
+	"Rare Phoenix Egg Rarity" = 1.0
+	"Rare Vile Gator Spawnrate" = 1.0
+	"Rare Bone Stalker Spawnrate" = 1.0
+	"Woodland Witchdoctor Spawnrate" = 1.0
+
+["Beast Pit Configuration"]
+	#Determines the max number of Beast pits that can be lit at any given time per world
+	"Allowed Beast Pit Number" = 2.0
+	#Determines how long the Beast Pit stays lit (in ticks, default is 300)
+	"Beast Pit Lit Timer" = 100.0
+
