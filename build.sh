@@ -76,8 +76,8 @@ case $1 in
 		echo "   export          Export the modpack for manual installation"
 		echo
 		printf "\x1b[1mDev Options:\x1b[0m (prob not needed for normal use)\n"
-		echo "   curse-no-quek"
-		echo "   export-no-queck"
+		echo "   curse-no-quek   eat shit quek"
+		echo "   export-no-queck singlehandedly added 2 months to abysmal descent dev time"
 		echo "   export-no-pack  Export the modpack without zipping it"
 		echo "   package         Package from build directory"
 		;;
