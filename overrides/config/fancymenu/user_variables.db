@@ -1,2 +1,8 @@
 type = user_variables
 
+variable {
+  name = accepted_readme
+  value = false
+  reset_on_launch = false
+}
+
