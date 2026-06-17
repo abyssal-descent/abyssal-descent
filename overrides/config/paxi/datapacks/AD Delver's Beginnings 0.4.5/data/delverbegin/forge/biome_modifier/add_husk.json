@@ -1,6 +1,6 @@
 {
   "type": "forge:add_spawns",
-  "biomes": "yungscavebiomes:lost_cave",
+  "biomes": "yungscavebiomes:lost_caves",
   "spawners":
   {
     "type": "minecraft:husk",
