@@ -6,10 +6,27 @@
 ## High Priority Polish
 + Decrease slime spawn rate
 + fix void blossom advancement
++ rip sub terrestrial
++ keep hammers on death
++ increase ladder crawl speed
 
 ## Low priority Polish
 + Update Reliable Requiem when issue is fixed - https://github.com/evanbones/Reliable-Requiem/issues/3
-
++ lava pool feature breaking through obsidian
++ remove extra tools
++ waypoint keybinds dont work?
++ remove duplicate nuggets
++ lower tremor volume
++ mushroom stew with spelunkery mushrooms
++ increase hammer damage by 1
++ reduce iron hammer efficiency
++ disable phantoms
++ disable soul star
++ disable tuff ore from generating
++ give hardened root block a name in game so its not the code name
++ raise harvest level of silver/gold pickaxe wtf
++ second chance mod
++ rough emerald should be grindable on normal grindstone
 
 ## Textures
 
