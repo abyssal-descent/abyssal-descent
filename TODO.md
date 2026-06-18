@@ -1,4 +1,5 @@
 # Release todo
++ Make granite anvil breakable and drop itself
 
 ## Advancements
 + Hidden Advancement Kobolds! - Trade with a Kobold
