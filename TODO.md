@@ -25,7 +25,6 @@
 + disable soul star
 + disable tuff ore from generating
 + give hardened root block a name in game so its not the code name
-+ raise harvest level of silver/gold pickaxe wtf
 + second chance mod
 + rough emerald should be grindable on normal grindstone
 
