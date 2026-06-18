@@ -27,15 +27,15 @@ public abstract class ItemMixin {
 	private void onIsCorrectToolForDrops(BlockState state, CallbackInfoReturnable<Boolean> ci) {
 		var id = BuiltInRegistries.BLOCK.getKey(state.getBlock()).toString();
 
-		map_id_level(id).ifPresent(level -> {
-			if (this.getItem() instanceof DiggerItem t && t.getTier().getLevel() >= level) {
+		blockid_to_level(id).ifPresent(l -> {
+			if (this.getItem() instanceof DiggerItem t && t.getTier().getLevel() >= l) {
 				ci.setReturnValue(true);
 				ci.cancel();
 			}
 		});
 	}
 
-	private static Optional<Integer> map_id_level(String id) {
+	private static Optional<Integer> blockid_to_level(String id) {
 		return switch (id) {
 			case
 				"minecraft:copper_ore",
