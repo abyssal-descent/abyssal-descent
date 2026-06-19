@@ -19,7 +19,6 @@
 + remove duplicate nuggets
 + lower tremor volume
 + mushroom stew with spelunkery mushrooms
-+ reduce iron hammer efficiency
 + disable phantoms
 + disable soul star
 + disable tuff ore from generating
