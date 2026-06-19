@@ -59,7 +59,7 @@ public class Hammer extends DiggerItem {
 		public Material(int level, int durability, float speed, Item repair_item) {
 			this.level  = level;
 			this.speed  = speed;
-			this.repair = Ingredient.of(new ItemStack(repair_item, 2));
+			this.repair = Ingredient.of(new ItemStack(repair_item, 3));
 			this.durability = durability;
 		}
 
