@@ -5,11 +5,12 @@
 + Hidden Advancement Kobolds! - Trade with a Kobold
 
 ## High Priority Polish
-+ Decrease slime spawn rate
++ Decrease slime & deeper spawn rate
 + fix void blossom advancement
 + rip sub terrestrial
 + keep hammers on death
 + increase ladder crawl speed
++ keep compass on death
 
 ## Low priority Polish
 + Update Reliable Requiem when issue is fixed - https://github.com/evanbones/Reliable-Requiem/issues/3
