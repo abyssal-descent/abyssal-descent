@@ -5,7 +5,8 @@
 	"mixins": [
 		"ItemMixin",
 		"ServerAdvancementManagerMixin",
-		"TieredItemMixin"
+		"TieredItemMixin",
+		"BundleItemMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
