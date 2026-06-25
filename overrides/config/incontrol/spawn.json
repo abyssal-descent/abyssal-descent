@@ -216,5 +216,17 @@
     "mob": "organics:terracotta_coloss",
     "maxcount": 15,
     "result": "deny"
+  },
+  {
+    "mob": "galosphere:sparkle",
+    "biome": [
+      "yungscavebiomes:lost_caves",
+      "regions_unexplored:ancient_delta",
+      "galosphere:lichen_caves",
+      "galosphere:pink_salt_caves",
+      "regions_unexplored:bioshroom_caves",
+      "darkerdepths:glowshroom_forest"
+    ],
+    "result": "deny"
   }
 ]

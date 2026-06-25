@@ -221,6 +221,23 @@
     "maxthis": 25
     }
   },
+  {
+  "mob": "galosphere:sparkle",
+  "persecond": 0.2,
+  "attempts": 1,
+  "amount": {
+    "minimum": 1,
+    "maximum": 5
+  },
+  "conditions": {
+    "dimension": "delverbegin:delversbeginnings",
+    "mindist": 16,
+    "maxdist": 128,
+    "minheight": 0,
+    "maxheight": 100,
+    "maxthis": 25
+    }
+  },
   ///////////// Infernal Crossing
   {
     "mob": "species:cliff_hanger",
