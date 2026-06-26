@@ -16,10 +16,10 @@
 
   "enchantment.adresources.withering": "Withering",
 
-  "tooltip.adresources.granite_anvil":         "Shift Right click to place items onto anvils",
-  "tooltip.minecraft.anvil":                   "Shift Right click to place items onto anvils",
-  "tooltip.minecraft.chipped_anvil":           "Shift Right click to place items onto anvils",
-  "tooltip.minecraft.damaged_anvil":           "Shift Right click to place items onto anvils",
+  "tooltip.adresources.granite_anvil":         "SHIFT+RMB to place items onto anvils",
+  "tooltip.minecraft.anvil":                   "SHIFT+RMB to place items onto anvils",
+  "tooltip.minecraft.chipped_anvil":           "SHIFT+RMB to place items onto anvils",
+  "tooltip.minecraft.damaged_anvil":           "SHIFT+RMB to place items onto anvils",
 
   "tooltip.minecraft.copper_ingot":            "hammerable",
   "tooltip.minecraft.iron_ingot":              "hammerable",
@@ -29,16 +29,16 @@
   "tooltip.galosphere.pink_salt":              "hammerable",
   "tooltip.galosphere.rose_pink_salt":         "hammerable",
   "tooltip.galosphere.pastel_pink_salt":       "hammerable",
-   "tooltip.undergarden.cloggrum_ingot":       "hammerable",
+  "tooltip.undergarden.cloggrum_ingot":        "hammerable",
   "tooltip.undergarden.froststeel_ingot":      "hammerable",
 
-  "tooltip.adhammers.copper_hammer":           "Used to mine 3x3 and to smash ingots into plates",
-  "tooltip.adhammers.iron_hammer":             "Used to mine 3x3 and to smash ingots into plates",
-  "tooltip.adhammers.silver_hammer":           "Used to mine 3x3 and to smash ingots into plates",
-  "tooltip.adhammers.gold_hammer":             "Used to mine 3x3 and to smash ingots into plates",
-  "tooltip.adhammers.diamond_hammer":          "Used to mine 3x3 and to smash ingots into plates",
-  "tooltip.adhammers.netherite_hammer":        "Used to mine 3x3 and to smash ingots into plates",
-  "tooltip.adhammers.cloggrum_hammer":         "Used to mine 3x3 and to smash ingots into plates",
-  "tooltip.adhammers.froststeel_hammer":       "Used to mine 3x3 and to smash ingots into plates",
-  "tooltip.adhammers.utherium_hammer":         "Used to mine 3x3 and to smash ingots into plates"
+  "tooltip.adhammers.copper_hammer":           "Mines a 3x3 area; SHIFT+RMB to use on an anvil",
+  "tooltip.adhammers.iron_hammer":             "Mines a 3x3 area; SHIFT+RMB to use on an anvil",
+  "tooltip.adhammers.silver_hammer":           "Mines a 3x3 area; SHIFT+RMB to use on an anvil",
+  "tooltip.adhammers.gold_hammer":             "Mines a 3x3 area; SHIFT+RMB to use on an anvil",
+  "tooltip.adhammers.diamond_hammer":          "Mines a 3x3 area; SHIFT+RMB to use on an anvil",
+  "tooltip.adhammers.netherite_hammer":        "Mines a 3x3 area; SHIFT+RMB to use on an anvil",
+  "tooltip.adhammers.cloggrum_hammer":         "Mines a 3x3 area; SHIFT+RMB to use on an anvil",
+  "tooltip.adhammers.froststeel_hammer":       "Mines a 3x3 area; SHIFT+RMB to use on an anvil",
+  "tooltip.adhammers.utherium_hammer":         "Mines a 3x3 area; SHIFT+RMB to use on an anvil"
 }
