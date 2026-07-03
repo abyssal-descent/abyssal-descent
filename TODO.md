@@ -12,15 +12,19 @@
 + increase ladder crawl speed
 + disable flint tools
 + Go through fuers structures to check for iron blocks/ore
-+ disable villager spawner in epic dungeons
 + A MILLION sparkles spawning in crystal caverns
 + Re enable Enchanted books (when deleted books can still be enchanted but upon taking it the game deletes it from your inventory)
-+ Check if villagers can trade books
 + keep compass on death
 + stackable potions and food items
-+ enchant re roll mod
 + make shields require plates
 + can't have multiple graves with quark, when you die twice in a row your old grave becomes items
++ remove emerald armor
++ placing items on anvils causes them to lose all NBT data
++ GREATLY decrease lichen biome slime spawn rate
+
++ disable villager spawner in epic dungeons
++ Check if villagers can trade books
++ maybe just disable villagers alltogether
 
 ## Low priority Polish
 + Update Reliable Requiem when issue is fixed - https://github.com/evanbones/Reliable-Requiem/issues/3
@@ -47,8 +51,16 @@
 + make explorers compass give minimap
 + disable obsidian hammer
 + make bioshroom trees only generate on right block
++ piston boots? Re go over organics items
++ cloggrum ore should drop RAW iron nuggets
++ Gold axes should have looting rather than fortune
++ Gold Hammers should have fortune
 
 ## Textures
+
+## Enchantment Overhaul Mod
++ Disable enchanting books
++ make mod :)
 
 ---
 # Dimension Work
