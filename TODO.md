@@ -34,7 +34,6 @@
 + remove duplicate nuggets
 + lower tremor volume
 + mushroom stew with spelunkery mushrooms
-+ disable phantoms
 + disable soul star
 + disable tuff ore from generating
 + give hardened root block a name in game so its not the code name
