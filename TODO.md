@@ -10,7 +10,6 @@
 + rip sub terrestrial
 + keep hammers on death
 + increase ladder crawl speed
-+ disable flint tools
 + Go through fuers structures to check for iron blocks/ore
 + A MILLION sparkles spawning in crystal caverns
 + Re enable Enchanted books (when deleted books can still be enchanted but upon taking it the game deletes it from your inventory)
@@ -18,7 +17,6 @@
 + stackable potions and food items
 + make shields require plates
 + can't have multiple graves with quark, when you die twice in a row your old grave becomes items
-+ remove emerald armor
 + placing items on anvils causes them to lose all NBT data
 + GREATLY decrease lichen biome slime spawn rate
 
@@ -27,33 +25,32 @@
 + maybe just disable villagers alltogether
 
 ## Low priority Polish
-+ Update Reliable Requiem when issue is fixed - https://github.com/evanbones/Reliable-Requiem/issues/3
-+ lava pool feature breaking through obsidian
-+ remove extra tools
++ Update Reliable Requiem, issue is fixed - https://github.com/evanbones/Reliable-Requiem/issues/3
++ lava pool feature breaking through obsidian (try forge remove from tag)
 + waypoint keybinds dont work?
-+ remove duplicate nuggets
-+ lower tremor volume
++ check duplicate copper nuggets recipes ingot > nugget
++ further lower tremor volume
 + mushroom stew with spelunkery mushrooms
 + disable soul star
 + disable tuff ore from generating
 + give hardened root block a name in game so its not the code name
 + second chance mod
-+ rough emerald should be grindable on normal grindstone
++ Check that rough emerald is grindable on normal grindstone and diamond
 + look into sophisticated storage & Sophisticated Backpacks
 + skin layers 3d
 + Clickable Advancements mod
-+ rough emerald doesnt require diamond grindstone
 + raw magnetite cannot be smelted by blast furnace lol spelunkery bug?
 + spring water
 + Yoink terraria house to fix generation
 + undergarden harpoon advancement?
 + make explorers compass give minimap
 + disable obsidian hammer
-+ make bioshroom trees only generate on right block
++ make bioshroom trees only generate on right block (Check)
 + piston boots? Re go over organics items
 + cloggrum ore should drop RAW iron nuggets
 + Gold axes should have looting rather than fortune
 + Gold Hammers should have fortune
++ disable spelunkers charm crate?
 
 ## Textures
 
