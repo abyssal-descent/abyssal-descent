@@ -35,7 +35,6 @@
 + disable tuff ore from generating
 + give hardened root block a name in game so its not the code name
 + second chance mod
-+ Check that rough emerald is grindable on normal grindstone and diamond
 + look into sophisticated storage & Sophisticated Backpacks
 + skin layers 3d
 + Clickable Advancements mod
