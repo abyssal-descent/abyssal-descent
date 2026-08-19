@@ -39,27 +39,27 @@ public class ADHammers {
 				Blocks.ANVIL, Blocks.CHIPPED_ANVIL, Blocks.DAMAGED_ANVIL, 
 				GRANITE_ANVIL.get()).build(null));
 
-	static final float DUR_MUL = 5.0;
-	static final float EFF_MUL = 0.625;
+	static final float DUR_MUL = 5.0f;
+	static final float EFF_MUL = 0.625f;
 
 	public static final RegistryObject<Hammer> COPPER_HAMMER = ITEMS.register("copper_hammer", () ->
-		new Hammer(new Hammer.Material(1,  191  * DUR_MUL,  4.0 * EFF_MUL,  Items.COPPER_INGOT), 10.0));
+		new Hammer(new Hammer.Material(1,  (int)(191  * DUR_MUL),  4.0f  * EFF_MUL,  Items.COPPER_INGOT), 10.0f));
 	public static final RegistryObject<Hammer> IRON_HAMMER = ITEMS.register("iron_hammer", () ->
-		new Hammer(new Hammer.Material(2,  250  * DUR_MUL,  6.0 * EFF_MUL,  Items.IRON_INGOT), 10.0));
+		new Hammer(new Hammer.Material(2,  (int)(250  * DUR_MUL),  6.0f  * EFF_MUL,  Items.IRON_INGOT), 10.0f));
 	public static final RegistryObject<Hammer> GOLD_HAMMER = ITEMS.register("gold_hammer", () ->
-		new Hammer(new Hammer.Material(2,  75   * DUR_MUL,  12  * EFF_MUL,  Items.GOLD_INGOT), 8.0)); // pickaxe*0.5+1.0 for this
+		new Hammer(new Hammer.Material(2,  (int)(75   * DUR_MUL),  12.0f * EFF_MUL,  Items.GOLD_INGOT), 8.0f)); // pickaxe*0.5+1.0 for this
 	public static final RegistryObject<Hammer> SILVER_HAMMER = ITEMS.register("silver_hammer", () ->
-		new Hammer(new Hammer.Material(2,  157  * DUR_MUL,  9.0 * EFF_MUL,  Resolve.item("caverns_and_chasms:silver_ingot")), 7.0));
+		new Hammer(new Hammer.Material(2,  (int)(157  * DUR_MUL),  9.0f  * EFF_MUL,  Resolve.item("caverns_and_chasms:silver_ingot")), 7.0f));
 	public static final RegistryObject<Hammer> DIAMOND_HAMMER = ITEMS.register("diamond_hammer", () ->
-		new Hammer(new Hammer.Material(3,  1561 * DUR_MUL,  8.0 * EFF_MUL,  Items.DIAMOND), 10.0));
+		new Hammer(new Hammer.Material(3,  (int)(1561 * DUR_MUL),  8.0f  * EFF_MUL,  Items.DIAMOND), 10.0f));
 	public static final RegistryObject<Hammer> UTHERIUM_HAMMER = ITEMS.register("utherium_hammer", () ->
-		new Hammer(new Hammer.Material(3,  1279 * DUR_MUL,  8.5 * EFF_MUL,  Resolve.item("undergarden:utherium_crystal")), 10.5));
+		new Hammer(new Hammer.Material(3,  (int)(1279 * DUR_MUL),  8.5f  * EFF_MUL,  Resolve.item("undergarden:utherium_crystal")), 10.5f));
 	public static final RegistryObject<Hammer> NETHERITE_HAMMER = ITEMS.register("netherite_hammer", () ->
-		new Hammer(new Hammer.Material(4,  2031 * DUR_MUL,  9.0 * EFF_MUL,  Items.NETHERITE_INGOT), 10.0));
+		new Hammer(new Hammer.Material(4,  (int)(2031 * DUR_MUL),  9.0f  * EFF_MUL,  Items.NETHERITE_INGOT), 10.0f));
 	public static final RegistryObject<Hammer> CLOGGRUM_HAMMER = ITEMS.register("cloggrum_hammer", () ->
-		new Hammer(new Hammer.Material(2,  285  * DUR_MUL,  6.0 * EFF_MUL,  Resolve.item("undergarden:cloggrum_ingot")), 10.0));
+		new Hammer(new Hammer.Material(2,  (int)(285  * DUR_MUL),  6.0f  * EFF_MUL,  Resolve.item("undergarden:cloggrum_ingot")), 10.0f));
 	public static final RegistryObject<Hammer> FROSTSTEEL_HAMMER = ITEMS.register("froststeel_hammer", () ->
-		new Hammer(new Hammer.Material(2,  575  * DUR_MUL,  7.0 * EFF_MUL,  Resolve.item("undergarden:frosteel_ingot")), 10.0));
+		new Hammer(new Hammer.Material(2,  (int)(575  * DUR_MUL),  7.0f  * EFF_MUL,  Resolve.item("undergarden:frosteel_ingot")), 10.0f));
 
 	public static final RegistryObject<Item> COPPER_PLATE       = item("copper_plate"      );
 	public static final RegistryObject<Item> IRON_PLATE         = item("iron_plate"        );
