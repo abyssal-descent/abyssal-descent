@@ -622,7 +622,7 @@
 		"Display Baked Enchantments In Tooltip" = true
 		"Italic Tooltip" = true
 		#Enchantments other than Gold's Fortune/Looting to bake into items. Format is "item+enchant@level", such as "minecraft:stick+sharpness@10".
-		"Baked Enchantments" = ["caverns_and_chasms:silver_sword+smite@2", "caverns_and_chasms:silver_axe+smite@2", "caverns_and_chasms:silver_pickaxe+smite@2", "caverns_and_chasms:silver_shovel+smite@2", "caverns_and_chasms:silver_hoe+smite@2", "darkerdepths:stiletto+adresources:withering@2"]
+		"Baked Enchantments" = ["caverns_and_chasms:silver_sword+smite@2", "caverns_and_chasms:silver_axe+smite@2", "caverns_and_chasms:silver_pickaxe+smite@2", "caverns_and_chasms:silver_shovel+smite@2", "caverns_and_chasms:silver_hoe+smite@2", "darkerdepths:stiletto+adresources:withering@2","adhammers:gold_hammer+fortune@2","minecraft:golden_pickaxe+fortune@2","minecraft:golden_axe+looting@2"]
 
 	[tweaks.grab_chickens]
 		"Needs No Helmet" = true
@@ -1944,7 +1944,7 @@
 
 	[oddities.totem_of_holding]
 		#Set this to false to remove the behaviour where totems destroy themselves if the player dies again.
-		"Dark Souls Mode" = true
+		"Dark Souls Mode" = false
 		#Totem will always spawn if the player killer is themselves.
 		"Spawn Totem on PVP Kill" = false
 		#Set this to true to make it so that if a totem is destroyed, the items it holds are destroyed alongside it rather than dropped
