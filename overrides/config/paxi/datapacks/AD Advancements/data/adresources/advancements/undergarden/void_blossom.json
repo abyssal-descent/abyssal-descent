@@ -2,18 +2,20 @@
   "parent": "adresources:undergarden/catacombs",
   "criteria": {
     "enter_void_blossom": {
-      "trigger": "minecraft:location",
       "conditions": {
-        "player": {
-          "condition": "minecraft:entity_properties",
-          "entity": "this",
-          "predicate": {
-            "location": {
-              "structure": "undergarden:void_blossom"
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "location": {
+                "structure": "undergarden:void_blossom"
+              }
             }
           }
-        }
-      }
+        ]
+      },
+      "trigger": "minecraft:location"
     }
   },
   "display": {
@@ -33,7 +35,7 @@
   },
   "requirements": [
     [
-    "enter_void_blossom"
+      "enter_void_blossom"
     ]
   ],
   "sends_telemetry_event": true
