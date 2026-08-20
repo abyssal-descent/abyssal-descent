@@ -5,51 +5,33 @@
 + Hidden Advancement Kobolds! - Trade with a Kobold
 
 ## High Priority Polish
-+ Decrease slime & deeper spawn rate
++ check deeper spawn rate
 + fix void blossom advancement
-+ rip sub terrestrial
-+ keep hammers on death
-+ increase ladder crawl speed
-+ Go through fuers structures to check for iron blocks/ore
-+ A MILLION sparkles spawning in crystal caverns
-+ Re enable Enchanted books (when deleted books can still be enchanted but upon taking it the game deletes it from your inventory)
-+ keep compass on death
++ implement ripped sub terrestrial into world gen
++ test and change ladder speed config
++ A MILLION sparkles spawning in crystal caverns (test if still an issue)
 + stackable potions and food items
 + make shields require plates
-+ can't have multiple graves with quark, when you die twice in a row your old grave becomes items
-+ placing items on anvils causes them to lose all NBT data
-+ GREATLY decrease lichen biome slime spawn rate
-
++ test the GREATLY decrease lichen biome slime spawn rate
 + disable villager spawner in epic dungeons
 + Check if villagers can trade books
 + maybe just disable villagers alltogether
 
 ## Low priority Polish
-+ Update Reliable Requiem, issue is fixed - https://github.com/evanbones/Reliable-Requiem/issues/3
-+ lava pool feature breaking through obsidian (try forge remove from tag)
 + waypoint keybinds dont work?
-+ check duplicate copper nuggets recipes ingot > nugget
-+ further lower tremor volume
-+ mushroom stew with spelunkery mushrooms
-+ disable soul star
 + disable tuff ore from generating
 + give hardened root block a name in game so its not the code name
-+ second chance mod
 + look into sophisticated storage & Sophisticated Backpacks
-+ skin layers 3d
-+ Clickable Advancements mod
 + raw magnetite cannot be smelted by blast furnace lol spelunkery bug?
 + spring water
-+ Yoink terraria house to fix generation
 + undergarden harpoon advancement?
-+ make explorers compass give minimap
-+ disable obsidian hammer
++ make explorers compass give minimap (probably cant do both compasses)
 + make bioshroom trees only generate on right block (Check)
-+ piston boots? Re go over organics items
 + cloggrum ore should drop RAW iron nuggets
-+ Gold axes should have looting rather than fortune
-+ Gold Hammers should have fortune
-+ disable spelunkers charm crate?
++ Go through fuers structures to check for iron blocks/ore
+
+## SLAB POLISH
++ placing items on anvils causes them to lose all NBT data
 
 ## Textures
 
@@ -111,4 +93,7 @@
 + Explorers compass retexture
 + Granite Anvil
 + Deepslate waystones generate rarely in all layers and are un obtainable. Normal waystones are craftable and expensive but when placed anywhere besides the overworld EXPLODE!!!
++ Remove all non overworld biomes used in custom dims from the is_overworld tag and re implement everything missing
 + make lichen mushroom house strucutre?
++ mushroom stew with spelunkery mushrooms
++ lava pool feature breaking through obsidian (try forge remove from tag)
