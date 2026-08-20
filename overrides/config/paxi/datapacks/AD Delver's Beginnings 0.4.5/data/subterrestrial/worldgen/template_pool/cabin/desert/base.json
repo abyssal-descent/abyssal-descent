@@ -1,0 +1,59 @@
+{
+  "elements": [
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "subterrestrial:cabin/desert/base_lower_0",
+        "processors": "subterrestrial:cabin/desert/degradation_replace",
+        "projection": "rigid"
+      },
+      "weight": 100
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "subterrestrial:cabin/desert/base_0",
+        "processors": "subterrestrial:cabin/desert/degradation_replace",
+        "projection": "rigid"
+      },
+      "weight": 100
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "subterrestrial:cabin/desert/base_upper_0",
+        "processors": "subterrestrial:cabin/desert/degradation_replace",
+        "projection": "rigid"
+      },
+      "weight": 100
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "subterrestrial:cabin/desert/base_lower_0",
+        "processors": "subterrestrial:cabin/desert/replace",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "subterrestrial:cabin/desert/base_0",
+        "processors": "subterrestrial:cabin/desert/replace",
+        "projection": "rigid"
+      },
+      "weight": 5
+    },
+    {
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "subterrestrial:cabin/desert/base_upper_0",
+        "processors": "subterrestrial:cabin/desert/replace",
+        "projection": "rigid"
+      },
+      "weight": 5
+    }
+  ],
+  "fallback": "minecraft:empty"
+}

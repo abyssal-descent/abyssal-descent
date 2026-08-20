@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 930216435,
+    "separation": 6,
+    "spacing": 8
+  },
+  "structures": [
+    {
+      "structure": "subterrestrial:deepslate_cabin",
+      "weight": 1
+    }
+  ]
+}

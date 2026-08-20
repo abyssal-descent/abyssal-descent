@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#minecraft:is_ocean",
+    "#minecraft:has_structure/ocean_ruin_warm",
+    "minecraft:river",
+    {
+      "id": "#forge:is_water",
+      "required": false
+    }
+  ]
+}

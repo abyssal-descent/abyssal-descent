@@ -1,0 +1,11 @@
+{
+  "values": [
+    "#minecraft:is_jungle",
+    "#minecraft:has_structure/jungle_temple",
+    "minecraft:lush_caves",
+    {
+      "id": "#forge:is_lush",
+      "required": false
+    }
+  ]
+}

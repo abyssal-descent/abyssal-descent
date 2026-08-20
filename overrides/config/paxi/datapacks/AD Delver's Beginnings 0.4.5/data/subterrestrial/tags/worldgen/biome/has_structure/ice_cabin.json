@@ -1,0 +1,17 @@
+{
+  "values": [
+    "#minecraft:has_structure/igloo",
+    "#minecraft:has_structure/village_snowy",
+    "minecraft:ice_spikes",
+    "minecraft:snowy_plains",
+    "minecraft:snowy_beach",
+    "minecraft:snowy_taiga",
+    "minecraft:snowy_slopes",
+    "minecraft:frozen_river",
+    "minecraft:frozen_peaks",
+    {
+      "id": "#forge:is_snowy",
+      "required": false
+    }
+  ]
+}

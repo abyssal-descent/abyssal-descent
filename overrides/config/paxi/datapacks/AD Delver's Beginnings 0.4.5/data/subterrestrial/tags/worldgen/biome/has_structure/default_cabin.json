@@ -1,0 +1,19 @@
+{
+  "values": [
+    "#minecraft:has_structure/village_plains",
+    "#minecraft:is_hill",
+    "#minecraft:is_forest",
+    "minecraft:meadow",
+    "minecraft:jagged_peaks",
+    "minecraft:stony_peaks",
+    "minecraft:stony_shore",
+    "minecraft:mushroom_fields",
+    "minecraft:plains",
+    "minecraft:swamp",
+    "minecraft:dripstone_caves",
+    {
+      "id": "#forge:is_plains",
+      "required": false
+    }
+  ]
+}

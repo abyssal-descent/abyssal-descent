@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 764700120,
+    "separation": 6,
+    "spacing": 7
+  },
+  "structures": [
+    {
+      "structure": "subterrestrial:taiga_cabin",
+      "weight": 1
+    }
+  ]
+}
