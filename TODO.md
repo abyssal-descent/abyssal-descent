@@ -5,14 +5,11 @@
 + Hidden Advancement Kobolds! - Trade with a Kobold
 
 ## High Priority Polish
-+ check deeper spawn rate
-+ fix void blossom advancement
 + implement ripped sub terrestrial into world gen
-+ test and change ladder speed config
 + A MILLION sparkles spawning in crystal caverns (test if still an issue)
 + stackable potions and food items
 + make shields require plates
-+ test the GREATLY decrease lichen biome slime spawn rate
++ test/fix the GREATLY decreased lichen biome slime spawn rate
 + disable villager spawner in epic dungeons
 + Check if villagers can trade books
 + maybe just disable villagers alltogether
@@ -20,7 +17,6 @@
 ## Low priority Polish
 + waypoint keybinds dont work?
 + disable tuff ore from generating
-+ give hardened root block a name in game so its not the code name
 + look into sophisticated storage & Sophisticated Backpacks
 + raw magnetite cannot be smelted by blast furnace lol spelunkery bug?
 + spring water
@@ -30,8 +26,12 @@
 + cloggrum ore should drop RAW iron nuggets
 + Go through fuers structures to check for iron blocks/ore
 
+## Playtesting todo
++ test and change ladder speed config
+
 ## SLAB POLISH
 + placing items on anvils causes them to lose all NBT data
++ give hardened root block a name in game so its not the code name
 
 ## Textures
 
