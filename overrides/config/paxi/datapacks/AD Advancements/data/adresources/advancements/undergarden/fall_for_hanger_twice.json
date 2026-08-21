@@ -1,0 +1,28 @@
+{
+  "parent": "adresources:undergarden/fall_for_hanger",
+  "display": {
+    "icon": {
+      "item": "species:coil"
+    },
+    "title": {
+      "translate": "advancements.species.fall_for_hanger_twice.title"
+    },
+    "description": {
+      "translate": "advancements.species.fall_for_hanger_twice.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "fall_for_hanger_twice": {
+      "trigger": "species:fall_for_hanger_twice"
+    }
+  },
+  "requirements": [
+    [
+      "fall_for_hanger_twice"
+    ]
+  ]
+}

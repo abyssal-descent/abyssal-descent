@@ -1,0 +1,29 @@
+{
+  "parent": "adresources:undergarden/root",
+  "display": {
+    "icon": {
+      "item": "species:coil",
+      "nbt": "{EndPointPos:{X:0,Y:0,Z:0}}"
+    },
+    "title": {
+      "translate": "advancements.species.fall_for_hanger.title"
+    },
+    "description": {
+      "translate": "advancements.species.fall_for_hanger.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "fall_for_hanger": {
+      "trigger": "species:fall_for_hanger"
+    }
+  },
+  "requirements": [
+    [
+      "fall_for_hanger"
+    ]
+  ]
+}
