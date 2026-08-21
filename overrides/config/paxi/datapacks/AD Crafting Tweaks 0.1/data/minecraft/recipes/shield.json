@@ -6,7 +6,7 @@
       "tag": "minecraft:planks"
     },
     "o": {
-      "item": "minecraft:copper_ingot"
+      "item": "adhammers:copper_plate"
     }
   },
   "pattern": [
