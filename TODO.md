@@ -6,13 +6,12 @@
 
 ## High Priority Polish
 + implement ripped sub terrestrial into world gen
-+ make shields require plates
 + disable villager spawner in epic dungeons
++ test removed ore veins from infernal crossing and delvers.
 
 ## Low priority Polish
 + waypoint keybinds dont work?
 + disable tuff ore from generating
-+ spring water
 + make bioshroom trees only generate on right block (Check if they generate in structures)
 + Go through fuers structures to check for iron blocks/ore
 + Tutorial World button on Main Menu
@@ -21,9 +20,11 @@
 + test and change ladder speed config
 + test/fix the GREATLY decreased lichen biome slime spawn rate
 
+
 ## SLAB POLISH
 + placing items on anvils causes them to lose all NBT data
 + give hardened root block a name in game so its not the code name
++ Disable noise settings ore veins from generating in overworld
 
 ## Textures
 
@@ -37,7 +38,7 @@
 ## Overworld
 
 ## Delver's Beginning
-
+- disable villager spawners in all dimensions with reliable replacer
 ## The Undergarden
 - fix void blossom structure, void blossom spawns 1 block too high!
 
@@ -93,6 +94,7 @@
 + stackable potions and food items?
 + maybe just disable villagers alltogether
 + look into sophisticated storage & Sophisticated Backpacks
++ spring water
 
 
 ## is_overworld tag check
