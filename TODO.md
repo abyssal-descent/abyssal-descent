@@ -6,28 +6,20 @@
 
 ## High Priority Polish
 + implement ripped sub terrestrial into world gen
-+ A MILLION sparkles spawning in crystal caverns (test if still an issue)
-+ stackable potions and food items
 + make shields require plates
-+ test/fix the GREATLY decreased lichen biome slime spawn rate
 + disable villager spawner in epic dungeons
-+ Check if villagers can trade books
-+ maybe just disable villagers alltogether
 
 ## Low priority Polish
 + waypoint keybinds dont work?
 + disable tuff ore from generating
-+ look into sophisticated storage & Sophisticated Backpacks
-+ raw magnetite cannot be smelted by blast furnace lol spelunkery bug?
 + spring water
-+ undergarden harpoon advancement?
-+ make explorers compass give minimap (probably cant do both compasses)
-+ make bioshroom trees only generate on right block (Check)
-+ cloggrum ore should drop RAW iron nuggets
++ make bioshroom trees only generate on right block (Check if they generate in structures)
 + Go through fuers structures to check for iron blocks/ore
++ Tutorial World button on Main Menu
 
 ## Playtesting todo
 + test and change ladder speed config
++ test/fix the GREATLY decreased lichen biome slime spawn rate
 
 ## SLAB POLISH
 + placing items on anvils causes them to lose all NBT data
@@ -97,3 +89,11 @@
 + make lichen mushroom house strucutre?
 + mushroom stew with spelunkery mushrooms
 + lava pool feature breaking through obsidian (try forge remove from tag)
++ make explorers compass give minimap (probably cant do both compasses)
++ stackable potions and food items?
++ maybe just disable villagers alltogether
++ look into sophisticated storage & Sophisticated Backpacks
+
+
+## is_overworld tag check
+- nephrite geode
