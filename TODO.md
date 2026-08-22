@@ -93,6 +93,7 @@
 + maybe just disable villagers alltogether
 + look into sophisticated storage & Sophisticated Backpacks
 + spring water
++ adhammers jei support
 
 
 ## is_overworld tag check
