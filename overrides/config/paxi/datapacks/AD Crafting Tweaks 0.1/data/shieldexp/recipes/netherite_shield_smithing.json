@@ -1,7 +1,7 @@
 {
   "type": "minecraft:smithing_transform",
   "addition": {
-    "item": "adresources:netherite_plate"
+    "item": "adhammers:netherite_plate"
   },
   "base": {
     "item": "shieldexp:diamond_shield"
