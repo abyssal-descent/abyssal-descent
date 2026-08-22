@@ -22,7 +22,6 @@
 
 
 ## SLAB POLISH
-+ placing items on anvils causes them to lose all NBT data
 + Disable noise settings ore veins from generating in overworld
 
 ## Textures

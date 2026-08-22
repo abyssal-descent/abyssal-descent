@@ -71,20 +71,20 @@ public class AnvilBE extends BlockEntity {
 		return Optional.empty();
 	}
 
-	public boolean push(Item item) {
+	public boolean push(ItemStack item) {
 		var i = find_free_slot();
 		if (!i.isPresent()) return false;
-		handler.setStackInSlot(i.get(), new ItemStack(item));
+		handler.setStackInSlot(i.get(), item);
 		return true;
 	}
 
-	public Optional<Item> pop() {
+	public Optional<ItemStack> pop() {
 		var i = find_free_slot().orElse(MAX_SIZE) - 1;
 		if (i == -1) return Optional.empty();
 		
 		var item = handler.getStackInSlot(i);
 		handler.setStackInSlot(i, ItemStack.EMPTY);
-		return Optional.of(item.getItem());
+		return Optional.of(item);
 	}
 
 	public void clear() {
@@ -92,12 +92,12 @@ public class AnvilBE extends BlockEntity {
 			handler.setStackInSlot(i, ItemStack.EMPTY);
 	}
 
-	public List<Item> get_contents() {
-		var list = new ArrayList<Item>();
+	public List<ItemStack> get_contents() {
+		var list = new ArrayList<ItemStack>();
 		for (var i = 0; i < MAX_SIZE; i++) {
 			var stack = handler.getStackInSlot(i);
 			if (stack.isEmpty()) break;
-			list.add(stack.getItem());
+			list.add(stack);
 		}
 		return list;
 	}

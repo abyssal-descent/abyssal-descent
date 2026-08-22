@@ -34,7 +34,7 @@ public class AnvilEvents {
 		for (var item : entity.get_contents())
 			Containers.dropItemStack(server, 
 				pos.getX() + 0.5, pos.getY() + 1.0, pos.getZ() + 0.5, 
-				new ItemStack(item));
+				item);
 	}
 
 	@SubscribeEvent(priority = EventPriority.HIGHEST)
@@ -54,7 +54,7 @@ public class AnvilEvents {
 		event.setCancellationResult(InteractionResult.CONSUME); // CONSUME?
 
 		if (stack.getItem() == Items.AIR) {
-			entity.pop().ifPresent(i -> player.addItem(new ItemStack(i)));
+			entity.pop().ifPresent(i -> player.addItem(i));
 			return;
 		}
 
@@ -85,7 +85,7 @@ public class AnvilEvents {
 					25, 0.25, 0.2, 0.25, 0.02);
 
 				for (var item : entity.get_contents())
-					drop_stack(level, x, y, z, new ItemStack(item));
+					drop_stack(level, x, y, z, item);
 
 				entity.clear();
 				
@@ -101,7 +101,10 @@ public class AnvilEvents {
 			return;
 		}
 
-		if (entity.push(stack.getItem())) {
+		var item = stack.copy();
+		item.setCount(1);
+
+		if (entity.push(item)) {
 			stack.shrink(1);
 		}
 	}

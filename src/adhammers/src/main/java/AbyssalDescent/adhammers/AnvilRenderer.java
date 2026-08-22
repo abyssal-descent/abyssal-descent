@@ -71,7 +71,7 @@ public class AnvilRenderer {
 
 				ps.mulPose(Axis.XP.rotationDegrees(90.0f));
 				ps.scale(0.5f, 0.5f, 0.5f);
-				renderer.renderStatic(new ItemStack(item), ItemDisplayContext.FIXED,
+				renderer.renderStatic(item, ItemDisplayContext.FIXED,
 					light_level, OverlayTexture.NO_OVERLAY, ps, buf, level, 1);
 				ps.popPose();
 				i++;
