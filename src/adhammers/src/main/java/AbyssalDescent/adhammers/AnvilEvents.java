@@ -68,6 +68,8 @@ public class AnvilEvents {
 				ParticleTypes.CRIT, x, y, z,
 				12, 0.2, 0.1, 0.2, 0.05);
 
+			if (entity.get_contents().isEmpty()) return;
+
 			entity.hits = entity.hits + 1;
 
 			if (entity.hits < AnvilBE.REQ_HITS) return;
