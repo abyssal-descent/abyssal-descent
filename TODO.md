@@ -23,7 +23,6 @@
 
 ## SLAB POLISH
 + placing items on anvils causes them to lose all NBT data
-+ give hardened root block a name in game so its not the code name
 + Disable noise settings ore veins from generating in overworld
 
 ## Textures
