@@ -7,10 +7,10 @@
   "start_height": {
     "type": "minecraft:uniform",
     "max_inclusive": {
-      "absolute": 15
+      "absolute": 115
     },
     "min_inclusive": {
-      "absolute": 115
+      "absolute": 15
     }
   },
   "start_pool": "subterrestrial:cabin/desert/base",
