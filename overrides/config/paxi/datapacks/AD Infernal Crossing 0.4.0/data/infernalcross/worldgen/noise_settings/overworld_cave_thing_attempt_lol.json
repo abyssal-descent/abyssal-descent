@@ -331,24 +331,9 @@
         }
       }
     },
-    "vein_toggle": {
-      "type": "minecraft:interpolated",
-      "argument": {
-        "type": "minecraft:range_choice",
-        "input": "minecraft:y",
-        "max_exclusive": 51,
-        "min_inclusive": -60,
-        "when_in_range": {
-          "type": "minecraft:noise",
-          "noise": "minecraft:ore_veininess",
-          "xz_scale": 1.5,
-          "y_scale": 1.5
-        },
-        "when_out_of_range": 0
-      }
-    }
+    "vein_toggle":0
   },
-  "ore_veins_enabled": true,
+  "ore_veins_enabled": false,
   "sea_level": -46,
   "spawn_target": [
     {
