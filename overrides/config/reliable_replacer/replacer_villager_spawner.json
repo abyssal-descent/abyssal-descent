@@ -1,0 +1,6 @@
+{
+  "inputs": ["minecraft:spawner"],
+  "input_nbt": "{SpawnData:{entity:{id:\"minecraft:villager\"}}}",
+  "output": "minecraft:spawner",
+  "output_nbt": "{SpawnData:{entity:{id:\"minecraft:pillager\"}}}"
+}
