@@ -1,18 +1,11 @@
 # Release todo
-+ Make granite anvil breakable and drop itself
 
 ## Advancements
-+ Hidden Advancement Kobolds! - Trade with a Kobold
 
 ## High Priority Polish
-+ implement ripped sub terrestrial into world gen
-+ disable villager spawner in epic dungeons
-+ test removed ore veins from infernal crossing and delvers.
++ TEST disabled villager spawner in epic dungeons
 
 ## Low priority Polish
-+ waypoint keybinds dont work?
-+ disable tuff ore from generating
-+ make bioshroom trees only generate on right block (Check if they generate in structures)
 + Go through fuers structures to check for iron blocks/ore
 + Tutorial World button on Main Menu
 
@@ -37,11 +30,12 @@
 
 ## Delver's Beginning
 - disable villager spawners in all dimensions with reliable replacer
+
 ## The Undergarden
 - fix void blossom structure, void blossom spawns 1 block too high!
 
 ## Infernal Crossing
-
+- ore generation broke fix
 ---
 
 ## Final Touches
@@ -52,7 +46,6 @@
 ## mods to look into
 - ascended quark
 - aether lost content addon
-- crawl on demand
 - every compat
 - extra compat
 - farsight
@@ -94,6 +87,8 @@
 + look into sophisticated storage & Sophisticated Backpacks
 + spring water
 + adhammers jei support
++ waypoint keybind doesnt work when minimap requires item, but world map still allows u to make waypoints PR Xaeros?
++ Hidden Advancement Kobolds! - Trade with a Kobold
 
 
 ## is_overworld tag check
