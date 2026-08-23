@@ -3,7 +3,6 @@
 ## Advancements
 
 ## High Priority Polish
-+ TEST disabled villager spawner in epic dungeons
 
 ## Low priority Polish
 + Go through fuers structures to check for iron blocks/ore
@@ -12,10 +11,13 @@
 ## Playtesting todo
 + test and change ladder speed config
 + test/fix the GREATLY decreased lichen biome slime spawn rate
-
++ TEST disabled villager spawner in epic dungeons
 
 ## SLAB POLISH
-+ Disable noise settings ore veins from generating in overworld
++ Disclaimer on main menu before main screen shows upon first time launching the pack
++ add blockbench files to github
++ make blockbench logos to propose
++ research anvil culling thing
 
 ## Textures
 
@@ -89,6 +91,7 @@
 + adhammers jei support
 + waypoint keybind doesnt work when minimap requires item, but world map still allows u to make waypoints PR Xaeros?
 + Hidden Advancement Kobolds! - Trade with a Kobold
++ Disable noise settings ore veins from generating in overworld
 
 
 ## is_overworld tag check
