@@ -25,7 +25,7 @@ public class GraniteAnvilBlock extends Block implements EntityBlock {
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public GraniteAnvilBlock() {
-		super(BlockBehaviour.Properties.copy(Blocks.GRANITE));
+		super(BlockBehaviour.Properties.copy(Blocks.GRANITE).noOcclusion());
 	}
 
 	@Override
