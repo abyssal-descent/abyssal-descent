@@ -1,0 +1,10 @@
+{
+  "schema_version": 2,
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+    "Nature X - 12.2 [1.20.1].zip"
+  ],
+  "default_overrides": {
+    "force_compatible": true
+  }
+}
