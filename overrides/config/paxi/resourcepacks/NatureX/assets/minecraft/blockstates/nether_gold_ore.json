@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/nether_gold_ore", "weight": 7},
-            { "model": "block/nether_gold_ore_3d", "weight": 1}
-        ]
-    }
-}

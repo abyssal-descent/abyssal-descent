@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/blue_ice", "weight": 25},
-            { "model": "block/pointy_blue_ice", "weight": 1}
-        ]
-    }
-}

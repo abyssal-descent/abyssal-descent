@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/diamond_ore", "weight": 7},
-            { "model": "block/diamond_ore_3d", "weight": 1}
-        ]
-    }
-}

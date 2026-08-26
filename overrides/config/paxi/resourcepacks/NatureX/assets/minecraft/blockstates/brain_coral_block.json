@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/brain_coral_block", "weight": 5},
-            { "model": "block/brain_coral_block_bushy", "weight": 3}
-        ]
-    }
-}

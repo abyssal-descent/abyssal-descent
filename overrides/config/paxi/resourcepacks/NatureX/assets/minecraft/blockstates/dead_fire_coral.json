@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/sunflower_grass0"},
-            { "model": "block/sunflower_grass1"}
-        ]
-    }
-}

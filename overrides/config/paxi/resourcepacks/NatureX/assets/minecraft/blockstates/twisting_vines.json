@@ -1,9 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/twisting_vines", "weight": 5 },
-            { "model": "block/twisting_vines_large", "weight": 4 },
-            { "model": "block/twisting_vines_small", "weight": 4 }
-        ]
-    }
-}

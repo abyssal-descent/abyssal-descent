@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/warped_roots"},
-            { "model": "block/large_warped_roots"}
-        ]
-    }
-}

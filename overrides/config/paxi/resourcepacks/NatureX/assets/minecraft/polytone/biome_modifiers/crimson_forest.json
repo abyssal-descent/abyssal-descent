@@ -1,9 +1,0 @@
-{
-   "fog_color": 16732227,
-   "particle": {
-      "options": {
-         "type": "minecraft:custom_crimson_spore"
-      },
-      "probability": 0.03
-    }
-}

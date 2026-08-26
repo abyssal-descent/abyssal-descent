@@ -1,8 +1,0 @@
-{
-   "particle": {
-      "options": {
-         "type": "minecraft:custom_end_midlands_star"
-      },
-      "probability": 0.02
-    }
-}

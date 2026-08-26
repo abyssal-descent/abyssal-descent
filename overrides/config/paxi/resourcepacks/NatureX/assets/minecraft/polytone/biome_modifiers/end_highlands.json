@@ -1,8 +1,0 @@
-{
-   "particle": {
-      "options": {
-         "type": "minecraft:custom_end_highlands_star"
-      },
-      "probability": 0.02
-    }
-}

@@ -1,8 +1,0 @@
-{
-   "particle": {
-      "options": {
-         "type": "minecraft:soul"
-      },
-      "probability": 0.003
-    }
-}

@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/deepslate_copper_ore", "weight": 7},
-            { "model": "block/deepslate_copper_ore_3d", "weight": 1}
-        ]
-    }
-}

@@ -1,8 +1,0 @@
-{
-   "particle": {
-      "options": {
-         "type": "minecraft:dragon_breath"
-      },
-      "probability": 0.002
-    }
-}

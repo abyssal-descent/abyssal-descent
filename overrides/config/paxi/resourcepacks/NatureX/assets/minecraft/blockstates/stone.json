@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/stone", "weight": 380},
-	    { "model": "block/stone_rock0", "weight": 1}
-        ]
-    }
-}

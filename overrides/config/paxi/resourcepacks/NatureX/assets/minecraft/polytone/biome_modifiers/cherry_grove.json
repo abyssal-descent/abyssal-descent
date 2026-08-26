@@ -1,9 +1,0 @@
-{
-   "fog_color": 16502221,
-   "particle": {
-      "options": {
-         "type": "minecraft:cherry_leaves"
-      },
-      "probability": 0.0003
-    }
-}

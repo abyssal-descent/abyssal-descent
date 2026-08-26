@@ -1,8 +1,0 @@
-{
-    "variants": {
-        "": [
-            { "model": "block/swamp_cattails0"},
-            { "model": "block/swamp_cattails1"}
-        ]
-    }
-}
