@@ -1,25 +1,28 @@
 # Release todo
++ reword read me errors
 
 ## Advancements
 
 ## High Priority Polish
 
 ## Low priority Polish
-+ Go through fuers structures to check for iron blocks/ore
-+ Tutorial World button on Main Menu
++ Tutorial World button on Main Menu?
 
 ## Playtesting todo
 + test and change ladder speed config
 + test/fix the GREATLY decreased lichen biome slime spawn rate
 + TEST disabled villager spawner in epic dungeons
++ ensure resource pack overrides remains working for all users
 
 ## SLAB POLISH
-+ Disclaimer on main menu before main screen shows upon first time launching the pack
 + add blockbench files to github
-+ make blockbench logos to propose
-+ research anvil culling thing
 
 ## Textures
++ New Granite Anvil Texture
++ New Plate textures
++ New Hammer textures for Nether and Aether
++ New Hardened/weakened root block texture
++ Rough gems for Nether and Aether (check which ones are not added by Spelunkery plus)
 
 ## Enchantment Overhaul Mod
 + Disable enchanting books
@@ -77,7 +80,6 @@
 + grind pink salt into polished variant
 + balance kobold trades, add modded ones perhaps
 + Explorers compass retexture
-+ Granite Anvil
 + Deepslate waystones generate rarely in all layers and are un obtainable. Normal waystones are craftable and expensive but when placed anywhere besides the overworld EXPLODE!!!
 + Remove all non overworld biomes used in custom dims from the is_overworld tag and re implement everything missing
 + make lichen mushroom house strucutre?
@@ -87,12 +89,13 @@
 + stackable potions and food items?
 + maybe just disable villagers alltogether
 + look into sophisticated storage & Sophisticated Backpacks
-+ spring water
 + adhammers jei support
 + waypoint keybind doesnt work when minimap requires item, but world map still allows u to make waypoints PR Xaeros?
 + Hidden Advancement Kobolds! - Trade with a Kobold
 + Disable noise settings ore veins from generating in overworld
-
++ Invisible creepers in voidscape - https://www.reddit.com/r/feedthebeast/comments/1vl72z5/i_should_not_be_allowed_to_make_stuff/
++ Make granite anvil break when block below is broken
++ Go through fuers structures to check for iron blocks/ore
 
 ## is_overworld tag check
 - nephrite geode
