@@ -8,11 +8,11 @@
 
 ## World generation / Data Packs
     - Eclipse Ilx (Custom dimension world generation)
-    - Uni (Has randomly helped Eclipse learn more complicated world gen. Absolute legendary datapack/world gen person!)
 
 ## Texture Work
     - DovahFruit aka Hiro (Hammer and Plate Textures)
-    - Qwerty97475 (from the Mod Pack Dev discord)
+    - Qwerty97475 from the Mod Pack Dev discord
+    - 𝙢𝙧𝙨𝙠𝙚𝙩𝙘𝙝𝙮𝙨𝙩𝙪𝙛𝙛 from the Modpack Dev Knowledgebase discord
 
 ## Idea Contribution
     - Greathive (undergarden ideas)
@@ -24,7 +24,7 @@
     - colebot on YT for making great world gen tutorial videos
     - Aimsell for leading the Abyssal Ascent Pack
     - lzxh on Planet Minecraft for creating noodle world noise settings used as a base for ??? Dimension https://www.planetminecraft.com/data-pack/noodle-world-generation-experiment/
-    - ZeykeHas on planet minecraft for their Overachievement resource pack that I ported and edited to work on 1.20.1 with the better advancements mods ui https://www.planetminecraft.com/texture-pack/overchievment/
+    - Uni always helping pack devs out in discord
 
 ## Mods
 Without the work of countless mod authors this pack would have never been possible. I will list some of the most impactful mods used below. I'm sure I' forgetting some
@@ -47,3 +47,7 @@ Without the work of countless mod authors this pack would have never been possib
     - Property Modifier
     - Quark (used to add baked enchantments onto items)
     - Evanbones "Reliable" mod suite substatially sped up development of this pack. Evan the packdev savior with his mods fr
+
+# License stuff
+    Credits:
+Vanilla Tweaks: https://vanillatweaks.net/
