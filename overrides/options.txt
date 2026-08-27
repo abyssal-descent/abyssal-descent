@@ -42,8 +42,8 @@ ao:true
 prioritizeChunkUpdates:0
 biomeBlendRadius:3
 renderClouds:"false"
-resourcePacks:["vanilla","mod_resources","fabric","AD EMIxx groups","AD Travelers Titles","ADretextures","Better Chainmail","Fine Armoury v1.8","Moonlight Mods Dynamic Assets","NatureX","copper-shield","emissive-textures","leafscopper x fine armory","menubuttonsbutdarkv1.0","polished_blackstone_options_backround"]
-incompatibleResourcePacks:["Better Chainmail","menubuttonsbutdarkv1.0"]
+resourcePacks:[]
+incompatibleResourcePacks:[]
 lastServer:
 lang:en_us
 soundDevice:""
