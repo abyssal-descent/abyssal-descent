@@ -3,7 +3,10 @@
     "icon": {
       "item": "minecraft:grass_block"
     },
-    "title": "Overworld Basics & Progression",
+    "title": {
+      "text": "Overworld Basics & Progression",
+      "color": "white"
+    },
     "description": "The guide to all the Abyssal Descent Basics! If you're ever lost, come back here to see what to do next!",
     "background": "minecraft:textures/block/stripped_dark_oak_log.png",
     "frame": "task",

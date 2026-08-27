@@ -3,7 +3,10 @@
     "icon": {
       "item": "undergarden:deepturf_block"
     },
-    "title": "The Undergarden",
+    "title": {
+      "text": "The Undergarden",
+      "color": "white"
+    },
     "description": "Guides you through the custom Abyssal Descent Undergarden progression.",
     "background": "undergarden:textures/block/depthrock_bricks.png",
     "frame": "task",

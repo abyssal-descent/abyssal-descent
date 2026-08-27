@@ -3,7 +3,10 @@
     "icon": {
       "item": "darkerdepths:geyser"
     },
-    "title": "Infernal Crossing",
+    "title": {
+      "text": "Infernal Crossing",
+      "color": "white"
+    },
     "description": "Progression guide for the Third Layer of Abyssal Descent - Infernal Crossing.",
     "background": "darkerdepths:textures/block/darkslate.png",
     "frame": "task",
