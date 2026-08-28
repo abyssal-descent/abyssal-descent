@@ -14,7 +14,7 @@ PR's and Issues welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md)
 ```bash
 git clone --recursive https://github.com/abyssal-descent/abyssal-descent
 cd abyssal-descent
-zef install JSON::Fast
+zef install JSON::Fast # Installs the JSON::Fast raku package
 raku build.raku
 ```
 
