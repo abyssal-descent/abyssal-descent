@@ -10,7 +10,7 @@
     - Eclipse Ilx (Custom dimension world generation)
 
 ## Texture Work
-    - DovahFruit aka Hiro (Hammer and Plate Textures)
+    - DovahFruit aka Hiro (AD Hammers & AD Resources Textures)
     - Qwerty97475 from the Mod Pack Dev discord
     - 𝙢𝙧𝙨𝙠𝙚𝙩𝙘𝙝𝙮𝙨𝙩𝙪𝙛𝙛 from the Modpack Dev Knowledgebase discord
 
