@@ -1,10 +1,10 @@
-use JSON::Fast;
+use JSON::Fast <sorted-keys>;
 
 sub MAIN(Bool :$no-quek = False) {
 	say "Preparing build dir";
 	try .d ?? .rmdir(:r) !! .unlink for "build".IO.dir;
 
-	"build/overrides/mods".IO.mkdir(:parents);
+	mkdir "build/overrides/mods";
 	for "src".IO.dir.grep(*.d) {
 		next if $no-quek && .basename eq "undergarden";
 		say "Building {.basename}";
@@ -18,8 +18,7 @@ sub MAIN(Bool :$no-quek = False) {
 
 		for $src.dir {
 			my $target = $dst.add: .basename;
-			.d ?? copy-dir-contents $_, $target
-				!! .copy: $target;
+			.d ?? copy-dir-contents $_, $target !! .copy: $target;
 		}
 	}
 
@@ -28,7 +27,7 @@ sub MAIN(Bool :$no-quek = False) {
 	my %curse-manifest = (
 		minecraft => {
 			version => "1.20.1",
-			modLoaders => [], 
+			modLoaders => [item {id => "forge-47.4.10", primary => True}], 
 		},
 		manifestType => "minecraftModpack",
 		manifestVersion => 1,
@@ -36,25 +35,19 @@ sub MAIN(Bool :$no-quek = False) {
 		version => 1,
 		author => "AbyssalDescent",
 		overrides => "overrides",
-		files => [],
+		files => "mods.csv".IO.lines».&{
+			next if .starts-with('#') || .trim eq "";
+			my ($filename, $project-id, $file-id) = .split(",");
+			{ projectID => $project-id, fileID => $file-id, required => True }
+		},
 	);
-
-	%curse-manifest{"minecraft"}{"modLoaders"}.push: { id => "forge-47.4.10", primary => True };
-
-	for "mods.csv".IO.lines {
-		next if .starts-with('#') || .trim eq "";
-		my ($filename, $project-id, $file-id) = .split(",");
-		%curse-manifest{"files"}.push: { projectID => $project-id, fileID => $file-id, required => True };
-	}
 	
 	"build/manifest.json".IO.spurt: to-json(%curse-manifest);
 	
-	my $version = "dev-1.0-{qqx{git rev-parse --short HEAD}.trim-trailing}";
+	my $version = "dev-1.0-" ~ qqx{git rev-parse --short HEAD}.trim-trailing;
 	say "Packaging version $version";
 	"build/release.txt".IO.spurt: $version;
 
-	my $null = open $*SPEC.devnull, :w;
 	my @overrides = 'build'.IO.dir.map(*.basename).grep(* !~~ /^'.'/);
-	run "tar", "acf", "../Abyssal-Descent-$version.zip", |@overrides,
-		:cwd("build"), :out($null), :err($null);
+	run "tar", "acf", "../Abyssal-Descent-$version.zip", |@overrides, :cwd("build"), :out, :err;
 }
