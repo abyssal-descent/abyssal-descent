@@ -6,7 +6,6 @@
 ## High Priority Polish
 
 ## Low priority Polish
-+ Tutorial World button on Main Menu?
 
 ## Playtesting todo
 + test and change ladder speed config
@@ -23,6 +22,7 @@
 + New Hammer textures for Nether and Aether
 + New Hardened/weakened root block texture
 + Rough gems for Nether and Aether (check which ones are not added by Spelunkery plus)
++ Rough Utherium Block
 
 ## Enchantment Overhaul Mod
 + Disable enchanting books
@@ -96,6 +96,7 @@
 + Invisible creepers in voidscape - https://www.reddit.com/r/feedthebeast/comments/1vl72z5/i_should_not_be_allowed_to_make_stuff/
 + Make granite anvil break when block below is broken
 + Go through fuers structures to check for iron blocks/ore
++ Tutorial World button on Main Menu?
 
 ## is_overworld tag check
 - nephrite geode
