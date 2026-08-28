@@ -3,9 +3,8 @@
 
 ## Advancements
 
-## High Priority Polish
-
-## Low priority Polish
+## RELEASE TODO
++ remove forgotten tool template
 
 ## Playtesting todo
 + test and change ladder speed config
