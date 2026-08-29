@@ -4,7 +4,8 @@
 ## Advancements
 
 ## RELEASE TODO
-+ remove forgotten tool template
+- fix missing hardened root block item texture for jade.
+- fix keybind for voice chat mod, M key should be ONLY for MAP! da fuq man!
 
 ## Playtesting todo
 + test and change ladder speed config
