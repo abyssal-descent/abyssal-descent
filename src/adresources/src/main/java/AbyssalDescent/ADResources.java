@@ -5,8 +5,11 @@ import AbyssalDescent.adresources.Registry;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.ModLoadingException;
 import net.minecraftforge.fml.ModLoadingStage;
+import net.minecraftforge.fml.ModLoadingContext;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.minecraftforge.client.ConfigScreenHandler;
 
 import java.util.Arrays;
 
@@ -31,5 +34,9 @@ public class ADResources {
 					("\n   Abyssal Descent is INCOMPATIBLE with " + id).repeat(50),
 					new IllegalStateException("incompatible mod"));
 			});
+
+		ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, DepthMeter.Config.SPEC);
+		ModLoadingContext.get().registerExtensionPoint(ConfigScreenHandler.ConfigScreenFactory.class,
+			() -> new ConfigScreenHandler.ConfigScreenFactory((m, s) -> new DepthMeter.Config.ConfigScreen(s)));
 	}
 }
