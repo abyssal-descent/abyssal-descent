@@ -38,7 +38,7 @@ sub MAIN(Bool :$no-quek = False) {
 		files => "mods.csv".IO.lines».&{
 			next if .starts-with('#') || .trim eq "";
 			my ($filename, $project-id, $file-id) = .split(",");
-			{ projectID => $project-id, fileID => $file-id, required => True }
+			{ projectID => $project-id.Int, fileID => $file-id.Int, required => True }
 		},
 	);
 	
@@ -49,5 +49,5 @@ sub MAIN(Bool :$no-quek = False) {
 	"build/release.txt".IO.spurt: $version;
 
 	my @overrides = 'build'.IO.dir.map(*.basename).grep(* !~~ /^'.'/);
-	run "tar", "acf", "../Abyssal-Descent-$version.zip", |@overrides, :cwd("build"), :out, :err;
+	run "tar", "acf", "../Abyssal-Descent-$version.zip", |@overrides, :cwd("build");
 }
