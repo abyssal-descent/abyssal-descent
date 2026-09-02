@@ -4,7 +4,7 @@ import net.minecraft.world.level.Level;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.level.BlockEvent.PortalSpawnEvent;
+import net.minecraftforge.event.level.BlockEvent;
 
 @Mod(IntentionalGameDesign.MODID)
 public class IntentionalGameDesign {
@@ -15,20 +15,15 @@ public class IntentionalGameDesign {
 	}
 
 	@SubscribeEvent
-	public void onPortalSpawn(PortalSpawnEvent event) {
-		if (!(event.getLevel() instanceof Level level)) return;
+	public void onPortalSpawn(BlockEvent.PortalSpawnEvent e) {
+		if (!(e.getLevel() instanceof Level level)) return;
 
-		var pos = event.getPos();
-		
-		level.explode(
-			null,
-			pos.getX() + 0.5,
-			pos.getY() + 0.5,
-			pos.getZ() + 0.5,
-			5.0F,
-			Level.ExplosionInteraction.BLOCK
-		);
+		var pos = e.getPos();
 
-		event.setCanceled(true);
+		level.explode(null,
+			pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,
+			5.0F, Level.ExplosionInteraction.BLOCK);
+
+		e.setCanceled(true);
 	}
 }
