@@ -2,7 +2,7 @@
   "spawn_costs": {},
   "temperature": 2.0,
   "downfall": 0.4,
-  "has_precipitation": true,
+  "has_precipitation": false,
   "effects": {
     "water_color": 3353610,
     "water_fog_color": 1840646,
