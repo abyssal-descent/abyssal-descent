@@ -44,7 +44,7 @@ sub MAIN(Bool :$no-quek = False) {
 	
 	"build/manifest.json".IO.spurt: to-json(%curse-manifest);
 	
-	my $version = "dev-1.0-" ~ qqx{git rev-parse --short HEAD}.trim-trailing;
+	my $version = "dev-" ~ qqx{git rev-parse --short HEAD}.trim-trailing;
 	say "Packaging version $version";
 	"build/release.txt".IO.spurt: $version;
 
