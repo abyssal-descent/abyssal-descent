@@ -4,21 +4,15 @@
 ## Advancements
 
 ## RELEASE TODO
-- fix missing hardened root block item texture for jade.
-- fix keybind for voice chat mod, M key should be ONLY for MAP! da fuq man!
+
 
 ## Playtesting todo
-+ test and change ladder speed config
-+ test/fix the GREATLY decreased lichen biome slime spawn rate
 + TEST disabled villager spawner in epic dungeons
-+ ensure resource pack overrides remains working for all users
 
 ## SLAB POLISH
-+ add blockbench files to github
 
 ## Textures
 + New Granite Anvil Texture
-+ New Plate textures
 + New Hammer textures for Nether and Aether
 + New Hardened/weakened root block texture
 + Rough gems for Nether and Aether (check which ones are not added by Spelunkery plus)
@@ -34,7 +28,6 @@
 ## Overworld
 
 ## Delver's Beginning
-- disable villager spawners in all dimensions with reliable replacer
 
 ## The Undergarden
 - fix void blossom structure, void blossom spawns 1 block too high!
@@ -97,6 +90,7 @@
 + Make granite anvil break when block below is broken
 + Go through fuers structures to check for iron blocks/ore
 + Tutorial World button on Main Menu?
++ add soil to
 
 ## is_overworld tag check
 - nephrite geode
