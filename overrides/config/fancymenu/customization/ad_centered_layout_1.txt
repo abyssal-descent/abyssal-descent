@@ -499,7 +499,7 @@ element {
 
 element {
   interactable = true
-  source = Version - Teaser Pack Indev
+  source = Version - Teaser Pack v1
   source_mode = direct
   shadow = true
   enable_scrolling = true
