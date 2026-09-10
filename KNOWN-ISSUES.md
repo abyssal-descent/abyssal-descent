@@ -1,6 +1,3 @@
-# Critical / Game-Breaking
-- Granite Anvils give xray (We don't know how to fix it lol plz help)
-
 ### Complementary Shaders
 - TAA causes artifacting when looking into a immersive portal portal  
 - Potential issues in the end on Linux, fuck nvidia
