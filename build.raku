@@ -1,8 +1,9 @@
 use JSON::Fast <sorted-keys>;
+use File::Directory::Tree;
 
 sub MAIN(Bool :$no-quek = False, Bool :$release = False) {
 	say "Preparing build dir";
-	try .d ?? .rmdir(:r) !! .unlink for "build".IO.dir;
+	try .d ?? rmtree $_ !! .unlink for "build".IO.dir;
 
 	if !$release {
 		mkdir "build/overrides/mods";
@@ -24,7 +25,7 @@ sub MAIN(Bool :$no-quek = False, Bool :$release = False) {
 		}
 	}
 
-	sub parse-mods-file(IO::Path $src --> List) {
+	sub parse-mods(IO::Path $src --> List) {
 		$src.lines».&{
 			next if .starts-with('#') || .trim eq "";
 			my ($filename, $project-id, $file-id) = .split(",");
@@ -45,7 +46,7 @@ sub MAIN(Bool :$no-quek = False, Bool :$release = False) {
 		version => 1,
 		author => "AbyssalDescent",
 		overrides => "overrides",
-		files => flat parse-mods-file("mods.csv".IO), $release ?? parse-mods-file("src/mods.csv".IO) !! (),
+		files => flat parse-mods("mods.csv".IO), $release ?? parse-mods("src/mods.csv".IO) !! (),
 	);
 	
 	"build/manifest.json".IO.spurt: to-json(%curse-manifest);
