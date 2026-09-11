@@ -207,7 +207,8 @@
       "species:wicked",
       "mowziesmobs:bluff",
       "mowziesmobs:foliaath",
-      "caverns_and_chasms:peeper"
+      "caverns_and_chasms:peeper",
+      "alexsmobs:centipede_head"
     ],
     "minlight": 1,
     "result": "deny"
