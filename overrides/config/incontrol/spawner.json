@@ -336,8 +336,8 @@
       "dimension": "infernalcross:infernalcrossing",
       "mindist": 24,
       "maxdist": 128,
-      "minheight": 60,
-      "maxheight": 140,
+      "minheight": -54,
+      "maxheight": 54,
       "maxthis": 2
     }
   },
@@ -356,6 +356,23 @@
       "minheight": -54,
       "maxheight": 54,
       "maxthis": 20
+    }
+  },
+  {
+    "mob": "alexsmobs:centipede_head" ,
+    "persecond": 0.5,
+    "attempts": 1,
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "conditions": {
+      "dimension": "infernalcross:infernalcrossing",
+      "mindist": 24,
+      "maxdist": 128,
+      "minheight": -54,
+      "maxheight": 54,
+      "maxthis": 5
     }
   },
   ///////////// Undergarden
