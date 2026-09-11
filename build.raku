@@ -1,35 +1,34 @@
 use JSON::Fast <sorted-keys>;
 use File::Directory::Tree;
 
-sub MAIN(Bool :$no-quek = False, Bool :$release = False) {
+sub copy-dir-contents(IO::Path $src, IO::Path $dst) {
+	$dst.mkdir unless $dst.d;
+
+	for $src.dir {
+		my $target = $dst.add: .basename;
+		.d ?? copy-dir-contents $_, $target !! .copy: $target;
+	}
+}
+
+sub parse-mods(IO::Path $src --> Seq) {
+	$src.lines.map: {
+		next if .starts-with('#') || .trim eq "";
+		my ($filename, $project-id, $file-id) = .split(",");
+		item { projectID => $project-id.Int, fileID => $file-id.Int, required => True }
+	}
+}
+
+sub MAIN(Bool :$release = False) {
 	say "Preparing build dir";
 	try .d ?? rmtree $_ !! .unlink for "build".IO.dir;
 
 	if !$release {
 		mkdir "build/overrides/mods";
 		for "src".IO.dir.grep(*.d) {
-			next if $no-quek && .basename eq "undergarden";
 			say "Building {.basename}";
 			run $*DISTRO.is-win ?? "gradlew.bat" !! "./gradlew", "build", "--quiet", :cwd($_);
 			my $f = "$_/build/libs/".IO.dir.head or exit;
 			$f.move: "build/overrides/mods".IO.add($f.basename);
-		}
-	}
-
-	sub copy-dir-contents(IO::Path $src, IO::Path $dst) {
-		$dst.mkdir unless $dst.d;
-
-		for $src.dir {
-			my $target = $dst.add: .basename;
-			.d ?? copy-dir-contents $_, $target !! .copy: $target;
-		}
-	}
-
-	sub parse-mods(IO::Path $src --> List) {
-		$src.lines».&{
-			next if .starts-with('#') || .trim eq "";
-			my ($filename, $project-id, $file-id) = .split(",");
-			item { projectID => $project-id.Int, fileID => $file-id.Int, required => True }
 		}
 	}
 
@@ -38,7 +37,7 @@ sub MAIN(Bool :$no-quek = False, Bool :$release = False) {
 	my %curse-manifest = (
 		minecraft => {
 			version => "1.20.1",
-			modLoaders => [item {id => "forge-47.4.10", primary => True}], 
+			modLoaders => [item {id => "forge-47.4.10", primary => True}],
 		},
 		manifestType => "minecraftModpack",
 		manifestVersion => 1,
