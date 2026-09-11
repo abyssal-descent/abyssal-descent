@@ -56,5 +56,6 @@ sub MAIN(Bool :$no-quek = False, Bool :$release = False) {
 	"build/release.txt".IO.spurt: $version;
 
 	my @overrides = 'build'.IO.dir.map(*.basename).grep(* !~~ /^'.'/);
-	run "tar", "acf", "../Abyssal-Descent-$version.zip", |@overrides, :cwd("build");
+	my @cmd = $*DISTRO.is-win ?? ("tar", "acf") !! ("zip", "-r");
+	run |@cmd, "../Abyssal-Descent-$version.zip", |@overrides, :cwd("build"), :out;
 }
