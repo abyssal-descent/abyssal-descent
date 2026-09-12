@@ -14,7 +14,7 @@ sub parse-mods(IO::Path $src --> Seq) {
 	$src.lines.map: {
 		next if .starts-with('#') || .trim eq "";
 		my ($filename, $project-id, $file-id) = .split(",");
-		item { projectID => $project-id.Int, fileID => $file-id.Int, required => True }
+		item { projectID => $project-id.Int, fileID => $file-id.Int, required => True, isLocked => False }
 	}
 }
 
@@ -42,7 +42,7 @@ sub MAIN(Bool :$release = False) {
 		manifestType => "minecraftModpack",
 		manifestVersion => 1,
 		name => "Abyssal Descent",
-		version => 1,
+		version => "v2",
 		author => "AbyssalDescent",
 		overrides => "overrides",
 		files => flat parse-mods("mods.csv".IO), $release ?? parse-mods("src/mods.csv".IO) !! (),
