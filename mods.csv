@@ -5,7 +5,6 @@ architectury,419699,5137938
 geckolib,388172,7025129
 sinytra_connector,890127,7594389
 yungs_api,421850,5769971
-# bclib,495191,4971470
 forgified_fabric_api,889079,6885853
 zeta,968868,7335229
 # curios_api,309927,5680164
@@ -14,7 +13,6 @@ citadel,331936,5633260
 # obscure_api,638417,4616364
 terrablender,563928,6290448
 necronomicon_api,586157,5772681
-# aeroblender,879879,4789008
 blueprint,382216,6408581
 cerbons,955605,5050080
 clothconfig,348521,5729105
@@ -28,10 +26,14 @@ kotlin,351264,7291067
 balm,531761,7420617
 txnilib,1104882,6533724
 creative_core,257814,8304882
+bclib_forge,1435106,8590585
+wunderlib,1435097,7486522
 
 cupboard_lib,326652,7905744
 octolib,916747,6274623
 puzzles_lib,495476,6918565
+
+# aether requirements
 
 # Dev
 paxi,515708,4749994
@@ -61,6 +63,7 @@ emi++_forked,1411826,7937655
 no_recipe_book,738663,5760231
 e4mc,849519,8225255
 resource_pack_overrides,832644,5101541
+structure_gel,378802,5278429
 
 # Performance
 embeddium,908741,5681725
@@ -104,12 +107,19 @@ yungs_cave_biomes,1111586,6304088
 # betterend,413596,4971487
 # aquamirae,536254,4616373
 # voidscape,251730,5179872
-# aetherredux,867237,6596294
-# deepaether,852465,6542076
 cavernsandchasms,438005,6040957
 regionsunexplored,659110,5558225
 darker_depths,460681,7238258
 luminous_overworld,909107,6588230
+better_nether_forge,1436171,8590611
+
+# aether
+the_aether,255308,6134920
+aether_redux,867237,6596294
+aeroblender,879879,4789008
+aether_lost_content,318602,4927038
+ancient_aether,886751,6400544
+deep_aether,852465,6839617
 
 # structure
 yungs_better_dungeons,510089,5271360

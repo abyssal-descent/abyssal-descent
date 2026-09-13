@@ -48,6 +48,15 @@
     "gravityTransform": false,
     "entries": [
       {
+        "dimensionIdStr": "aether:the_aether",
+        "scale": 1.0,
+        "flipped": false,
+        "horizontalRotation": 0.0,
+        "bedrockReplacementStr": "minecraft:obsidian",
+        "connectsPrevious": true,
+        "connectsNext": true
+      },
+      {
         "dimensionIdStr": "minecraft:overworld",
         "scale": 1.0,
         "flipped": false,
@@ -78,6 +87,15 @@
       },
       {
         "dimensionIdStr": "infernalcross:infernalcrossing",
+        "scale": 1.0,
+        "flipped": false,
+        "horizontalRotation": 0.0,
+        "bedrockReplacementStr": "minecraft:obsidian",
+        "connectsPrevious": true,
+        "connectsNext": true
+      },
+      {
+        "dimensionIdStr": "minecraft:the_nether",
         "scale": 1.0,
         "flipped": false,
         "horizontalRotation": 0.0,
