@@ -3,14 +3,6 @@
 
 ## Advancements
 
-## RELEASE TODO
-
-
-## Playtesting todo
-+ TEST disabled villager spawner in epic dungeons
-
-## SLAB POLISH
-
 ## Textures
 + New Granite Anvil Texture
 + New Hammer textures for Nether and Aether
@@ -34,6 +26,16 @@
 
 ## Infernal Crossing
 - ore generation broke fix
+
+## The Nether
+- Create all rough gems
+- remove features we dont want from mods
+- ad resources bedrock block
+- look into mods
+
+## The Aether
+- create all rough gems
+
 ---
 
 ## Final Touches
