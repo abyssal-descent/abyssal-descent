@@ -6,6 +6,8 @@
 
 ## Pull Requests
 - Use conventional commits
-- Dont include binaries 
+- Dont include binaries
 - Code created should include comments
+- We do not accept KubeJS contributions
+- Must present a thorough explanation for any new mod added
 - check the [TODO.md](TODO.md) for reference
