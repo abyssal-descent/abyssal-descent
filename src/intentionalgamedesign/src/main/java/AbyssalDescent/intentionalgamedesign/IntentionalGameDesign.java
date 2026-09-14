@@ -22,7 +22,7 @@ public class IntentionalGameDesign {
 
 		level.explode(null,
 			pos.getX() + 0.5, pos.getY() + 0.5, pos.getZ() + 0.5,
-			5.0F, Level.ExplosionInteraction.BLOCK);
+			5.0F, true, Level.ExplosionInteraction.BLOCK);
 
 		e.setCanceled(true);
 	}
