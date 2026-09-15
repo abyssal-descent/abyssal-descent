@@ -1,0 +1,16 @@
+{
+	"package": "${mod_authors}.${mod_id}.mixin",
+	"refmap": "${mod_id}.refmap.json",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+		"EnchantmentTableBlockMixin",
+		"EnchantmentMixin",
+		"PlayerMixin",
+		"AnvilMenuMixin",
+		"ItemStackMixin",
+		"LivingEntityMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
