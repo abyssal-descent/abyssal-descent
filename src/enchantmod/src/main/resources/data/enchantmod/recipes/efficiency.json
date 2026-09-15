@@ -1,0 +1,11 @@
+{
+	"type": "enchantmod:enchant",
+	"ingredients": [
+		{ "item": "minecraft:redstone" },
+		{ "item": "minecraft:redstone_block" },
+		{ "item": "minecraft:diamond" },
+		{ "item": "minecraft:sugar" }
+	],
+	"enchant": "minecraft:efficiency",
+	"blocks": [ { "id": "minecraft:bookshelf", "count": 12 } ]
+}

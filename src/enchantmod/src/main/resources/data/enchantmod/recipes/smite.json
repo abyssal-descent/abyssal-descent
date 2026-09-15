@@ -1,0 +1,11 @@
+{
+	"type": "enchantmod:enchant",
+	"ingredients": [
+		{ "item": "minecraft:quartz" },
+		{ "item": "minecraft:nether_star" },
+		{ "item": "minecraft:diamond" },
+		{ "item": "minecraft:copper_ingot" }
+	],
+	"enchant": "minecraft:smite",
+	"blocks": [ { "id": "minecraft:bookshelf", "count": 12 } ]
+}
