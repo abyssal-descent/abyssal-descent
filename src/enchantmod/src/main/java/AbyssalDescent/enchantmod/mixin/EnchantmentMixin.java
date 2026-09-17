@@ -29,13 +29,6 @@ public class EnchantmentMixin {
 		cir.cancel();
 	}
 
-	@Inject(method = "getDamageBonus", at = @At("HEAD"), cancellable = true)
-	private void get_damage_bonus(int level, MobType type, CallbackInfoReturnable<Float> cir) {
-		if (Enchant.get((Enchantment) (Object) this) == null) return;
-		cir.setReturnValue(0.0F);
-		cir.cancel();
-	}
-
 	@Inject(method = "canEnchant", at = @At("HEAD"), cancellable = true)
 	private void can_enchant(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
 		var behaviour = Enchant.get((Enchantment) (Object) this);

@@ -5,11 +5,13 @@ import AbyssalDescent.enchantmod.enchant.Enchant;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.EnchantmentHelper;
+import net.minecraft.world.level.block.state.BlockState;
 
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 
 import java.util.function.Consumer;
 
@@ -26,5 +28,19 @@ public class ItemStackMixin {
 			if (behaviour != null && behaviour.on_hurt(stack, amount, entity))
 				ci.cancel();
 		}
+	}
+
+	@Inject(method = "getDestroySpeed", at = @At("RETURN"), cancellable = true)
+	private void get_destroy_speed(BlockState state, CallbackInfoReturnable<Float> cir) {
+		var stack = (ItemStack) (Object) this;
+		var speed = cir.getReturnValue();
+
+		for (var enchant : EnchantmentHelper.getEnchantments(stack).keySet()) {
+			var behaviour = Enchant.get(enchant);
+			if (behaviour == null) continue;
+			speed = behaviour.map_mining_speed(stack, speed);
+		}
+
+		cir.setReturnValue(speed);
 	}
 }

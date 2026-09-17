@@ -60,7 +60,7 @@ sharpness: deal extra damage to unarmoured enemies //!
 soul speed: you cannot be slowed by blocks. move faster on soul sand and soil.
 sweeping edge: deals same weapon damage to all + increase range slightly.
 thorns: enemies take as much damage as they deal to you, but you take 20% extra. only for melee
-unbreaking: item cannot break. whєn reduced to 0 durability becomes ineffective and must be repaired.
+//? unbreaking: item cannot break. whєn reduced to 0 durability becomes ineffective and must be repaired.
 
 # TODO:
 texture for runes

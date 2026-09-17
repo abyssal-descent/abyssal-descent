@@ -5,6 +5,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
+import net.minecraft.world.entity.MobType;
 
 import java.util.*;
 
@@ -21,6 +22,8 @@ public class Enchant {
 		default boolean on_hurt(ItemStack stack, int amount, LivingEntity entity) { return false; }
 		default void on_attack(ServerLevel level, LivingEntity attacker, LivingEntity target, ItemStack stack) {}
 		default void on_tick(LivingEntity entity, ItemStack stack) {}
+		default float map_damage_bonus(ItemStack stack, MobType mob_type, float bonus) { return bonus; }
+		default float map_mining_speed(ItemStack stack, float speed) { return speed; }
 	}
 
 	public static Behaviour get(Enchantment enchant) {
