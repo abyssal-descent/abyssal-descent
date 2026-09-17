@@ -92,7 +92,8 @@
 + Make granite anvil break when block below is broken
 + Go through fuers structures to check for iron blocks/ore
 + Tutorial World button on Main Menu?
-+ add soil to
++ add soil to shovelable tag
++ remove firework in control loot drop lol
 
 ## is_overworld tag check
 - nephrite geode
