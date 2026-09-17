@@ -3,3 +3,4 @@ build/
 *.zip
 .gradle/
 spyglass.json
+ANNOUNCEMENT.md
