@@ -1,5 +1,6 @@
 package AbyssalDescent.enchantmod.enchant;
 
+import net.minecraft.ChatFormatting;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
@@ -7,11 +8,11 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 
 public class Smite implements Enchant.Behaviour {
-	private static final int COOLDOWN = 30;
+	private static final int COOLDOWN = 40;
 
 	@Override
-	public String get_tooltip() {
-		return "Strikes foes with lightning";
+	public ChatFormatting get_format() {
+		return ChatFormatting.BLUE;
 	}
 
 	@Override

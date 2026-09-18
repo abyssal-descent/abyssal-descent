@@ -105,15 +105,15 @@ public class EnchantMod {
 			e.setCost(0);
 		}
 
-		@SubscribeEvent
-		public static void itemTooltip(ItemTooltipEvent e) {
-			for (var enchant : EnchantmentHelper.getEnchantments(e.getItemStack()).keySet()) {
-				var behaviour = Enchant.get(enchant);
-				if (behaviour == null) continue;
-
-				e.getToolTip().add(Component.literal(behaviour.get_tooltip())
-					.withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
-			}
-		}
+		// @SubscribeEvent
+		// public static void itemTooltip(ItemTooltipEvent e) {
+		// 	for (var enchant : EnchantmentHelper.getEnchantments(e.getItemStack()).keySet()) {
+		// 		var behaviour = Enchant.get(enchant);
+		// 		if (behaviour == null) continue;
+		//
+		// 		e.getToolTip().add(Component.literal(behaviour.get_tooltip())
+		// 			.withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
+		// 	}
+		// }
 	}
 }

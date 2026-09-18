@@ -6,6 +6,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.entity.MobType;
+import net.minecraft.ChatFormatting;
 
 import java.util.*;
 
@@ -17,7 +18,7 @@ public class Enchant {
 	);
 
 	public interface Behaviour {
-		String get_tooltip();
+		default ChatFormatting get_format() { return ChatFormatting.GRAY; };
 		default boolean can_enchant(ItemStack stack) { return true; }
 		default boolean on_hurt(ItemStack stack, int amount, LivingEntity entity) { return false; }
 		default void on_attack(ServerLevel level, LivingEntity attacker, LivingEntity target, ItemStack stack) {}

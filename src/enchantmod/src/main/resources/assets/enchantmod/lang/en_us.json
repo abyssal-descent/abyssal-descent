@@ -1,4 +1,8 @@
 {
 	"block.enchantmod.pedestal": "Pedestal",
-	"item.enchantmod.pedestal": "Pedestal"
+	"item.enchantmod.pedestal": "Pedestal",
+
+	"enchant_description.minecraft.smite": "Strikes foes with lightning",
+	"enchant_description.minecraft.unbreaking": "Shall never break",
+	"enchant_description.minecraft.respiration": "Allows breathing underwater"
 }

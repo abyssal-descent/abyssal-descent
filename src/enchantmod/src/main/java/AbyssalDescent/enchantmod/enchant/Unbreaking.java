@@ -1,5 +1,6 @@
 package AbyssalDescent.enchantmod.enchant;
 
+import net.minecraft.ChatFormatting;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
@@ -9,8 +10,8 @@ import net.minecraft.world.entity.MobType;
 
 public class Unbreaking implements Enchant.Behaviour {
 	@Override
-	public String get_tooltip() {
-		return "Shall never break";
+	public ChatFormatting get_format() {
+		return ChatFormatting.WHITE;
 	}
 
 	@Override

@@ -1,5 +1,6 @@
 package AbyssalDescent.enchantmod.enchant;
 
+import net.minecraft.ChatFormatting;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.EquipmentSlot;
@@ -7,8 +8,8 @@ import net.minecraft.world.item.ArmorItem;
 
 public class Respiration implements Enchant.Behaviour {
 	@Override
-	public String get_tooltip() {
-		return "Allows breathing underwater";
+	public ChatFormatting get_format() {
+		return ChatFormatting.DARK_BLUE;
 	}
 
 	@Override
