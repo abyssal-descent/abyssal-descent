@@ -16,6 +16,11 @@
 
 ## General
 
+## CHARMS
+- fix whatever tf is going on with curios and aether
+- add our own
+- 2-3 charm slots done with boubles
+- some craftable, some as loot, random rare mob drop, boss drop
 
 ---
 # Dimension Work
@@ -71,6 +76,10 @@
 + biomespy
 
 ## Post next update Long Term or archived todo
+- optional ѕidegression
+- remove luminous
+- split aether charms across diff layers (maybe add another charm mod or make our own as well???)
+- remove amber since its unused
 - Drastically increase end island size and height variation
 - Add audio to play alongside traveler's titles
 - create a jeresources preset for new ore generation
