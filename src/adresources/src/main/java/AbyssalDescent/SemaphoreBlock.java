@@ -11,7 +11,7 @@ public class SemaphoreBlock extends Block {
 	private int tier;
 
 	public SemaphoreBlock(Properties properties, int tier) {
-		super(properties);
+		super(properties.isSuffocating((s, l, p) -> false));
 		this.tier = tier;
 	}
 
