@@ -14,7 +14,8 @@ public class Enchant {
 	private static final Map<Enchantment, Behaviour> BEHAVIOURS = Map.of(
 		Enchantments.SMITE,       new Smite(),
 		Enchantments.RESPIRATION, new Respiration(),
-		Enchantments.UNBREAKING,  new Unbreaking()
+		Enchantments.UNBREAKING,  new Unbreaking(),
+		Enchantments.IMPALING,    new Impaling()
 	);
 
 	public interface Behaviour {

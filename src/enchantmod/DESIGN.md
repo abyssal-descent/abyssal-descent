@@ -40,7 +40,7 @@ fire aspect: melee: sets mobs on fire, lit enemies leave a trail of fire. ranged
 fire protection: cannot burn + reduced lava/fireball damage
 fortune: randomly drop 0-3x items from block/fish/loot
 frost walker: turns lava into basalt, works while sprint-jumping, jump+sneak creates temp ice block below you
-impaling: slow + weaken enemies
+//? impaling: slow + weaken enemies
 infinity: works for water, lava, milk buckets, crossbows, and bows :)
 loyalty: comes back to the user //# pulls enemies closer to you, and returns missed arrows, works on bows/crossbows
 luck of the sea: small chance for greater treasure (such as minerals, metals, runes) //# possibly biome dependant
