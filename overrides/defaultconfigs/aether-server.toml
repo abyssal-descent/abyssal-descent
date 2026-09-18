@@ -53,7 +53,7 @@
 	#Prevents the player from falling back to the Overworld when they fall out of the Aether
 	"Disables falling into the Overworld" = true
 	#Removes eternal day so that the Aether has a normal daylight cycle even before defeating the Sun Spirit
-	"Disables eternal day" = true
+	"Disables eternal day" = false
 	#Sets the ID of the dimension that the Aether Portal will send the player to
 	"Sets portal destination dimension" = "aether:the_aether"
 	#Sets the ID of the dimension that the Aether Portal will return the player to
