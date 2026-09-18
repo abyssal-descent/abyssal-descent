@@ -2,20 +2,18 @@ package AbyssalDescent.enchantmod;
 
 import AbyssalDescent.enchantmod.enchant.Enchant;
 
-import net.minecraft.ChatFormatting;
-import net.minecraft.network.chat.Component;
 import net.minecraft.tags.TagKey;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.BlockItem;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.entity.BlockEntityType;
-import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.item.crafting.RecipeSerializer;
 import net.minecraft.world.item.crafting.RecipeType;
-import net.minecraft.world.item.enchantment.EnchantmentHelper;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
@@ -26,7 +24,6 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.AnvilUpdateEvent;
 import net.minecraftforge.event.level.BlockEvent;
-import net.minecraftforge.event.entity.player.ItemTooltipEvent;
 
 
 @Mod(EnchantMod.MODID)
@@ -104,16 +101,5 @@ public class EnchantMod {
 		public static void on_anvil_update(AnvilUpdateEvent e) {
 			e.setCost(0);
 		}
-
-		// @SubscribeEvent
-		// public static void itemTooltip(ItemTooltipEvent e) {
-		// 	for (var enchant : EnchantmentHelper.getEnchantments(e.getItemStack()).keySet()) {
-		// 		var behaviour = Enchant.get(enchant);
-		// 		if (behaviour == null) continue;
-		//
-		// 		e.getToolTip().add(Component.literal(behaviour.get_tooltip())
-		// 			.withStyle(ChatFormatting.GRAY, ChatFormatting.ITALIC));
-		// 	}
-		// }
 	}
 }

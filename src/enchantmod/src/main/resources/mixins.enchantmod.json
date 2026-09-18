@@ -9,7 +9,8 @@
 		"AnvilMenuMixin",
 		"ItemStackMixin",
 		"LivingEntityMixin",
-		"EnchantmentHelperMixin"
+		"EnchantmentHelperMixin",
+		"LootTableMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

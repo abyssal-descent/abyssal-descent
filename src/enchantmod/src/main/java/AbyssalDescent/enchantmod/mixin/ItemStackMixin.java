@@ -38,7 +38,7 @@ public class ItemStackMixin {
 		for (var enchant : EnchantmentHelper.getEnchantments(stack).keySet()) {
 			var behaviour = Enchant.get(enchant);
 			if (behaviour == null) continue;
-			speed = behaviour.map_mining_speed(stack, speed);
+			speed *= behaviour.mining_speed_mul(stack);
 		}
 
 		cir.setReturnValue(speed);

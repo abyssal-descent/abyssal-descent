@@ -21,7 +21,7 @@ public class EnchantmentHelperMixin {
 		for (var enchant : EnchantmentHelper.getEnchantments(stack).keySet()) {
 			var behavior = Enchant.get(enchant);
 			if (behavior == null) continue;
-			damage = behavior.map_damage_bonus(stack, mob_type, damage);
+			damage += behavior.damage_bonus(stack, mob_type);
 		}
 
 		cir.setReturnValue(damage);

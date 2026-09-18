@@ -38,7 +38,7 @@ efficiency: start mining at 0.75x speed and go up to 1.5x over N mined blocks //
 feather falling: like the feather fall potion, sneak to fall normally
 fire aspect: melee: sets mobs on fire, lit enemies leave a trail of fire. ranged: sets materials and entities hit on fire
 fire protection: cannot burn + reduced lava/fireball damage
-fortune: randomly drop 0-3x items from block/fish/loot
+//? fortune: randomly drop 0-3x items from block/fish/loot //# test if it works with fish
 frost walker: turns lava into basalt, works while sprint-jumping, jump+sneak creates temp ice block below you
 //? impaling: slow + weaken enemies
 infinity: works for water, lava, milk buckets, crossbows, and bows :)

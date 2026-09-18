@@ -30,12 +30,12 @@ public class Unbreaking implements Enchant.Behaviour {
 	}
 
 	@Override
-	public float map_damage_bonus(ItemStack stack, MobType mob_type, float bonus) {
-		return (stack.getDamageValue() >= stack.getMaxDamage()) ? -1000.0F : bonus;
+	public float damage_bonus(ItemStack stack, MobType mob_type) {
+		return (stack.getDamageValue() >= stack.getMaxDamage()) ? -1000.0F : 1.0F;
 	}
 
 	@Override
-	public float map_mining_speed(ItemStack stack, float speed) { 
-		return (stack.getDamageValue() >= stack.getMaxDamage()) ? 0.0F : speed;
+	public float mining_speed_mul(ItemStack stack) { 
+		return (stack.getDamageValue() >= stack.getMaxDamage()) ? 0.0F : 1.0F;
 	}
 }
