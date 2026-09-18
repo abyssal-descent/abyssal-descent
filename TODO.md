@@ -14,8 +14,20 @@
 + Disable enchanting books
 + make mod :)
 
+## General
+
+
 ---
 # Dimension Work
+
+## Aether
+- create all rough gems
+- explore ruins mods
+- Disable Aether tips
+- Remove clouds from the Aether.
+
+## Skylands
+- Disable rewards dispensers or prevent them from crashing upon use. (I think the cause is the way we hard code disabled advancements)
 
 ## Overworld
 
@@ -33,15 +45,11 @@
 - ad resources bedrock block
 - look into mods
 
-## The Aether
-- create all rough gems
-
 ---
 
 ## Final Touches
 + add custom loading screen tips,
 	- press "key here" to open Abyssal Descents Custom advancements guide
-+ add Resource packs and ui resource packs
 
 ## mods to look into
 - ascended quark
@@ -62,14 +70,11 @@
 + Gnetum
 + biomespy
 
-## Post Launch Long Term
+## Post next update Long Term or archived todo
 - Drastically increase end island size and height variation
-- Recreate ceilands dimension to make it end themed
 - Add audio to play alongside traveler's titles
 - create a jeresources preset for new ore generation
 - rewrite current in-house mods to kotlin or clojure (hopefully clojure :L)
-- Disable Aether tips
-- Remove clouds from the Aether.
 - Oil + Ruins in Ice Layer. Scarse and dangerous creatures that are not meant to be killed.
 + luminous wood recipes: chest, ladders
 + grind pink salt into polished variant
@@ -77,8 +82,8 @@
 + Explorers compass retexture
 + Deepslate waystones generate rarely in all layers and are un obtainable. Normal waystones are craftable and expensive but when placed anywhere besides the overworld EXPLODE!!!
 + Remove all non overworld biomes used in custom dims from the is_overworld tag and re implement everything missing
-+ make lichen mushroom house strucutre?
-+ mushroom stew with spelunkery mushrooms
++ make a lichen mushroom house structure?
++ mushroom stew with spelunkery mushrooms?
 + lava pool feature breaking through obsidian (try forge remove from tag)
 + make explorers compass give minimap (probably cant do both compasses)
 + stackable potions and food items?
@@ -93,7 +98,6 @@
 + Go through fuers structures to check for iron blocks/ore
 + Tutorial World button on Main Menu?
 + add soil to shovelable tag
-+ remove firework in control loot drop lol
 
 ## is_overworld tag check
 - nephrite geode
