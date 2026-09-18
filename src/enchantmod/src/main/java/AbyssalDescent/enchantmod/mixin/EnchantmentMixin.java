@@ -30,6 +30,13 @@ public class EnchantmentMixin {
 		cir.cancel();
 	}
 
+	@Inject(method = "isCompatibleWith", at = @At("HEAD"), cancellable = true)
+	private void max_level(Enchantment enchant, CallbackInfoReturnable<Boolean> cir) {
+		if (Enchant.get((Enchantment) (Object) this) == null) return;
+		cir.setReturnValue(false);
+		cir.cancel();
+	}
+
 	@Inject(method = "canEnchant", at = @At("HEAD"), cancellable = true)
 	private void can_enchant(ItemStack stack, CallbackInfoReturnable<Boolean> cir) {
 		var behaviour = Enchant.get((Enchantment) (Object) this);
