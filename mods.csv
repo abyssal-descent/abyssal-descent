@@ -28,6 +28,7 @@ txnilib,1104882,6533724
 creative_core,257814,8304882
 bclib_forge,1435106,8590585
 wunderlib,1435097,7486522
+playeranimator,658587,4587214
 
 cupboard_lib,326652,7905744
 octolib,916747,6274623
@@ -127,6 +128,8 @@ yungs_better_dungeons,510089,5271360
 feur_fossil,1117070,7232476
 # subterrestrial,575588,4574890
 epic_structures_dungeons,1501318,7999619
+sky_villages,545467,5401804
+
 
 # Other
 grappling_hook:_restitched,820533,5226155
@@ -175,6 +178,9 @@ ambient_sounds_6,254284,8042994
 sound_physics_rem,535489,6352920
 simple_voice_chat,416089,8601186
 enchanced_boss_bars,1063296,5529869
+
+# mcreator
+skylands,967045,7369271
 
 # resource packs
 GrappleRetextured_1.20.1_v1,549691,5201178
