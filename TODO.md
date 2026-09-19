@@ -35,6 +35,7 @@
 - Disable rewards dispensers or prevent them from crashing upon use. (I think the cause is the way we hard code disabled advancements)
 
 ## Overworld
+- remove vanilla villages
 
 ## Delver's Beginning
 
