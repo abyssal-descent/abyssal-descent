@@ -2,6 +2,9 @@ package AbyssalDescent.adresources;
 
 import AbyssalDescent.adresources.Registry;
 
+import org.slf4j.Logger;
+import com.mojang.logging.LogUtils;
+
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.ModLoadingException;
 import net.minecraftforge.fml.ModLoadingStage;
@@ -16,11 +19,9 @@ import java.util.Arrays;
 @Mod(ADResources.MODID)
 public class ADResources {
 	public static final String MODID = "adresources";
+	public static final Logger LOGGER = LogUtils.getLogger();
 	public static Registry REGISTRY = null;
-
-	private static final String[] MOD_BLACKLIST = { 
-		"essential"
-	};
+	private static final String[] MOD_BLACKLIST = { "essential" };
 
 	public ADResources() {
 		this.REGISTRY = new Registry(FMLJavaModLoadingContext.get().getModEventBus());
