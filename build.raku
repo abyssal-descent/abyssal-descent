@@ -26,7 +26,9 @@ sub MAIN(Bool :$release = False) {
 		mkdir "build/overrides/mods";
 		for "src".IO.dir.grep(*.d) {
 			say "Building {.basename}";
-			run $*DISTRO.is-win ?? "gradlew.bat" !! "./gradlew", "build", "--quiet", :cwd($_);
+			my $gradle = $*DISTRO.is-win ?? "gradlew.bat" !! "./gradlew";
+			next if !"$_/$gradle".IO.e;
+			run $gradle, "build", "--quiet", :cwd($_);
 			my $f = "$_/build/libs/".IO.dir.head or exit;
 			$f.move: "build/overrides/mods".IO.add($f.basename);
 		}
