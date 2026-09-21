@@ -1,37 +1,8 @@
-# Release todo
-+ reword read me errors
-
-## Advancements
-
-## Textures
-+ New Granite Anvil Texture
-+ New Hammer textures for Nether and Aether
-+ New Hardened/weakened root block texture
-+ Rough gems for Nether and Aether (check which ones are not added by Spelunkery plus)
-+ Rough Utherium Block
-
-## Enchantment Overhaul Mod
-+ Disable enchanting books
-+ make mod :)
-
-## General
-- Make tools repairable with ad hammers anvil functionality
-- Make ad hammers data driven
-- Consider unique items obtained from certain enchant rituals
-
-## CHARMS
-- fix whatever tf is going on with curios and aether
-- add our own
-- 2-3 charm slots done with boubles
-- some craftable, some as loot, random rare mob drop, boss drop
-
----
-# Dimension Work
+# High Priority ==================================================================================
 
 ## Aether
-- create all rough gems
+	- create all rough gems
 	- Zanite, Skyjade
-
 - explore ruins mods
 - Disable Aether tips
 - Remove clouds from the Aether.
@@ -59,15 +30,89 @@
 - remove features we dont want from mods
 - ad resources bedrock block
 - look into mods
-- Cincinnicite anvil AD hammers support above iron anvil\
-- Consider anguine armor
+- Cincinnicite anvil AD hammers support above iron anvil
+- Consider sanguine armor
 - ensure wither skeletons spawn with a sword
 
----
 
-## Final Touches
-+ add custom loading screen tips,
-	- press "key here" to open Abyssal Descents Custom advancements guide
+
+
+# Short Term =====================================================================================
+
+## Enchantment Overhaul Mod
+- Disable enchanting books from generating in loot
+- prevent tools from generating with more than 1 enchant
+- remove xp, xp bar, &c
+- rune tablets
+
+## RELICS Mod
+- fix whatever tf is going on with curios and aether
+- add our own
+- 2-3 charm slots done with boubles
+- some craftable, some as loot, random rare mob drop, boss drop
+- split aether charms across diff layers (maybe add another charm mod or make our own as well???)
+
+## Textures
++ New Granite Anvil Texture
++ New Hammer textures for Nether and Aether
++ New Hardened/weakened root block texture
++ Rough gems for Nether and Aether (check which ones are not added by Spelunkery plus)
++ Rough Utherium Block
++ Enchanting Runes
++ Fix enchantmod pedestal models
++ Explorers compass retexture
+
+## Backpack Mod
+- relic slot?
+- backpack can only be used while worn
+- if unequipped do ѕtored items just drop?
+
+## General
+- Make tools repairable with ad hammers anvil functionality
+- Make ad hammers data driven
++ Make granite anvil break when block below is broken
+- remove luminous
++ Remove all non overworld biomes used in custom dims from the is_overworld tag and re implement everything missing
++ grind pink salt into polished variant
++ Deepslate waystones generate rarely in deep layers and are un obtainable. 
+	- Normal waystones are craftable and expensive but when placed anywhere besides the overworld EXPLODE!!!
+	- nether and lower
++ stackable potions and food items?
+
+## Advancements
++ Hidden Advancement Kobolds! - Trade with a Kobold
+
+
+
+
+# Long Term ======================================================================================
+
+## is_overworld tag check
+- nephrite geode
+
+- Add audio to play alongside traveler's titles
++ balance kobold trades, add modded ones perhaps
+	- fork kobold mod
+	- a way to get certain enchant tablets
+- add a stoneborn trade for enchant tablets
++ mushroom stew with spelunkery mushrooms?
++ adhammers jei support
++ Tutorial World button on Main Menu?
+
+
+
+
+# TBD ============================================================================================
+
+- optional ѕidegression
+- Consider unique items obtained from certain enchant rituals
+- Drastically increase end island size and height variation
+- create a jeresources preset for new ore generation
+- Oil + Ruins in Ice Layer. Scarse and dangerous creatures that are not meant to be killed.
++ make a lichen mushroom house structure?
++ Disable noise settings ore veins from generating in overworld
++ Invisible creepers in voidscape - https://www.reddit.com/r/feedthebeast/comments/1vl72z5/i_should_not_be_allowed_to_make_stuff/
++ Go through fuers structures to check for iron blocks/ore
 
 ## mods to look into
 - ascended quark
@@ -87,39 +132,3 @@
 + realm rpg fallen adventurers
 + Gnetum
 + biomespy
-
-## Post next update Long Term or archived todo
-- optional ѕidegression
-- remove luminous
-- split aether charms across diff layers (maybe add another charm mod or make our own as well???)
-- remove amber since its unused
-- Drastically increase end island size and height variation
-- Add audio to play alongside traveler's titles
-- create a jeresources preset for new ore generation
-- rewrite current in-house mods to kotlin or clojure (hopefully clojure :L)
-- Oil + Ruins in Ice Layer. Scarse and dangerous creatures that are not meant to be killed.
-+ luminous wood recipes: chest, ladders
-+ grind pink salt into polished variant
-+ balance kobold trades, add modded ones perhaps
-+ Explorers compass retexture
-+ Deepslate waystones generate rarely in all layers and are un obtainable. Normal waystones are craftable and expensive but when placed anywhere besides the overworld EXPLODE!!!
-+ Remove all non overworld biomes used in custom dims from the is_overworld tag and re implement everything missing
-+ make a lichen mushroom house structure?
-+ mushroom stew with spelunkery mushrooms?
-+ lava pool feature breaking through obsidian (try forge remove from tag)
-+ make explorers compass give minimap (probably cant do both compasses)
-+ stackable potions and food items?
-+ maybe just disable villagers alltogether
-+ look into sophisticated storage & Sophisticated Backpacks
-+ adhammers jei support
-+ waypoint keybind doesnt work when minimap requires item, but world map still allows u to make waypoints PR Xaeros?
-+ Hidden Advancement Kobolds! - Trade with a Kobold
-+ Disable noise settings ore veins from generating in overworld
-+ Invisible creepers in voidscape - https://www.reddit.com/r/feedthebeast/comments/1vl72z5/i_should_not_be_allowed_to_make_stuff/
-+ Make granite anvil break when block below is broken
-+ Go through fuers structures to check for iron blocks/ore
-+ Tutorial World button on Main Menu?
-+ add soil to shovelable tag
-
-## is_overworld tag check
-- nephrite geode
