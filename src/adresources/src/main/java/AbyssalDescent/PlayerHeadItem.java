@@ -77,20 +77,16 @@ public class PlayerHeadItem {
 
 		if (stack == null || stack.isEmpty()) return;
 
-		var mc = Minecraft.getInstance();
-		var level = player.level();
 		var t = player.tickCount + e.getPartialTick();
-
-		var light = e.getPackedLight();
 		var ps = e.getPoseStack();
-		var buf = e.getMultiBufferSource();
 
 		ps.pushPose();
 		ps.translate(0.0, player.getBbHeight() + 0.35 + Mth.sin(t * 0.1f) * 0.05f, 0.0);
 		ps.mulPose(Axis.YP.rotationDegrees(t * 2.0f));
 
-		mc.getItemRenderer().renderStatic(stack, ItemDisplayContext.GROUND,
-			light, OverlayTexture.NO_OVERLAY, ps, buf, level, 0);
+		Minecraft.getInstance().getItemRenderer().renderStatic(
+			stack, ItemDisplayContext.GROUND, e.getPackedLight(), OverlayTexture.NO_OVERLAY, 
+			ps, e.getMultiBufferSource(), player.level(), 0);
 
 		ps.popPose();
 	}
