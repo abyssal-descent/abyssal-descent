@@ -56,7 +56,7 @@ quick charge: works for bows too
 //? respiration: breathe underwater :)
 riptide: damage+knockback enemies on contact, may use for a short duration even if not raining/underwater
 sharpness: deal extra damage to unarmoured enemies //!
-//? smite: lighting bolt on hit. works with tridents.
+//? smite: lighting bolt on hit. works with tridents. //# doesnt work with tridents or arrows :(
 soul speed: you cannot be slowed by blocks. move faster on soul sand and soil.
 sweeping edge: deals same weapon damage to all + increase range slightly.
 thorns: enemies take as much damage as they deal to you, but you take 20% extra. only for melee
