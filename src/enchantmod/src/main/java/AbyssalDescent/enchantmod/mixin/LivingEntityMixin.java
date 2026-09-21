@@ -43,7 +43,7 @@ public class LivingEntityMixin {
 			for (var enchant : EnchantmentHelper.getEnchantments(stack).keySet()) {
 				var behaviour = Enchant.get(enchant);
 				if (behaviour == null) continue;
-				amount *= behaviour.damage_taken_mul(stack, source, amount, entity);
+				amount *= behaviour.damage_taken_mul(stack, source, entity);
 			}
 		}
 

@@ -7,10 +7,10 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.ItemStack;
 
-public class BlastProtection implements Enchant.Behaviour {
+public class FireProtection implements Enchant.Behaviour {
 	@Override
 	public ChatFormatting get_format() {
-		return ChatFormatting.DARK_GRAY;
+		return ChatFormatting.RED;
 	}
 
 	@Override
@@ -20,6 +20,13 @@ public class BlastProtection implements Enchant.Behaviour {
 
 	@Override
 	public float damage_taken_mul(ItemStack stack, DamageSource source, LivingEntity entity) {
-		return (source.is(DamageTypes.EXPLOSION) || source.is(DamageTypes.PLAYER_EXPLOSION)) ? 0.4F : 1.0F;
+		if (source.is(DamageTypes.HOT_FLOOR)
+			|| source.is(DamageTypes.IN_FIRE)
+			|| source.is(DamageTypes.ON_FIRE)) return 0.0F;
+
+		return (source.is(DamageTypes.LAVA)) ? 0.6F : 1.0F;
 	}
+
+	@Override
+	public boolean can_burn(ItemStack stack) { return false; }
 }

@@ -10,7 +10,8 @@
 		"ItemStackMixin",
 		"LivingEntityMixin",
 		"EnchantmentHelperMixin",
-		"LootTableMixin"
+		"LootTableMixin",
+		"EntityMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1
