@@ -25,7 +25,7 @@ public class ItemStackMixin {
 
 		for (var enchant : EnchantmentHelper.getEnchantments(stack).keySet()) {
 			var behaviour = Enchant.get(enchant);
-			if (behaviour != null && behaviour.on_hurt(stack, amount, entity))
+			if (behaviour != null && behaviour.on_tool_damage(stack, amount, entity))
 				ci.cancel();
 		}
 	}

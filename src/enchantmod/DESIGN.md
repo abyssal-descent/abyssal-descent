@@ -32,7 +32,7 @@ right click to place item, right click again to pop it out
 
 
 aqua affinity: increased healing when in water, mine faster than on the ground
-blast protection: greatly reduced explosion damage
+//? blast protection: greatly reduced explosion damage
 depth strider: crouch to rapidly descend, movement boost while swіmming near the ground
 efficiency: start mining at 0.75x speed and go up to 1.5x over N mined blocks //! eclipse L
 feather falling: like the feather fall potion, sneak to fall normally

@@ -20,7 +20,7 @@ public class Unbreaking implements Enchant.Behaviour {
 	}
 
 	@Override
-	public boolean on_hurt(ItemStack stack, int amount, LivingEntity entity) {
+	public boolean on_tool_damage(ItemStack stack, int amount, LivingEntity entity) {
 		var damage = Math.min(
 			stack.getDamageValue() + amount,
 			stack.getMaxDamage());
