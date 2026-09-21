@@ -15,6 +15,9 @@
 + make mod :)
 
 ## General
+- Make tools repairable with ad hammers anvil functionality
+- Make ad hammers data driven
+- Consider unique items obtained from certain enchant rituals
 
 ## CHARMS
 - fix whatever tf is going on with curios and aether
@@ -27,15 +30,21 @@
 
 ## Aether
 - create all rough gems
+	- Zanite, Skyjade
+
 - explore ruins mods
 - Disable Aether tips
 - Remove clouds from the Aether.
+- remove holystone tools
+- add shield expansion aether support
+- figure out resource to upgrade nether ruby armor
 
 ## Skylands
 - Disable rewards dispensers or prevent them from crashing upon use. (I think the cause is the way we hard code disabled advancements)
 
 ## Overworld
 - remove vanilla villages
+- Add ores to overworld (above netherite requiring high tier pickaxe?)
 
 ## Delver's Beginning
 
@@ -50,6 +59,9 @@
 - remove features we dont want from mods
 - ad resources bedrock block
 - look into mods
+- Cincinnicite anvil AD hammers support above iron anvil\
+- Consider anguine armor
+- ensure wither skeletons spawn with a sword
 
 ---
 
