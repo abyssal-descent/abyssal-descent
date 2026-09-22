@@ -12,7 +12,6 @@ import net.minecraftforge.fml.ModLoadingContext;
 import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
-import net.minecraftforge.client.ConfigScreenHandler;
 
 import java.util.Arrays;
 
@@ -37,7 +36,5 @@ public class ADResources {
 			});
 
 		ModLoadingContext.get().registerConfig(ModConfig.Type.CLIENT, DepthMeter.Config.SPEC);
-		ModLoadingContext.get().registerExtensionPoint(ConfigScreenHandler.ConfigScreenFactory.class,
-			() -> new ConfigScreenHandler.ConfigScreenFactory((m, s) -> new DepthMeter.Config.ConfigScreen(s)));
 	}
 }

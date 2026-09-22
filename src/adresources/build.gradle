@@ -33,6 +33,11 @@ minecraft {
 			property 'forge.enabledGameTestNamespaces', mod_id
 		}
 
+		server {
+			property 'forge.enabledGameTestNamespaces', mod_id
+			args '--nogui'
+		}
+
 		data {
 			workingDirectory project.file('run-data')
 			args '--mod', mod_id, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')

@@ -78,6 +78,7 @@
 	- Normal waystones are craftable and expensive but when placed anywhere besides the overworld EXPLODE!!!
 	- nether and lower
 + stackable potions and food items?
+- remove quark ancient tomes
 
 ## Advancements
 + Hidden Advancement Kobolds! - Trade with a Kobold
