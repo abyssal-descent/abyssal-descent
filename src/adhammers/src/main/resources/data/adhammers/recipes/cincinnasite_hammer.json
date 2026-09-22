@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "betternether:cincinnasite_ingot"
+    },
+    "B": {
+      "item": "betternether:cincinnasite_block"
+    }
+  },
+  "pattern": [
+    "XBX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "adhammers:cincinnasite_hammer"
+  },
+  "show_notification": true
+}

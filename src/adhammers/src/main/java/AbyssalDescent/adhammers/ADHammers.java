@@ -55,11 +55,19 @@ public class ADHammers {
 	public static final RegistryObject<Hammer> UTHERIUM_HAMMER = ITEMS.register("utherium_hammer", () ->
 		new Hammer(new Hammer.Material(3,  (int)(1279 * DUR_MUL),  8.5f  * EFF_MUL,  Resolve.item("undergarden:utherium_crystal")), 10.5f));
 	public static final RegistryObject<Hammer> NETHERITE_HAMMER = ITEMS.register("netherite_hammer", () ->
-		new Hammer(new Hammer.Material(4,  (int)(2031 * DUR_MUL),  9.0f  * EFF_MUL,  Items.NETHERITE_INGOT), 10.0f));
+		new Hammer(new Hammer.Material(4,  (int)(2031 * DUR_MUL),  9.0f  * EFF_MUL,  Items.NETHERITE_INGOT), 11.0f));
 	public static final RegistryObject<Hammer> CLOGGRUM_HAMMER = ITEMS.register("cloggrum_hammer", () ->
 		new Hammer(new Hammer.Material(2,  (int)(285  * DUR_MUL),  6.0f  * EFF_MUL,  Resolve.item("undergarden:cloggrum_ingot")), 10.0f));
 	public static final RegistryObject<Hammer> FROSTSTEEL_HAMMER = ITEMS.register("froststeel_hammer", () ->
 		new Hammer(new Hammer.Material(2,  (int)(575  * DUR_MUL),  7.0f  * EFF_MUL,  Resolve.item("undergarden:frosteel_ingot")), 10.0f));
+	public static final RegistryObject<Hammer> CINCINNASITE_HAMMER = ITEMS.register("cincinnasite_hammer", () ->
+		new Hammer(new Hammer.Material(2,  (int)(512  * DUR_MUL),  7.0f  * EFF_MUL,  Resolve.item("betternether:cincinnasite_ingot")), 10.0f));
+	public static final RegistryObject<Hammer> NETHER_RUBY_HAMMER = ITEMS.register("nether_ruby_hammer", () ->
+		new Hammer(new Hammer.Material(3,  (int)(2561  * DUR_MUL),  9.0f  * EFF_MUL,  Resolve.item("betternether:nether_ruby")), 10.0f));
+	public static final RegistryObject<Hammer> FIRE_RUBY_HAMMER = ITEMS.register("fire_ruby_hammer", () ->
+		new Hammer(new Hammer.Material(4,  (int)(2861  * DUR_MUL),  9.0f  * EFF_MUL,  Resolve.item("minecraft:sculk_catalyst")), 11.0f));
+	public static final RegistryObject<Hammer> CINCINNASITE_DIAMOND_HAMMER = ITEMS.register("cincinnasite_diamond_hammer", () ->
+		new Hammer(new Hammer.Material(3,  (int)(2061  * DUR_MUL),  8.0f  * EFF_MUL,  Resolve.item("minecraft:diamond")), 10.0f));
 
 	public static final RegistryObject<Item> COPPER_PLATE       = item("copper_plate"      );
 	public static final RegistryObject<Item> IRON_PLATE         = item("iron_plate"        );
@@ -102,6 +110,10 @@ public class ADHammers {
 				e.accept(NETHERITE_HAMMER);
 				e.accept(CLOGGRUM_HAMMER);
 				e.accept(FROSTSTEEL_HAMMER);
+				e.accept(CINCINNASITE_HAMMER);
+				e.accept(NETHER_RUBY_HAMMER);
+				e.accept(FIRE_RUBY_HAMMER);
+				e.accept(CINCINNASITE_DIAMOND_HAMMER);
 			}
 
 			if (e.getTabKey() == CreativeModeTabs.INGREDIENTS) {

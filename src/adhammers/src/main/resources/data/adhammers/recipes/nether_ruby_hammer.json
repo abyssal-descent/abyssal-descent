@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:stick"
+    },
+    "X": {
+      "item": "betternether:nether_ruby_ingot"
+    },
+    "B": {
+      "item": "betternether:nether_ruby_block"
+    }
+  },
+  "pattern": [
+    "XBX",
+    " # ",
+    " # "
+  ],
+  "result": {
+    "item": "adhammers:nether_ruby_hammer"
+  },
+  "show_notification": true
+}
