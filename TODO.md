@@ -33,7 +33,9 @@
 - Cincinnicite anvil AD hammers support above iron anvil
 - Consider sanguine armor
 - ensure wither skeletons spawn with a sword
-
+- better nether lapis -> drops rough lazurite
+- what should fireruby be repaired with?
+- Trade to obtain fire ruby with whom? (Skeleton Merchant)
 
 
 
@@ -68,6 +70,7 @@
 - if unequipped do ѕtored items just drop?
 
 ## General
+- checkout https://www.curseforge.com/minecraft/mc-mods/dungeon-and-taverns with slab for nether buildings
 - Make tools repairable with ad hammers anvil functionality
 - Make ad hammers data driven
 + Make granite anvil break when block below is broken
@@ -82,6 +85,7 @@
 
 ## Advancements
 + Hidden Advancement Kobolds! - Trade with a Kobold
++ Bündel
 
 
 
