@@ -8,7 +8,6 @@
 + New Hardened/weakened root block texture
 + Rough Utherium Block
 
----
 # Dimension Work
 
 ## Overworld
@@ -20,5 +19,3 @@
 
 ## Infernal Crossing
 - ore generation broke fix
-
----

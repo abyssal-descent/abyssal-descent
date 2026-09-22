@@ -13,10 +13,11 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.CustomizeGuiOverlayEvent;
 import net.minecraftforge.common.ForgeConfigSpec;
+import net.minecraftforge.api.distmarker.Dist;
 
 import java.util.function.Function;
 
-@Mod.EventBusSubscriber
+@Mod.EventBusSubscriber(modid = ADResources.MODID, value = Dist.CLIENT)
 public class DepthMeter {
 	private static final int COLOUR = 0xE0E0E0;
 
