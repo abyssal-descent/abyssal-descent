@@ -58,6 +58,12 @@ public class Registry {
 		ITEMS.register("rough_utherium_crystal", () -> new Item(new Item.Properties()));
 	public static final RegistryObject<Item> ROUGH_REGALIUM_CRYSTAL =
 		ITEMS.register("rough_regalium_crystal", () -> new Item(new Item.Properties()));
+	public static final RegistryObject<Item> ROUGH_NETHER_RUBY =
+		ITEMS.register("rough_nether_ruby", () -> new Item(new Item.Properties()));
+	public static final RegistryObject<Item> ROUGH_ZANITE_GEMSTONE =
+		ITEMS.register("rough_zanite_gemstone", () -> new Item(new Item.Properties()));
+	public static final RegistryObject<Item> ROUGH_SKYJADE_GEMSTONE =
+		ITEMS.register("rough_skyjade_gemstone", () -> new Item(new Item.Properties()));
 
 	public static final RegistryObject<CureItem> THE_CURE =
 		ITEMS.register("the_cure", () -> new CureItem(new Item.Properties()));
