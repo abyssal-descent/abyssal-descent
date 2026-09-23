@@ -1,5 +1,6 @@
-# Release todo
+# Patch Todo
 + reword read me errors
++ Keep Bows on death
 
 ## Advancements
 
