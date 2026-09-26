@@ -14,7 +14,7 @@
 	rare_region_weight = 1
 	#Sets Terrablender region weight for Nether region.
 	#Range: 0 ~ 2147483646
-	nether_region_weight = 14
+	nether_region_weight = 5
 
 [biome_toggles]
 	#overworld_biomes
@@ -87,11 +87,11 @@
 	toggle_redstone_caves = false
 	toggle_scorching_caves = false
 	#nether_biomes
-	toggle_blackstone_basin = true
-	toggle_glistering_meadow = true
-	toggle_infernal_holt = true
-	toggle_mycotoxic_undergrowth = true
-	toggle_redstone_hell = true
+	toggle_blackstone_basin = false
+	toggle_glistering_meadow = false
+	toggle_infernal_holt = false
+	toggle_mycotoxic_undergrowth = false
+	toggle_redstone_hell = false
 
 [worldgen_options]
 	#surface_rules
