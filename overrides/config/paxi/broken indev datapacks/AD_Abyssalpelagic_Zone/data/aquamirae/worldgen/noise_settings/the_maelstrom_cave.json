@@ -5,7 +5,7 @@
   "disable_mob_generation": false,
   "legacy_random_source": false,
   "default_block": {
-    "Name": "alexscaves:abyssmarine"
+    "Name": "minecraft:packed_ice"
   },
   "default_fluid": {
     "Name": "minecraft:water",
@@ -88,29 +88,17 @@
         }
       },
       "argument2": {
-        "type": "minecraft:mul",
-        "argument1": {
-          "type": "minecraft:min",
-          "argument1": {
-            "type": "minecraft:y_clamped_gradient",
-            "from_y": 40,
-            "to_y": 80,
-            "from_value": 0,
-            "to_value": 1
-          },
-          "argument2": {
-            "type": "minecraft:y_clamped_gradient",
-            "from_y": 260,
-            "to_y": 300,
-            "from_value": 1,
-            "to_value": 0
-          }
+        "type": "minecraft:range_choice",
+        "input": {
+          "type": "minecraft:noise",
+          "noise": "aquamirae:pillar_shape",
+          "xz_scale": 0.4,
+          "y_scale": 0.02
         },
-        "argument2": {
-          "type": "minecraft:mul",
-          "argument1": 1.3,
-          "argument2": "minecraft:overworld/caves/pillars"
-        }
+        "min_inclusive": 0.5,
+        "max_exclusive": 1000000,
+        "when_in_range": 3,
+        "when_out_of_range": 0
       }
     },
     "fluid_level_floodedness": 1000000,
@@ -173,7 +161,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:gravel"
+            "Name": "minecraft:blue_ice"
           }
         }
       },
@@ -189,7 +177,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:stone"
+            "Name": "minecraft:packed_ice"
           }
         }
       },
@@ -208,7 +196,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:deepslate",
+            "Name": "alexscaves:abyssmarine",
             "Properties": {
               "axis": "y"
             }
