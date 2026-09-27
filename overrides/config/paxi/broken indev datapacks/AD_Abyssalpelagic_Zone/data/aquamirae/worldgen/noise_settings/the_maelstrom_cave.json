@@ -15,7 +15,7 @@
   },
   "spawn_target": [],
   "noise": {
-    "height": 384,
+    "height": 368,
     "min_y": -64,
     "size_horizontal": 1,
     "size_vertical": 2
@@ -77,8 +77,8 @@
                 },
                 "argument2": {
                   "type": "minecraft:y_clamped_gradient",
-                  "from_y": 200,
-                  "to_y": 325,
+                  "from_y": 160,
+                  "to_y": 270,
                   "from_value": 0,
                   "to_value": 2
                 }
