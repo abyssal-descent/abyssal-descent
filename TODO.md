@@ -9,12 +9,12 @@
 - remove holystone tools
 - add shield expansion aether support
 - figure out resource to upgrade nether ruby armor
+- disable agility cape
 
 ## Skylands
 - Disable rewards dispensers or prevent them from crashing upon use. (I think the cause is the way we hard code disabled advancements)
 
 ## Overworld
-- remove vanilla villages
 - Add ores to overworld (above netherite requiring high tier pickaxe?)
 
 ## Delver's Beginning
@@ -36,8 +36,10 @@
 - better nether lapis -> drops rough lazurite
 - what should fireruby be repaired with?
 - Trade to obtain fire ruby with whom? (Skeleton Merchant)
+- Test RU biomes frequency being reduced
 
-
+# Deep Dark
+- Charm
 
 # Short Term =====================================================================================
 
@@ -104,8 +106,9 @@
 + adhammers jei support
 + Tutorial World button on Main Menu?
 
-
-
+## Ice Layer
+- add frostmaw as boss
+- add tube/spaghetti caves
 
 # TBD ============================================================================================
 
