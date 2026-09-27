@@ -1,0 +1,48 @@
+{
+  "type": "aquamirae:the_maelstrom",
+  "generator": {
+    "type": "minecraft:noise",
+    "settings": "aquamirae:the_maelstrom_cave",
+    "biome_source": {
+      "type": "minecraft:multi_noise",
+      "biomes": [
+        {
+          "biome": "alexscaves:abyssal_chasm",
+          "parameters": {
+            "temperature": 0.3,
+            "humidity": -0.5,
+            "continentalness": 0.5,
+            "erosion": 0.4,
+            "depth": 0.2,
+            "weirdness": 0.5,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "aquamirae:ice_maze",
+          "parameters": {
+            "temperature": 0.6,
+            "humidity": 0.3,
+            "continentalness": -0.5,
+            "erosion": 0.3,
+            "depth": 0.32,
+            "weirdness": 0.4,
+            "offset": 0
+          }
+        },
+        {
+          "biome": "minecraft:deep_frozen_ocean",
+          "parameters": {
+            "temperature": 0.45,
+            "humidity": -0.6,
+            "continentalness": 0.3,
+            "erosion": -0.3,
+            "depth": 0.34,
+            "weirdness": -0.2,
+            "offset": 0
+          }
+        }
+      ]
+    }
+  }
+}

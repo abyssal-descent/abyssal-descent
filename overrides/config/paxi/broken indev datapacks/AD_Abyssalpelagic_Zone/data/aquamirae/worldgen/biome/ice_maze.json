@@ -1,0 +1,112 @@
+{
+  "temperature_modifier": "none",
+  "temperature": -1.0,
+  "has_precipitation": true,
+  "downfall": 1.0,
+  "effects": {
+    "fog_color": 12638463,
+    "sky_color": 8364543,
+    "water_color": 3750089,
+    "water_fog_color": 329011,
+    "ambient_sound": "aquamirae:ambient.ice_maze.loop",
+    "mood_sound": {
+      "tick_delay": 300,
+      "offset": 2.0,
+      "block_search_extent": 6,
+      "sound": "aquamirae:ambient.ice_maze.mood"
+    },
+    "music": {
+      "max_delay": 12000,
+      "min_delay": 6000,
+      "replace_current_music": false,
+      "sound": "aquamirae:music.ice_maze_theme"
+    },
+    "particle": {
+      "options": {
+        "type": "minecraft:white_ash"
+      },
+      "probability": 0.05
+    }
+  },
+  "carvers": {
+    "air": [
+      "aquamirae:canyon"
+    ]
+  },
+  "features": [
+    [],
+    [],
+    [
+      "minecraft:iceberg_packed",
+      "minecraft:iceberg_blue"
+    ],
+    [],
+    [
+      "minecraft:blue_ice"
+    ],
+    [],
+    [
+      "minecraft:underwater_magma",
+      "minecraft:disk_sand",
+      "minecraft:disk_clay"
+    ],
+    [],
+    [],
+    [
+      "minecraft:seagrass_deep",
+      "minecraft:seagrass_simple",
+      "minecraft:kelp_cold"
+    ],
+    [
+      "minecraft:freeze_top_layer"
+    ]
+  ],
+  "spawn_costs": {
+    "aquamirae:scuttler": {
+      "energy_budget": 1.5,
+      "charge": 1.0
+    },
+    "aquamirae:anglerfish": {
+      "energy_budget": 1.0,
+      "charge": 1.0
+    }
+  },
+  "spawners": {
+    "monster": [
+      {
+        "type": "aquamirae:maw",
+        "weight": 200,
+        "minCount": 2,
+        "maxCount": 4
+      },
+      {
+        "type": "aquamirae:anglerfish",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 1
+      }
+    ],
+    "ambient": [
+      {
+        "type": "aquamirae:scuttler",
+        "weight": 10,
+        "minCount": 1,
+        "maxCount": 3
+      }
+    ],
+    "water_ambient": [
+      {
+        "type": "aquamirae:spinefish",
+        "weight": 6,
+        "minCount": 4,
+        "maxCount": 8
+      },
+      {
+        "type": "aquamirae:abyssal_scyphoid",
+        "weight": 4,
+        "minCount": 4,
+        "maxCount": 4
+      }
+    ]
+  }
+}
