@@ -111,7 +111,6 @@ yungs_cave_biomes,1111586,6304088
 cavernsandchasms,438005,6040957
 regionsunexplored,659110,5558225
 darker_depths,460681,7238258
-luminous_overworld,909107,6588230
 better_nether_forge,1436171,8590611
 
 # aether
@@ -129,6 +128,7 @@ feur_fossil,1117070,7232476
 # subterrestrial,575588,4574890
 epic_structures_dungeons,1501318,7999619
 sky_villages,545467,5401804
+cult_of_azazel,1571005,8655335
 
 
 # Other
@@ -181,6 +181,8 @@ enchanced_boss_bars,1063296,5529869
 
 # mcreator
 skylands,967045,7369271
+# luminous_overworld,909107,6588230
+mcreator_mem_fix,1310491,7150962
 
 # resource packs
 GrappleRetextured_1.20.1_v1,549691,5201178
@@ -193,3 +195,6 @@ Fine Armoury v1.8,983707,8058232
 Better Chainmail,554802,3556487
 menubuttonsbutdarkv1.0,973875,5138025
 Nature X - 12.2 [1.20.1],461745,6133206
+
+# remove for release versions
+worldedit,225608,4586218
