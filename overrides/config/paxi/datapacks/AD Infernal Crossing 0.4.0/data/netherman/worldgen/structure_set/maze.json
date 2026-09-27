@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "netherman:maze",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 80,
+    "separation": 30,
+    "salt": 445566
+  }
+}

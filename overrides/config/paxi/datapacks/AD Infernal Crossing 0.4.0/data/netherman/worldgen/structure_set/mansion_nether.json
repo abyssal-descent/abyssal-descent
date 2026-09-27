@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "netherman:mansion_nether",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 45,
+    "separation": 16,
+    "salt": 165745296
+  }
+}

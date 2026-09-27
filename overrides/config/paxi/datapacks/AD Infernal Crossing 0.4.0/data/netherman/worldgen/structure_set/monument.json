@@ -1,0 +1,13 @@
+{
+  "structures": [
+    { "structure": "netherman:monument", "weight": 1 }
+  ],
+  "placement": {
+    "type": "minecraft:concentric_rings",
+    "distance": 50,
+    "spread": 10,
+    "count": 2,
+    "salt": 112233,
+    "preferred_biomes": "#minecraft:is_overworld"
+  }
+}

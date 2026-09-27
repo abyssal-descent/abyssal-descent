@@ -437,14 +437,14 @@
             "if_true": {
               "type": "minecraft:biome",
               "biome_is": [
-                "infinite_abyss:second_layer_cavern"
+                "darkerdepths:sandy_catacombs"
               ]
             },
             "then_run": {
               "type": "minecraft:condition",
               "if_true": {
                 "type": "minecraft:stone_depth",
-                "offset": 64,
+                "offset": 0,
                 "surface_type": "floor",
                 "secondary_depth_range": 0,
                 "add_surface_depth": false
@@ -452,37 +452,7 @@
               "then_run": {
                 "type": "minecraft:block",
                 "result_state": {
-                  "Name": "infinite_abyss:red_deepstone"
-                }
-              }
-            }
-          }
-        ]
-      },
-      {
-        "type": "minecraft:sequence",
-        "sequence": [
-          {
-            "type": "minecraft:condition",
-            "if_true": {
-              "type": "minecraft:biome",
-              "biome_is": [
-                "infinite_abyss:second_layer_cavern"
-              ]
-            },
-            "then_run": {
-              "type": "minecraft:condition",
-              "if_true": {
-                "type": "minecraft:stone_depth",
-                "offset": 64,
-                "surface_type": "ceiling",
-                "secondary_depth_range": 0,
-                "add_surface_depth": false
-              },
-              "then_run": {
-                "type": "minecraft:block",
-                "result_state": {
-                  "Name": "infinite_abyss:red_deepstone"
+                  "Name": "darkerdepths:aridrock"
                 }
               }
             }

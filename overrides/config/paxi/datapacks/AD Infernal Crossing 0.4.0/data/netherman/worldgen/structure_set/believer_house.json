@@ -1,0 +1,11 @@
+{
+  "structures": [
+    { "structure": "netherman:believer_house", "weight": 1 }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 40,
+    "salt": 192837465
+  }
+}

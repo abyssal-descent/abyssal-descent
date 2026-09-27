@@ -1,0 +1,22 @@
+{
+  "structures": [
+    {
+      "structure": "netherman:eye_columns",
+      "weight": 1
+    },
+    {
+      "structure": "netherman:gehen_statue",
+      "weight": 1
+    },
+    {
+      "structure": "netherman:trap",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 8,
+    "separation": 4,
+    "salt": 472910483
+  }
+}
