@@ -2,6 +2,7 @@
 + reword read me errors
 + Keep Bows on death
 + add peepers to in control remove forge biome modifier
++ add exp qol mods i.e anvil repair limit etc...
 
 ## Advancements
 
