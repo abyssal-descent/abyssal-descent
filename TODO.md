@@ -1,4 +1,5 @@
 # High Priority ==================================================================================
+- REMOVE LUMINOUS MOBS FROM IN CONTROL AND FORGE BIOME MODIFIERS!
 
 ## Aether
 	- create all rough gems
