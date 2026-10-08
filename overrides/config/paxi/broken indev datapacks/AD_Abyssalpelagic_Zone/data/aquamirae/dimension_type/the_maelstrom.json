@@ -22,5 +22,5 @@
   "respawn_anchor_works": false,
   "ultrawarm": false,
   "infiniburn": "#minecraft:infiniburn_overworld",
-  "effects": "minecraft:overworld"
+  "effects": "minecraft:the_end"
 }
