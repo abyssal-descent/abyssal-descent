@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:shipwreck",
+  "biomes": "#aquamirae:ice_maze",
+  "is_beached": false,
+  "spawn_overrides": {},
+  "step": "surface_structures"
+}

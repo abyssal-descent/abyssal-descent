@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "aquamirae:pirate_outpost",
+  "start_height": {
+    "absolute": 0
+  },
+  "project_start_to_heightmap": "OCEAN_FLOOR_WG",
+  "biomes": "#aquamirae:ice_maze",
+  "step": "top_layer_modification",
+  "max_distance_from_center": 80,
+  "size": 2,
+  "use_expansion_hack": false,
+  "spawn_overrides": {
+    "monster": {
+      "bounding_box": "full",
+      "spawns": [
+        {
+          "type": "minecraft:pillager",
+          "weight": 10,
+          "minCount": 1,
+          "maxCount": 1
+        },
+        {
+          "type": "minecraft:vindicator",
+          "weight": 5,
+          "minCount": 1,
+          "maxCount": 1
+        }
+      ]
+    }
+  }
+}

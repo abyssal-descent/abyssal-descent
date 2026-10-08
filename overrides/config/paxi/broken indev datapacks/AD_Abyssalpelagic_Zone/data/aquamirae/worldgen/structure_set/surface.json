@@ -1,0 +1,18 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 9191766080,
+    "spacing": 4,
+    "separation": 0
+  },
+  "structures": [
+    {
+      "structure": "aquamirae:surface/arch",
+      "weight": 66
+    },
+    {
+      "structure": "aquamirae:surface/spiral",
+      "weight": 33
+    }
+  ]
+}

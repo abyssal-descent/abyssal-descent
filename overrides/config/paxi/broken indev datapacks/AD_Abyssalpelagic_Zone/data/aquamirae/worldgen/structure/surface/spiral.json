@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:jigsaw",
+  "start_pool": "aquamirae:surface/spiral",
+  "start_height": {
+    "absolute": 159
+  },
+  "biomes": "#aquamirae:ice_maze",
+  "step": "fluid_springs",
+  "max_distance_from_center": 80,
+  "size": 2,
+  "use_expansion_hack": false,
+  "spawn_overrides": {}
+}

@@ -1,0 +1,14 @@
+{
+  "placement": {
+    "type": "minecraft:random_spread",
+    "salt": 9391766081,
+    "spacing": 25,
+    "separation": 10
+  },
+  "structures": [
+    {
+      "structure": "aquamirae:pirate_ship",
+      "weight": 1
+    }
+  ]
+}
