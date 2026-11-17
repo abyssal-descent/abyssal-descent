@@ -23,11 +23,11 @@ raku build.raku
 . {iwr -useb https://rakubrew.org/install-on-powershell.ps1 } | iex
 New-Item -Path (Split-Path $PROFILE) -ItemType "Directory" -Force
 Add-Content -Force -Path $PROFILE -Value '. "C:\rakubrew\bin\rakubrew.exe" init PowerShell | Out-String | Invoke-Expression'
-rakubrew install
+rakubrew download
 ```
 
 **Install Raku (Linux)**
 ```bash
 curl https://rakubrew.org/install-on-perl.sh | sh
-rakubrew install
+rakubrew download
 ```
