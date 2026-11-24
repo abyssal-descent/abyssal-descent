@@ -4,7 +4,7 @@
 ],
   "output": "minecraft:netherrack",
   "dimension": "minecraft:the_nether",
-  "min_y": 124,
+  "min_y": 122,
   "max_y": 128,
   "player_blocks": false
 }
