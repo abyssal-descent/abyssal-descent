@@ -137,23 +137,6 @@
     }
   },
   {
-    "mob":"luminousworld:hollow",
-    "persecond":0.5,
-    "attempts":1,
-    "amount":{
-      "minimum":1,
-      "maximum":3
-    },
-    "conditions":{
-      "dimension":"delverbegin:delversbeginnings",
-      "mindist":24,
-      "maxdist":128,
-      "minheight":0,
-      "maxheight":120,
-      "maxthis":7
-    }
-  },
-  {
     "mob":"mowziesmobs:lantern",
     "persecond": 0.5,
     "attempts":1,

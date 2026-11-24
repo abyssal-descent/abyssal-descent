@@ -78,18 +78,6 @@
     "result": "deny"
   },
   {
-    "mob": "luminousworld:hollow",
-    "biome": [
-      "galosphere:crystal_canyons",
-      "regions_unexplored:ancient_delta",
-      "galosphere:lichen_caves",
-      "regions_unexplored:bioshroom_caves",
-      "darkerdepths:glowshroom_forest",
-      "galosphere:pink_salt_caves"
-    ],
-    "result": "deny"
-  },
-  {
     "mob": "mowziesmobs:lantern",
     "biome": [
       "galosphere:crystal_canyons",
