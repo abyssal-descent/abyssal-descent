@@ -1,0 +1,10 @@
+{
+  "inputs": [
+    "minecraft:bedrock"
+],
+  "output": "minecraft:netherrack",
+  "dimension": "minecraft:the_nether",
+  "min_y": 124,
+  "max_y": 128,
+  "player_blocks": false
+}
