@@ -1,0 +1,16 @@
+{
+  "feature": "theabyss:vigilant_grass",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 29
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

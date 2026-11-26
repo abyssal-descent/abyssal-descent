@@ -1,0 +1,20 @@
+{
+  "feature": "theabyss:skeleton_body_variant_2",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 31
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 32
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

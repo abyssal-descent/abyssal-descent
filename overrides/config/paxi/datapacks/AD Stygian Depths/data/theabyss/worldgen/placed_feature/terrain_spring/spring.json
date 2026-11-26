@@ -1,0 +1,33 @@
+{
+  "feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "theabyss:terrain_spring/plains/normal",
+            "placement": []
+          },
+          "chance": 0.5
+        }
+      ],
+      "default": {
+        "feature": "theabyss:terrain_spring/plains/normal",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 1
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

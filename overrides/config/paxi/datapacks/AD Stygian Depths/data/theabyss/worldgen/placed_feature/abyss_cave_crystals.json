@@ -1,0 +1,13 @@
+{
+  "feature": "theabyss:abyss_cave_crystals",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "minecraft:rarity_filter",
+      "chance": 7
+    }
+  ]
+}

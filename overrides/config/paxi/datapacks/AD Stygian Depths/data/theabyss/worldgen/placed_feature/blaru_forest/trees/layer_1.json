@@ -1,0 +1,96 @@
+{
+  "feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "theabyss:blaru_pine/1",
+            "placement": []
+          },
+          "chance": 0.015
+        },
+        {
+          "feature": {
+            "feature": "theabyss:blaru_pine/2",
+            "placement": []
+          },
+          "chance": 0.0025
+        },
+        {
+          "feature": {
+            "feature": "theabyss:blaru_pine/3",
+            "placement": []
+          },
+          "chance": 0.04
+        },
+        {
+          "feature": {
+            "feature": "theabyss:blaru_pine/4",
+            "placement": []
+          },
+          "chance": 0.1
+        },
+        {
+          "feature": {
+            "feature": "theabyss:blaru_big_tree/1",
+            "placement": []
+          },
+          "chance": 0.1
+        },
+        {
+          "feature": {
+            "feature": "theabyss:blaru_big_tree/2",
+            "placement": []
+          },
+          "chance": 0.1
+        },
+        {
+          "feature": {
+            "feature": "theabyss:blaru_big_tree/3",
+            "placement": []
+          },
+          "chance": 0.1
+        },
+        {
+          "feature": {
+            "feature": "theabyss:blaru_big_tree/4",
+            "placement": []
+          },
+          "chance": 0.1
+        },
+        {
+          "feature": {
+            "feature": "theabyss:blaru_pine/5",
+            "placement": []
+          },
+          "chance": 0.35
+        },
+        {
+          "feature": {
+            "feature": "theabyss:blaru_pine/6",
+            "placement": []
+          },
+          "chance": 0.05
+        }
+      ],
+      "default": {
+        "feature": "theabyss:blaru_pine/1",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 10
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

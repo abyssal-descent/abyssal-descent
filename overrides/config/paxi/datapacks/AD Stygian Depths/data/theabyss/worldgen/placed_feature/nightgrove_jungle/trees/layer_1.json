@@ -1,0 +1,54 @@
+{
+  "feature": {
+    "config": {
+      "features": [
+        {
+          "feature": {
+            "feature": "theabyss:nightgrove_tree/1",
+            "placement": []
+          },
+          "chance": 0.125
+        },
+        {
+          "feature": {
+            "feature": "theabyss:nightgrove_tree/2",
+            "placement": []
+          },
+          "chance": 0.15
+        },
+        {
+          "feature": {
+            "feature": "theabyss:nightgrove_tree/3",
+            "placement": []
+          },
+          "chance": 0.025
+        },
+        {
+          "feature": {
+            "feature": "theabyss:nightgrove_tree/4",
+            "placement": []
+          },
+          "chance": 0.1
+        }
+      ],
+      "default": {
+        "feature": "theabyss:nightgrove_tree/4",
+        "placement": []
+      }
+    },
+    "type": "minecraft:random_selector"
+  },
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 8
+    },
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 1
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}
