@@ -55,19 +55,7 @@
   },
   {
     "mob": "organics:terracotta_coloss",
-    "maxcount": 15,
+    "mincount": 15,
     "result": "deny"
-  },
-  {
-    "mob": "organics:terracotta_coloss",
-    "biome": [
-      "regions_unexplored:ancient_delta"
-    ],
-    "result": "allow"
-  },
-  {
-    "mob": "mowziesmobs:foliaath",
-    "block": "regions_unexplored:argillite_grass_block",
-    "result": "allow"
   }
 ]
