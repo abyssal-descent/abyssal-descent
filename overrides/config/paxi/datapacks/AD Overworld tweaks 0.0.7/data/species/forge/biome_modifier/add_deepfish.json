@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [],
+  "spawners": {
+    "type": "species:deepfish",
+    "weight": 80,
+    "minCount": 4,
+    "maxCount": 6
+  }
+}

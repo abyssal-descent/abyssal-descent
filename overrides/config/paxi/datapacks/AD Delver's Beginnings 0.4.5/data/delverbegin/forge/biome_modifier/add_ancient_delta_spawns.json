@@ -1,0 +1,24 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "regions_unexplored:ancient_delta",
+  "spawners": [
+    {
+      "type": "organics:terracotta_coloss",
+      "weight": 15,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "mowziesmobs:foliaath",
+      "weight": 40,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "mowziesmobs:bluff",
+      "weight": 10,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

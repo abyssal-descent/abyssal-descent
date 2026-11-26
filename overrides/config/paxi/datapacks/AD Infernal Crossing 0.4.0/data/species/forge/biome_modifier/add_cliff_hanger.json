@@ -1,0 +1,11 @@
+{
+  "type": "species:add_conditional_spawns",
+  "biomes": "#infernalcross:is_infernal_crossing",
+  "filtered": "#species:without_hostile_spawns",
+  "spawners": {
+    "type": "species:cliff_hanger",
+    "weight": 40,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}

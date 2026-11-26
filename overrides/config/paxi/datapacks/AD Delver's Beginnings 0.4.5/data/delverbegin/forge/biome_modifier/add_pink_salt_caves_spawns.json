@@ -1,0 +1,12 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "galosphere:pink_salt_caves",
+  "spawners": [
+    {
+      "type": "galosphere:preserved",
+      "weight": 80,
+      "minCount": 1,
+      "maxCount": 2
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "species:add_conditional_spawns",
+  "biomes": "#infernalcross:is_infernal_crossing",
+  "filtered": "#species:without_hostile_spawns",
+  "spawners": {
+    "type": "species:quake",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

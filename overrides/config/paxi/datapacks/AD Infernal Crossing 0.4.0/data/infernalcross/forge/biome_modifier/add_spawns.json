@@ -1,0 +1,30 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": "#infernalcross:is_infernal_crossing",
+  "spawners": [
+    {
+      "type": "minecraft:husk",
+      "weight": 80,
+      "minCount": 1,
+      "maxCount": 4
+    },
+    {
+      "type": "alexsmobs:centipede_head",
+      "weight": 20,
+      "minCount": 1,
+      "maxCount": 1
+    },
+    {
+      "type": "alexsmobs:dropbear",
+      "weight": 15,
+      "minCount": 1,
+      "maxCount": 3
+    },
+    {
+      "type": "alexsmobs:murmur",
+      "weight": 8,
+      "minCount": 1,
+      "maxCount": 1
+    }
+  ]
+}

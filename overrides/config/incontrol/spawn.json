@@ -1,180 +1,33 @@
 [
   {
-    "mob": "alexsmobs:rocky_roller",
-    "biome": [
-      "yungscavebiomes:lost_caves",
-      "regions_unexplored:ancient_delta",
-      "galosphere:lichen_caves",
-      "galosphere:pink_salt_caves",
-      "regions_unexplored:bioshroom_caves",
-      "darkerdepths:glowshroom_forest"
-    ],
-    "result": "deny"
-  },
-  {
-    "mob": "minecraft:husk",
-    "biome": [
-      "galosphere:crystal_canyons",
-      "regions_unexplored:ancient_delta",
-      "galosphere:lichen_caves",
-      "galosphere:pink_salt_caves",
-      "regions_unexplored:bioshroom_caves",
-      "darkerdepths:glowshroom_forest"
-    ],
-    "result": "deny"
-  },
-  {
-    "mob": "organics:sand_catcher",
-    "biome": [
-      "galosphere:crystal_canyons",
-      "regions_unexplored:ancient_delta",
-      "galosphere:lichen_caves",
-      "galosphere:pink_salt_caves",
-      "regions_unexplored:bioshroom_caves",
-      "darkerdepths:glowshroom_forest"
-    ],
-    "result": "deny"
-  },
-  {
-    "mob": "alexsmobs:guster",
-    "biome": [
-      "galosphere:crystal_canyons",
-      "regions_unexplored:ancient_delta",
-      "galosphere:lichen_caves",
-      "galosphere:pink_salt_caves",
-      "regions_unexplored:bioshroom_caves",
-      "darkerdepths:glowshroom_forest"
-    ],
-    "result": "deny"
-  },
-  {
-    "mob": "organics:terracotta_coloss",
-    "biome": [
-      "regions_unexplored:ancient_delta"
-    ],
-    "result": "allow"
-  },
-  {
-    "mob": "minecraft:slime",
-    "biome": [
-      "galosphere:crystal_canyons",
-      "yungscavebiomes:lost_caves",
-      "regions_unexplored:ancient_delta",
-      "galosphere:pink_salt_caves",
-      "regions_unexplored:bioshroom_caves"
-    ],
-    "result": "deny"
-  },
-  {
-    "mob": "galosphere:preserved",
-    "biome": [
-      "galosphere:crystal_canyons",
-      "yungscavebiomes:lost_caves",
-      "regions_unexplored:ancient_delta",
-      "galosphere:lichen_caves",
-      "regions_unexplored:bioshroom_caves",
-      "darkerdepths:glowshroom_forest"
-    ],
-    "result": "deny"
-  },
-  {
-    "mob": "mowziesmobs:lantern",
-    "biome": [
-      "galosphere:crystal_canyons",
-      "regions_unexplored:ancient_delta",
-      "galosphere:lichen_caves",
-      "galosphere:pink_salt_caves",
-      "darkerdepths:glowshroom_forest",
-      "yungscavebiomes:lost_caves"
-    ],
-    "result": "deny"
-  },
-  {
-    "mob": "mowziesmobs:bluff",
-    "biome": [
-      "galosphere:crystal_canyons",
-      "galosphere:lichen_caves",
-      "galosphere:pink_salt_caves",
-      "regions_unexplored:bioshroom_caves",
-      "darkerdepths:glowshroom_forest",
-      "yungscavebiomes:lost_caves"
-    ],
-    "result": "deny"
-  },
-  {
-    "mob": "mowziesmobs:foliaath",
-    "biome": [
-      "galosphere:crystal_canyons",
-      "galosphere:lichen_caves",
-      "galosphere:pink_salt_caves",
-      "regions_unexplored:bioshroom_caves",
-      "darkerdepths:glowshroom_forest",
-      "yungscavebiomes:lost_caves"
-    ],
-    "result": "deny"
-  },
-  {
-    "mob": "mowziesmobs:foliaath",
-    "block": "regions_unexplored:argillite_grass_block",
-    "result": "allow"
-  },
-  {
-    "dimension": "infernalcross:infernalcrossing",
-    "minheight": 63,
-    "result": "deny"
-  },
-  {
     "dimension": "delverbegin:delversbeginnings",
-    "minheight": 127,
+    "minheight": 123,
     "result": "deny"
   },
   {
     "dimension": "undergarden:undergarden",
-    "minheight": 127,
+    "minheight": 123,
     "result": "deny"
   },
   {
-    "mob": [
-      "species:deepfish",
-      "species:leaf_hanger"
-    ],
-    "dimension": [
-      "minecraft:overworld",
-      "delverbegin:delversbeginnings",
-      "infernalcross:infernalcrossing"
-    ],
+    "dimension": "infernalcross:infernalcrossing",
+    "minheight": 55,
     "result": "deny"
   },
   {
-    "mob": [
-      "species:ghoul",
-      "species:quake",
-      "species:cliff_hanger"
-    ],
-    "dimension": [
-      "minecraft:overworld",
-      "delverbegin:delversbeginnings"
-    ],
+    "dimension": "minecraft:the_nether",
+    "minheight": 122,
     "result": "deny"
   },
   {
-    "mob": [
-      "species:limpet"
-    ],
-    "dimension": [
-      "minecraft:overworld",
-      "infernalcross:infernalcrossing"
-    ],
-    "result": "deny"
-  },
-  {
-    "mob": [
-      "species:wicked"
-    ],
-    "dimension": [
-      "minecraft:overworld"
-    ],
-    "result": "deny"
+    "mob": "minecraft:slime",
+    "dimension": "minecraft:overworld",
+    "seesky": true,
+    "minheight": 60,
+    "mintime": 0,
+    "maxtime": 12000,
+    "maxlight": 0,
+    "result": "allow"
   },
   {
     "mob": [
@@ -185,7 +38,6 @@
       "organics:terracotta_coloss",
       "minecraft:slime",
       "galosphere:preserved",
-      "luminousworld:hollow",
       "species:deepfish",
       "species:leaf_hanger",
       "species:ghoul",
@@ -207,15 +59,15 @@
     "result": "deny"
   },
   {
-    "mob": "galosphere:sparkle",
+    "mob": "organics:terracotta_coloss",
     "biome": [
-      "yungscavebiomes:lost_caves",
-      "regions_unexplored:ancient_delta",
-      "galosphere:lichen_caves",
-      "galosphere:pink_salt_caves",
-      "regions_unexplored:bioshroom_caves",
-      "darkerdepths:glowshroom_forest"
+      "regions_unexplored:ancient_delta"
     ],
-    "result": "deny"
+    "result": "allow"
+  },
+  {
+    "mob": "mowziesmobs:foliaath",
+    "block": "regions_unexplored:argillite_grass_block",
+    "result": "allow"
   }
 ]

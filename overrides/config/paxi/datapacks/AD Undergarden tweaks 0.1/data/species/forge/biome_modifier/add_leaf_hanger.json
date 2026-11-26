@@ -1,0 +1,11 @@
+{
+  "type": "species:add_conditional_spawns",
+  "biomes": "#undergarden:is_undergarden",
+  "filtered": "#species:without_hostile_spawns",
+  "spawners": {
+    "type": "species:leaf_hanger",
+    "weight": 100,
+    "minCount": 1,
+    "maxCount": 4
+  }
+}
