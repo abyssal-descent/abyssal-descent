@@ -1,5 +1,10 @@
 {
-  "spawn_costs": {},
+  "spawn_costs": {
+    "species:limpet": {
+      "charge": 1.0,
+      "energy_budget": 0.12
+    }
+  },
   "temperature": 2.0,
   "downfall": 0.4,
   "has_precipitation": false,

@@ -116,6 +116,10 @@
   ],
   "precipitation": "rain",
   "spawn_costs": {
+    "species:cliff_hanger": {
+      "charge": 1.0,
+      "energy_budget": 0.12
+    },
     "alexscaves:underzealot": {
       "charge": 0.4,
       "energy_budget": 0.1

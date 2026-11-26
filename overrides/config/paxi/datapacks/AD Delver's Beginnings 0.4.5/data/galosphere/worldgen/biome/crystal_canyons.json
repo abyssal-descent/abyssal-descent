@@ -77,7 +77,12 @@
     ]
   ],
   "has_precipitation": false,
-  "spawn_costs": {},
+  "spawn_costs": {
+    "species:limpet": {
+      "charge": 1.0,
+      "energy_budget": 0.12
+    }
+  },
   "spawners": {
     "ambient": [
       {

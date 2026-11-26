@@ -78,7 +78,16 @@
     ]
   ],
   "has_precipitation": false,
-  "spawn_costs": {},
+  "spawn_costs": {
+    "galosphere:preserved": {
+      "charge": 1.0,
+      "energy_budget": 0.12
+    },
+    "species:limpet": {
+      "charge": 1.0,
+      "energy_budget": 0.12
+    }
+  },
   "spawners": {
     "ambient": [
       {
