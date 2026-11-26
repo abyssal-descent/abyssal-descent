@@ -654,9 +654,9 @@
 			#Range: 0.0 ~ 1.0
 			extra_rarity = 1.0
 			#Names of dimensions this mob can spawn in
-			dimensions = ["minecraft:overworld"]
+			dimensions = ["minecraft:overworld", "delverbegin:delversbeginnings"]
 			#Names of blocks this mob is allowed to spawn on. Leave blank to ignore block names.
-			allowed_blocks = []
+			allowed_blocks = ["regions_unexplored:argillite_grass_block"]
 			#Tags of blocks this mob is allowed to spawn on. Leave blank to ignore block tags.
 			allowed_block_tags = ["minecraft:animals_spawnable_on", "minecraft:leaves", "minecraft:logs"]
 			#Maximum height for this spawn. -65 to ignore.
@@ -664,7 +664,7 @@
 			height_max = -65
 			#Minimum height for this spawn. -65 to ignore.
 			#Range: -65 ~ 256
-			height_min = 60
+			height_min = 0
 			#Set to true to only allow this mob to spawn in the dark, like zombies and skeletons.
 			needs_darkness = true
 			#Set to true to only spawn mob if it can see the sky.
