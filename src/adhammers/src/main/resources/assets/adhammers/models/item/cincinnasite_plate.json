@@ -1,0 +1,4 @@
+{
+	"parent": "item/generated",
+	"textures": { "layer0": "adhammers:item/cincinnasite_plate" }
+}

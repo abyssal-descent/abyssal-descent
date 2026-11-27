@@ -1,0 +1,4 @@
+{
+	"parent": "minecraft:item/handheld",
+	"textures": { "layer0": "adhammers:item/nether_ruby_hammer" }
+}

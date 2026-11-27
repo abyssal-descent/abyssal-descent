@@ -1,0 +1,4 @@
+{
+	"parent": "item/generated",
+	"textures": { "layer0": "adhammers:item/nether_ruby_plate" }
+}
