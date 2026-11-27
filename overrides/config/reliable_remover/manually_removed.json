@@ -82,7 +82,26 @@
       "luminousworld:decorativeswordnetherite_1",
       "luminousworld:decorative_pickaxe_gold_1",
       "luminousworld:decorative_pickaxe_diamond_1",
-      "luminousworld:decorative_pickaxe_netherite_1"
+      "luminousworld:decorative_pickaxe_netherite_1",
+
+      "organics:venomite_ore",
+      "organics:venomite_ingot",
+      "organics:venomite_block",
+      "organics:venomite_boots",
+      "organics:venomite_chestplate",
+      "organics:venomite_helmet",
+      "organics:venomite_leggings",
+      "organics:venomite_sword",
+      "organics:venomite_pickaxe",
+      "organics:venomite_axe",
+      "organics:venomite_hoe",
+      "organics:venomite_shovel",
+
+      "organics:nether_coal_ore",
+      "organics:nether_redstone_ore",
+      "organics:nether_iron_ore",
+      "organics:nether_diamond_ore",
+      "organics:nether_emerald_ore"
     ]
   },
   {
