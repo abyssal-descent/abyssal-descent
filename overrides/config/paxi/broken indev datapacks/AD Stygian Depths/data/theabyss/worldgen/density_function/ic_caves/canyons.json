@@ -1,0 +1,169 @@
+{
+  "type": "minecraft:add",
+  "argument1": {
+    "type": "minecraft:cache_2d",
+    "argument": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:mul",
+        "argument1": 6,
+        "argument2": {
+          "type": "minecraft:add",
+          "argument1": {
+            "type": "minecraft:abs",
+            "argument": {
+              "type": "minecraft:noise",
+              "noise": "theabyss:ic_caves/canyon_path",
+              "xz_scale": 1,
+              "y_scale": 0
+            }
+          },
+          "argument2": {
+            "type": "minecraft:mul",
+            "argument1": -1,
+            "argument2": {
+              "type": "minecraft:min",
+              "argument1": {
+                "type": "minecraft:add",
+                "argument1": 0.085,
+                "argument2": {
+                  "type": "minecraft:mul",
+                  "argument1": 0.04,
+                  "argument2": {
+                    "type": "minecraft:noise",
+                    "noise": "theabyss:ic_caves/canyon_width",
+                    "xz_scale": 1,
+                    "y_scale": 0
+                  }
+                }
+              },
+              "argument2": {
+                "type": "minecraft:mul",
+                "argument1": 2.5,
+                "argument2": {
+                  "type": "minecraft:add",
+                  "argument1": {
+                    "type": "minecraft:abs",
+                    "argument": {
+                      "type": "minecraft:add",
+                      "argument1": {
+                        "type": "minecraft:shifted_noise",
+                        "noise": "theabyss:ic_caves/canyon_path",
+                        "xz_scale": 1,
+                        "y_scale": 0,
+                        "shift_x": 8,
+                        "shift_y": 0,
+                        "shift_z": 0
+                      },
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": -1,
+                        "argument2": {
+                          "type": "minecraft:noise",
+                          "noise": "theabyss:ic_caves/canyon_path",
+                          "xz_scale": 1,
+                          "y_scale": 0
+                        }
+                      }
+                    }
+                  },
+                  "argument2": {
+                    "type": "minecraft:abs",
+                    "argument": {
+                      "type": "minecraft:add",
+                      "argument1": {
+                        "type": "minecraft:shifted_noise",
+                        "noise": "theabyss:ic_caves/canyon_path",
+                        "xz_scale": 1,
+                        "y_scale": 0,
+                        "shift_x": 0,
+                        "shift_y": 0,
+                        "shift_z": 8
+                      },
+                      "argument2": {
+                        "type": "minecraft:mul",
+                        "argument1": -1,
+                        "argument2": {
+                          "type": "minecraft:noise",
+                          "noise": "theabyss:ic_caves/canyon_path",
+                          "xz_scale": 1,
+                          "y_scale": 0
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      },
+      "argument2": {
+        "type": "minecraft:clamp",
+        "input": {
+          "type": "minecraft:mul",
+          "argument1": 4,
+          "argument2": {
+            "type": "minecraft:add",
+            "argument1": -0.1,
+            "argument2": {
+              "type": "minecraft:noise",
+              "noise": "theabyss:ic_caves/canyon_rarity",
+              "xz_scale": 1,
+              "y_scale": 0
+            }
+          }
+        },
+        "min": 0,
+        "max": 4
+      }
+    }
+  },
+  "argument2": {
+    "type": "minecraft:add",
+    "argument1": {
+      "type": "minecraft:mul",
+      "argument1": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": -64,
+        "to_y": -44,
+        "from_value": 1.5,
+        "to_value": 0
+      },
+      "argument2": {
+        "type": "minecraft:add",
+        "argument1": 1,
+        "argument2": {
+          "type": "minecraft:mul",
+          "argument1": 0.5,
+          "argument2": {
+            "type": "minecraft:noise",
+            "noise": "theabyss:ic_caves/canyon_floor",
+            "xz_scale": 1,
+            "y_scale": 0
+          }
+        }
+      }
+    },
+    "argument2": {
+      "type": "minecraft:add",
+      "argument1": {
+        "type": "minecraft:y_clamped_gradient",
+        "from_y": 12,
+        "to_y": 40,
+        "from_value": 0,
+        "to_value": 1.5
+      },
+      "argument2": {
+        "type": "minecraft:mul",
+        "argument1": 0.35,
+        "argument2": {
+          "type": "minecraft:noise",
+          "noise": "theabyss:ic_caves/canyon_roughness",
+          "xz_scale": 1,
+          "y_scale": 0.15
+        }
+      }
+    }
+  }
+}
