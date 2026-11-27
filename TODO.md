@@ -1,16 +1,11 @@
 # High Priority ==================================================================================
-- REMOVE LUMINOUS MOBS FROM IN CONTROL AND FORGE BIOME MODIFIERS!
 
 ## Aether
-	- create all rough gems
-	- Zanite, Skyjade
 - explore ruins mods
 - Disable Aether tips
 - Remove clouds from the Aether.
-- remove holystone tools
 - add shield expansion aether support
 - figure out resource to upgrade nether ruby armor
-- disable agility cape
 
 ## Skylands
 - Disable rewards dispensers or prevent them from crashing upon use. (I think the cause is the way we hard code disabled advancements)
@@ -24,12 +19,9 @@
 - fix void blossom structure, void blossom spawns 1 block too high!
 
 ## Infernal Crossing
-- ore generation broke fix
+- ore generation broke fix?
 
 ## The Nether
-- Create all rough gems
-- remove features we dont want from mods
-- ad resources bedrock block
 - look into mods
 - Cincinnicite anvil AD hammers support above iron anvil
 - Consider sanguine armor
